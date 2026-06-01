@@ -1,0 +1,1152 @@
+﻿{
+    "pathway":  "Fresh Start",
+    "as_of":  null,
+    "generated_at":  "2026-06-01T11:14:28.7957173-04:00",
+    "entries":  [
+                    {
+                        "time":  "06:00",
+                        "day":  "Monday",
+                        "activity":  "Get Ready for the Day"
+                    },
+                    {
+                        "time":  "06:00",
+                        "day":  "Tuesday",
+                        "activity":  "Get Ready for the Day"
+                    },
+                    {
+                        "time":  "06:00",
+                        "day":  "Wednesday",
+                        "activity":  "Get Ready for the Day"
+                    },
+                    {
+                        "time":  "06:00",
+                        "day":  "Thursday",
+                        "activity":  "Get Ready for the Day"
+                    },
+                    {
+                        "time":  "06:00",
+                        "day":  "Friday",
+                        "activity":  "Get Ready for the Day"
+                    },
+                    {
+                        "time":  "06:00",
+                        "day":  "Saturday",
+                        "activity":  "Get Ready for the Day"
+                    },
+                    {
+                        "time":  "06:00",
+                        "day":  "Sunday",
+                        "activity":  "Get Ready for the Day"
+                    },
+                    {
+                        "time":  "06:30",
+                        "day":  "Monday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "06:30",
+                        "day":  "Tuesday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "06:30",
+                        "day":  "Wednesday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "06:30",
+                        "day":  "Thursday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "06:30",
+                        "day":  "Friday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "06:30",
+                        "day":  "Saturday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "06:30",
+                        "day":  "Sunday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "07:00",
+                        "day":  "Monday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "07:00",
+                        "day":  "Tuesday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "07:00",
+                        "day":  "Wednesday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "07:00",
+                        "day":  "Thursday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "07:00",
+                        "day":  "Friday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "07:00",
+                        "day":  "Saturday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "07:00",
+                        "day":  "Sunday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "07:30",
+                        "day":  "Monday",
+                        "activity":  "Breakfast"
+                    },
+                    {
+                        "time":  "07:30",
+                        "day":  "Tuesday",
+                        "activity":  "Breakfast"
+                    },
+                    {
+                        "time":  "07:30",
+                        "day":  "Wednesday",
+                        "activity":  "Breakfast"
+                    },
+                    {
+                        "time":  "07:30",
+                        "day":  "Thursday",
+                        "activity":  "Breakfast"
+                    },
+                    {
+                        "time":  "07:30",
+                        "day":  "Friday",
+                        "activity":  "Breakfast"
+                    },
+                    {
+                        "time":  "07:30",
+                        "day":  "Saturday",
+                        "activity":  "Breakfast"
+                    },
+                    {
+                        "time":  "07:30",
+                        "day":  "Sunday",
+                        "activity":  "Breakfast"
+                    },
+                    {
+                        "time":  "08:00",
+                        "day":  "Monday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "08:00",
+                        "day":  "Tuesday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "08:00",
+                        "day":  "Wednesday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "08:00",
+                        "day":  "Thursday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "08:00",
+                        "day":  "Friday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "08:00",
+                        "day":  "Saturday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "08:00",
+                        "day":  "Sunday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "08:30",
+                        "day":  "Monday",
+                        "activity":  "Continued Care Group"
+                    },
+                    {
+                        "time":  "08:30",
+                        "day":  "Tuesday",
+                        "activity":  "Medical Group"
+                    },
+                    {
+                        "time":  "08:30",
+                        "day":  "Wednesday",
+                        "activity":  "Continued Care Group"
+                    },
+                    {
+                        "time":  "08:30",
+                        "day":  "Thursday",
+                        "activity":  "Continued Care Group"
+                    },
+                    {
+                        "time":  "08:30",
+                        "day":  "Friday",
+                        "activity":  "Continued Care Group"
+                    },
+                    {
+                        "time":  "08:30",
+                        "day":  "Saturday",
+                        "activity":  "Visitation"
+                    },
+                    {
+                        "time":  "08:30",
+                        "day":  "Sunday",
+                        "activity":  "Visitation"
+                    },
+                    {
+                        "time":  "09:00",
+                        "day":  "Monday",
+                        "activity":  "Continued Care Group"
+                    },
+                    {
+                        "time":  "09:00",
+                        "day":  "Tuesday",
+                        "activity":  "Medical Group"
+                    },
+                    {
+                        "time":  "09:00",
+                        "day":  "Wednesday",
+                        "activity":  "Continued Care Group"
+                    },
+                    {
+                        "time":  "09:00",
+                        "day":  "Thursday",
+                        "activity":  "Continued Care Group"
+                    },
+                    {
+                        "time":  "09:00",
+                        "day":  "Friday",
+                        "activity":  "Continued Care Group"
+                    },
+                    {
+                        "time":  "09:00",
+                        "day":  "Saturday",
+                        "activity":  "Visitation"
+                    },
+                    {
+                        "time":  "09:00",
+                        "day":  "Sunday",
+                        "activity":  "Visitation"
+                    },
+                    {
+                        "time":  "09:30",
+                        "day":  "Monday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "09:30",
+                        "day":  "Tuesday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "09:30",
+                        "day":  "Wednesday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "09:30",
+                        "day":  "Thursday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "09:30",
+                        "day":  "Friday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "09:30",
+                        "day":  "Saturday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "09:30",
+                        "day":  "Sunday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "10:00",
+                        "day":  "Monday",
+                        "activity":  "Personal Time"
+                    },
+                    {
+                        "time":  "10:00",
+                        "day":  "Tuesday",
+                        "activity":  "Personal Time"
+                    },
+                    {
+                        "time":  "10:00",
+                        "day":  "Wednesday",
+                        "activity":  "Personal Time"
+                    },
+                    {
+                        "time":  "10:00",
+                        "day":  "Thursday",
+                        "activity":  "Personal Time"
+                    },
+                    {
+                        "time":  "10:00",
+                        "day":  "Friday",
+                        "activity":  "Personal Time"
+                    },
+                    {
+                        "time":  "10:00",
+                        "day":  "Saturday",
+                        "activity":  "Wellness / Church / Personal Time"
+                    },
+                    {
+                        "time":  "10:00",
+                        "day":  "Sunday",
+                        "activity":  "Wellness / Church / Personal Time"
+                    },
+                    {
+                        "time":  "10:30",
+                        "day":  "Monday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "10:30",
+                        "day":  "Tuesday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "10:30",
+                        "day":  "Wednesday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "10:30",
+                        "day":  "Thursday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "10:30",
+                        "day":  "Friday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "10:30",
+                        "day":  "Saturday",
+                        "activity":  "Wellness / Church / Personal Time"
+                    },
+                    {
+                        "time":  "10:30",
+                        "day":  "Sunday",
+                        "activity":  "Wellness / Church / Personal Time"
+                    },
+                    {
+                        "time":  "11:00",
+                        "day":  "Monday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "11:00",
+                        "day":  "Tuesday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "11:00",
+                        "day":  "Wednesday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "11:00",
+                        "day":  "Thursday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "11:00",
+                        "day":  "Friday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "11:00",
+                        "day":  "Saturday",
+                        "activity":  "Wellness / Church / Personal Time"
+                    },
+                    {
+                        "time":  "11:00",
+                        "day":  "Sunday",
+                        "activity":  "Wellness / Church / Personal Time"
+                    },
+                    {
+                        "time":  "11:30",
+                        "day":  "Monday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "11:30",
+                        "day":  "Tuesday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "11:30",
+                        "day":  "Wednesday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "11:30",
+                        "day":  "Thursday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "11:30",
+                        "day":  "Friday",
+                        "activity":  "Core Skills"
+                    },
+                    {
+                        "time":  "11:30",
+                        "day":  "Saturday",
+                        "activity":  "Wellness / Church / Personal Time"
+                    },
+                    {
+                        "time":  "11:30",
+                        "day":  "Sunday",
+                        "activity":  "Wellness / Church / Personal Time"
+                    },
+                    {
+                        "time":  "12:00",
+                        "day":  "Monday",
+                        "activity":  "Lunch"
+                    },
+                    {
+                        "time":  "12:00",
+                        "day":  "Tuesday",
+                        "activity":  "Lunch"
+                    },
+                    {
+                        "time":  "12:00",
+                        "day":  "Wednesday",
+                        "activity":  "Lunch"
+                    },
+                    {
+                        "time":  "12:00",
+                        "day":  "Thursday",
+                        "activity":  "Lunch"
+                    },
+                    {
+                        "time":  "12:00",
+                        "day":  "Friday",
+                        "activity":  "Lunch"
+                    },
+                    {
+                        "time":  "12:00",
+                        "day":  "Saturday",
+                        "activity":  "Lunch"
+                    },
+                    {
+                        "time":  "12:00",
+                        "day":  "Sunday",
+                        "activity":  "Lunch"
+                    },
+                    {
+                        "time":  "12:30",
+                        "day":  "Monday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "12:30",
+                        "day":  "Tuesday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "12:30",
+                        "day":  "Wednesday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "12:30",
+                        "day":  "Thursday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "12:30",
+                        "day":  "Friday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "12:30",
+                        "day":  "Saturday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "12:30",
+                        "day":  "Sunday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "13:00",
+                        "day":  "Monday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "13:00",
+                        "day":  "Tuesday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "13:00",
+                        "day":  "Wednesday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "13:00",
+                        "day":  "Thursday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "13:00",
+                        "day":  "Friday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "13:00",
+                        "day":  "Saturday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "13:00",
+                        "day":  "Sunday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "13:30",
+                        "day":  "Monday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "13:30",
+                        "day":  "Tuesday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "13:30",
+                        "day":  "Wednesday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "13:30",
+                        "day":  "Thursday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "13:30",
+                        "day":  "Friday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "13:30",
+                        "day":  "Saturday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "13:30",
+                        "day":  "Sunday",
+                        "activity":  "Fresh Start Group"
+                    },
+                    {
+                        "time":  "14:00",
+                        "day":  "Monday",
+                        "activity":  "Wellness Floor \u0026 Art"
+                    },
+                    {
+                        "time":  "14:00",
+                        "day":  "Tuesday",
+                        "activity":  "Wellness Floor \u0026 Art"
+                    },
+                    {
+                        "time":  "14:00",
+                        "day":  "Wednesday",
+                        "activity":  "Wellness Floor \u0026 Art"
+                    },
+                    {
+                        "time":  "14:00",
+                        "day":  "Thursday",
+                        "activity":  "Wellness Floor \u0026 Art"
+                    },
+                    {
+                        "time":  "14:00",
+                        "day":  "Friday",
+                        "activity":  "Wellness Floor \u0026 Art"
+                    },
+                    {
+                        "time":  "14:00",
+                        "day":  "Saturday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "14:00",
+                        "day":  "Sunday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "14:30",
+                        "day":  "Monday",
+                        "activity":  "Wellness Floor \u0026 Art"
+                    },
+                    {
+                        "time":  "14:30",
+                        "day":  "Tuesday",
+                        "activity":  "Wellness Floor \u0026 Art"
+                    },
+                    {
+                        "time":  "14:30",
+                        "day":  "Wednesday",
+                        "activity":  "Wellness Floor \u0026 Art"
+                    },
+                    {
+                        "time":  "14:30",
+                        "day":  "Thursday",
+                        "activity":  "Wellness Floor \u0026 Art"
+                    },
+                    {
+                        "time":  "14:30",
+                        "day":  "Friday",
+                        "activity":  "Wellness Floor \u0026 Art"
+                    },
+                    {
+                        "time":  "14:30",
+                        "day":  "Saturday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "14:30",
+                        "day":  "Sunday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "15:00",
+                        "day":  "Monday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "15:00",
+                        "day":  "Tuesday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "15:00",
+                        "day":  "Wednesday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "15:00",
+                        "day":  "Thursday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "15:00",
+                        "day":  "Friday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "15:00",
+                        "day":  "Saturday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "15:00",
+                        "day":  "Sunday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "15:30",
+                        "day":  "Monday",
+                        "activity":  "Meditation Group"
+                    },
+                    {
+                        "time":  "15:30",
+                        "day":  "Tuesday",
+                        "activity":  "Meditation Group"
+                    },
+                    {
+                        "time":  "15:30",
+                        "day":  "Wednesday",
+                        "activity":  "Meditation Group"
+                    },
+                    {
+                        "time":  "15:30",
+                        "day":  "Thursday",
+                        "activity":  "Meditation Group"
+                    },
+                    {
+                        "time":  "15:30",
+                        "day":  "Friday",
+                        "activity":  "Meditation Group"
+                    },
+                    {
+                        "time":  "15:30",
+                        "day":  "Saturday",
+                        "activity":  "DAA 12-Step Meeting"
+                    },
+                    {
+                        "time":  "15:30",
+                        "day":  "Sunday",
+                        "activity":  "Spirituality Sunday"
+                    },
+                    {
+                        "time":  "16:00",
+                        "day":  "Monday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "16:00",
+                        "day":  "Tuesday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "16:00",
+                        "day":  "Wednesday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "16:00",
+                        "day":  "Thursday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "16:00",
+                        "day":  "Friday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "16:00",
+                        "day":  "Saturday",
+                        "activity":  "DAA 12-Step Meeting"
+                    },
+                    {
+                        "time":  "16:00",
+                        "day":  "Sunday",
+                        "activity":  "Spirituality Sunday"
+                    },
+                    {
+                        "time":  "16:30",
+                        "day":  "Monday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "16:30",
+                        "day":  "Tuesday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "16:30",
+                        "day":  "Wednesday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "16:30",
+                        "day":  "Thursday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "16:30",
+                        "day":  "Friday",
+                        "activity":  "12-Step Toolkit Group"
+                    },
+                    {
+                        "time":  "16:30",
+                        "day":  "Saturday",
+                        "activity":  "Meditation Group"
+                    },
+                    {
+                        "time":  "16:30",
+                        "day":  "Sunday",
+                        "activity":  "Meditation Group"
+                    },
+                    {
+                        "time":  "17:00",
+                        "day":  "Monday",
+                        "activity":  "Dinner"
+                    },
+                    {
+                        "time":  "17:00",
+                        "day":  "Tuesday",
+                        "activity":  "Dinner"
+                    },
+                    {
+                        "time":  "17:00",
+                        "day":  "Wednesday",
+                        "activity":  "Dinner"
+                    },
+                    {
+                        "time":  "17:00",
+                        "day":  "Thursday",
+                        "activity":  "Dinner"
+                    },
+                    {
+                        "time":  "17:00",
+                        "day":  "Friday",
+                        "activity":  "Dinner"
+                    },
+                    {
+                        "time":  "17:00",
+                        "day":  "Saturday",
+                        "activity":  "Dinner"
+                    },
+                    {
+                        "time":  "17:00",
+                        "day":  "Sunday",
+                        "activity":  "Dinner"
+                    },
+                    {
+                        "time":  "17:30",
+                        "day":  "Monday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "17:30",
+                        "day":  "Tuesday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "17:30",
+                        "day":  "Wednesday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "17:30",
+                        "day":  "Thursday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "17:30",
+                        "day":  "Friday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "17:30",
+                        "day":  "Saturday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "17:30",
+                        "day":  "Sunday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "18:00",
+                        "day":  "Monday",
+                        "activity":  "Spiritual Hygiene"
+                    },
+                    {
+                        "time":  "18:00",
+                        "day":  "Tuesday",
+                        "activity":  "Spiritual Hygiene"
+                    },
+                    {
+                        "time":  "18:00",
+                        "day":  "Wednesday",
+                        "activity":  "Spiritual Hygiene"
+                    },
+                    {
+                        "time":  "18:00",
+                        "day":  "Thursday",
+                        "activity":  "Spiritual Hygiene"
+                    },
+                    {
+                        "time":  "18:00",
+                        "day":  "Friday",
+                        "activity":  "Spiritual Hygiene"
+                    },
+                    {
+                        "time":  "18:00",
+                        "day":  "Saturday",
+                        "activity":  "Spiritual Hygiene"
+                    },
+                    {
+                        "time":  "18:00",
+                        "day":  "Sunday",
+                        "activity":  "Spiritual Hygiene"
+                    },
+                    {
+                        "time":  "18:30",
+                        "day":  "Monday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "18:30",
+                        "day":  "Tuesday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "18:30",
+                        "day":  "Wednesday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "18:30",
+                        "day":  "Thursday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "18:30",
+                        "day":  "Friday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "18:30",
+                        "day":  "Saturday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "18:30",
+                        "day":  "Sunday",
+                        "activity":  "Community Meeting"
+                    },
+                    {
+                        "time":  "19:00",
+                        "day":  "Monday",
+                        "activity":  "NA 12-Step Meeting"
+                    },
+                    {
+                        "time":  "19:00",
+                        "day":  "Tuesday",
+                        "activity":  "Awareness Group"
+                    },
+                    {
+                        "time":  "19:00",
+                        "day":  "Wednesday",
+                        "activity":  "Awareness Group"
+                    },
+                    {
+                        "time":  "19:00",
+                        "day":  "Thursday",
+                        "activity":  "AA 12-Step Meeting"
+                    },
+                    {
+                        "time":  "19:00",
+                        "day":  "Friday",
+                        "activity":  "Weekend Event"
+                    },
+                    {
+                        "time":  "19:00",
+                        "day":  "Saturday",
+                        "activity":  "Weekend Event"
+                    },
+                    {
+                        "time":  "19:30",
+                        "day":  "Monday",
+                        "activity":  "NA 12-Step Meeting"
+                    },
+                    {
+                        "time":  "19:30",
+                        "day":  "Tuesday",
+                        "activity":  "Awareness Group"
+                    },
+                    {
+                        "time":  "19:30",
+                        "day":  "Wednesday",
+                        "activity":  "Awareness Group"
+                    },
+                    {
+                        "time":  "19:30",
+                        "day":  "Thursday",
+                        "activity":  "AA 12-Step Meeting"
+                    },
+                    {
+                        "time":  "19:30",
+                        "day":  "Friday",
+                        "activity":  "Weekend Event"
+                    },
+                    {
+                        "time":  "19:30",
+                        "day":  "Saturday",
+                        "activity":  "Weekend Event"
+                    },
+                    {
+                        "time":  "20:00",
+                        "day":  "Monday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "20:00",
+                        "day":  "Tuesday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "20:00",
+                        "day":  "Wednesday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "20:00",
+                        "day":  "Thursday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "20:00",
+                        "day":  "Friday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "20:00",
+                        "day":  "Saturday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "20:00",
+                        "day":  "Sunday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "20:30",
+                        "day":  "Monday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "20:30",
+                        "day":  "Tuesday",
+                        "activity":  "Trivia Night"
+                    },
+                    {
+                        "time":  "20:30",
+                        "day":  "Wednesday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "20:30",
+                        "day":  "Thursday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "20:30",
+                        "day":  "Friday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "20:30",
+                        "day":  "Saturday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "20:30",
+                        "day":  "Sunday",
+                        "activity":  "Fresh Air"
+                    },
+                    {
+                        "time":  "21:00",
+                        "day":  "Monday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "21:00",
+                        "day":  "Tuesday",
+                        "activity":  "Trivia Night"
+                    },
+                    {
+                        "time":  "21:00",
+                        "day":  "Wednesday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "21:00",
+                        "day":  "Thursday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "21:00",
+                        "day":  "Friday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "21:00",
+                        "day":  "Saturday",
+                        "activity":  "Rock Out Ceremony"
+                    },
+                    {
+                        "time":  "21:00",
+                        "day":  "Sunday",
+                        "activity":  "Rock Out Ceremony"
+                    },
+                    {
+                        "time":  "21:30",
+                        "day":  "Monday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "21:30",
+                        "day":  "Tuesday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "21:30",
+                        "day":  "Wednesday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "21:30",
+                        "day":  "Thursday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "21:30",
+                        "day":  "Friday",
+                        "activity":  "Personal Time / Med Pass"
+                    },
+                    {
+                        "time":  "21:30",
+                        "day":  "Saturday",
+                        "activity":  "Rock Out Ceremony"
+                    },
+                    {
+                        "time":  "21:30",
+                        "day":  "Sunday",
+                        "activity":  "Rock Out Ceremony"
+                    },
+                    {
+                        "time":  "22:00",
+                        "day":  "Monday",
+                        "activity":  "Get Ready for Bed"
+                    },
+                    {
+                        "time":  "22:00",
+                        "day":  "Tuesday",
+                        "activity":  "Get Ready for Bed"
+                    },
+                    {
+                        "time":  "22:00",
+                        "day":  "Wednesday",
+                        "activity":  "Get Ready for Bed"
+                    },
+                    {
+                        "time":  "22:00",
+                        "day":  "Thursday",
+                        "activity":  "Get Ready for Bed"
+                    },
+                    {
+                        "time":  "22:00",
+                        "day":  "Friday",
+                        "activity":  "Get Ready for Bed"
+                    },
+                    {
+                        "time":  "22:00",
+                        "day":  "Saturday",
+                        "activity":  "Get Ready for Bed"
+                    },
+                    {
+                        "time":  "22:00",
+                        "day":  "Sunday",
+                        "activity":  "Get Ready for Bed"
+                    }
+                ]
+}
