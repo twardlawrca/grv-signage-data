@@ -1,36 +1,54 @@
-﻿{
-    "source":  "recoverycentersofamerica.com WP REST (categories 274,291)",
-    "updated_at":  "2026-06-03T14:53:22.1168438Z",
-    "items":  [
-                  {
-                      "title":  "Recovery Centers of America Plans to Expand with New Outpatient Treatment Services in Central Massachusetts",
-                      "date":  "2026-05-26T14:11:40",
-                      "excerpt":  "New Outpatient Center in Worcester Will Bring Care Closer to Home for Those Struggling with Addiction and Mental Illness Recovery Centers of America (RCA), a national…",
-                      "url":  "https://recoverycentersofamerica.com/news/recovery-centers-of-america-plans-to-expand-with-new-outpatient-treatment-services-in-central-massachusetts/"
-                  },
-                  {
-                      "title":  "The Future of GLP-1 Medications in Addiction Recovery",
-                      "date":  "2026-05-21T19:33:11",
-                      "excerpt":  "Recovery Centers of America’s Chief Medical Officer Jason Kirby, DO, MBA, DFASAM, recently authored an article featured in Drug Discovery Online.Jason explores the growin...",
-                      "url":  "https://recoverycentersofamerica.com/news/the-future-of-glp-1-medications-in-addiction-recovery/"
-                  },
-                  {
-                      "title":  "Is Kratom Addictive? What You Need to Know About 7OH and MGM 16",
-                      "date":  "2026-05-18T18:34:54",
-                      "excerpt":  "A new class of substances is showing up at gas stations and smoke shops our team is already treating patients for it. Dr. Jeff Harris, Medical Director for Recovery Cente...",
-                      "url":  "https://recoverycentersofamerica.com/news/is-kratom-addictive-what-you-need-to-know-about-7oh-and-mgm-16/"
-                  },
-                  {
-                      "title":  "The Ripple Effect of Clinical Leadership: How Dr. Vernig is Multiplying Impact at RCA",
-                      "date":  "2026-05-06T18:13:19",
-                      "excerpt":  "A recent article on Psychology.com featuring RCA’s VP of Mental Health Services, Dr. Pete Vernig discusses how psychologists can make a lasting impact on patients, told t...",
-                      "url":  "https://recoverycentersofamerica.com/news/the-ripple-effect-of-clinical-leadership-how-dr-vernig-is-multiplying-impact-at-rca/"
-                  },
-                  {
-                      "title":  "RCA at Lighthouse Named One of the Best Rehabs for Union Workers in NJ",
-                      "date":  "2026-05-06T18:08:53",
-                      "excerpt":  "A recent article from The Cinnamon Hollow noted RCA at Lighthouse as one of the best treatment centers for union workers facing substance use disorder in New…",
-                      "url":  "https://recoverycentersofamerica.com/news/rca-at-lighthouse-named-one-of-the-best-rehabs-for-union-workers-in-nj/"
-                  }
-              ]
+{
+  "source": "recoverycentersofamerica.com WP REST (categories 274,291)",
+  "updated_at": "2026-07-10T18:18:43Z",
+  "items": [
+    {
+      "title": "RCA at Mount Dora Marks Six Months with Expanded Community Partnerships and Services",
+      "date": "2026-07-08T18:29:42",
+      "excerpt": "Recovery Centers of America at Mount Dora — RCA’s first Florida location — is marking six months of operation by strengthening ties with healthcare providers,…",
+      "url": "https://recoverycentersofamerica.com/news/rca-at-mount-dora-marks-six-months-with-expanded-community-partnerships-and-services/"
+    },
+    {
+      "title": "Recovery Centers of America Outpatient Services in Worcester is Now Open",
+      "date": "2026-06-29T18:50:55",
+      "excerpt": "The center, launching mental health services later this summer, is now accepting patients who are struggling with addiction and co-occurring mental illness WORCESTER, Mass. – Recovery Centers of…",
+      "url": "https://recoverycentersofamerica.com/news/recovery-centers-of-america-outpatient-services-in-worcester-is-now-open/"
+    },
+    {
+      "title": "When Benefits Become Personal: A Conversation with Brandon Wise",
+      "date": "2026-06-23T19:26:29",
+      "excerpt": "Ask any benefits leader what’s changed in the last few years, and you’ll get a familiar answer: everything. In this conversation with HR.com, Brandon Wise,…",
+      "url": "https://recoverycentersofamerica.com/news/when-benefits-become-personal-a-conversation-with-brandon-wise/"
+    },
+    {
+      "title": "Recovery Centers of America’s Katie Cluff Shares Her Expertise on Podcast Interview",
+      "date": "2026-06-15T18:54:12",
+      "excerpt": "After years of struggling with alcohol use disorder and multiple treatment attempts, Katie experienced a life-changing breakthrough that led to lasting sobriety. Today, she brings…",
+      "url": "https://recoverycentersofamerica.com/news/recovery-centers-of-americas-katie-cluff-shares-her-expertise-on-podcast-interview/"
+    },
+    {
+      "title": "Recovery Centers of America Expands Virtual Intensive Outpatient Program Beyond its Brick-and-Mortar Footprint",
+      "date": "2026-06-10T12:44:37",
+      "excerpt": "National addiction treatment provider launches virtual-only programming in states where it has no physical presence, starting with Idaho Recovery Centers of America (RCA), a nationally recognized…",
+      "url": "https://recoverycentersofamerica.com/news/recovery-centers-of-america-expands-virtual-intensive-outpatient-program-beyond-its-brick-and-mortar-footprint/"
+    },
+    {
+      "title": "Recovery Centers of America at Mount Dora Launches Specialty Program for Healthcare Professionals",
+      "date": "2026-06-09T08:00:58",
+      "excerpt": "New confidential program supports physicians, nurses, pharmacists, and other licensed clinicians facing substance use and mental health challengesMOUNT DORA, Fla. Recovery Centers of America (RCA)…",
+      "url": "https://recoverycentersofamerica.com/news/recovery-centers-of-america-at-mount-dora-launches-specialty-program-for-healthcare-professionals/"
+    },
+    {
+      "title": "This is Where You Want to Come’ Waldorf Recovery Center Celebrates Eight Years",
+      "date": "2026-06-08T19:28:50",
+      "excerpt": "Partners, clinicians, local leaders, and alumni gathered on May 20, 2026 to celebrate the impact RCA at Capital Region in Waldorf, MD has made in…",
+      "url": "https://recoverycentersofamerica.com/news/this-is-where-you-want-to-come-waldorf-recovery-center-celebrates-eight-years/"
+    },
+    {
+      "title": "Can You Reverse Alcohol Damage? What New Research Says",
+      "date": "2026-05-29T18:22:20",
+      "excerpt": "A recent review published in the Addiction journal confirmed that alcohol, even in small amounts, is linked to more than 60 health conditions, including multiple…",
+      "url": "https://recoverycentersofamerica.com/news/can-you-reverse-alcohol-damage-what-new-research-says/"
+    }
+  ]
 }
