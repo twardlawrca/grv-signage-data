@@ -1,0 +1,15 @@
+{
+  "updated_at": "2026-07-10T22:30:00Z",
+  "announcements": [
+    {
+      "id": "ann-20260710-itsec",
+      "title": "IT Security",
+      "body": "Phishing emails and fake 'IT support' calls are circulating. Never share your password or MFA code. Verify any IT caller through the Support Desk before acting. When in doubt, contact IT first.",
+      "audience": "staff",
+      "priority": "important",
+      "starts": "2026-07-10T00:00:00-04:00",
+      "expires": "2026-07-25T23:59:59-04:00",
+      "pages": ["cafeteria", "wayfinding", "infoboard"]
+    }
+  ]
+}
