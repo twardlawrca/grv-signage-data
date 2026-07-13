@@ -1,0 +1,16 @@
+{
+  "_readme": "Community Board self-service content. Edit this file in the GitHub web UI (phone works) - the Lobby TV picks up changes within ~15 minutes. No PHI, no patient names, ever.",
+  "eom": {
+    "name": "Rick Hrabe",
+    "role": "Lead Recovery Support Specialist",
+    "month": "June 2026",
+    "lines": [
+      "Sets the tone every shift with professionalism, compassion, and an unwavering commitment to patients and coworkers.",
+      "Brings out the best in everyone around him - steady, respectful, and leading by example."
+    ]
+  },
+  "quote": {
+    "text": "Strength does not come from physical capacity. It comes from an indomitable will.",
+    "by": "Mahatma Gandhi"
+  }
+}
