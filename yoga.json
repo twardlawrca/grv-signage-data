@@ -1,0 +1,6 @@
+{
+  "_readme": "Yoga Room content channel. Edit in the GitHub web UI (phone works); the Yoga TV picks up changes within ~15 min. 'quotes' and 'reflections' EXTEND the built-in sets unless you set 'replace': true. Keep everything gentle, general wellness, trauma-informed. NO PHI, no names, no clinical claims/outcome promises. Clinical (Emily) should sign off on additions. Empty arrays = no change (built-ins are used).",
+  "replace": false,
+  "quotes": [],
+  "reflections": []
+}

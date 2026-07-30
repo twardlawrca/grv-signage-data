@@ -1,9 +1,10 @@
 {
-  "_readme": "Community Board self-service content. Edit this file in the GitHub web UI (phone works) - the Lobby TV picks up changes within ~15 minutes. No PHI, no patient names, ever.",
+  "_readme": "Community Board self-service content. Edit this file in the GitHub web UI (phone works) - the Lobby TV picks up changes within ~15 minutes. No PHI, no patient names, ever. POSTING A NEW EMPLOYEE OF THE MONTH IS A PHONE EDIT ONLY - no publish, no code change: set eom.name / eom.role / eom.month / eom.lines and move eom.until to the last day you want the panel shown (YYYY-MM-DD, inclusive). Once eom.until passes, the Lobby TV drops the panel from its rotation on its own; leaving it expired is fine and just means no kudos panel until the next winner is posted.",
   "eom": {
     "name": "Rick Hrabe",
     "role": "Lead Recovery Support Specialist",
     "month": "June 2026",
+    "until": "2026-07-31",
     "lines": [
       "Sets the tone every shift with professionalism, compassion, and an unwavering commitment to patients and coworkers.",
       "Brings out the best in everyone around him - steady, respectful, and leading by example."
