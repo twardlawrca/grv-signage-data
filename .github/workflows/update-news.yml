@@ -1,0 +1,40 @@
+# Auto-refresh news.json from RCA's LIVE WordPress news API every ~3 hours.
+# Commits ONLY when the news actually changed. Uses the built-in GITHUB_TOKEN
+# (no PAT/secret needed) to push back to this repo. Every GRV TV's "In the
+# News" panel re-reads news.json every 15 min, so a change is fleet-wide fast.
+name: Refresh RCA news
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"     # every 3 hours, at :17 past the hour
+  workflow_dispatch: {}         # manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regenerate news.json from RCA WP API
+        run: python .github/scripts/update-news.py
+      - name: Commit & push if news changed
+        run: |
+          if git diff --quiet -- news.json; then
+            echo "No news changes; nothing to commit."
+          else
+            git config user.name  "grv-signage-news-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add news.json
+            git commit -m "auto: refresh news.json from RCA WP API"
+            git push
+            echo "Pushed updated news.json."
+          fi
