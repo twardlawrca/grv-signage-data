@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-09-05T13:51:55.988Z",
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "id": "cmp-national-recovery-month-2026",
+      "name": "National Recovery Month 2026",
+      "category": "awareness",
+      "priority": "high",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-01",
+        "endsOn": "2026-09-30"
+      },
+      "rotation": {
+        "slideSec": 12,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "all",
+          "facilityIds": [],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R",
+          "RBYTV-LOBBY",
+          "RBYTV-ACAFE",
+          "RBYTVM212L",
+          "RBYTVM212R",
+          "RBYTVM226L",
+          "RBYTVM226R",
+          "RBYTVM240L",
+          "RBYTVM240R",
+          "RBYTVM312L",
+          "RBYTVM312R",
+          "RBYTVM326L",
+          "RBYTVM326R",
+          "DVNTV-LOBBY",
+          "DVNTV-ACAFE",
+          "DVNTVM210L",
+          "DVNTVM210R",
+          "DVNTVM224L",
+          "DVNTVM224R",
+          "DVNTVM310L",
+          "DVNTVM310R"
+        ],
+        "facilityCodes": [],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-nrm-message",
+          "type": "message",
+          "title": "September is National Recovery Month",
+          "durationSec": 12,
+          "props": {
+            "eyebrow": "National Recovery Month · September 2026",
+            "headline": "September is National Recovery Month",
+            "subline": "Recovery is possible. Every step forward matters, and no one has to take it alone.",
+            "theme": "navy",
+            "accent": "purple",
+            "align": "left"
+          }
+        },
+        {
+          "id": "cnt-nrm-newsweek",
+          "type": "image",
+          "title": "America's Best Residential Addiction Treatment Centers — Newsweek 2026",
+          "durationSec": 14,
+          "props": {
+            "asset": {
+              "id": "ast-newsweek-2026",
+              "file": "newsweek-2026-badge.webp",
+              "sha256": "b0febb188c2e490ae9efb4827d310c4a570db9207d68321c3db6b8f2c76fc8cd",
+              "width": 1000,
+              "height": 1000
+            },
+            "layout": "feature",
+            "eyebrow": "RCA recognition · 2026",
+            "headline": "Recognized among America's Best Residential Addiction Treatment Centers",
+            "subline": "Newsweek · 2026",
+            "caption": "Recovery Centers of America",
+            "theme": "navy"
+          }
+        },
+        {
+          "id": "cnt-nrm-linkedin",
+          "type": "social",
+          "title": "LinkedIn · The road to recovery leads you here",
+          "durationSec": 16,
+          "props": {
+            "platform": "linkedin",
+            "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7501737134895288320",
+            "postUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7501737134895288320",
+            "author": "Recovery Centers of America",
+            "postTitle": "The road to recovery leads you here.",
+            "summary": "The drive into RCA at Greenville is more than a destination. It is the moment you choose something different. A new direction. A fresh start. Every mile brings you closer to a place built for healing, where care is personalized, support is constant, and progress is possible.",
+            "cta": "Call 833-30-RECOVERY",
+            "postedOn": "2026-09-04",
+            "mode": "card",
+            "fallbackAssetId": null,
+            "timeoutMs": 8000
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-soberfest-2026-volunteers",
+      "name": "SoberFest 2026 · Volunteer call",
+      "category": "community",
+      "priority": "normal",
+      "status": "scheduled",
+      "schedule": {
+        "startsOn": "2026-09-14",
+        "endsOn": "2026-09-26"
+      },
+      "rotation": {
+        "slideSec": 10,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": [
+            "p-lobby",
+            "p-workflex",
+            "p-cafeteria"
+          ]
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTV-ACAFE"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-sf-message",
+          "type": "message",
+          "title": "SoberFest 2026 needs volunteers",
+          "durationSec": 10,
+          "props": {
+            "eyebrow": "SoberFest 2026 · RCA Greenville",
+            "headline": "SoberFest 2026 needs you",
+            "subline": "Volunteers make the day happen. Sign up at the front desk or with your supervisor.",
+            "theme": "navy",
+            "accent": "gold",
+            "align": "left"
+          }
+        }
+      ]
+    }
+  ]
+}
