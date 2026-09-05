@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T14:56:52.280Z",
+  "generatedAt": "2026-09-05T15:07:20.913Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -237,7 +237,7 @@
           "durationSec": 18,
           "props": {
             "eyebrow": "RCA at Greenville",
-            "headline": "What sets RCA at Greenville apart",
+            "headline": "What sets RCA at Greenville *apart*",
             "subline": "",
             "style": "bullets",
             "columns": 2,
@@ -292,7 +292,7 @@
           "durationSec": 18,
           "props": {
             "eyebrow": "RCA at Greenville",
-            "headline": "Your path through treatment",
+            "headline": "Your *path* through treatment",
             "subline": "A full continuum of care, one team the whole way.",
             "style": "steps",
             "columns": 5,
@@ -342,7 +342,7 @@
           "durationSec": 18,
           "props": {
             "eyebrow": "RCA at Greenville",
-            "headline": "Three pathways, one goal",
+            "headline": "Three pathways, *one goal*",
             "subline": "Treatment is matched to your needs, not the other way around.",
             "style": "cards",
             "columns": 3,
@@ -382,7 +382,7 @@
           "durationSec": 20,
           "props": {
             "eyebrow": "RCA at Greenville",
-            "headline": "What a day in residential treatment includes",
+            "headline": "What a day in residential treatment *includes*",
             "subline": "",
             "style": "cards",
             "columns": 4,
@@ -447,7 +447,7 @@
           "durationSec": 18,
           "props": {
             "eyebrow": "RCA at Greenville",
-            "headline": "A healing environment in the Upstate",
+            "headline": "A healing environment in the *Upstate*",
             "subline": "Room to breathe, reflect and rebuild.",
             "style": "bullets",
             "columns": 2,
