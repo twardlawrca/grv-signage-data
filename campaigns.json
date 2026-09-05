@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T14:22:56.882Z",
+  "generatedAt": "2026-09-05T14:46:28.560Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -241,30 +241,44 @@
             "subline": "",
             "style": "bullets",
             "columns": 2,
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
             "theme": "navy",
             "accent": "gold",
             "items": [
               {
+                "icon": "shield",
                 "title": "Joint Commission-accredited facility",
                 "text": "Evidence-based treatment protocols"
               },
               {
+                "icon": "award",
                 "title": "Recognized by Newsweek",
                 "text": "Among America's Best Addiction Treatment Centers"
               },
               {
+                "icon": "route",
                 "title": "Three specialized pathways",
                 "text": "Treatment matched to your situation and history"
               },
               {
+                "icon": "stethoscope",
                 "title": "Board-certified physicians",
                 "text": "Psychiatric providers and expert clinical staff"
               },
               {
+                "icon": "layers",
                 "title": "A full continuum of care",
                 "text": "From medical detox through alumni support"
               },
               {
+                "icon": "brain",
                 "title": "Dual diagnosis treatment",
                 "text": "Addiction and mental health, addressed together"
               }
@@ -286,22 +300,27 @@
             "accent": "gold",
             "items": [
               {
+                "icon": "clipboard",
                 "title": "Comprehensive assessment",
                 "text": "A thorough evaluation shapes a plan designed for you"
               },
               {
+                "icon": "heart",
                 "title": "Medical detox",
                 "text": "Supervised withdrawal management with 24/7 monitoring"
               },
               {
+                "icon": "home",
                 "title": "Residential treatment",
                 "text": "Live on-site with structured daily programming"
               },
               {
+                "icon": "calendar",
                 "title": "PHP and IOP",
                 "text": "Structured therapy while living at home or in sober living"
               },
               {
+                "icon": "users",
                 "title": "Alumni support",
                 "text": "The connection continues after treatment"
               }
@@ -319,18 +338,22 @@
             "subline": "Treatment is matched to your needs, not the other way around.",
             "style": "cards",
             "columns": 3,
+            "photoAssetId": "",
             "theme": "navy",
             "accent": "gold",
             "items": [
               {
+                "icon": "compass",
                 "title": "Foundations of Recovery",
                 "text": "For those new to treatment: education about addiction, recovery concepts and skills for lasting sobriety"
               },
               {
+                "icon": "refresh",
                 "title": "Fresh Start",
                 "text": "For those who have been through treatment before: learn from it and build stronger strategies"
               },
               {
+                "icon": "scale",
                 "title": "Balance",
                 "text": "Fully integrated care for addiction alongside depression, anxiety or PTSD"
               }
@@ -352,34 +375,42 @@
             "accent": "gold",
             "items": [
               {
+                "icon": "users",
                 "title": "Group therapy",
                 "text": "Skill building with peers who understand"
               },
               {
+                "icon": "user",
                 "title": "Individual psychotherapy",
                 "text": "One-on-one with licensed clinicians"
               },
               {
+                "icon": "lightbulb",
                 "title": "Cognitive behavioral therapy",
                 "text": "Reshaping unhelpful thought patterns"
               },
               {
+                "icon": "wave",
                 "title": "Dialectical behavior therapy",
                 "text": "Distress tolerance and emotional regulation"
               },
               {
+                "icon": "flag",
                 "title": "Motivational interviewing",
                 "text": "Building confidence to move forward"
               },
               {
+                "icon": "shield",
                 "title": "Trauma-informed care",
                 "text": "Safety and healing for trauma histories"
               },
               {
+                "icon": "family",
                 "title": "Family education and coaching",
                 "text": "Rebuilding healthy family dynamics"
               },
               {
+                "icon": "pill",
                 "title": "Medication management",
                 "text": "Psychiatric evaluation, when appropriate"
               }
@@ -397,30 +428,44 @@
             "subline": "Room to breathe, reflect and rebuild.",
             "style": "bullets",
             "columns": 2,
+            "photoAsset": {
+              "id": "ast-greenville-campus",
+              "file": "greenville-campus.jpg",
+              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
+              "width": 1280,
+              "height": 960,
+              "local": "GRVTV-Assets/rca-photo-wide.jpg"
+            },
             "theme": "navy",
             "accent": "gold",
             "items": [
               {
+                "icon": "bed",
                 "title": "Comfortable residential accommodations",
                 "text": "Prioritizing dignity and rest"
               },
               {
+                "icon": "dumbbell",
                 "title": "A dedicated wellness floor",
                 "text": "Basketball court, yoga, creativity stations, fitness center"
               },
               {
+                "icon": "leaf",
                 "title": "Peaceful outdoor spaces",
                 "text": "Including a Zen garden for reflection"
               },
               {
+                "icon": "sofa",
                 "title": "Indoor lounges",
                 "text": "For relaxation and peer connection"
               },
               {
+                "icon": "utensils",
                 "title": "Chef-prepared, nutritious meals",
                 "text": "To support physical healing"
               },
               {
+                "icon": "key",
                 "title": "Sober Living",
                 "text": "For those who complete residential treatment"
               }
