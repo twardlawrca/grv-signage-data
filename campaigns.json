@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T14:46:28.560Z",
+  "generatedAt": "2026-09-05T14:56:52.280Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -296,6 +296,14 @@
             "subline": "A full continuum of care, one team the whole way.",
             "style": "steps",
             "columns": 5,
+            "photoAsset": {
+              "id": "ast-greenville-campus",
+              "file": "greenville-campus.jpg",
+              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
+              "width": 1280,
+              "height": 960,
+              "local": "GRVTV-Assets/rca-photo-wide.jpg"
+            },
             "theme": "navy",
             "accent": "gold",
             "items": [
@@ -338,7 +346,14 @@
             "subline": "Treatment is matched to your needs, not the other way around.",
             "style": "cards",
             "columns": 3,
-            "photoAssetId": "",
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
             "theme": "navy",
             "accent": "gold",
             "items": [
@@ -371,6 +386,14 @@
             "subline": "",
             "style": "cards",
             "columns": 4,
+            "photoAsset": {
+              "id": "ast-greenville-campus",
+              "file": "greenville-campus.jpg",
+              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
+              "width": 1280,
+              "height": 960,
+              "local": "GRVTV-Assets/rca-photo-wide.jpg"
+            },
             "theme": "navy",
             "accent": "gold",
             "items": [
