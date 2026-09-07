@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T15:07:20.913Z",
+  "generatedAt": "2026-09-07T15:38:48.651Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -184,6 +184,85 @@
             "theme": "navy",
             "accent": "gold",
             "align": "left"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-quote-of-the-week",
+      "name": "Quote of the Week",
+      "category": "community",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-07",
+        "endsOn": "2026-09-13"
+      },
+      "rotation": {
+        "slideSec": 18,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-qotw-2026-09-07",
+          "type": "quote",
+          "title": "Quote of the Week · Michael Jordan",
+          "durationSec": 18,
+          "props": {
+            "eyebrow": "Quote of the Week",
+            "quote": "If you accept the expectations of others, especially negative ones, then you never will change the outcome.",
+            "author": "Michael Jordan",
+            "source": "Shared by the RCA Alumni Association",
+            "photoAsset": {
+              "id": "ast-greenville-campus",
+              "file": "greenville-campus.jpg",
+              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
+              "width": 1280,
+              "height": 960,
+              "local": "GRVTV-Assets/rca-photo-wide.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold"
           }
         }
       ]
