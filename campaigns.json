@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T15:17:04.828Z",
+  "generatedAt": "2026-09-08T15:59:02.886Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -291,14 +291,7 @@
           "buildingIds": [],
           "unitIds": [],
           "unitKinds": [],
-          "profileIds": [
-            "p-lobby",
-            "p-nursing",
-            "p-cafeteria",
-            "p-family",
-            "p-workflex",
-            "p-outpatient"
-          ]
+          "profileIds": []
         },
         "deviceIds": [
           "GRVTV-LOBBY",
@@ -311,6 +304,7 @@
           "GRVTVOPLOBBY",
           "GRVTVA325L",
           "GRVTVA325R",
+          "GRVTV2B",
           "GRVTVB315L",
           "GRVTVB315R",
           "GRVTVB415L",
