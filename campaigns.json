@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T15:09:00.886Z",
+  "generatedAt": "2026-09-08T15:17:04.828Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -598,6 +598,332 @@
                 "icon": "chat",
                 "title": "Experience, Strength and Hope",
                 "text": "Stories from earlier editions of the Big Book"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-basic-text-guide",
+      "name": "The Basic Text · A reader's guide",
+      "category": "community",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-08",
+        "endsOn": "2026-12-31"
+      },
+      "rotation": {
+        "slideSec": 16,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-bt-intro",
+          "type": "message",
+          "title": "Finding your way around the Basic Text",
+          "durationSec": 12,
+          "props": {
+            "eyebrow": "Recovery reading",
+            "headline": "Finding your way around the *Basic* *Text*",
+            "subline": "Narcotics Anonymous, Sixth Edition. Ten chapters lay out the program; members' stories follow in Our Members Share.",
+            "theme": "navy",
+            "accent": "gold",
+            "align": "left"
+          }
+        },
+        {
+          "id": "cnt-bt-chapters-1",
+          "type": "list",
+          "title": "Chapter by chapter, part one",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "The Basic Text · our program",
+            "headline": "Chapter by chapter, *part one*",
+            "subline": "Page numbers follow the Sixth Edition.",
+            "style": "cards",
+            "columns": 3,
+            "photoAsset": {
+              "id": "ast-greenville-campus",
+              "file": "greenville-campus.jpg",
+              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
+              "width": 1280,
+              "height": 960,
+              "local": "GRVTV-Assets/rca-photo-wide.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "clipboard",
+                "title": "Introduction",
+                "text": "Front matter · page xxv"
+              },
+              {
+                "icon": "user",
+                "title": "1 · Who Is an Addict?",
+                "text": "Page 3"
+              },
+              {
+                "icon": "lightbulb",
+                "title": "2 · What Is the Narcotics Anonymous Program?",
+                "text": "Page 9"
+              },
+              {
+                "icon": "compass",
+                "title": "3 · Why Are We Here?",
+                "text": "Page 13"
+              },
+              {
+                "icon": "key",
+                "title": "4 · How It Works",
+                "text": "Page 17"
+              },
+              {
+                "icon": "route",
+                "title": "5 · What Can I Do?",
+                "text": "Page 54"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cnt-bt-chapters-2",
+          "type": "list",
+          "title": "Chapter by chapter, part two",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "The Basic Text · our program",
+            "headline": "Chapter by chapter, *part two*",
+            "subline": "Page numbers follow the Sixth Edition.",
+            "style": "cards",
+            "columns": 3,
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "users",
+                "title": "6 · The Twelve Traditions of Narcotics Anonymous",
+                "text": "Page 60"
+              },
+              {
+                "icon": "refresh",
+                "title": "7 · Recovery and Relapse",
+                "text": "Page 77"
+              },
+              {
+                "icon": "sun",
+                "title": "8 · We Do Recover",
+                "text": "Page 87"
+              },
+              {
+                "icon": "calendar",
+                "title": "9 · Just for Today: Living the Program",
+                "text": "Page 93"
+              },
+              {
+                "icon": "star",
+                "title": "10 · More Will Be Revealed",
+                "text": "Page 101"
+              },
+              {
+                "icon": "chat",
+                "title": "Our Members Share",
+                "text": "Members' stories · from page 111"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cnt-bt-share",
+          "type": "list",
+          "title": "Our Members Share",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "The Basic Text · Our Members Share",
+            "headline": "Members tell their *own* stories",
+            "subline": "Four sections of members' stories, each opening with short reflections.",
+            "style": "cards",
+            "columns": 2,
+            "photoAsset": {
+              "id": "ast-greenville-campus",
+              "file": "greenville-campus.jpg",
+              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
+              "width": 1280,
+              "height": 960,
+              "local": "GRVTV-Assets/rca-photo-wide.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "flag",
+                "title": "Beginnings",
+                "text": "From page 117. Stories from NA's early years, several carried over from the First Edition."
+              },
+              {
+                "icon": "home",
+                "title": "Coming Home",
+                "text": "From page 157. How members found their way into the rooms of NA."
+              },
+              {
+                "icon": "users",
+                "title": "Regardless of…",
+                "text": "From page 231. Members who found recovery whatever their age, background, or beliefs."
+              },
+              {
+                "icon": "heart",
+                "title": "Life on Life's Terms",
+                "text": "From page 305. Staying clean through loss, illness, and the everyday."
+              }
+            ]
+          }
+        },
+        {
+          "id": "cnt-bt-symbol",
+          "type": "list",
+          "title": "What the NA symbol means",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "The Basic Text · Our Symbol, page xv",
+            "headline": "What the NA *symbol* means",
+            "subline": "A circle around a square base, rising to a point. The full text is on page xv.",
+            "style": "cards",
+            "columns": 2,
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "compass",
+                "title": "The outer circle",
+                "text": "A universal program with room for everyone in recovery"
+              },
+              {
+                "icon": "heart",
+                "title": "The square base",
+                "text": "Goodwill, which the Fellowship is built on"
+              },
+              {
+                "icon": "layers",
+                "title": "The four sides",
+                "text": "Self, Society, Service, and God"
+              },
+              {
+                "icon": "star",
+                "title": "The point",
+                "text": "Freedom, where all four sides meet"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cnt-bt-more",
+          "type": "list",
+          "title": "Beyond the Basic Text",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "More NA literature",
+            "headline": "Beyond the *Basic* *Text*",
+            "subline": "Books and pamphlets from Narcotics Anonymous World Services.",
+            "style": "cards",
+            "columns": 3,
+            "photoAsset": {
+              "id": "ast-greenville-campus",
+              "file": "greenville-campus.jpg",
+              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
+              "width": 1280,
+              "height": 960,
+              "local": "GRVTV-Assets/rca-photo-wide.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "calendar",
+                "title": "Just for Today",
+                "text": "A meditation for every day of the year"
+              },
+              {
+                "icon": "key",
+                "title": "It Works: How and Why",
+                "text": "The Twelve Steps and Twelve Traditions, explained"
+              },
+              {
+                "icon": "clipboard",
+                "title": "The Step Working Guides",
+                "text": "Questions for working each Step with a sponsor"
+              },
+              {
+                "icon": "leaf",
+                "title": "Living Clean: The Journey Continues",
+                "text": "Recovery as life goes on"
+              },
+              {
+                "icon": "chat",
+                "title": "For Those in Treatment",
+                "text": "Pamphlet IP 17"
+              },
+              {
+                "icon": "users",
+                "title": "Welcome to Narcotics Anonymous",
+                "text": "Pamphlet IP 22"
               }
             ]
           }
