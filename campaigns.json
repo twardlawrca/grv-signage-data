@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T15:38:48.651Z",
+  "generatedAt": "2026-09-08T15:09:00.886Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -263,6 +263,343 @@
             },
             "theme": "navy",
             "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-big-book-guide",
+      "name": "The Big Book · A reader's guide",
+      "category": "community",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-08",
+        "endsOn": "2026-12-31"
+      },
+      "rotation": {
+        "slideSec": 16,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": [
+            "p-lobby",
+            "p-nursing",
+            "p-cafeteria",
+            "p-family",
+            "p-workflex",
+            "p-outpatient"
+          ]
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-bb-intro",
+          "type": "message",
+          "title": "Finding your way around the Big Book",
+          "durationSec": 12,
+          "props": {
+            "eyebrow": "Recovery reading",
+            "headline": "Finding your way around the *Big* *Book*",
+            "subline": "Alcoholics Anonymous, Fourth Edition. The program is in the first eleven chapters; members' personal stories follow.",
+            "theme": "navy",
+            "accent": "gold",
+            "align": "left"
+          }
+        },
+        {
+          "id": "cnt-bb-chapters-1",
+          "type": "list",
+          "title": "Chapter by chapter, part one",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "The Big Book · the program",
+            "headline": "Chapter by chapter, *part one*",
+            "subline": "Page numbers follow the Fourth Edition.",
+            "style": "cards",
+            "columns": 3,
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "stethoscope",
+                "title": "The Doctor's Opinion",
+                "text": "Front matter · page xxv"
+              },
+              {
+                "icon": "user",
+                "title": "1 · Bill's Story",
+                "text": "Page 1"
+              },
+              {
+                "icon": "lightbulb",
+                "title": "2 · There Is a Solution",
+                "text": "Page 17"
+              },
+              {
+                "icon": "clipboard",
+                "title": "3 · More About Alcoholism",
+                "text": "Page 30"
+              },
+              {
+                "icon": "compass",
+                "title": "4 · We Agnostics",
+                "text": "Page 44"
+              },
+              {
+                "icon": "key",
+                "title": "5 · How It Works",
+                "text": "Page 58"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cnt-bb-chapters-2",
+          "type": "list",
+          "title": "Chapter by chapter, part two",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "The Big Book · the program",
+            "headline": "Chapter by chapter, *part two*",
+            "subline": "Page numbers follow the Fourth Edition.",
+            "style": "cards",
+            "columns": 3,
+            "photoAsset": {
+              "id": "ast-greenville-campus",
+              "file": "greenville-campus.jpg",
+              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
+              "width": 1280,
+              "height": 960,
+              "local": "GRVTV-Assets/rca-photo-wide.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "route",
+                "title": "6 · Into Action",
+                "text": "Page 72"
+              },
+              {
+                "icon": "users",
+                "title": "7 · Working with Others",
+                "text": "Page 89"
+              },
+              {
+                "icon": "heart",
+                "title": "8 · To Wives",
+                "text": "Page 104"
+              },
+              {
+                "icon": "family",
+                "title": "9 · The Family Afterward",
+                "text": "Page 122"
+              },
+              {
+                "icon": "flag",
+                "title": "10 · To Employers",
+                "text": "Page 136"
+              },
+              {
+                "icon": "sun",
+                "title": "11 · A Vision for You",
+                "text": "Page 151"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cnt-bb-stories",
+          "type": "list",
+          "title": "Members tell their own stories",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "The Big Book · personal stories",
+            "headline": "Members tell their *own* stories",
+            "subline": "Forty-two stories in three parts, after the chapters.",
+            "style": "cards",
+            "columns": 3,
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "flag",
+                "title": "Part I · Pioneers of A.A.",
+                "text": "From page 171. The earliest members, beginning with Dr. Bob."
+              },
+              {
+                "icon": "clock",
+                "title": "Part II · They Stopped in Time",
+                "text": "From page 281. Members who found A.A. before they lost everything."
+              },
+              {
+                "icon": "refresh",
+                "title": "Part III · They Lost Nearly All",
+                "text": "From page 437. Members who came to A.A. after losing nearly all."
+              }
+            ]
+          }
+        },
+        {
+          "id": "cnt-bb-appendices",
+          "type": "list",
+          "title": "At the back of the book",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "The Big Book · appendices",
+            "headline": "At the *back* of the book",
+            "subline": "Short readings after the stories.",
+            "style": "bullets",
+            "columns": 2,
+            "photoAsset": {
+              "id": "ast-greenville-campus",
+              "file": "greenville-campus.jpg",
+              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
+              "width": 1280,
+              "height": 960,
+              "local": "GRVTV-Assets/rca-photo-wide.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "users",
+                "title": "The A.A. Tradition",
+                "text": "Page 561"
+              },
+              {
+                "icon": "star",
+                "title": "Spiritual Experience",
+                "text": "Page 567"
+              },
+              {
+                "icon": "stethoscope",
+                "title": "The Medical View on A.A.",
+                "text": "Page 569"
+              },
+              {
+                "icon": "heart",
+                "title": "The Religious View on A.A.",
+                "text": "Page 572"
+              },
+              {
+                "icon": "phone",
+                "title": "How to Get in Touch With A.A.",
+                "text": "Page 573"
+              },
+              {
+                "icon": "layers",
+                "title": "Twelve Concepts (Short Form)",
+                "text": "Page 574"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cnt-bb-more",
+          "type": "list",
+          "title": "Beyond the Big Book",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "More A.A. literature",
+            "headline": "Beyond the *Big* *Book*",
+            "subline": "Other titles from Alcoholics Anonymous World Services.",
+            "style": "cards",
+            "columns": 3,
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "layers",
+                "title": "Twelve Steps and Twelve Traditions",
+                "text": "The Steps and the Traditions, one by one"
+              },
+              {
+                "icon": "calendar",
+                "title": "Daily Reflections",
+                "text": "A short reading for each day of the year"
+              },
+              {
+                "icon": "sun",
+                "title": "Living Sober",
+                "text": "Everyday, practical ways to stay sober"
+              },
+              {
+                "icon": "user",
+                "title": "As Bill Sees It",
+                "text": "Selected writings of co-founder Bill W."
+              },
+              {
+                "icon": "star",
+                "title": "Came to Believe",
+                "text": "Members on their spiritual experiences"
+              },
+              {
+                "icon": "chat",
+                "title": "Experience, Strength and Hope",
+                "text": "Stories from earlier editions of the Big Book"
+              }
+            ]
           }
         }
       ]
