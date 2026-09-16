@@ -1,8 +1,13 @@
 {
   "source": "Wikipedia · In the news · CC BY-SA 4.0",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "updated_at": "2026-09-16T17:56:00Z",
+  "updated_at": "2026-09-16T21:25:32Z",
   "items": [
+    {
+      "text": "A ferry sinks in the Java Sea, resulting in at least six deaths and leaving 130 people missing.",
+      "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Virgo_Transport_8",
+      "day": "2026-09-16"
+    },
     {
       "text": "A ferry fire off Coron, Palawan, Philippines, kills at least 77 people.",
       "url": "https://en.wikipedia.org/wiki/MV_June_Aster_ship_fire",
@@ -16,11 +21,6 @@
     {
       "text": "American journalist and feminist activist Gloria Steinem dies at the age of 92.",
       "url": "https://en.wikipedia.org/wiki/Gloria_Steinem",
-      "day": "2026-09-16"
-    },
-    {
-      "text": "Duane Davis is convicted of orchestrating the 1996 murder of American rapper Tupac Shakur.",
-      "url": "https://en.wikipedia.org/wiki/Murder_of_Tupac_Shakur",
       "day": "2026-09-16"
     }
   ]
