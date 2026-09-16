@@ -151,11 +151,11 @@ def h15():
                 if len(vals) >= 2:
                     return vals
         raise RuntimeError("H.15 row missing")
-    def fmt_date(s):                      # "2026Sep14" -> "September 14"
+    def fmt_date(s, short=False):         # "2026Sep14" -> "September 14" / "Sep 14"
         m = re.match(r"(\d{4})([A-Za-z]{3})(\d+)", s)
         if not m:
             return s
-        return datetime.strptime(m.group(2), "%b").strftime("%B") + " " + m.group(3)
+        return datetime.strptime(m.group(2), "%b").strftime("%b" if short else "%B") + " " + m.group(3)
     ff = row(lambda s: s.startswith("Federal funds (effective)"))
     ty = row(lambda s: s == "10-year")     # the FIRST 10-year row is the nominal Treasury yield
     out = []
@@ -165,7 +165,7 @@ def h15():
         cur, prev = float(v0), float(v1)
         dir_, delta = pts(cur, prev, "pt")
         out.append({"key": key, "label": label, "value": f"{cur:.2f}%", "raw": cur, "asof": fmt_date(d0),
-                    "delta": (delta if dir_ == "flat" else delta + " from " + fmt_date(d1)), "dir": dir_, "note": note})
+                    "delta": (delta if dir_ == "flat" else delta + " from " + fmt_date(d1, True)), "dir": dir_, "note": note})
     return out
 
 def gas(existing):

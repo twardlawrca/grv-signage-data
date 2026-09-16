@@ -1,6 +1,6 @@
 {
   "source": "U.S. Bureau of Labor Statistics · Federal Reserve Board · U.S. Energy Information Administration",
-  "updated_at": "2026-09-16T18:08:57Z",
+  "updated_at": "2026-09-16T18:19:06Z",
   "items": [
     {
       "key": "unemployment",
@@ -38,7 +38,7 @@
       "value": "4.97%",
       "raw": 4.97,
       "asof": "September 14",
-      "delta": "0.01 pt from September 11",
+      "delta": "0.01 pt from Sep 11",
       "dir": "up",
       "note": "Yield · Federal Reserve H.15"
     },
