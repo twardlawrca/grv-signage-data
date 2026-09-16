@@ -1,0 +1,43 @@
+# Auto-refresh the boards' LIVE feeds (live/headlines.json + live/economy.json)
+# every ~6 hours. Sources: Wikipedia "In the news" (CC BY-SA 4.0), BLS, the
+# Federal Reserve H.15 release and EIA (all public domain) -- free and cleared
+# for display on a business screen. Commits ONLY when something changed, with
+# the built-in GITHUB_TOKEN (no PAT/secret). The campaign overlay (v1.7+) on
+# every GRV board re-reads the live files every 30 min.
+name: Refresh live feeds
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"     # every 6 hours, at :23 past (the news bot runs at :17)
+  workflow_dispatch: {}         # manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-live
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regenerate live/headlines.json + live/economy.json
+        run: python .github/scripts/update-live.py
+      - name: Commit & push if anything changed
+        run: |
+          git add live/
+          if git diff --cached --quiet; then
+            echo "No live-feed changes; nothing to commit."
+          else
+            git config user.name  "grv-signage-live-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "auto: refresh live feeds (headlines + economy)"
+            git pull --rebase origin main
+            git push
+            echo "Pushed updated live feeds."
+          fi
