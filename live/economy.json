@@ -1,6 +1,6 @@
 {
   "source": "U.S. Bureau of Labor Statistics · Federal Reserve Board · U.S. Energy Information Administration",
-  "updated_at": "2026-09-16T21:25:33Z",
+  "updated_at": "2026-09-17T21:30:10Z",
   "items": [
     {
       "key": "unemployment",
@@ -27,7 +27,7 @@
       "label": "Fed funds rate",
       "value": "3.63%",
       "raw": 3.63,
-      "asof": "September 15",
+      "asof": "September 16",
       "delta": "unchanged",
       "dir": "flat",
       "note": "Effective rate · Federal Reserve"
@@ -35,10 +35,10 @@
     {
       "key": "treasury10",
       "label": "10-year Treasury",
-      "value": "5.00%",
-      "raw": 5.0,
-      "asof": "September 15",
-      "delta": "0.03 pt from Sep 14",
+      "value": "5.01%",
+      "raw": 5.01,
+      "asof": "September 16",
+      "delta": "0.01 pt from Sep 15",
       "dir": "up",
       "note": "Yield · Federal Reserve H.15"
     },
