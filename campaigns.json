@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T15:59:02.886Z",
+  "generatedAt": "2026-09-21T02:24:04.711Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -134,7 +134,7 @@
       "name": "SoberFest 2026 · Volunteer call",
       "category": "community",
       "priority": "normal",
-      "status": "scheduled",
+      "status": "active",
       "schedule": {
         "startsOn": "2026-09-14",
         "endsOn": "2026-09-26"
@@ -184,85 +184,6 @@
             "theme": "navy",
             "accent": "gold",
             "align": "left"
-          }
-        }
-      ]
-    },
-    {
-      "id": "cmp-quote-of-the-week",
-      "name": "Quote of the Week",
-      "category": "community",
-      "priority": "normal",
-      "status": "active",
-      "schedule": {
-        "startsOn": "2026-09-07",
-        "endsOn": "2026-09-13"
-      },
-      "rotation": {
-        "slideSec": 18,
-        "defaultSec": 180,
-        "includeDefault": true
-      },
-      "targets": {
-        "rule": {
-          "mode": "select",
-          "facilityIds": [
-            "grv"
-          ],
-          "buildingIds": [],
-          "unitIds": [],
-          "unitKinds": [],
-          "profileIds": []
-        },
-        "deviceIds": [
-          "GRVTV-LOBBY",
-          "GRVTVA123",
-          "GRVTVFAMRM01",
-          "GRVTVFAMRM02",
-          "GRVTV-ACAFE",
-          "GRVTVA229L",
-          "GRVTVA229R",
-          "GRVTVOPLOBBY",
-          "GRVTVA325L",
-          "GRVTVA325R",
-          "GRVTV2B",
-          "GRVTVB315L",
-          "GRVTVB315R",
-          "GRVTVB415L",
-          "GRVTVB415R",
-          "GRVTVB515L",
-          "GRVTVB515R",
-          "GRVTVB615L",
-          "GRVTVB615R"
-        ],
-        "facilityCodes": [
-          "GRV"
-        ],
-        "buildingCodes": [],
-        "unitCodes": []
-      },
-      "organization": "Recovery Centers of America",
-      "slides": [
-        {
-          "id": "cnt-qotw-2026-09-07",
-          "type": "quote",
-          "title": "Quote of the Week · Michael Jordan",
-          "durationSec": 18,
-          "props": {
-            "eyebrow": "Quote of the Week",
-            "quote": "If you accept the expectations of others, especially negative ones, then you never will change the outcome.",
-            "author": "Michael Jordan",
-            "source": "Shared by the RCA Alumni Association",
-            "photoAsset": {
-              "id": "ast-greenville-campus",
-              "file": "greenville-campus.jpg",
-              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
-              "width": 1280,
-              "height": 960,
-              "local": "GRVTV-Assets/rca-photo-wide.jpg"
-            },
-            "theme": "navy",
-            "accent": "gold"
           }
         }
       ]
@@ -1229,6 +1150,154 @@
                 "text": "For those who complete residential treatment"
               }
             ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-addiction-professionals-day-2026",
+      "name": "National Addiction Professionals Day · Thank you",
+      "category": "employee",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-20",
+        "endsOn": "2026-09-25"
+      },
+      "rotation": {
+        "slideSec": 14,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-napd-honor",
+          "type": "message",
+          "title": "The people who make recovery possible",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "September 20 · National Addiction Professionals Day",
+            "headline": "The people who make *recovery* possible",
+            "subline": "RCA is proud to honor the addiction professionals and recovery support staff who show up each day with compassion, expertise, and a commitment to helping others live a better life.",
+            "theme": "navy",
+            "accent": "purple",
+            "align": "left"
+          }
+        },
+        {
+          "id": "cnt-napd-roles",
+          "type": "list",
+          "title": "Every role makes a difference",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "Our treatment team",
+            "headline": "Every role makes a *difference*",
+            "subline": "From clinical care and medical support to admissions, operations, and beyond.",
+            "style": "cards",
+            "columns": 3,
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "chat",
+                "title": "Clinical care",
+                "text": "Compassion and expertise, every day"
+              },
+              {
+                "icon": "stethoscope",
+                "title": "Medical support",
+                "text": "Care around the clock"
+              },
+              {
+                "icon": "users",
+                "title": "Recovery support",
+                "text": "Beside our patients at every step"
+              },
+              {
+                "icon": "phone",
+                "title": "Admissions",
+                "text": "The first welcome, any hour of the day"
+              },
+              {
+                "icon": "key",
+                "title": "Operations",
+                "text": "Everything that keeps our doors open"
+              },
+              {
+                "icon": "star",
+                "title": "And beyond",
+                "text": "Every role, every shift"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cnt-napd-thanks",
+          "type": "quote",
+          "title": "Thank you to our incredible team",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "National Addiction Professionals Day",
+            "quote": "Thank you to our incredible team for the work you do, the lives you touch, and the hope you help create every day.",
+            "author": "Recovery Centers of America at Greenville",
+            "source": "We're grateful for you.",
+            "photoAsset": {
+              "id": "ast-greenville-campus",
+              "file": "greenville-campus.jpg",
+              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
+              "width": 1280,
+              "height": 960,
+              "local": "GRVTV-Assets/rca-photo-wide.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold"
           }
         }
       ]
