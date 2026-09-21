@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T02:33:56.377Z",
+  "generatedAt": "2026-09-21T03:00:08.080Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -1356,6 +1356,51 @@
           }
         },
         {
+          "id": "cnt-napd-showup",
+          "type": "list",
+          "title": "Every day, you show up",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "National Addiction Professionals Day",
+            "headline": "Every day, you *show* *up*",
+            "subline": "For people during some of the most difficult moments of their lives.",
+            "style": "cards",
+            "columns": 2,
+            "photoAsset": {
+              "id": "ast-greenville-campus",
+              "file": "greenville-campus.jpg",
+              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
+              "width": 1280,
+              "height": 960,
+              "local": "GRVTV-Assets/rca-photo-wide.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "chat",
+                "title": "You listen",
+                "text": "When someone needs to be heard"
+              },
+              {
+                "icon": "shield",
+                "title": "You advocate",
+                "text": "For someone who needs a voice"
+              },
+              {
+                "icon": "lightbulb",
+                "title": "You share your expertise",
+                "text": "When the path forward feels uncertain"
+              },
+              {
+                "icon": "heart",
+                "title": "You offer compassion and respect",
+                "text": "When it matters most"
+              }
+            ]
+          }
+        },
+        {
           "id": "cnt-napd-roles",
           "type": "list",
           "title": "Every role makes a difference",
@@ -1411,6 +1456,20 @@
           }
         },
         {
+          "id": "cnt-napd-impact",
+          "type": "message",
+          "title": "More than 94,000 people",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "Since we opened our doors in March of 2016",
+            "headline": "More than *94,000* people have received care at RCA",
+            "subline": "Thank you for your skill. Thank you for your heart. Thank you for the difficult conversations, the small victories, the long days, and the moments when you help someone see hope again.",
+            "theme": "navy",
+            "accent": "purple",
+            "align": "left"
+          }
+        },
+        {
           "id": "cnt-napd-thanks",
           "type": "quote",
           "title": "Thank you to our incredible team",
@@ -1419,7 +1478,7 @@
             "eyebrow": "National Addiction Professionals Day",
             "quote": "Thank you to our incredible team for the work you do, the lives you touch, and the hope you help create every day.",
             "author": "Recovery Centers of America at Greenville",
-            "source": "We're grateful for you.",
+            "source": "We are grateful for the work you do. You are making a difference.",
             "photoAsset": {
               "id": "ast-greenville-campus",
               "file": "greenville-campus.jpg",
