@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T03:00:08.080Z",
+  "generatedAt": "2026-09-22T13:51:37.075Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -1487,6 +1487,549 @@
               "height": 960,
               "local": "GRVTV-Assets/rca-photo-wide.jpg"
             },
+            "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-every-group-matters",
+      "name": "Why group attendance matters",
+      "category": "community",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-22",
+        "endsOn": "2026-12-31"
+      },
+      "rotation": {
+        "slideSec": 16,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-groups-intro",
+          "type": "message",
+          "title": "Why group attendance matters",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "Every group matters",
+            "headline": "Why *group* attendance matters",
+            "subline": "Group treatment is the standard of care for substance use disorder and one of the most powerful tools we have to help patients heal, grow, and prepare for life after treatment.",
+            "theme": "navy",
+            "accent": "gold",
+            "align": "left"
+          }
+        },
+        {
+          "id": "cnt-groups-reasons",
+          "type": "list",
+          "title": "Four reasons to show up",
+          "durationSec": 18,
+          "props": {
+            "eyebrow": "Every group matters",
+            "headline": "Four reasons to *show* *up*",
+            "subline": "What groups give a patient, session after session.",
+            "style": "cards",
+            "columns": 2,
+            "photoAsset": {
+              "id": "ast-greenville-campus",
+              "file": "greenville-campus.jpg",
+              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
+              "width": 1280,
+              "height": 960,
+              "local": "GRVTV-Assets/rca-photo-wide.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "users",
+                "title": "Connection over isolation",
+                "text": "Addiction thrives in isolation. Groups are a safe space to connect, share experiences, and feel understood."
+              },
+              {
+                "icon": "check",
+                "title": "Accountability in action",
+                "text": "Showing up demonstrates a commitment to recovery and builds trust and reliability within the community."
+              },
+              {
+                "icon": "lightbulb",
+                "title": "Skills and confidence",
+                "text": "Practice coping skills, gain feedback, and build confidence for life outside our walls."
+              },
+              {
+                "icon": "calendar",
+                "title": "Healthy structure",
+                "text": "A group schedule brings the stability, routine, and healthy structure that early recovery needs."
+              }
+            ]
+          }
+        },
+        {
+          "id": "cnt-groups-close",
+          "type": "message",
+          "title": "Stronger, more confident, better prepared",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "Every group matters",
+            "headline": "Stronger, more confident, better *prepared*",
+            "subline": "When patients engage fully in groups, they leave treatment stronger, more confident, and better prepared to succeed in recovery.",
+            "theme": "navy",
+            "accent": "gold",
+            "align": "left"
+          }
+        },
+        {
+          "id": "cnt-groups-team",
+          "type": "message",
+          "title": "Your role as a team",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "Your role as a team",
+            "headline": "Your energy sets the *tone*",
+            "subline": "In every interaction, encourage patients to show up, even on hard days. Remind them that groups are practice for life after treatment, and celebrate their consistency and effort, not just attendance.",
+            "theme": "navy",
+            "accent": "purple",
+            "align": "left"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-safe-healing-environment",
+      "name": "A safe healing environment",
+      "category": "announcement",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-22",
+        "endsOn": "2026-12-31"
+      },
+      "rotation": {
+        "slideSec": 14,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-safe-intro",
+          "type": "message",
+          "title": "Help us maintain a safe healing environment",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "To our patients, employees, and visitors",
+            "headline": "Help us maintain a *safe* healing environment",
+            "subline": "We are committed to protecting everyone in this facility: patients, families, and staff. Violent or aggressive behavior is not allowed.",
+            "theme": "navy",
+            "accent": "gold",
+            "align": "left"
+          }
+        },
+        {
+          "id": "cnt-safe-prohibited",
+          "type": "list",
+          "title": "Prohibited behaviors",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "Safety first",
+            "headline": "Prohibited *behaviors*",
+            "subline": "To ensure a safe care environment, the following are prohibited:",
+            "style": "bullets",
+            "columns": 2,
+            "photoAssetId": "",
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "shield",
+                "title": "Threats, verbal or written",
+                "text": ""
+              },
+              {
+                "icon": "shield",
+                "title": "Aggressive or abusive behavior",
+                "text": ""
+              },
+              {
+                "icon": "shield",
+                "title": "Physical violence or attempts to harm",
+                "text": ""
+              },
+              {
+                "icon": "shield",
+                "title": "Sexual harassment or inappropriate remarks",
+                "text": ""
+              },
+              {
+                "icon": "shield",
+                "title": "Illegal drugs or alcohol",
+                "text": ""
+              },
+              {
+                "icon": "shield",
+                "title": "Weapons",
+                "text": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "cnt-safe-unsafe",
+          "type": "message",
+          "title": "If you feel unsafe, notify a staff member",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "Zero-tolerance policy",
+            "headline": "If you feel unsafe at any time, notify a staff member *immediately*",
+            "subline": "We have zero tolerance for violence or aggression; unacceptable behavior may lead to escalation to leadership. Thank you for treating our team and other patients with respect.",
+            "theme": "navy",
+            "accent": "gold",
+            "align": "left"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-aa-upstate",
+      "name": "Alcoholics Anonymous · help is a call away",
+      "category": "community",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-22",
+        "endsOn": "2026-12-31"
+      },
+      "rotation": {
+        "slideSec": 18,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-aa-card",
+          "type": "list",
+          "title": "Alcoholics Anonymous · Upstate Intergroup",
+          "durationSec": 18,
+          "props": {
+            "eyebrow": "Alcoholics Anonymous",
+            "headline": "Has drinking become a *problem*?",
+            "subline": "“Carrying the message to the alcoholic who still suffers.”",
+            "style": "cards",
+            "columns": 2,
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "phone",
+                "title": "(864) 233-6454",
+                "text": "Upstate Intergroup helpline"
+              },
+              {
+                "icon": "users",
+                "title": "upstateintergroup.org",
+                "text": "Meetings across the Upstate"
+              },
+              {
+                "icon": "compass",
+                "title": "area62.org",
+                "text": "A.A. in South Carolina"
+              },
+              {
+                "icon": "home",
+                "title": "aa.org",
+                "text": "Alcoholics Anonymous World Services"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-daisy-award",
+      "name": "DAISY Award · thank your RCA nurse",
+      "category": "employee",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-22",
+        "endsOn": "2026-12-31"
+      },
+      "rotation": {
+        "slideSec": 18,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": [
+            "p-lobby",
+            "p-nursing",
+            "p-cafeteria",
+            "p-family",
+            "p-outpatient",
+            "p-workflex"
+          ]
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-daisy-nominate",
+          "type": "image",
+          "title": "Want to say thank you to your RCA nurse?",
+          "durationSec": 20,
+          "props": {
+            "asset": {
+              "id": "ast-daisy-qr",
+              "file": "daisy-qr.png",
+              "sha256": "bc0a4888111c4dd59ff7877cfa1c359558b2abb6fed0f45dcec1840636684b0e",
+              "width": 1416,
+              "height": 1416
+            },
+            "layout": "feature",
+            "eyebrow": "The DAISY Award for Extraordinary Nurses",
+            "headline": "Want to say *thank you* to your RCA nurse?",
+            "subline": "Share your story of compassionate and skillful nursing care. Scan the code with your phone, or type the address, to reach the nomination form.",
+            "caption": "RecoveryCentersOfAmerica.com/Daisy",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-flag-wall",
+      "name": "Home of the free",
+      "category": "community",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-22",
+        "endsOn": "2026-11-11"
+      },
+      "rotation": {
+        "slideSec": 12,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-flag-cover",
+          "type": "image",
+          "title": "The flag wall",
+          "durationSec": 12,
+          "props": {
+            "asset": {
+              "id": "ast-flag-wall",
+              "file": "flag-wall.jpg",
+              "sha256": "f94ff72bd46d28f158b2b4513d98ad8d433577c8b12212a4c6bdcde786f45c18",
+              "width": 1173,
+              "height": 660
+            },
+            "layout": "cover",
+            "eyebrow": "",
+            "headline": "",
+            "subline": "",
+            "caption": "One Nation Under God · Home of the Free · Because of the Brave",
             "theme": "navy",
             "accent": "gold"
           }
