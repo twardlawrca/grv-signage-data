@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T15:07:39.089Z",
+  "generatedAt": "2026-09-22T15:59:48.868Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -2035,6 +2035,68 @@
             "headline": "",
             "subline": "",
             "caption": "One Nation Under God · Home of the Free · Because of the Brave",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-weather-radar",
+      "name": "Weather radar",
+      "category": "live",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-22",
+        "endsOn": "2027-12-31"
+      },
+      "rotation": {
+        "slideSec": 20,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": [
+            "p-lobby",
+            "p-outpatient",
+            "p-cafeteria"
+          ]
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTV-ACAFE",
+          "GRVTVOPLOBBY"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-weather-radar",
+          "type": "live",
+          "title": "Rain on the radar",
+          "durationSec": 20,
+          "props": {
+            "feed": "radar",
+            "view": "local",
+            "eyebrow": "Live weather radar",
+            "headline": "Rain on the *radar*",
+            "subline": "Precipitation over the Upstate right now, as the National Weather Service sees it.",
+            "maxItems": 5,
+            "photoAssetId": "",
             "theme": "navy",
             "accent": "gold"
           }

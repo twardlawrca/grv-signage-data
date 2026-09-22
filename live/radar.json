@@ -1,0 +1,12 @@
+{
+  "source": "National Weather Service · NEXRAD radar",
+  "license": "U.S. government work, public domain (weather.gov/disclaimer)",
+  "updated_at": "2026-09-22T16:00:00Z",
+  "note": "Static file, hand-maintained: the boards load the Weather Service's own animated GIF straight from radar.weather.gov every refreshSec seconds (campaign overlay v1.9+) and show it only while it is under 20 minutes old. Edit this file to change the station or the products; no board publish needed. update-live.py does not touch it.",
+  "refreshSec": 300,
+  "items": [
+    { "key": "local", "label": "Upstate South Carolina · Greer radar (KGSP)", "url": "https://radar.weather.gov/ridge/standard/KGSP_loop.gif", "still": "https://radar.weather.gov/ridge/standard/KGSP_0.gif", "width": 600, "height": 550 },
+    { "key": "regional", "label": "The Southeast", "url": "https://radar.weather.gov/ridge/standard/SOUTHEAST_loop.gif", "still": "https://radar.weather.gov/ridge/standard/SOUTHEAST_0.gif", "width": 600, "height": 571 },
+    { "key": "national", "label": "The United States", "url": "https://radar.weather.gov/ridge/standard/CONUS_loop.gif", "still": "https://radar.weather.gov/ridge/standard/CONUS_0.gif", "width": 600, "height": 392 }
+  ]
+}
