@@ -24,13 +24,45 @@ UA   = "GRV-Signage-LiveBot/1.0 (+RCA Greenville IT signage; github.com/twardlaw
 ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUT  = os.path.join(ROOT, "live")
 
-# Words that keep a headline off a treatment-centre screen. Marketing / Clinical own
-# this list; matching is case-insensitive on the whole item text.
-EXCLUDE = ["overdose", "opioid", "fentanyl", "heroin", "cocaine", "methamphetamine", "narcotic",
-           "drug", "alcohol", "drunk", "suicide", "rape", "sexual assault", "molest", "child abuse",
-           "massacre", "behead", "execution", "executed", "hostage", "shooting", "gunman", "stabbing",
-           "terror"]
+# Words that keep a headline off a treatment-centre screen. ONE list for the whole fleet:
+# screen.json at the repo root (Marketing / Clinical own it; the GRVTV 2.0 runtime reads the
+# same file for On this day, the quote, the ticker and the lobby news). A term matches whole
+# words, case-insensitive; a trailing * matches any ending. This hard-coded list is only the
+# fallback when screen.json is missing or malformed.
+EXCLUDE_FALLBACK = ["overdose", "opioid*", "fentanyl", "heroin", "cocaine", "methamphetamine", "narcotic*",
+                    "drug*", "alcohol*", "drunk*", "suicide", "rape*", "sexual assault", "molest*", "child abuse",
+                    "massacre*", "behead*", "execut*", "hostage*", "shoot*", "gunman", "gunmen", "stab*",
+                    "terror*", "attack*", "dead", "killed", "kill*", "war", "wars", "battle*", "crash*"]
 MAX_HEADLINES = 6
+
+def screen_regex():
+    """Compile screen.json's exclude list (fallback: EXCLUDE_FALLBACK) into one word-boundary regex."""
+    terms, src = None, "screen.json"
+    try:
+        with open(os.path.join(ROOT, "screen.json"), encoding="utf-8") as f:
+            terms = json.load(f).get("exclude")
+        if not isinstance(terms, list) or not terms:
+            raise ValueError("no exclude list")
+    except Exception as e:
+        print(f"WARNING: screen.json unusable ({e}); using the built-in fallback list", file=sys.stderr)
+        terms, src = EXCLUDE_FALLBACK, "built-in fallback"
+    parts = []
+    for t in terms:
+        t = str(t or "").strip().lower()
+        pre, suf = t.startswith("*"), t.endswith("*")
+        t = t.strip("*")
+        if not t:
+            continue
+        parts.append(("" if pre else r"\b") + r"\s+".join(re.escape(w) for w in t.split()) + ("" if suf else r"\b"))
+    print(f"screen: {len(parts)} terms from {src}", file=sys.stderr)
+    return re.compile("(?:" + "|".join(parts) + ")", re.I)
+
+SCREEN = None
+def screened(text):
+    global SCREEN
+    if SCREEN is None:
+        SCREEN = screen_regex()
+    return bool(SCREEN.search(text or ""))
 
 def get(url, accept="application/json"):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": accept})
@@ -72,8 +104,7 @@ def headlines():
             text = clean(n.get("story", ""))
             if not text or text in seen:
                 continue
-            low = text.lower()
-            if any(w in low for w in EXCLUDE):
+            if screened(text):
                 print(f"screened: {text[:80]}", file=sys.stderr)
                 continue
             url = ""
