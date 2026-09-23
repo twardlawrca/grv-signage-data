@@ -1,5 +1,12 @@
 {
   "_readme": "Community Board self-service content. Edit this file in the GitHub web UI (phone works) - the Lobby TV picks up changes within ~15 minutes. No PHI, no patient names, ever. POSTING A NEW EMPLOYEE OF THE MONTH IS A PHONE EDIT ONLY - no publish, no code change: set eom.name / eom.role / eom.month / eom.lines and move eom.until to the last day you want the panel shown (YYYY-MM-DD, inclusive). Once eom.until passes, the Lobby TV drops the panel from its rotation on its own; leaving it expired is fine and just means no kudos panel until the next winner is posted.",
+  "_readme_grvtv2": "KILL SWITCH / FEATURE FLAGS for the GRVTV 2.0 boards - a PHONE EDIT, no publish, no code change; every 2.0 board re-reads this file every 15 minutes (plus GitHub's ~5 min cache), so a change lands on the wall within ~20 minutes. grvtv2.mode: \"full\" = the 2.0 board as designed; \"v1\" = only the approved 1.x panels play inside the 2.0 chrome (the 2.0 panels are hidden - use this if a new panel misbehaves); \"lite\" = the light look (no bed drift, no motes) for a box that stutters. grvtv2.hosts: the same per TV, keyed by the box's computer name (GRVTV-LOBBY, GRVTV-OPLOBBY, GRVTV-ACAFE, ...), wins over mode for that box. grvtv2.panels: a list of the 2.0 panel ids allowed to play (welcome, wx, otd, quote, agenda, menu); leave it out or null for all. grvtv2.video: false pauses every video on every 2.0 board. Anything malformed or unknown = full, never a blank wall. Only the 2.0 boards read this block; the 1.x boards ignore it.",
+  "grvtv2": {
+    "mode": "full",
+    "hosts": {},
+    "panels": null,
+    "video": true
+  },
   "eom": {
     "name": "Rick Hrabe",
     "role": "Lead Recovery Support Specialist",
