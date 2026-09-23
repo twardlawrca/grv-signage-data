@@ -1,4 +1,5 @@
 {
+  "_readme": "AUTHOR NOTE (2026-09-23): the lobby Community Board (GRVTV 2.0) reads this file into its dock ticker, two lines at a time and never with an ellipsis, so keep an item that should play there to 40 words or fewer (title + body); longer items are split into pages. Only audience \"all\" items play on the patient-facing lobby: audience \"staff\" and \"it\" are excluded there by the board itself, whatever pages[] says. No PHI, no patient names, ever.",
   "updated_at": "2026-07-10T22:30:00Z",
   "announcements": [
     {
