@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T15:59:48.868Z",
+  "generatedAt": "2026-09-23T21:51:50.434Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -2097,6 +2097,72 @@
             "subline": "Precipitation over the Upstate right now, as the National Weather Service sees it.",
             "maxItems": 5,
             "photoAssetId": "",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-alumni-night-madworld-2026",
+      "name": "Alumni Night at Madworld Haunted Attractions",
+      "category": "community",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-23",
+        "endsOn": "2026-10-23"
+      },
+      "rotation": {
+        "slideSec": 15,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": [
+            "p-lobby",
+            "p-outpatient"
+          ]
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVOPLOBBY"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-alumni-madworld-flyer",
+          "type": "image",
+          "title": "Alumni Night at Madworld Haunted Attractions · Friday, October 23, 8:00 PM",
+          "durationSec": 15,
+          "props": {
+            "asset": {
+              "id": "ast-alumni-madworld-2026",
+              "file": "alumni-madworld-2026.jpg",
+              "sha256": "612e1caca58a40f6688267cb5b880e949a7bb85e59e2f3305a5357deae248b7a",
+              "width": 1920,
+              "height": 1080
+            },
+            "layout": "cover",
+            "motion": "none",
+            "eyebrow": "",
+            "headline": "",
+            "subline": "",
+            "caption": "",
             "theme": "navy",
             "accent": "gold"
           }
