@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T22:06:26.485Z",
+  "generatedAt": "2026-09-23T22:34:19.064Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -2163,7 +2163,7 @@
             "headline": "Alumni Night at *Madworld* Haunted Attractions",
             "subline": "Friday, October 23 · 8:00 PM. Madworld Haunted Attractions, 147 Country Manor Road, Piedmont, SC 29673.",
             "caption": "Scan the code to register · extended.recoverycentersofamerica.com/event-grv-madworld",
-            "theme": "navy",
+            "theme": "black",
             "accent": "gold"
           }
         }
