@@ -1,7 +1,19 @@
 {
   "_readme": "AUTHOR NOTE (2026-09-23): the lobby Community Board (GRVTV 2.0) reads this file into its dock ticker, two lines at a time and never with an ellipsis, so keep an item that should play there to 40 words or fewer (title + body); longer items are split into pages. Only audience \"all\" items play on the patient-facing lobby: audience \"staff\" and \"it\" are excluded there by the board itself, whatever pages[] says. No PHI, no patient names, ever.",
-  "updated_at": "2026-07-10T22:30:00Z",
+  "updated_at": "2026-09-24T20:25:00Z",
   "announcements": [
+    {
+      "id": "ann-20260924-3yr-block-party",
+      "title": "RCA Greenville 3-Year Anniversary",
+      "body": "Greenville Alumni Block Party: Friday, September 25, 5:00 to 8:00 PM.",
+      "audience": "all",
+      "priority": "important",
+      "starts": "2026-09-24T00:00:00-04:00",
+      "expires": "2026-09-25T20:00:00-04:00",
+      "pages": [
+        "all"
+      ]
+    },
     {
       "id": "ann-20260710-itsec",
       "title": "IT Security",
@@ -10,7 +22,11 @@
       "priority": "important",
       "starts": "2026-07-10T00:00:00-04:00",
       "expires": "2026-07-25T23:59:59-04:00",
-      "pages": ["cafeteria", "wayfinding", "infoboard"]
+      "pages": [
+        "cafeteria",
+        "wayfinding",
+        "infoboard"
+      ]
     }
   ]
 }

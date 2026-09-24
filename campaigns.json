@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T02:24:04.326Z",
+  "generatedAt": "2026-09-24T20:11:26.719Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -2104,6 +2104,77 @@
       ]
     },
     {
+      "id": "cmp-grv-3yr-anniversary-block-party-2026",
+      "name": "RCA Greenville 3-Year Anniversary | Greenville Alumni Block Party",
+      "category": "community",
+      "priority": "high",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-24",
+        "endsOn": "2026-09-25"
+      },
+      "rotation": {
+        "slideSec": 15,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-grv-3yr-block-party",
+          "type": "message",
+          "title": "RCA Greenville 3-Year Anniversary | Greenville Alumni Block Party · Fri Sep 25, 5 to 8 PM",
+          "durationSec": 15,
+          "props": {
+            "eyebrow": "Friday, September 25, 2026 · 5:00 to 8:00 PM",
+            "headline": "RCA Greenville *3-Year* *Anniversary*",
+            "subline": "Greenville Alumni Block Party",
+            "theme": "navy",
+            "accent": "gold",
+            "align": "center"
+          }
+        }
+      ]
+    },
+    {
       "id": "cmp-alumni-night-madworld-2026",
       "name": "Alumni Night at Madworld Haunted Attractions",
       "category": "community",
@@ -2114,7 +2185,7 @@
         "endsOn": "2026-10-23"
       },
       "rotation": {
-        "slideSec": 15,
+        "slideSec": 39,
         "defaultSec": 180,
         "includeDefault": true
       },
@@ -2147,35 +2218,28 @@
       "organization": "Recovery Centers of America",
       "slides": [
         {
-          "id": "cnt-alumni-madworld-flyer",
-          "type": "image",
-          "title": "Alumni Night at Madworld Haunted Attractions · Friday, October 23, 8:00 PM",
-          "durationSec": 26,
+          "id": "cnt-alumni-madworld-video",
+          "type": "video",
+          "title": "Alumni Night at Madworld · video spot (40 s file, 39 s on air)",
+          "durationSec": 39,
           "props": {
-            "asset": {
-              "id": "ast-alumni-madworld-qr",
-              "file": "alumni-madworld-qr.png",
-              "sha256": "4706b46b2870693f0ba3b0191071d6ea18eccd6d006ba65db962b580f6aa0bce",
+            "src": "GRVTV-Assets/video/alumni-madworld-2026.mp4",
+            "fit": "cover",
+            "takeover": true,
+            "posterAsset": {
+              "id": "ast-alumni-madworld-poster",
+              "file": "alumni-madworld-2026-poster.jpg",
+              "sha256": "f98f5cdec0c970df4469aeb8a97aec26ff20fa18c86268f78f517409b1040c79",
               "width": 960,
-              "height": 960
+              "height": 540
             },
-            "layout": "feature",
-            "motion": "haunted",
-            "tease": "Ready for Alumni Night at *Madworld*?",
-            "eyebrow": "RCA Greenville Alumni Association · {nights}",
-            "headline": "Alumni Night at *Madworld*",
-            "date": "FRIDAY, OCTOBER 23 · 8:00 PM",
-            "subline": "Madworld Haunted Attractions\n147 Country Manor Road\nPiedmont, SC 29673",
-            "caption": "Register now · Can't scan? extended.recoverycentersofamerica.com/event-grv-madworld",
-            "theme": "black",
-            "accent": "gold",
+            "caption": "Register: extended.recoverycentersofamerica.com/event-grv-madworld",
             "sound": {
-              "file": "madworld-thunder.m4a",
               "at": [
                 "11:00",
                 "16:00"
               ],
-              "volume": 0.7
+              "volume": 0.8
             }
           }
         }
