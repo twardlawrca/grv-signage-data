@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T20:11:26.719Z",
+  "generatedAt": "2026-09-24T22:02:08.091Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -2104,6 +2104,82 @@
       ]
     },
     {
+      "id": "cmp-grv-3yr-block-party-video-2026",
+      "name": "RCA Greenville 3-Year Anniversary | Greenville Alumni Block Party (spot)",
+      "category": "community",
+      "priority": "high",
+      "status": "scheduled",
+      "schedule": {
+        "startsOn": "2026-09-25",
+        "endsOn": "2026-09-25"
+      },
+      "rotation": {
+        "slideSec": 20,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-grv-3yr-block-party-video",
+          "type": "video",
+          "title": "Block Party spot (20 s, inside the board frame)",
+          "durationSec": 20,
+          "props": {
+            "src": "GRVTV-Assets/video/anniversary-block-party-2026.mp4",
+            "fit": "cover",
+            "takeover": false,
+            "posterAsset": {
+              "id": "ast-anniversary-block-party-poster",
+              "file": "anniversary-block-party-2026-poster.jpg",
+              "sha256": "673363111385f0464d4ed80aec1c7b95e75efd3b08f6055ec6f0f22cdb1daa61",
+              "width": 960,
+              "height": 445
+            },
+            "caption": "RCA Greenville 3-Year Anniversary · Greenville Alumni Block Party · Friday, September 25, 2026, 5:00 to 8:00 PM"
+          }
+        }
+      ]
+    },
+    {
       "id": "cmp-grv-3yr-anniversary-block-party-2026",
       "name": "RCA Greenville 3-Year Anniversary | Greenville Alumni Block Party",
       "category": "community",
@@ -2111,7 +2187,7 @@
       "status": "active",
       "schedule": {
         "startsOn": "2026-09-24",
-        "endsOn": "2026-09-25"
+        "endsOn": "2026-09-24"
       },
       "rotation": {
         "slideSec": 15,
