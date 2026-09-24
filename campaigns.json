@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T00:04:34.615Z",
+  "generatedAt": "2026-09-24T02:24:04.326Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -2150,7 +2150,7 @@
           "id": "cnt-alumni-madworld-flyer",
           "type": "image",
           "title": "Alumni Night at Madworld Haunted Attractions · Friday, October 23, 8:00 PM",
-          "durationSec": 20,
+          "durationSec": 26,
           "props": {
             "asset": {
               "id": "ast-alumni-madworld-qr",
@@ -2161,10 +2161,11 @@
             },
             "layout": "feature",
             "motion": "haunted",
-            "tease": "Do you want to *experience* Alumni Night at Madworld?",
+            "tease": "Ready for Alumni Night at *Madworld*?",
             "eyebrow": "RCA Greenville Alumni Association · {nights}",
             "headline": "Alumni Night at *Madworld*",
-            "subline": "Friday, October 23 · 8:00 PM · Madworld Haunted Attractions, 147 Country Manor Road, Piedmont, SC 29673",
+            "date": "FRIDAY, OCTOBER 23 · 8:00 PM",
+            "subline": "Madworld Haunted Attractions\n147 Country Manor Road\nPiedmont, SC 29673",
             "caption": "Register now · Can't scan? extended.recoverycentersofamerica.com/event-grv-madworld",
             "theme": "black",
             "accent": "gold",
