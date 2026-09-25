@@ -3,6 +3,8 @@
 #  update-live.py -- regenerate the GRV boards' LIVE feeds:
 #      live/headlines.json   world headlines  (Wikipedia "In the news", CC BY-SA 4.0)
 #      live/economy.json     the economy at a glance (BLS, Federal Reserve H.15, EIA)
+#      live/health.json      health news (SAMHSA press announcements, CDC newsroom, Georgia DPH;
+#                            U.S. and state government works) -- added 2026-09-25
 #
 #  Every source is free AND cleared for display on a business screen:
 #  Wikipedia text is CC BY-SA 4.0 (we show it verbatim with attribution);
@@ -123,6 +125,121 @@ def headlines():
         "license": "https://creativecommons.org/licenses/by-sa/4.0/",
         "updated_at": now_iso(),
         "items": items[:MAX_HEADLINES],
+    }
+
+# ---------------------------------------------------------------- health
+# Health news for a treatment-centre screen: institutional sources only (press announcements from SAMHSA and
+# the CDC, releases from state health departments), never a wire service. Screened with the fleet list MINUS
+# the substance terms (drug*, opioid*, overdose, fentanyl, alcohol* ...): on this feed those words are the
+# topic, so only the violence / abuse terms of screen.json apply. Newest first, at most 3 per source, 6 total.
+HEALTH_SOURCES = [
+    ("SC DPH",      "https://dph.sc.gov/rss.xml"),
+    ("Georgia DPH", "https://dph.georgia.gov/rss.xml"),
+    ("SAMHSA",      "https://www.samhsa.gov/newsroom/press-announcements/rss"),
+    ("CDC",         "https://tools.cdc.gov/api/v2/resources/media/132608.rss"),
+]
+HEALTH_SKIP = re.compile(r"^(notice of|public notice|request for|proposed rule)", re.I)   # regulatory notices are not news for a lobby
+HEALTH_KEEP = {"overdose", "opioid", "fentanyl", "heroin", "cocaine", "methamphetamine", "narcotic", "drug", "alcohol", "drunk"}
+HEALTH_MAX, HEALTH_PER_SOURCE, HEALTH_MAX_CHARS, HEALTH_MAX_AGE_DAYS = 6, 2, 120, 45
+HEALTH_EVENT = re.compile(r"\b(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),? +[A-Z][a-z]+ +\d{1,2}\b")   # a dated clinic / event listing, not news
+_HEALTH_SCREEN = None
+
+def health_screened(text):
+    """screen.json's list without the substance terms (the health feed is allowed to talk about its subject)."""
+    global _HEALTH_SCREEN
+    if _HEALTH_SCREEN is None:
+        terms = None
+        try:
+            with open(os.path.join(ROOT, "screen.json"), encoding="utf-8") as f:
+                terms = json.load(f).get("exclude")
+            if not isinstance(terms, list) or not terms:
+                raise ValueError("no exclude list")
+        except Exception:
+            terms = EXCLUDE_FALLBACK
+        parts = []
+        for t in terms:
+            t = str(t or "").strip().lower()
+            pre, suf = t.startswith("*"), t.endswith("*")
+            core = t.strip("*")
+            if not core or core.split()[0] in HEALTH_KEEP:
+                continue
+            parts.append(("" if pre else r"\b") + r"\s+".join(re.escape(w) for w in core.split()) + ("" if suf else r"\b"))
+        _HEALTH_SCREEN = re.compile("(?:" + "|".join(parts) + ")", re.I) if parts else re.compile(r"(?!x)x")
+    return bool(_HEALTH_SCREEN.search(text or ""))
+
+def rss_items(xml_text):
+    """(title, link, datetime) per <item>, tolerant of the two date formats the sources use."""
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime
+    out = []
+    root = ET.fromstring(xml_text.encode("utf-8", "replace"))
+    for it in root.iter("item"):
+        title = clean(it.findtext("title") or "")
+        link = (it.findtext("link") or "").strip()
+        raw = (it.findtext("pubDate") or it.findtext("{http://purl.org/dc/elements/1.1/}date") or "").strip()
+        when = None
+        def iso_z(v):   # ISO with a colon-less offset ("2026-09-18T13:00:00-0400", SAMHSA): Python 3.9 fromisoformat rejects it
+            return datetime.strptime(v, "%Y-%m-%dT%H:%M:%S%z")
+        for parser in (parsedate_to_datetime, datetime.fromisoformat, iso_z):
+            try:
+                when = parser(raw)
+                break
+            except Exception:
+                continue
+        if when is None:
+            continue
+        if when.tzinfo is None:
+            when = when.replace(tzinfo=timezone.utc)
+        if title:
+            out.append((title, link, when))
+    return out
+
+def trim_title(t):
+    if len(t) <= HEALTH_MAX_CHARS:
+        return t
+    cut = t[:HEALTH_MAX_CHARS].rsplit(" ", 1)[0]
+    return cut.rstrip(" ,;:-–—") + "…"
+
+def health():
+    picked = []
+    for label, url in HEALTH_SOURCES:
+        try:
+            items = rss_items(get(url, accept="application/rss+xml, application/xml, text/xml"))
+        except Exception as e:
+            print(f"WARNING: health source {label} failed ({e})", file=sys.stderr)
+            continue
+        items.sort(key=lambda x: x[2], reverse=True)
+        n = 0
+        for title, link, when in items:
+            if HEALTH_SKIP.search(title) or HEALTH_EVENT.search(title):
+                continue
+            age = (datetime.now(timezone.utc) - when).total_seconds() / 86400
+            if age < -1 or age > HEALTH_MAX_AGE_DAYS:      # future-dated listings and stale releases stay off the screen
+                continue
+            if health_screened(title):
+                print(f"health screened ({label}): {title[:80]}", file=sys.stderr)
+                continue
+            picked.append({"text": trim_title(title), "meta": f"{label} · {when.strftime('%b %-d')}", "url": link,
+                           "day": when.strftime("%Y-%m-%d"), "_when": when})
+            n += 1
+            if n >= HEALTH_PER_SOURCE:
+                break
+    if not picked:
+        raise RuntimeError("no health items")
+    # every source gets its newest item on screen first (SAMHSA matters most here and posts least often), then the rest by recency
+    picked.sort(key=lambda x: x["_when"], reverse=True)
+    first, rest, seen_src = [], [], set()
+    for p in picked:
+        src = p["meta"].split(" \u00b7 ")[0]
+        (rest if src in seen_src else first).append(p); seen_src.add(src)
+    picked = first + rest
+    for p in picked:
+        del p["_when"]
+    return {
+        "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
+        "license": "https://www.usa.gov/government-copyright",
+        "updated_at": now_iso(),
+        "items": picked[:HEALTH_MAX],
     }
 
 # ---------------------------------------------------------------- economy
@@ -264,7 +381,7 @@ def economy(existing):
 
 def main():
     rc = 0
-    for name, fn in (("headlines", lambda: headlines()), ("economy", lambda: economy(load_existing("economy")))):
+    for name, fn in (("headlines", lambda: headlines()), ("economy", lambda: economy(load_existing("economy"))), ("health", lambda: health())):
         try:
             doc = fn()
             old = load_existing(name)

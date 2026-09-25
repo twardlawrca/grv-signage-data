@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T04:35:48.849Z",
+  "generatedAt": "2026-09-25T12:42:01.473Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -1150,6 +1150,76 @@
                 "text": "For those who complete residential treatment"
               }
             ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-health-news",
+      "name": "Health news · SAMHSA, CDC and state health departments",
+      "category": "live",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-25",
+        "endsOn": "2027-12-31"
+      },
+      "rotation": {
+        "slideSec": 20,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": [
+            "p-lobby",
+            "p-outpatient",
+            "p-cafeteria",
+            "p-workflex"
+          ]
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTV-ACAFE",
+          "GRVTVOPLOBBY"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-health-news",
+          "type": "live",
+          "title": "Health news",
+          "durationSec": 20,
+          "props": {
+            "feed": "health",
+            "eyebrow": "Health news",
+            "headline": "Healthcare *headlines*",
+            "subline": "From SAMHSA, the CDC and state health departments",
+            "maxItems": 5,
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold"
           }
         }
       ]

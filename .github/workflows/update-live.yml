@@ -1,4 +1,4 @@
-# Auto-refresh the boards' LIVE feeds (live/headlines.json + live/economy.json)
+# Auto-refresh the boards' LIVE feeds (live/headlines.json + live/economy.json + live/health.json)
 # every ~6 hours. Sources: Wikipedia "In the news" (CC BY-SA 4.0), BLS, the
 # Federal Reserve H.15 release and EIA (all public domain) -- free and cleared
 # for display on a business screen. Commits ONLY when something changed, with
@@ -26,7 +26,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Regenerate live/headlines.json + live/economy.json
+      - name: Regenerate live/headlines.json + live/economy.json + live/health.json
         run: python .github/scripts/update-live.py
       - name: Commit & push if anything changed
         run: |
@@ -36,7 +36,7 @@ jobs:
           else
             git config user.name  "grv-signage-live-bot"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git commit -m "auto: refresh live feeds (headlines + economy)"
+            git commit -m "auto: refresh live feeds (headlines + economy + health)"
             git pull --rebase origin main
             git push
             echo "Pushed updated live feeds."
