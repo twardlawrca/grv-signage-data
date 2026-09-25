@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T14:19:29.048Z",
+  "generatedAt": "2026-09-25T15:53:52.494Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -1326,6 +1326,136 @@
             "layout": "cover",
             "motion": "none",
             "headline": "Meet the Greenville leadership team",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-family-words-of-hope",
+      "name": "Family Room · words of hope",
+      "category": "community",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-25",
+        "endsOn": "2027-12-31"
+      },
+      "rotation": {
+        "slideSec": 12,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": [
+            "p-family"
+          ]
+        },
+        "deviceIds": [
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-family-hope-1",
+          "type": "quote",
+          "title": "Words of hope · Emily Dickinson",
+          "durationSec": 12,
+          "props": {
+            "eyebrow": "For the families who wait",
+            "quote": "Hope is the thing with feathers that perches in the soul, and sings the tune without the words, and never stops at all.",
+            "author": "Emily Dickinson",
+            "source": "“Hope is the thing with feathers” · 1861",
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-family-hope-2",
+          "type": "quote",
+          "title": "Words of hope · Robert Frost",
+          "durationSec": 12,
+          "props": {
+            "eyebrow": "For the families who wait",
+            "quote": "The best way out is always through.",
+            "author": "Robert Frost",
+            "source": "North of Boston · 1914",
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-family-hope-3",
+          "type": "quote",
+          "title": "Words of hope · Marcus Aurelius",
+          "durationSec": 12,
+          "props": {
+            "eyebrow": "For the families who wait",
+            "quote": "Very little indeed is necessary for living a happy life.",
+            "author": "Marcus Aurelius",
+            "source": "Meditations, book VII · George Long translation, 1862",
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-family-hope-4",
+          "type": "quote",
+          "title": "Words of hope · Jean de La Fontaine",
+          "durationSec": 12,
+          "props": {
+            "eyebrow": "For the families who wait",
+            "quote": "Patience and length of time do more than strength or passion.",
+            "author": "Jean de La Fontaine",
+            "source": "Fables · Elizur Wright translation, 1841",
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
             "theme": "navy",
             "accent": "gold"
           }
