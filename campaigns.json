@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T12:42:01.473Z",
+  "generatedAt": "2026-09-25T14:19:29.048Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -1155,8 +1155,186 @@
       ]
     },
     {
+      "id": "cmp-grv-health-news-spots",
+      "name": "RCA GRV Health News · spots",
+      "category": "live",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-25",
+        "endsOn": "2026-10-09"
+      },
+      "rotation": {
+        "slideSec": 30,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": [
+            "p-lobby",
+            "p-outpatient",
+            "p-cafeteria",
+            "p-workflex"
+          ]
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTV-ACAFE",
+          "GRVTVOPLOBBY"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-health-spot-988",
+          "type": "video",
+          "title": "988 You Matter (SAMHSA, 30 s)",
+          "durationSec": 30,
+          "props": {
+            "src": "https://rca-grv-demo.netlify.app/health/samhsa-988-you-matter-30s.mp4",
+            "fit": "cover",
+            "takeover": false,
+            "posterAsset": {
+              "id": "ast-health-spot-988-poster",
+              "file": "health-spot-988-you-matter-poster.jpg",
+              "sha256": "dcb695c365513e2c2e03629f39f6a9b6b9f260c9139f0bca699c345b90bd6af8",
+              "width": 960,
+              "height": 540
+            },
+            "eyebrow": "RCA GRV Health News · SAMHSA",
+            "headline": "You matter. Call or text *988* any hour",
+            "sound": {
+              "at": [
+                "10:00",
+                "15:00"
+              ],
+              "volume": 0.6
+            }
+          }
+        },
+        {
+          "id": "cnt-health-spot-tthy-friend",
+          "type": "video",
+          "title": "Talk. They Hear You: Helping a Friend (SAMHSA, 32 s)",
+          "durationSec": 32,
+          "props": {
+            "src": "https://rca-grv-demo.netlify.app/health/samhsa-tthy-helping-a-friend-30s.mp4",
+            "fit": "cover",
+            "takeover": false,
+            "posterAsset": {
+              "id": "ast-health-spot-tthy-friend-poster",
+              "file": "health-spot-tthy-helping-a-friend-poster.jpg",
+              "sha256": "6d06ce0f3032b66864be80c096228017f02f611fcfcd06bcf04911a70d15ba2d",
+              "width": 960,
+              "height": 540
+            },
+            "eyebrow": "RCA GRV Health News · SAMHSA",
+            "headline": "Talk. They hear you: *helping* a friend",
+            "sound": {
+              "at": [
+                "10:00",
+                "15:00"
+              ],
+              "volume": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-grv-leadership-team-2026",
+      "name": "Meet the Greenville leadership team",
+      "category": "recognition",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-25",
+        "endsOn": "2026-12-31"
+      },
+      "rotation": {
+        "slideSec": 15,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-grv-leadership-team-2026",
+          "type": "image",
+          "title": "Meet the Greenville leadership team",
+          "durationSec": 15,
+          "props": {
+            "asset": {
+              "id": "ast-grv-leadership-team-2026",
+              "file": "grv-leadership-team-2026.jpg",
+              "sha256": "3285853442d36787b60ae37071c446df7004ce10927b722112f2ef7c7602c8c8",
+              "width": 1920,
+              "height": 891
+            },
+            "layout": "cover",
+            "motion": "none",
+            "headline": "Meet the Greenville leadership team",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
       "id": "cmp-health-news",
-      "name": "Health news · SAMHSA, CDC and state health departments",
+      "name": "RCA GRV Health News · headlines",
       "category": "live",
       "priority": "normal",
       "status": "active",
@@ -1202,11 +1380,11 @@
         {
           "id": "cnt-health-news",
           "type": "live",
-          "title": "Health news",
+          "title": "RCA GRV Health News · headlines",
           "durationSec": 20,
           "props": {
             "feed": "health",
-            "eyebrow": "Health news",
+            "eyebrow": "RCA GRV Health News",
             "headline": "Healthcare *headlines*",
             "subline": "From SAMHSA, the CDC and state health departments",
             "maxItems": 5,
