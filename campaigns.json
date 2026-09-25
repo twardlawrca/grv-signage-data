@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T15:53:52.494Z",
+  "generatedAt": "2026-09-25T18:56:54.649Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -2625,6 +2625,74 @@
               ],
               "volume": 0.8
             }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-grv-trivia",
+      "name": "GRV Trivia · timed round",
+      "category": "community",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-25",
+        "endsOn": "2027-12-31",
+        "everyMin": 45,
+        "dailyFrom": "07:00",
+        "dailyTo": "21:00"
+      },
+      "rotation": {
+        "slideSec": 18,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": [
+            "p-lobby",
+            "p-cafeteria",
+            "p-family",
+            "p-outpatient",
+            "p-workflex"
+          ]
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVOPLOBBY"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-grv-trivia-round",
+          "type": "trivia",
+          "title": "GRV Trivia · ten questions",
+          "durationSec": 18,
+          "props": {
+            "count": 10,
+            "questionSec": 12,
+            "revealSec": 6,
+            "intro": true,
+            "outro": true,
+            "theme": "navy",
+            "accent": "gold"
           }
         }
       ]

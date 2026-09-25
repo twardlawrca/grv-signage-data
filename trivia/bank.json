@@ -1,0 +1,6266 @@
+{
+ "_usage": "GRV Trivia round (campaign overlay v1.31+): the boards pick `count` questions per round from a seeded permutation of this bank (one permutation per day, every board the same round at the same time). options[answer] is the correct one; the board shuffles the four. Keep questions under ~118 characters, options under 40, facts under 130. General knowledge only: no alcohol, other substances, gambling, violence or medical advice; run trivia/lint.py before pushing. Separate from the root trivia.json (the 1.x Brain Break wellness quiz).",
+ "version": "2026-09-25",
+ "updated_at": "2026-09-25T18:54:08Z",
+ "count": 480,
+ "categories": [
+  "Animals",
+  "Arts & Books",
+  "Food & Cooking",
+  "Geography · United States",
+  "Geography · World",
+  "History & Inventions",
+  "Holidays & Traditions",
+  "Human Body",
+  "Movies & TV",
+  "Music",
+  "Numbers & Puzzles",
+  "Science & Nature",
+  "South Carolina & Greenville",
+  "Space",
+  "Sports",
+  "Words & Language"
+ ],
+ "items": [
+  {
+   "id": "geogr-wor-001",
+   "cat": "Geography · World",
+   "q": "Which is the largest ocean on Earth?",
+   "options": [
+    "Pacific",
+    "Atlantic",
+    "Indian",
+    "Arctic"
+   ],
+   "answer": 0,
+   "fact": "The Pacific covers about a third of the planet's surface."
+  },
+  {
+   "id": "geogr-wor-002",
+   "cat": "Geography · World",
+   "q": "What is the capital of Canada?",
+   "options": [
+    "Ottawa",
+    "Toronto",
+    "Vancouver",
+    "Montreal"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-003",
+   "cat": "Geography · World",
+   "q": "Which river is the longest in South America?",
+   "options": [
+    "Amazon",
+    "Paraná",
+    "Orinoco",
+    "Magdalena"
+   ],
+   "answer": 0,
+   "fact": "The Amazon carries more water than any other river on Earth."
+  },
+  {
+   "id": "geogr-wor-004",
+   "cat": "Geography · World",
+   "q": "Mount Everest sits on the border of Nepal and which country?",
+   "options": [
+    "China",
+    "India",
+    "Bhutan",
+    "Pakistan"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-005",
+   "cat": "Geography · World",
+   "q": "Which country has the most people?",
+   "options": [
+    "India",
+    "China",
+    "United States",
+    "Indonesia"
+   ],
+   "answer": 0,
+   "fact": "India passed China in 2023, according to the United Nations."
+  },
+  {
+   "id": "geogr-wor-006",
+   "cat": "Geography · World",
+   "q": "The Sahara Desert is on which continent?",
+   "options": [
+    "Africa",
+    "Asia",
+    "Australia",
+    "South America"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-007",
+   "cat": "Geography · World",
+   "q": "What is the capital of Australia?",
+   "options": [
+    "Canberra",
+    "Sydney",
+    "Melbourne",
+    "Perth"
+   ],
+   "answer": 0,
+   "fact": "Canberra was purpose-built as a compromise between Sydney and Melbourne."
+  },
+  {
+   "id": "geogr-wor-008",
+   "cat": "Geography · World",
+   "q": "Which country is home to the Great Barrier Reef?",
+   "options": [
+    "Australia",
+    "Indonesia",
+    "Philippines",
+    "Mexico"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-009",
+   "cat": "Geography · World",
+   "q": "Which is the smallest country in the world by area?",
+   "options": [
+    "Vatican City",
+    "Monaco",
+    "Malta",
+    "San Marino"
+   ],
+   "answer": 0,
+   "fact": "It covers about 0.2 square miles."
+  },
+  {
+   "id": "geogr-wor-010",
+   "cat": "Geography · World",
+   "q": "The Eiffel Tower is in which city?",
+   "options": [
+    "Paris",
+    "London",
+    "Rome",
+    "Madrid"
+   ],
+   "answer": 0,
+   "fact": "It was built for the 1889 World's Fair."
+  },
+  {
+   "id": "geogr-wor-011",
+   "cat": "Geography · World",
+   "q": "Which country has the most natural lakes?",
+   "options": [
+    "Canada",
+    "Russia",
+    "Finland",
+    "Brazil"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-012",
+   "cat": "Geography · World",
+   "q": "What is the largest country in the world by area?",
+   "options": [
+    "Russia",
+    "Canada",
+    "China",
+    "United States"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-013",
+   "cat": "Geography · World",
+   "q": "Which mountain range separates France and Spain?",
+   "options": [
+    "Pyrenees",
+    "Alps",
+    "Apennines",
+    "Carpathians"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-014",
+   "cat": "Geography · World",
+   "q": "Tokyo is the capital of which country?",
+   "options": [
+    "Japan",
+    "South Korea",
+    "Thailand",
+    "Vietnam"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-015",
+   "cat": "Geography · World",
+   "q": "Which continent has the most countries?",
+   "options": [
+    "Africa",
+    "Asia",
+    "Europe",
+    "South America"
+   ],
+   "answer": 0,
+   "fact": "Africa has 54 recognized countries."
+  },
+  {
+   "id": "geogr-wor-016",
+   "cat": "Geography · World",
+   "q": "The Nile River flows into which sea?",
+   "options": [
+    "Mediterranean Sea",
+    "Red Sea",
+    "Black Sea",
+    "Arabian Sea"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-017",
+   "cat": "Geography · World",
+   "q": "Which country is both in Europe and Asia?",
+   "options": [
+    "Turkey",
+    "Greece",
+    "Egypt",
+    "Portugal"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-018",
+   "cat": "Geography · World",
+   "q": "What is the capital of Brazil?",
+   "options": [
+    "Brasília",
+    "Rio de Janeiro",
+    "São Paulo",
+    "Salvador"
+   ],
+   "answer": 0,
+   "fact": "Brasília was built from scratch and became the capital in 1960."
+  },
+  {
+   "id": "geogr-wor-019",
+   "cat": "Geography · World",
+   "q": "Which island country lies off the southeast coast of Africa?",
+   "options": [
+    "Madagascar",
+    "Sri Lanka",
+    "Iceland",
+    "Cuba"
+   ],
+   "answer": 0,
+   "fact": "About 90 percent of its wildlife is found nowhere else."
+  },
+  {
+   "id": "geogr-wor-020",
+   "cat": "Geography · World",
+   "q": "The Andes Mountains run along which coast of South America?",
+   "options": [
+    "West",
+    "East",
+    "North",
+    "South"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-021",
+   "cat": "Geography · World",
+   "q": "Which city is known as the Eternal City?",
+   "options": [
+    "Rome",
+    "Athens",
+    "Jerusalem",
+    "Cairo"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-022",
+   "cat": "Geography · World",
+   "q": "Which country gave the Statue of Liberty to the United States?",
+   "options": [
+    "France",
+    "Britain",
+    "Spain",
+    "Italy"
+   ],
+   "answer": 0,
+   "fact": "It was dedicated in 1886."
+  },
+  {
+   "id": "geogr-wor-023",
+   "cat": "Geography · World",
+   "q": "Which desert is the largest hot desert in the world?",
+   "options": [
+    "Sahara",
+    "Gobi",
+    "Kalahari",
+    "Mojave"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-024",
+   "cat": "Geography · World",
+   "q": "What is the capital of Egypt?",
+   "options": [
+    "Cairo",
+    "Alexandria",
+    "Luxor",
+    "Giza"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-025",
+   "cat": "Geography · World",
+   "q": "The Great Wall is in which country?",
+   "options": [
+    "China",
+    "Japan",
+    "India",
+    "Mongolia"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-026",
+   "cat": "Geography · World",
+   "q": "Which country is shaped like a boot?",
+   "options": [
+    "Italy",
+    "Greece",
+    "Portugal",
+    "Norway"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-027",
+   "cat": "Geography · World",
+   "q": "What is the largest island in the world?",
+   "options": [
+    "Greenland",
+    "New Guinea",
+    "Borneo",
+    "Madagascar"
+   ],
+   "answer": 0,
+   "fact": "Australia is bigger, but it counts as a continent."
+  },
+  {
+   "id": "geogr-wor-028",
+   "cat": "Geography · World",
+   "q": "Which country has the city of Marrakech?",
+   "options": [
+    "Morocco",
+    "Egypt",
+    "Tunisia",
+    "Turkey"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-wor-029",
+   "cat": "Geography · World",
+   "q": "Which canal connects the Atlantic and Pacific Oceans?",
+   "options": [
+    "Panama Canal",
+    "Suez Canal",
+    "Erie Canal",
+    "Kiel Canal"
+   ],
+   "answer": 0,
+   "fact": "It opened in 1914."
+  },
+  {
+   "id": "geogr-wor-030",
+   "cat": "Geography · World",
+   "q": "What is the capital of Kenya?",
+   "options": [
+    "Nairobi",
+    "Mombasa",
+    "Lagos",
+    "Accra"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-001",
+   "cat": "Geography · United States",
+   "q": "Which state is the largest by area?",
+   "options": [
+    "Alaska",
+    "Texas",
+    "California",
+    "Montana"
+   ],
+   "answer": 0,
+   "fact": "Alaska is more than twice the size of Texas."
+  },
+  {
+   "id": "geogr-sta-002",
+   "cat": "Geography · United States",
+   "q": "What is the capital of Texas?",
+   "options": [
+    "Austin",
+    "Houston",
+    "Dallas",
+    "San Antonio"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-003",
+   "cat": "Geography · United States",
+   "q": "Which river forms much of the border between Texas and Mexico?",
+   "options": [
+    "Rio Grande",
+    "Colorado",
+    "Mississippi",
+    "Brazos"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-004",
+   "cat": "Geography · United States",
+   "q": "Which state is known as the Sunshine State?",
+   "options": [
+    "Florida",
+    "California",
+    "Arizona",
+    "Hawaii"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-005",
+   "cat": "Geography · United States",
+   "q": "How many states are in the United States?",
+   "options": [
+    "50",
+    "48",
+    "51",
+    "52"
+   ],
+   "answer": 0,
+   "fact": "Hawaii became the 50th state in 1959."
+  },
+  {
+   "id": "geogr-sta-006",
+   "cat": "Geography · United States",
+   "q": "Which is the smallest state by area?",
+   "options": [
+    "Rhode Island",
+    "Delaware",
+    "Connecticut",
+    "New Jersey"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-007",
+   "cat": "Geography · United States",
+   "q": "The Grand Canyon is in which state?",
+   "options": [
+    "Arizona",
+    "Utah",
+    "Nevada",
+    "Colorado"
+   ],
+   "answer": 0,
+   "fact": "The Colorado River carved it over millions of years."
+  },
+  {
+   "id": "geogr-sta-008",
+   "cat": "Geography · United States",
+   "q": "What is the capital of New York State?",
+   "options": [
+    "Albany",
+    "New York City",
+    "Buffalo",
+    "Rochester"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-009",
+   "cat": "Geography · United States",
+   "q": "Which city is called the Windy City?",
+   "options": [
+    "Chicago",
+    "Boston",
+    "Seattle",
+    "Denver"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-010",
+   "cat": "Geography · United States",
+   "q": "Which state has the most people?",
+   "options": [
+    "California",
+    "Texas",
+    "Florida",
+    "New York"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-011",
+   "cat": "Geography · United States",
+   "q": "Mount Rushmore is in which state?",
+   "options": [
+    "South Dakota",
+    "North Dakota",
+    "Wyoming",
+    "Montana"
+   ],
+   "answer": 0,
+   "fact": "It shows Washington, Jefferson, Theodore Roosevelt and Lincoln."
+  },
+  {
+   "id": "geogr-sta-012",
+   "cat": "Geography · United States",
+   "q": "Which two states do not touch any other state?",
+   "options": [
+    "Alaska and Hawaii",
+    "Maine and Florida",
+    "Texas and Alaska",
+    "Hawaii and Washington"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-013",
+   "cat": "Geography · United States",
+   "q": "What is the longest river in the United States?",
+   "options": [
+    "Missouri",
+    "Mississippi",
+    "Colorado",
+    "Ohio"
+   ],
+   "answer": 0,
+   "fact": "The Missouri edges out the Mississippi as the longest."
+  },
+  {
+   "id": "geogr-sta-014",
+   "cat": "Geography · United States",
+   "q": "Which state is home to Yellowstone's famous geyser, Old Faithful?",
+   "options": [
+    "Wyoming",
+    "Montana",
+    "Idaho",
+    "Colorado"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-015",
+   "cat": "Geography · United States",
+   "q": "Which city is the capital of the United States?",
+   "options": [
+    "Washington, D.C.",
+    "New York City",
+    "Philadelphia",
+    "Boston"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-016",
+   "cat": "Geography · United States",
+   "q": "Which Great Lake is the largest?",
+   "options": [
+    "Lake Superior",
+    "Lake Michigan",
+    "Lake Huron",
+    "Lake Erie"
+   ],
+   "answer": 0,
+   "fact": "It is the largest freshwater lake in the world by surface area."
+  },
+  {
+   "id": "geogr-sta-017",
+   "cat": "Geography · United States",
+   "q": "Which state is known as the Peach State?",
+   "options": [
+    "Georgia",
+    "South Carolina",
+    "Alabama",
+    "Tennessee"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-018",
+   "cat": "Geography · United States",
+   "q": "What is the capital of Georgia?",
+   "options": [
+    "Atlanta",
+    "Savannah",
+    "Augusta",
+    "Macon"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-019",
+   "cat": "Geography · United States",
+   "q": "Which state is called the Tar Heel State?",
+   "options": [
+    "North Carolina",
+    "South Carolina",
+    "Virginia",
+    "Kentucky"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-020",
+   "cat": "Geography · United States",
+   "q": "The Golden Gate Bridge is in which city?",
+   "options": [
+    "San Francisco",
+    "Los Angeles",
+    "San Diego",
+    "Seattle"
+   ],
+   "answer": 0,
+   "fact": "Its color is officially called International Orange."
+  },
+  {
+   "id": "geogr-sta-021",
+   "cat": "Geography · United States",
+   "q": "Which state is known as the Lone Star State?",
+   "options": [
+    "Texas",
+    "Arizona",
+    "Oklahoma",
+    "New Mexico"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-022",
+   "cat": "Geography · United States",
+   "q": "Which state is home to the Everglades?",
+   "options": [
+    "Florida",
+    "Louisiana",
+    "Georgia",
+    "Alabama"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-023",
+   "cat": "Geography · United States",
+   "q": "What is the capital of Tennessee?",
+   "options": [
+    "Nashville",
+    "Memphis",
+    "Knoxville",
+    "Chattanooga"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-024",
+   "cat": "Geography · United States",
+   "q": "Niagara Falls sits on the border of New York and which country?",
+   "options": [
+    "Canada",
+    "Mexico",
+    "Vermont",
+    "Michigan"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-025",
+   "cat": "Geography · United States",
+   "q": "Which state is the birthplace of Coca-Cola?",
+   "options": [
+    "Georgia",
+    "Texas",
+    "North Carolina",
+    "Tennessee"
+   ],
+   "answer": 0,
+   "fact": "It was first served in Atlanta in 1886."
+  },
+  {
+   "id": "geogr-sta-026",
+   "cat": "Geography · United States",
+   "q": "Which state has the city of Las Vegas?",
+   "options": [
+    "Nevada",
+    "Arizona",
+    "New Mexico",
+    "Utah"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-027",
+   "cat": "Geography · United States",
+   "q": "What is the capital of Florida?",
+   "options": [
+    "Tallahassee",
+    "Miami",
+    "Orlando",
+    "Tampa"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-028",
+   "cat": "Geography · United States",
+   "q": "Which state is known as the Volunteer State?",
+   "options": [
+    "Tennessee",
+    "Kentucky",
+    "Virginia",
+    "Arkansas"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-029",
+   "cat": "Geography · United States",
+   "q": "Which ocean touches the East Coast of the United States?",
+   "options": [
+    "Atlantic",
+    "Pacific",
+    "Indian",
+    "Arctic"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "geogr-sta-030",
+   "cat": "Geography · United States",
+   "q": "Which state is nicknamed the Bluegrass State?",
+   "options": [
+    "Kentucky",
+    "Tennessee",
+    "Virginia",
+    "West Virginia"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-001",
+   "cat": "South Carolina & Greenville",
+   "q": "What is the capital of South Carolina?",
+   "options": [
+    "Columbia",
+    "Charleston",
+    "Greenville",
+    "Myrtle Beach"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-002",
+   "cat": "South Carolina & Greenville",
+   "q": "Which river runs through downtown Greenville's Falls Park?",
+   "options": [
+    "Reedy River",
+    "Saluda River",
+    "Enoree River",
+    "Savannah River"
+   ],
+   "answer": 0,
+   "fact": "The Liberty Bridge curves over the falls."
+  },
+  {
+   "id": "south-gre-003",
+   "cat": "South Carolina & Greenville",
+   "q": "What is South Carolina's state tree?",
+   "options": [
+    "Sabal palmetto",
+    "Live oak",
+    "Loblolly pine",
+    "Southern magnolia"
+   ],
+   "answer": 0,
+   "fact": "It is the palm on the state flag."
+  },
+  {
+   "id": "south-gre-004",
+   "cat": "South Carolina & Greenville",
+   "q": "What is South Carolina's state bird?",
+   "options": [
+    "Carolina wren",
+    "Cardinal",
+    "Mockingbird",
+    "Blue jay"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-005",
+   "cat": "South Carolina & Greenville",
+   "q": "Which fruit is South Carolina's official state fruit?",
+   "options": [
+    "Peach",
+    "Apple",
+    "Watermelon",
+    "Blueberry"
+   ],
+   "answer": 0,
+   "fact": "South Carolina usually grows more peaches than Georgia."
+  },
+  {
+   "id": "south-gre-006",
+   "cat": "South Carolina & Greenville",
+   "q": "What is the name of Greenville's downtown waterfall park?",
+   "options": [
+    "Falls Park on the Reedy",
+    "Cleveland Park",
+    "Paris Mountain Park",
+    "Unity Park"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-007",
+   "cat": "South Carolina & Greenville",
+   "q": "Which mountain is the highest point in South Carolina?",
+   "options": [
+    "Sassafras Mountain",
+    "Table Rock",
+    "Caesars Head",
+    "Paris Mountain"
+   ],
+   "answer": 0,
+   "fact": "It rises to 3,553 feet on the North Carolina line."
+  },
+  {
+   "id": "south-gre-008",
+   "cat": "South Carolina & Greenville",
+   "q": "What is South Carolina's official state dance?",
+   "options": [
+    "The shag",
+    "Square dance",
+    "Line dance",
+    "Waltz"
+   ],
+   "answer": 0,
+   "fact": "It grew up along the Grand Strand beaches."
+  },
+  {
+   "id": "south-gre-009",
+   "cat": "South Carolina & Greenville",
+   "q": "What is South Carolina's official state snack?",
+   "options": [
+    "Boiled peanuts",
+    "Pork rinds",
+    "Pralines",
+    "Benne wafers"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-010",
+   "cat": "South Carolina & Greenville",
+   "q": "Which multi-use trail runs from Greenville to Travelers Rest?",
+   "options": [
+    "Swamp Rabbit Trail",
+    "Palmetto Trail",
+    "Foothills Trail",
+    "Reedy Greenway"
+   ],
+   "answer": 0,
+   "fact": "It follows an old railroad line for about 22 miles."
+  },
+  {
+   "id": "south-gre-011",
+   "cat": "South Carolina & Greenville",
+   "q": "Greenville's minor-league baseball team is the Greenville what?",
+   "options": [
+    "Drive",
+    "Braves",
+    "Bulls",
+    "Rapids"
+   ],
+   "answer": 0,
+   "fact": "The Drive play at Fluor Field, a small copy of Fenway Park."
+  },
+  {
+   "id": "south-gre-012",
+   "cat": "South Carolina & Greenville",
+   "q": "Which university's mascot is the Tiger, just down the road in Clemson?",
+   "options": [
+    "Clemson University",
+    "Furman University",
+    "Wofford College",
+    "Bob Jones University"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-013",
+   "cat": "South Carolina & Greenville",
+   "q": "What is the nickname of South Carolina?",
+   "options": [
+    "The Palmetto State",
+    "The Peach State",
+    "The Tar Heel State",
+    "The Magnolia State"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-014",
+   "cat": "South Carolina & Greenville",
+   "q": "Which South Carolina city is famous for its historic Rainbow Row?",
+   "options": [
+    "Charleston",
+    "Columbia",
+    "Beaufort",
+    "Georgetown"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-015",
+   "cat": "South Carolina & Greenville",
+   "q": "Which South Carolina beach city is on the Grand Strand?",
+   "options": [
+    "Myrtle Beach",
+    "Hilton Head",
+    "Folly Beach",
+    "Edisto Beach"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-016",
+   "cat": "South Carolina & Greenville",
+   "q": "What is South Carolina's official state flower?",
+   "options": [
+    "Yellow jessamine",
+    "Magnolia",
+    "Azalea",
+    "Camellia"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-017",
+   "cat": "South Carolina & Greenville",
+   "q": "Which national park in South Carolina protects old-growth bottomland forest?",
+   "options": [
+    "Congaree National Park",
+    "Great Smoky Mountains",
+    "Shenandoah",
+    "Everglades"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-018",
+   "cat": "South Carolina & Greenville",
+   "q": "Greenville's performing-arts center downtown is called the what?",
+   "options": [
+    "Peace Center",
+    "Bon Secours Arena",
+    "Bi-Lo Center",
+    "Timmons Arena"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-019",
+   "cat": "South Carolina & Greenville",
+   "q": "Which famous baseball player from Greenville was nicknamed 'Shoeless Joe'?",
+   "options": [
+    "Joe Jackson",
+    "Joe DiMaggio",
+    "Joe Morgan",
+    "Joe Torre"
+   ],
+   "answer": 0,
+   "fact": "There is a statue of him downtown on South Main."
+  },
+  {
+   "id": "south-gre-020",
+   "cat": "South Carolina & Greenville",
+   "q": "Which jazz trumpeter with the puffed cheeks was born in Cheraw, South Carolina?",
+   "options": [
+    "Dizzy Gillespie",
+    "Louis Armstrong",
+    "Miles Davis",
+    "Chet Baker"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-021",
+   "cat": "South Carolina & Greenville",
+   "q": "The 'Godfather of Soul,' James Brown, was born in which South Carolina town?",
+   "options": [
+    "Barnwell",
+    "Aiken",
+    "Sumter",
+    "Florence"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-022",
+   "cat": "South Carolina & Greenville",
+   "q": "Which lake in the Upstate is known for its clear, deep blue water?",
+   "options": [
+    "Lake Jocassee",
+    "Lake Marion",
+    "Lake Murray",
+    "Lake Wateree"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-023",
+   "cat": "South Carolina & Greenville",
+   "q": "What are South Carolina's official state colors?",
+   "options": [
+    "Indigo blue and white",
+    "Garnet and black",
+    "Orange and purple",
+    "Green and gold"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-024",
+   "cat": "South Carolina & Greenville",
+   "q": "Which car maker builds SUVs at a huge plant near Spartanburg?",
+   "options": [
+    "BMW",
+    "Ford",
+    "Toyota",
+    "Volvo"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-025",
+   "cat": "South Carolina & Greenville",
+   "q": "Which famous golf resort island is in Beaufort County, South Carolina?",
+   "options": [
+    "Hilton Head Island",
+    "Kiawah Island",
+    "Jekyll Island",
+    "Amelia Island"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-026",
+   "cat": "South Carolina & Greenville",
+   "q": "Which comedian and TV host grew up in Charleston, South Carolina?",
+   "options": [
+    "Stephen Colbert",
+    "Jimmy Fallon",
+    "Conan O'Brien",
+    "Jon Stewart"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-027",
+   "cat": "South Carolina & Greenville",
+   "q": "What is South Carolina's official state reptile?",
+   "options": [
+    "Loggerhead sea turtle",
+    "Alligator",
+    "Box turtle",
+    "Green anole"
+   ],
+   "answer": 0,
+   "fact": "Loggerheads nest on the state's beaches every summer."
+  },
+  {
+   "id": "south-gre-028",
+   "cat": "South Carolina & Greenville",
+   "q": "Which South Carolina town claims to be the birthplace of sweet tea?",
+   "options": [
+    "Summerville",
+    "Greenwood",
+    "Anderson",
+    "Easley"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-029",
+   "cat": "South Carolina & Greenville",
+   "q": "Greenville County sits in which region of South Carolina?",
+   "options": [
+    "The Upstate",
+    "The Lowcountry",
+    "The Midlands",
+    "The Pee Dee"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "south-gre-030",
+   "cat": "South Carolina & Greenville",
+   "q": "The Carolina Reaper, once the world's hottest pepper, was bred in which South Carolina city?",
+   "options": [
+    "Rock Hill",
+    "Greenville",
+    "Charleston",
+    "Columbia"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-001",
+   "cat": "Science & Nature",
+   "q": "What gas do plants take in from the air to make food?",
+   "options": [
+    "Carbon dioxide",
+    "Oxygen",
+    "Nitrogen",
+    "Hydrogen"
+   ],
+   "answer": 0,
+   "fact": "They release oxygen in return."
+  },
+  {
+   "id": "scien-nat-002",
+   "cat": "Science & Nature",
+   "q": "What is the chemical symbol for gold?",
+   "options": [
+    "Au",
+    "Ag",
+    "Gd",
+    "Go"
+   ],
+   "answer": 0,
+   "fact": "It comes from the Latin word aurum."
+  },
+  {
+   "id": "scien-nat-003",
+   "cat": "Science & Nature",
+   "q": "How many bones does an adult human body have?",
+   "options": [
+    "206",
+    "106",
+    "306",
+    "412"
+   ],
+   "answer": 0,
+   "fact": "Babies are born with about 270; many fuse as they grow."
+  },
+  {
+   "id": "scien-nat-004",
+   "cat": "Science & Nature",
+   "q": "Water boils at what temperature at sea level?",
+   "options": [
+    "212 °F",
+    "100 °F",
+    "180 °F",
+    "250 °F"
+   ],
+   "answer": 0,
+   "fact": "That is 100 degrees Celsius."
+  },
+  {
+   "id": "scien-nat-005",
+   "cat": "Science & Nature",
+   "q": "What is the hardest natural substance?",
+   "options": [
+    "Diamond",
+    "Quartz",
+    "Steel",
+    "Granite"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-006",
+   "cat": "Science & Nature",
+   "q": "Which planet is known as the Red Planet?",
+   "options": [
+    "Mars",
+    "Venus",
+    "Jupiter",
+    "Mercury"
+   ],
+   "answer": 0,
+   "fact": "Iron oxide, or rust, gives its soil the color."
+  },
+  {
+   "id": "scien-nat-007",
+   "cat": "Science & Nature",
+   "q": "What is the most common gas in Earth's atmosphere?",
+   "options": [
+    "Nitrogen",
+    "Oxygen",
+    "Carbon dioxide",
+    "Argon"
+   ],
+   "answer": 0,
+   "fact": "About 78 percent of the air is nitrogen."
+  },
+  {
+   "id": "scien-nat-008",
+   "cat": "Science & Nature",
+   "q": "What do bees collect from flowers to make honey?",
+   "options": [
+    "Nectar",
+    "Pollen",
+    "Sap",
+    "Dew"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-009",
+   "cat": "Science & Nature",
+   "q": "What is H2O better known as?",
+   "options": [
+    "Water",
+    "Salt",
+    "Hydrogen",
+    "Bleach"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-010",
+   "cat": "Science & Nature",
+   "q": "Which part of the plant makes food from sunlight?",
+   "options": [
+    "Leaves",
+    "Roots",
+    "Bark",
+    "Flowers"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-011",
+   "cat": "Science & Nature",
+   "q": "What force keeps our feet on the ground?",
+   "options": [
+    "Gravity",
+    "Magnetism",
+    "Friction",
+    "Inertia"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-012",
+   "cat": "Science & Nature",
+   "q": "What is the center of an atom called?",
+   "options": [
+    "Nucleus",
+    "Electron",
+    "Proton",
+    "Orbit"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-013",
+   "cat": "Science & Nature",
+   "q": "How many colors are in a rainbow?",
+   "options": [
+    "Seven",
+    "Five",
+    "Six",
+    "Eight"
+   ],
+   "answer": 0,
+   "fact": "Red, orange, yellow, green, blue, indigo and violet."
+  },
+  {
+   "id": "scien-nat-014",
+   "cat": "Science & Nature",
+   "q": "Which metal is liquid at room temperature?",
+   "options": [
+    "Mercury",
+    "Lead",
+    "Tin",
+    "Aluminum"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-015",
+   "cat": "Science & Nature",
+   "q": "What is the largest organ of the human body?",
+   "options": [
+    "Skin",
+    "Liver",
+    "Brain",
+    "Lungs"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-016",
+   "cat": "Science & Nature",
+   "q": "What kind of energy does a battery store?",
+   "options": [
+    "Chemical energy",
+    "Solar energy",
+    "Sound energy",
+    "Nuclear energy"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-017",
+   "cat": "Science & Nature",
+   "q": "Which instrument measures temperature?",
+   "options": [
+    "Thermometer",
+    "Barometer",
+    "Odometer",
+    "Speedometer"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-018",
+   "cat": "Science & Nature",
+   "q": "What is the name for water in its solid form?",
+   "options": [
+    "Ice",
+    "Steam",
+    "Vapor",
+    "Frost"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-019",
+   "cat": "Science & Nature",
+   "q": "Which gas do humans need to breathe to live?",
+   "options": [
+    "Oxygen",
+    "Nitrogen",
+    "Helium",
+    "Carbon dioxide"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-020",
+   "cat": "Science & Nature",
+   "q": "What is the study of weather called?",
+   "options": [
+    "Meteorology",
+    "Geology",
+    "Astronomy",
+    "Biology"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-021",
+   "cat": "Science & Nature",
+   "q": "Which vitamin does the body make from sunlight?",
+   "options": [
+    "Vitamin D",
+    "Vitamin A",
+    "Vitamin C",
+    "Vitamin K"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-022",
+   "cat": "Science & Nature",
+   "q": "What is the boiling point of water in Celsius?",
+   "options": [
+    "100 degrees",
+    "50 degrees",
+    "90 degrees",
+    "212 degrees"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-023",
+   "cat": "Science & Nature",
+   "q": "What is the name of the process by which water turns into vapor?",
+   "options": [
+    "Evaporation",
+    "Condensation",
+    "Freezing",
+    "Melting"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-024",
+   "cat": "Science & Nature",
+   "q": "How many legs does an insect have?",
+   "options": [
+    "Six",
+    "Four",
+    "Eight",
+    "Ten"
+   ],
+   "answer": 0,
+   "fact": "Spiders have eight, which makes them arachnids, not insects."
+  },
+  {
+   "id": "scien-nat-025",
+   "cat": "Science & Nature",
+   "q": "What do we call animals that eat only plants?",
+   "options": [
+    "Herbivores",
+    "Carnivores",
+    "Omnivores",
+    "Predators"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-026",
+   "cat": "Science & Nature",
+   "q": "Which rock is formed from cooled lava?",
+   "options": [
+    "Igneous rock",
+    "Sedimentary rock",
+    "Metamorphic rock",
+    "Limestone"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-027",
+   "cat": "Science & Nature",
+   "q": "What is the smallest unit of life?",
+   "options": [
+    "Cell",
+    "Atom",
+    "Molecule",
+    "Organ"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-028",
+   "cat": "Science & Nature",
+   "q": "What is the name of the force that slows a sled on snow?",
+   "options": [
+    "Friction",
+    "Gravity",
+    "Momentum",
+    "Pressure"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-029",
+   "cat": "Science & Nature",
+   "q": "What are the three states of matter most often taught in school?",
+   "options": [
+    "Solid, liquid, gas",
+    "Hot, cold, warm",
+    "Rock, water, air",
+    "Earth, wind, fire"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "scien-nat-030",
+   "cat": "Science & Nature",
+   "q": "Which element has the chemical symbol O?",
+   "options": [
+    "Oxygen",
+    "Osmium",
+    "Gold",
+    "Oganesson"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-001",
+   "cat": "Animals",
+   "q": "What is the largest animal that has ever lived?",
+   "options": [
+    "Blue whale",
+    "African elephant",
+    "Giraffe",
+    "Great white shark"
+   ],
+   "answer": 0,
+   "fact": "Its heart is about the size of a small car."
+  },
+  {
+   "id": "anima-002",
+   "cat": "Animals",
+   "q": "Which bird is known for repeating words it hears?",
+   "options": [
+    "Parrot",
+    "Owl",
+    "Eagle",
+    "Penguin"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-003",
+   "cat": "Animals",
+   "q": "What is a baby kangaroo called?",
+   "options": [
+    "Joey",
+    "Cub",
+    "Kit",
+    "Calf"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-004",
+   "cat": "Animals",
+   "q": "Which animal is the tallest in the world?",
+   "options": [
+    "Giraffe",
+    "Elephant",
+    "Ostrich",
+    "Camel"
+   ],
+   "answer": 0,
+   "fact": "A giraffe's neck has the same number of bones as a human's: seven."
+  },
+  {
+   "id": "anima-005",
+   "cat": "Animals",
+   "q": "How many hearts does an octopus have?",
+   "options": [
+    "Three",
+    "One",
+    "Two",
+    "Four"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-006",
+   "cat": "Animals",
+   "q": "Which mammal can truly fly?",
+   "options": [
+    "Bat",
+    "Flying squirrel",
+    "Sugar glider",
+    "Colugo"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-007",
+   "cat": "Animals",
+   "q": "What is the fastest land animal?",
+   "options": [
+    "Cheetah",
+    "Lion",
+    "Horse",
+    "Greyhound"
+   ],
+   "answer": 0,
+   "fact": "It can top 60 miles per hour in short bursts."
+  },
+  {
+   "id": "anima-008",
+   "cat": "Animals",
+   "q": "What do you call a group of lions?",
+   "options": [
+    "A pride",
+    "A pack",
+    "A herd",
+    "A flock"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-009",
+   "cat": "Animals",
+   "q": "Which animal is known as the ship of the desert?",
+   "options": [
+    "Camel",
+    "Horse",
+    "Donkey",
+    "Llama"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-010",
+   "cat": "Animals",
+   "q": "What is the largest species of big cat?",
+   "options": [
+    "Tiger",
+    "Lion",
+    "Jaguar",
+    "Leopard"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-011",
+   "cat": "Animals",
+   "q": "Which bird lays the largest eggs?",
+   "options": [
+    "Ostrich",
+    "Emu",
+    "Eagle",
+    "Swan"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-012",
+   "cat": "Animals",
+   "q": "What is a baby swan called?",
+   "options": [
+    "Cygnet",
+    "Duckling",
+    "Gosling",
+    "Chick"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-013",
+   "cat": "Animals",
+   "q": "Which animal has black and white stripes?",
+   "options": [
+    "Zebra",
+    "Panda",
+    "Skunk",
+    "Penguin"
+   ],
+   "answer": 0,
+   "fact": "Every zebra's stripe pattern is unique."
+  },
+  {
+   "id": "anima-014",
+   "cat": "Animals",
+   "q": "How many legs does a spider have?",
+   "options": [
+    "Eight",
+    "Six",
+    "Ten",
+    "Twelve"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-015",
+   "cat": "Animals",
+   "q": "Which sea creature has eight arms?",
+   "options": [
+    "Octopus",
+    "Starfish",
+    "Jellyfish",
+    "Crab"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-016",
+   "cat": "Animals",
+   "q": "What is the slowest-moving mammal?",
+   "options": [
+    "Sloth",
+    "Koala",
+    "Tortoise",
+    "Panda"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-017",
+   "cat": "Animals",
+   "q": "Which animal is Australia's famous hopping marsupial?",
+   "options": [
+    "Kangaroo",
+    "Koala",
+    "Wombat",
+    "Platypus"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-018",
+   "cat": "Animals",
+   "q": "What do caterpillars turn into?",
+   "options": [
+    "Butterflies or moths",
+    "Bees",
+    "Dragonflies",
+    "Beetles"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-019",
+   "cat": "Animals",
+   "q": "Which animal is known for building dams?",
+   "options": [
+    "Beaver",
+    "Otter",
+    "Raccoon",
+    "Muskrat"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-020",
+   "cat": "Animals",
+   "q": "What is the only bird that can fly backwards?",
+   "options": [
+    "Hummingbird",
+    "Sparrow",
+    "Swift",
+    "Kingfisher"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-021",
+   "cat": "Animals",
+   "q": "What is a female deer called?",
+   "options": [
+    "Doe",
+    "Ewe",
+    "Mare",
+    "Hen"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-022",
+   "cat": "Animals",
+   "q": "Which animal sleeps standing up much of the time?",
+   "options": [
+    "Horse",
+    "Dog",
+    "Cat",
+    "Rabbit"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-023",
+   "cat": "Animals",
+   "q": "What is the largest land animal?",
+   "options": [
+    "African elephant",
+    "Hippopotamus",
+    "Rhinoceros",
+    "Giraffe"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-024",
+   "cat": "Animals",
+   "q": "Which insect makes honey?",
+   "options": [
+    "Honeybee",
+    "Wasp",
+    "Ant",
+    "Hornet"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-025",
+   "cat": "Animals",
+   "q": "Dolphins are what kind of animal?",
+   "options": [
+    "Mammals",
+    "Fish",
+    "Reptiles",
+    "Amphibians"
+   ],
+   "answer": 0,
+   "fact": "They breathe air and nurse their young."
+  },
+  {
+   "id": "anima-026",
+   "cat": "Animals",
+   "q": "Which bird is the symbol of the United States?",
+   "options": [
+    "Bald eagle",
+    "Golden eagle",
+    "Hawk",
+    "Turkey"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-027",
+   "cat": "Animals",
+   "q": "What do you call a baby goat?",
+   "options": [
+    "Kid",
+    "Lamb",
+    "Foal",
+    "Calf"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-028",
+   "cat": "Animals",
+   "q": "Which animal has the longest lifespan of any mammal?",
+   "options": [
+    "Bowhead whale",
+    "Elephant",
+    "Human",
+    "Blue whale"
+   ],
+   "answer": 0,
+   "fact": "Some have lived more than 200 years."
+  },
+  {
+   "id": "anima-029",
+   "cat": "Animals",
+   "q": "A tortoise lives mostly on land. Where does a turtle mostly live?",
+   "options": [
+    "In water",
+    "In trees",
+    "Underground",
+    "In deserts"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "anima-030",
+   "cat": "Animals",
+   "q": "What is a group of wolves called?",
+   "options": [
+    "A pack",
+    "A pride",
+    "A school",
+    "A colony"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-001",
+   "cat": "Space",
+   "q": "Which planet is closest to the Sun?",
+   "options": [
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-002",
+   "cat": "Space",
+   "q": "What is the largest planet in our solar system?",
+   "options": [
+    "Jupiter",
+    "Saturn",
+    "Neptune",
+    "Earth"
+   ],
+   "answer": 0,
+   "fact": "More than 1,300 Earths could fit inside it."
+  },
+  {
+   "id": "space-003",
+   "cat": "Space",
+   "q": "Who was the first person to walk on the Moon?",
+   "options": [
+    "Neil Armstrong",
+    "Buzz Aldrin",
+    "John Glenn",
+    "Alan Shepard"
+   ],
+   "answer": 0,
+   "fact": "He stepped onto the Moon on July 20, 1969."
+  },
+  {
+   "id": "space-004",
+   "cat": "Space",
+   "q": "Which planet is famous for its rings?",
+   "options": [
+    "Saturn",
+    "Jupiter",
+    "Uranus",
+    "Mars"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-005",
+   "cat": "Space",
+   "q": "What is the name of our galaxy?",
+   "options": [
+    "The Milky Way",
+    "Andromeda",
+    "The Whirlpool",
+    "Triangulum"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-006",
+   "cat": "Space",
+   "q": "How many planets are in our solar system?",
+   "options": [
+    "Eight",
+    "Seven",
+    "Nine",
+    "Ten"
+   ],
+   "answer": 0,
+   "fact": "Pluto was reclassified as a dwarf planet in 2006."
+  },
+  {
+   "id": "space-007",
+   "cat": "Space",
+   "q": "What is the Sun mostly made of?",
+   "options": [
+    "Hydrogen and helium",
+    "Iron and nickel",
+    "Oxygen and carbon",
+    "Rock and dust"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-008",
+   "cat": "Space",
+   "q": "Which planet do we live on?",
+   "options": [
+    "Earth",
+    "Mars",
+    "Venus",
+    "Saturn"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-009",
+   "cat": "Space",
+   "q": "How long does Earth take to orbit the Sun once?",
+   "options": [
+    "About 365 days",
+    "About 30 days",
+    "About 24 hours",
+    "About 100 days"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-010",
+   "cat": "Space",
+   "q": "What is a falling star really?",
+   "options": [
+    "A meteor",
+    "A comet",
+    "A dying star",
+    "A satellite"
+   ],
+   "answer": 0,
+   "fact": "It is a bit of rock or dust burning up in the atmosphere."
+  },
+  {
+   "id": "space-011",
+   "cat": "Space",
+   "q": "Which is the hottest planet in the solar system?",
+   "options": [
+    "Venus",
+    "Mercury",
+    "Mars",
+    "Jupiter"
+   ],
+   "answer": 0,
+   "fact": "Its thick atmosphere traps heat like a blanket."
+  },
+  {
+   "id": "space-012",
+   "cat": "Space",
+   "q": "What do astronauts call the space station that orbits Earth?",
+   "options": [
+    "International Space Station",
+    "Skylab",
+    "Mir",
+    "Hubble"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-013",
+   "cat": "Space",
+   "q": "The Moon orbits which body?",
+   "options": [
+    "Earth",
+    "The Sun",
+    "Mars",
+    "Venus"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-014",
+   "cat": "Space",
+   "q": "Which planet has a giant storm called the Great Red Spot?",
+   "options": [
+    "Jupiter",
+    "Saturn",
+    "Neptune",
+    "Mars"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-015",
+   "cat": "Space",
+   "q": "What is the name of the first artificial satellite launched in 1957?",
+   "options": [
+    "Sputnik",
+    "Explorer",
+    "Vanguard",
+    "Apollo"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-016",
+   "cat": "Space",
+   "q": "Roughly how long does sunlight take to reach Earth?",
+   "options": [
+    "About 8 minutes",
+    "About 8 seconds",
+    "About 8 hours",
+    "About 8 days"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-017",
+   "cat": "Space",
+   "q": "Which planet is tilted so far that it spins on its side?",
+   "options": [
+    "Uranus",
+    "Neptune",
+    "Saturn",
+    "Mercury"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-018",
+   "cat": "Space",
+   "q": "What is the closest star to Earth?",
+   "options": [
+    "The Sun",
+    "Sirius",
+    "Polaris",
+    "Alpha Centauri"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-019",
+   "cat": "Space",
+   "q": "What is the name of NASA's rover that landed on Mars in 2021?",
+   "options": [
+    "Perseverance",
+    "Curiosity",
+    "Spirit",
+    "Opportunity"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-020",
+   "cat": "Space",
+   "q": "Which planet is known as Earth's twin because of its size?",
+   "options": [
+    "Venus",
+    "Mars",
+    "Mercury",
+    "Neptune"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-021",
+   "cat": "Space",
+   "q": "What is a comet's tail made of?",
+   "options": [
+    "Gas and dust",
+    "Fire",
+    "Ice only",
+    "Metal"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-022",
+   "cat": "Space",
+   "q": "Which space telescope launched in 1990 and is named after an astronomer?",
+   "options": [
+    "Hubble",
+    "Kepler",
+    "Webb",
+    "Galileo"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-023",
+   "cat": "Space",
+   "q": "What is the name of the dwarf planet that used to be called the ninth planet?",
+   "options": [
+    "Pluto",
+    "Ceres",
+    "Eris",
+    "Makemake"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-024",
+   "cat": "Space",
+   "q": "Which planet has the most moons discovered so far?",
+   "options": [
+    "Saturn",
+    "Jupiter",
+    "Uranus",
+    "Neptune"
+   ],
+   "answer": 0,
+   "fact": "Saturn's count passed 140 confirmed moons in 2023."
+  },
+  {
+   "id": "space-025",
+   "cat": "Space",
+   "q": "Which NASA program landed astronauts on the Moon?",
+   "options": [
+    "Apollo",
+    "Gemini",
+    "Mercury",
+    "Artemis"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-026",
+   "cat": "Space",
+   "q": "A light-year measures what?",
+   "options": [
+    "Distance",
+    "Time",
+    "Brightness",
+    "Speed"
+   ],
+   "answer": 0,
+   "fact": "It is how far light travels in one year: about 5.9 trillion miles."
+  },
+  {
+   "id": "space-027",
+   "cat": "Space",
+   "q": "What is the name of the Moon's phase when it is fully lit?",
+   "options": [
+    "Full moon",
+    "New moon",
+    "Crescent",
+    "Gibbous"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-028",
+   "cat": "Space",
+   "q": "Which planet takes the longest to orbit the Sun?",
+   "options": [
+    "Neptune",
+    "Jupiter",
+    "Saturn",
+    "Uranus"
+   ],
+   "answer": 0,
+   "fact": "One Neptune year is about 165 Earth years."
+  },
+  {
+   "id": "space-029",
+   "cat": "Space",
+   "q": "What was the name of the first American in space, in 1961?",
+   "options": [
+    "Alan Shepard",
+    "John Glenn",
+    "Neil Armstrong",
+    "Gus Grissom"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "space-030",
+   "cat": "Space",
+   "q": "Which planet has the tallest volcano in the solar system, Olympus Mons?",
+   "options": [
+    "Mars",
+    "Venus",
+    "Earth",
+    "Mercury"
+   ],
+   "answer": 0,
+   "fact": "It is nearly three times the height of Mount Everest."
+  },
+  {
+   "id": "human-bod-001",
+   "cat": "Human Body",
+   "q": "How many chambers does the human heart have?",
+   "options": [
+    "Four",
+    "Two",
+    "Three",
+    "Six"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-002",
+   "cat": "Human Body",
+   "q": "Which organ pumps blood through the body?",
+   "options": [
+    "Heart",
+    "Liver",
+    "Lungs",
+    "Kidneys"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-003",
+   "cat": "Human Body",
+   "q": "What is the strongest muscle in the body by weight?",
+   "options": [
+    "The masseter, in the jaw",
+    "The tongue",
+    "The biceps",
+    "The calf"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-004",
+   "cat": "Human Body",
+   "q": "How many teeth does an adult usually have, including wisdom teeth?",
+   "options": [
+    "32",
+    "28",
+    "30",
+    "36"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-005",
+   "cat": "Human Body",
+   "q": "What is the smallest bone in the body?",
+   "options": [
+    "The stapes, in the ear",
+    "The pinky bone",
+    "A toe bone",
+    "The wrist bone"
+   ],
+   "answer": 0,
+   "fact": "It is about the size of a grain of rice."
+  },
+  {
+   "id": "human-bod-006",
+   "cat": "Human Body",
+   "q": "Which organ helps you breathe?",
+   "options": [
+    "Lungs",
+    "Stomach",
+    "Liver",
+    "Kidneys"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-007",
+   "cat": "Human Body",
+   "q": "What carries oxygen in your blood?",
+   "options": [
+    "Red blood cells",
+    "White blood cells",
+    "Platelets",
+    "Plasma"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-008",
+   "cat": "Human Body",
+   "q": "How many senses are traditionally listed?",
+   "options": [
+    "Five",
+    "Three",
+    "Four",
+    "Seven"
+   ],
+   "answer": 0,
+   "fact": "Sight, hearing, smell, taste and touch."
+  },
+  {
+   "id": "human-bod-009",
+   "cat": "Human Body",
+   "q": "Which part of the body controls balance?",
+   "options": [
+    "The inner ear",
+    "The nose",
+    "The knees",
+    "The stomach"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-010",
+   "cat": "Human Body",
+   "q": "What is the body's largest bone?",
+   "options": [
+    "Femur, the thigh bone",
+    "Tibia",
+    "Humerus",
+    "Spine"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-011",
+   "cat": "Human Body",
+   "q": "What are the tubes that carry blood away from the heart called?",
+   "options": [
+    "Arteries",
+    "Veins",
+    "Nerves",
+    "Tendons"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-012",
+   "cat": "Human Body",
+   "q": "What connects muscles to bones?",
+   "options": [
+    "Tendons",
+    "Ligaments",
+    "Cartilage",
+    "Nerves"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-013",
+   "cat": "Human Body",
+   "q": "How many lungs do people have?",
+   "options": [
+    "Two",
+    "One",
+    "Three",
+    "Four"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-014",
+   "cat": "Human Body",
+   "q": "Which organ cleans the blood and makes urine?",
+   "options": [
+    "Kidneys",
+    "Liver",
+    "Heart",
+    "Pancreas"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-015",
+   "cat": "Human Body",
+   "q": "What is the colored part of the eye called?",
+   "options": [
+    "Iris",
+    "Pupil",
+    "Cornea",
+    "Retina"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-016",
+   "cat": "Human Body",
+   "q": "About how many times does the heart beat in a day at rest?",
+   "options": [
+    "About 100,000",
+    "About 10,000",
+    "About 1,000",
+    "About 1 million"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-017",
+   "cat": "Human Body",
+   "q": "What do we call the body's framework of bones?",
+   "options": [
+    "Skeleton",
+    "Cartilage",
+    "Tissue",
+    "Membrane"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-018",
+   "cat": "Human Body",
+   "q": "Which part of the brain controls balance and coordination?",
+   "options": [
+    "Cerebellum",
+    "Cerebrum",
+    "Brain stem",
+    "Cortex"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-019",
+   "cat": "Human Body",
+   "q": "What is the medical name for the windpipe?",
+   "options": [
+    "Trachea",
+    "Esophagus",
+    "Larynx",
+    "Bronchus"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-020",
+   "cat": "Human Body",
+   "q": "What are the two kinds of cells in the retina that sense light?",
+   "options": [
+    "Rods and cones",
+    "Sticks and stones",
+    "Lines and dots",
+    "Dots and dashes"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-021",
+   "cat": "Human Body",
+   "q": "How much of the human body is water, roughly?",
+   "options": [
+    "About 60 percent",
+    "About 20 percent",
+    "About 40 percent",
+    "About 90 percent"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-022",
+   "cat": "Human Body",
+   "q": "What is the fluid that lets joints move smoothly called?",
+   "options": [
+    "Synovial fluid",
+    "Plasma",
+    "Lymph",
+    "Bile"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-023",
+   "cat": "Human Body",
+   "q": "Which vitamin is best known for helping the body absorb calcium?",
+   "options": [
+    "Vitamin D",
+    "Vitamin C",
+    "Vitamin B12",
+    "Vitamin E"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-024",
+   "cat": "Human Body",
+   "q": "Where is the Achilles tendon?",
+   "options": [
+    "Above the heel",
+    "In the elbow",
+    "In the wrist",
+    "In the neck"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-025",
+   "cat": "Human Body",
+   "q": "What is the name of the muscle below the lungs that helps you breathe?",
+   "options": [
+    "Diaphragm",
+    "Deltoid",
+    "Trapezius",
+    "Abdominal wall"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-026",
+   "cat": "Human Body",
+   "q": "Fingernails grow faster than toenails. True or false?",
+   "options": [
+    "True",
+    "False",
+    "They grow the same",
+    "Only in winter"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-027",
+   "cat": "Human Body",
+   "q": "What are the front cutting teeth called?",
+   "options": [
+    "Incisors",
+    "Molars",
+    "Canines",
+    "Premolars"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-028",
+   "cat": "Human Body",
+   "q": "Which blood type is called the universal donor?",
+   "options": [
+    "O negative",
+    "AB positive",
+    "A positive",
+    "B negative"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "human-bod-029",
+   "cat": "Human Body",
+   "q": "What is the hard outer layer of a tooth called?",
+   "options": [
+    "Enamel",
+    "Dentin",
+    "Pulp",
+    "Plaque"
+   ],
+   "answer": 0,
+   "fact": "Enamel is the hardest substance in the human body."
+  },
+  {
+   "id": "human-bod-030",
+   "cat": "Human Body",
+   "q": "How many vertebrae are in the human spine?",
+   "options": [
+    "33",
+    "24",
+    "26",
+    "40"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-001",
+   "cat": "Food & Cooking",
+   "q": "Which spice comes from the dried stigmas of a crocus flower?",
+   "options": [
+    "Saffron",
+    "Turmeric",
+    "Paprika",
+    "Cumin"
+   ],
+   "answer": 0,
+   "fact": "It takes about 75,000 flowers to make one pound."
+  },
+  {
+   "id": "food-coo-002",
+   "cat": "Food & Cooking",
+   "q": "What is the main ingredient in guacamole?",
+   "options": [
+    "Avocado",
+    "Tomato",
+    "Lime",
+    "Onion"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-003",
+   "cat": "Food & Cooking",
+   "q": "Which nut is used to make marzipan?",
+   "options": [
+    "Almond",
+    "Peanut",
+    "Walnut",
+    "Cashew"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-004",
+   "cat": "Food & Cooking",
+   "q": "Sushi is a traditional dish from which country?",
+   "options": [
+    "Japan",
+    "China",
+    "Thailand",
+    "Korea"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-005",
+   "cat": "Food & Cooking",
+   "q": "What gives bread its rise?",
+   "options": [
+    "Yeast",
+    "Salt",
+    "Sugar",
+    "Butter"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-006",
+   "cat": "Food & Cooking",
+   "q": "Which vegetable is the base of a traditional coleslaw?",
+   "options": [
+    "Cabbage",
+    "Lettuce",
+    "Spinach",
+    "Kale"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-007",
+   "cat": "Food & Cooking",
+   "q": "Which of these is botanically a berry?",
+   "options": [
+    "Banana",
+    "Strawberry",
+    "Raspberry",
+    "Blackberry"
+   ],
+   "answer": 0,
+   "fact": "Grapes and tomatoes are berries too, botanically."
+  },
+  {
+   "id": "food-coo-008",
+   "cat": "Food & Cooking",
+   "q": "Which grain is used to make traditional risotto?",
+   "options": [
+    "Rice",
+    "Wheat",
+    "Barley",
+    "Corn"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-009",
+   "cat": "Food & Cooking",
+   "q": "What is the main ingredient in hummus?",
+   "options": [
+    "Chickpeas",
+    "Lentils",
+    "Black beans",
+    "Peanuts"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-010",
+   "cat": "Food & Cooking",
+   "q": "Which fruit is dried to make raisins?",
+   "options": [
+    "Grapes",
+    "Plums",
+    "Apricots",
+    "Figs"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-011",
+   "cat": "Food & Cooking",
+   "q": "What are dried plums called?",
+   "options": [
+    "Prunes",
+    "Dates",
+    "Raisins",
+    "Currants"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-012",
+   "cat": "Food & Cooking",
+   "q": "Grits are made from which grain?",
+   "options": [
+    "Corn",
+    "Rice",
+    "Wheat",
+    "Oats"
+   ],
+   "answer": 0,
+   "fact": "A Southern staple, ground from dried hominy."
+  },
+  {
+   "id": "food-coo-013",
+   "cat": "Food & Cooking",
+   "q": "Which country is famous for inventing pizza?",
+   "options": [
+    "Italy",
+    "Greece",
+    "France",
+    "Spain"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-014",
+   "cat": "Food & Cooking",
+   "q": "Which dairy product is made by churning cream?",
+   "options": [
+    "Butter",
+    "Yogurt",
+    "Cheese",
+    "Ice cream"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-015",
+   "cat": "Food & Cooking",
+   "q": "What kind of pastry is used to make a croissant?",
+   "options": [
+    "Laminated dough with butter",
+    "Shortcrust",
+    "Choux",
+    "Filo"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-016",
+   "cat": "Food & Cooking",
+   "q": "What is the hottest part of a chili pepper?",
+   "options": [
+    "The white membrane and seeds",
+    "The tip",
+    "The skin",
+    "The stem"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-017",
+   "cat": "Food & Cooking",
+   "q": "Which fruit has its seeds on the outside?",
+   "options": [
+    "Strawberry",
+    "Kiwi",
+    "Raspberry",
+    "Blueberry"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-018",
+   "cat": "Food & Cooking",
+   "q": "Tofu is made from which bean?",
+   "options": [
+    "Soybean",
+    "Kidney bean",
+    "Pinto bean",
+    "Lima bean"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-019",
+   "cat": "Food & Cooking",
+   "q": "What is the traditional Thanksgiving bird in the United States?",
+   "options": [
+    "Turkey",
+    "Chicken",
+    "Duck",
+    "Goose"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-020",
+   "cat": "Food & Cooking",
+   "q": "Which sweetener do bees make?",
+   "options": [
+    "Honey",
+    "Maple syrup",
+    "Molasses",
+    "Agave"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-021",
+   "cat": "Food & Cooking",
+   "q": "Which food is made from milk with added live cultures?",
+   "options": [
+    "Yogurt",
+    "Butter",
+    "Cream",
+    "Whey"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-022",
+   "cat": "Food & Cooking",
+   "q": "What do you call a cook who specializes in pastry?",
+   "options": [
+    "Pastry chef",
+    "Sous chef",
+    "Line cook",
+    "Maître d'"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-023",
+   "cat": "Food & Cooking",
+   "q": "Which Southern dish is fried green what?",
+   "options": [
+    "Tomatoes",
+    "Peppers",
+    "Beans",
+    "Onions"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-024",
+   "cat": "Food & Cooking",
+   "q": "Which fruit is the main ingredient in a traditional key lime pie?",
+   "options": [
+    "Lime",
+    "Lemon",
+    "Orange",
+    "Grapefruit"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-025",
+   "cat": "Food & Cooking",
+   "q": "What is the name for Italian ice cream?",
+   "options": [
+    "Gelato",
+    "Sorbet",
+    "Semifreddo",
+    "Granita"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-026",
+   "cat": "Food & Cooking",
+   "q": "Which vegetable is a sweet potato most closely related to?",
+   "options": [
+    "Morning glory",
+    "Potato",
+    "Carrot",
+    "Beet"
+   ],
+   "answer": 0,
+   "fact": "Sweet potatoes and regular potatoes are in different plant families."
+  },
+  {
+   "id": "food-coo-027",
+   "cat": "Food & Cooking",
+   "q": "Which oil is a signature of Mediterranean cooking?",
+   "options": [
+    "Olive oil",
+    "Canola oil",
+    "Peanut oil",
+    "Coconut oil"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-028",
+   "cat": "Food & Cooking",
+   "q": "A bagel is boiled before it is what?",
+   "options": [
+    "Baked",
+    "Fried",
+    "Grilled",
+    "Steamed"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-029",
+   "cat": "Food & Cooking",
+   "q": "Which fruit is known as the king of fruits in Southeast Asia?",
+   "options": [
+    "Durian",
+    "Mango",
+    "Papaya",
+    "Jackfruit"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "food-coo-030",
+   "cat": "Food & Cooking",
+   "q": "Which vegetable comes in varieties called Butternut and Acorn?",
+   "options": [
+    "Squash",
+    "Pumpkin",
+    "Zucchini",
+    "Cucumber"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-001",
+   "cat": "Music",
+   "q": "How many keys does a standard piano have?",
+   "options": [
+    "88",
+    "76",
+    "96",
+    "104"
+   ],
+   "answer": 0,
+   "fact": "52 white and 36 black."
+  },
+  {
+   "id": "music-002",
+   "cat": "Music",
+   "q": "Which instrument has strings, frets and usually six strings?",
+   "options": [
+    "Guitar",
+    "Violin",
+    "Cello",
+    "Harp"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-003",
+   "cat": "Music",
+   "q": "Which city is the home of country music's Grand Ole Opry?",
+   "options": [
+    "Nashville",
+    "Memphis",
+    "Austin",
+    "Atlanta"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-004",
+   "cat": "Music",
+   "q": "Who was known as the King of Rock and Roll?",
+   "options": [
+    "Elvis Presley",
+    "Chuck Berry",
+    "Little Richard",
+    "Buddy Holly"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-005",
+   "cat": "Music",
+   "q": "Which singer is known as the Queen of Soul?",
+   "options": [
+    "Aretha Franklin",
+    "Whitney Houston",
+    "Diana Ross",
+    "Tina Turner"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-006",
+   "cat": "Music",
+   "q": "How many strings does a standard violin have?",
+   "options": [
+    "Four",
+    "Five",
+    "Six",
+    "Eight"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-007",
+   "cat": "Music",
+   "q": "Which instrument is Louis Armstrong famous for playing?",
+   "options": [
+    "Trumpet",
+    "Saxophone",
+    "Piano",
+    "Clarinet"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-008",
+   "cat": "Music",
+   "q": "Which band recorded 'Hey Jude'?",
+   "options": [
+    "The Beatles",
+    "The Rolling Stones",
+    "The Beach Boys",
+    "The Who"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-009",
+   "cat": "Music",
+   "q": "Which musical symbol raises a note by a half step?",
+   "options": [
+    "Sharp",
+    "Flat",
+    "Natural",
+    "Rest"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-010",
+   "cat": "Music",
+   "q": "Which city is known as the birthplace of jazz?",
+   "options": [
+    "New Orleans",
+    "Chicago",
+    "New York",
+    "Kansas City"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-011",
+   "cat": "Music",
+   "q": "Which instrument has 47 strings and seven pedals?",
+   "options": [
+    "Concert harp",
+    "Cello",
+    "Grand piano",
+    "Double bass"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-012",
+   "cat": "Music",
+   "q": "What are the five lines music is written on called?",
+   "options": [
+    "A staff",
+    "A scale",
+    "A ladder",
+    "A clef"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-013",
+   "cat": "Music",
+   "q": "Which composer wrote 'The Four Seasons'?",
+   "options": [
+    "Vivaldi",
+    "Mozart",
+    "Bach",
+    "Beethoven"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-014",
+   "cat": "Music",
+   "q": "Which composer continued to write music after losing his hearing?",
+   "options": [
+    "Beethoven",
+    "Mozart",
+    "Chopin",
+    "Handel"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-015",
+   "cat": "Music",
+   "q": "Which country did the band ABBA come from?",
+   "options": [
+    "Sweden",
+    "Norway",
+    "Denmark",
+    "Germany"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-016",
+   "cat": "Music",
+   "q": "What is the name of Dolly Parton's theme park in Tennessee?",
+   "options": [
+    "Dollywood",
+    "Dollyland",
+    "Partonville",
+    "Smoky World"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-017",
+   "cat": "Music",
+   "q": "What does the word 'tempo' describe in music?",
+   "options": [
+    "Speed",
+    "Volume",
+    "Pitch",
+    "Key"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-018",
+   "cat": "Music",
+   "q": "Which singer released the album 'Thriller' in 1982?",
+   "options": [
+    "Michael Jackson",
+    "Prince",
+    "Stevie Wonder",
+    "Lionel Richie"
+   ],
+   "answer": 0,
+   "fact": "It is still the best-selling album of all time."
+  },
+  {
+   "id": "music-019",
+   "cat": "Music",
+   "q": "Which is the largest bowed string instrument in an orchestra?",
+   "options": [
+    "Double bass",
+    "Cello",
+    "Viola",
+    "Violin"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-020",
+   "cat": "Music",
+   "q": "A group of four singers or players is called a what?",
+   "options": [
+    "Quartet",
+    "Trio",
+    "Quintet",
+    "Duet"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-021",
+   "cat": "Music",
+   "q": "Which musical is set in Oz and tells the witches' story?",
+   "options": [
+    "Wicked",
+    "Cats",
+    "Hamilton",
+    "Annie"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-022",
+   "cat": "Music",
+   "q": "Which singer is known as the Boss?",
+   "options": [
+    "Bruce Springsteen",
+    "Bob Dylan",
+    "Billy Joel",
+    "Tom Petty"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-023",
+   "cat": "Music",
+   "q": "Which instrument family does the flute belong to?",
+   "options": [
+    "Woodwind",
+    "Brass",
+    "String",
+    "Percussion"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-024",
+   "cat": "Music",
+   "q": "What does 'a cappella' mean?",
+   "options": [
+    "Singing without instruments",
+    "Singing loudly",
+    "Singing in Italian",
+    "Singing in a church"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-025",
+   "cat": "Music",
+   "q": "Which Motown group sang 'Stop! In the Name of Love'?",
+   "options": [
+    "The Supremes",
+    "The Temptations",
+    "The Jackson 5",
+    "The Four Tops"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-026",
+   "cat": "Music",
+   "q": "Which country singer is known for 'Jolene' and 'I Will Always Love You'?",
+   "options": [
+    "Dolly Parton",
+    "Reba McEntire",
+    "Loretta Lynn",
+    "Patsy Cline"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-027",
+   "cat": "Music",
+   "q": "What is the lowest male singing voice called?",
+   "options": [
+    "Bass",
+    "Tenor",
+    "Baritone",
+    "Alto"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-028",
+   "cat": "Music",
+   "q": "Which instrument does a drummer hit with a foot pedal?",
+   "options": [
+    "Bass drum",
+    "Snare drum",
+    "Cymbal",
+    "Tom"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-029",
+   "cat": "Music",
+   "q": "Which famous cellist performed at President Obama's 2009 inauguration?",
+   "options": [
+    "Yo-Yo Ma",
+    "Itzhak Perlman",
+    "Joshua Bell",
+    "Lang Lang"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "music-030",
+   "cat": "Music",
+   "q": "Which singer recorded 'Sweet Caroline'?",
+   "options": [
+    "Neil Diamond",
+    "Neil Young",
+    "Elton John",
+    "Barry Manilow"
+   ],
+   "answer": 0,
+   "fact": "Boston Red Sox fans sing it at every home game."
+  },
+  {
+   "id": "movie-tv-001",
+   "cat": "Movies & TV",
+   "q": "Which movie features a lion cub named Simba?",
+   "options": [
+    "The Lion King",
+    "Madagascar",
+    "The Jungle Book",
+    "Zootopia"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-002",
+   "cat": "Movies & TV",
+   "q": "In 'The Wizard of Oz,' what is the name of Dorothy's dog?",
+   "options": [
+    "Toto",
+    "Rex",
+    "Buddy",
+    "Max"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-003",
+   "cat": "Movies & TV",
+   "q": "Which movie has the line 'There's no place like home'?",
+   "options": [
+    "The Wizard of Oz",
+    "Home Alone",
+    "E.T.",
+    "Mary Poppins"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-004",
+   "cat": "Movies & TV",
+   "q": "Which animated movie features a snowman named Olaf?",
+   "options": [
+    "Frozen",
+    "Tangled",
+    "Moana",
+    "Encanto"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-005",
+   "cat": "Movies & TV",
+   "q": "Who played Forrest Gump?",
+   "options": [
+    "Tom Hanks",
+    "Tom Cruise",
+    "Robin Williams",
+    "Kevin Costner"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-006",
+   "cat": "Movies & TV",
+   "q": "Which TV show is set in the Central Perk coffee shop?",
+   "options": [
+    "Friends",
+    "Seinfeld",
+    "Cheers",
+    "Frasier"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-007",
+   "cat": "Movies & TV",
+   "q": "Which movie has a clownfish named Nemo?",
+   "options": [
+    "Finding Nemo",
+    "Shark Tale",
+    "The Little Mermaid",
+    "Moana"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-008",
+   "cat": "Movies & TV",
+   "q": "Which fictional wizard attends Hogwarts?",
+   "options": [
+    "Harry Potter",
+    "Gandalf",
+    "Merlin",
+    "Frodo"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-009",
+   "cat": "Movies & TV",
+   "q": "Which superhero is known as the Man of Steel?",
+   "options": [
+    "Superman",
+    "Batman",
+    "Iron Man",
+    "Captain America"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-010",
+   "cat": "Movies & TV",
+   "q": "Which movie features a toy cowboy named Woody?",
+   "options": [
+    "Toy Story",
+    "Cars",
+    "Shrek",
+    "Up"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-011",
+   "cat": "Movies & TV",
+   "q": "Which TV series is about a family named the Simpsons in Springfield?",
+   "options": [
+    "The Simpsons",
+    "Family Guy",
+    "King of the Hill",
+    "The Flintstones"
+   ],
+   "answer": 0,
+   "fact": "It has run since 1989."
+  },
+  {
+   "id": "movie-tv-012",
+   "cat": "Movies & TV",
+   "q": "Which 1975 movie is about a great white shark off a beach town?",
+   "options": [
+    "Jaws",
+    "Deep Blue Sea",
+    "The Meg",
+    "Open Water"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-013",
+   "cat": "Movies & TV",
+   "q": "In which movie does a boy named Kevin defend his house at Christmas?",
+   "options": [
+    "Home Alone",
+    "Elf",
+    "Jingle All the Way",
+    "The Santa Clause"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-014",
+   "cat": "Movies & TV",
+   "q": "Which actor played Jack in 'Titanic'?",
+   "options": [
+    "Leonardo DiCaprio",
+    "Brad Pitt",
+    "Matt Damon",
+    "Johnny Depp"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-015",
+   "cat": "Movies & TV",
+   "q": "Which TV game show has contestants spin a big wheel and guess letters?",
+   "options": [
+    "Wheel of Fortune",
+    "Jeopardy!",
+    "The Price Is Right",
+    "Family Feud"
+   ],
+   "answer": 0,
+   "fact": "Vanna White, who turns the letters, grew up in North Myrtle Beach."
+  },
+  {
+   "id": "movie-tv-016",
+   "cat": "Movies & TV",
+   "q": "Which movie has a green ogre who lives in a swamp?",
+   "options": [
+    "Shrek",
+    "Monsters, Inc.",
+    "Hulk",
+    "Ice Age"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-017",
+   "cat": "Movies & TV",
+   "q": "Which sitcom features the Dunder Mifflin paper company?",
+   "options": [
+    "The Office",
+    "Parks and Recreation",
+    "30 Rock",
+    "Superstore"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-018",
+   "cat": "Movies & TV",
+   "q": "Which movie follows Marty McFly and a time-traveling DeLorean?",
+   "options": [
+    "Back to the Future",
+    "The Terminator",
+    "Bill & Ted",
+    "Looper"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-019",
+   "cat": "Movies & TV",
+   "q": "Which animated movie is about a rat who wants to be a chef?",
+   "options": [
+    "Ratatouille",
+    "Chef",
+    "Flushed Away",
+    "Stuart Little"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-020",
+   "cat": "Movies & TV",
+   "q": "Which classic film ends with the line 'Here's looking at you, kid'?",
+   "options": [
+    "Casablanca",
+    "Gone with the Wind",
+    "Citizen Kane",
+    "The Maltese Falcon"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-021",
+   "cat": "Movies & TV",
+   "q": "Who is the friendly ghost of cartoons and film?",
+   "options": [
+    "Casper",
+    "Beetlejuice",
+    "Slimer",
+    "Boo"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-022",
+   "cat": "Movies & TV",
+   "q": "Which TV chef is known for shouting in 'Hell's Kitchen'?",
+   "options": [
+    "Gordon Ramsay",
+    "Bobby Flay",
+    "Guy Fieri",
+    "Jamie Oliver"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-023",
+   "cat": "Movies & TV",
+   "q": "Which movie features Elle Woods going to Harvard Law?",
+   "options": [
+    "Legally Blonde",
+    "Clueless",
+    "Mean Girls",
+    "Sweet Home Alabama"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-024",
+   "cat": "Movies & TV",
+   "q": "Which animated movie is about a lonely trash-collecting robot?",
+   "options": [
+    "WALL-E",
+    "Robots",
+    "Big Hero 6",
+    "The Iron Giant"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-025",
+   "cat": "Movies & TV",
+   "q": "Which sitcom is set in the parks department of Pawnee, Indiana?",
+   "options": [
+    "Parks and Recreation",
+    "The Office",
+    "Community",
+    "Scrubs"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-026",
+   "cat": "Movies & TV",
+   "q": "Which movie has the song 'Let It Go'?",
+   "options": [
+    "Frozen",
+    "Moana",
+    "Tangled",
+    "Coco"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-027",
+   "cat": "Movies & TV",
+   "q": "Who directed 'Jurassic Park' and 'E.T.'?",
+   "options": [
+    "Steven Spielberg",
+    "George Lucas",
+    "James Cameron",
+    "Ron Howard"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-028",
+   "cat": "Movies & TV",
+   "q": "Which TV show features the Tanner family and the catchphrase 'How rude'?",
+   "options": [
+    "Full House",
+    "Family Matters",
+    "Step by Step",
+    "Boy Meets World"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-029",
+   "cat": "Movies & TV",
+   "q": "Which movie features a nanny who arrives by umbrella?",
+   "options": [
+    "Mary Poppins",
+    "The Sound of Music",
+    "Nanny McPhee",
+    "Annie"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "movie-tv-030",
+   "cat": "Movies & TV",
+   "q": "Which Pixar movie is set inside the mind of a girl named Riley?",
+   "options": [
+    "Inside Out",
+    "Soul",
+    "Coco",
+    "Turning Red"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-001",
+   "cat": "Sports",
+   "q": "How many players does a basketball team have on the court at once?",
+   "options": [
+    "Five",
+    "Six",
+    "Seven",
+    "Eleven"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-002",
+   "cat": "Sports",
+   "q": "In which sport would you perform a slam dunk?",
+   "options": [
+    "Basketball",
+    "Volleyball",
+    "Tennis",
+    "Football"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-003",
+   "cat": "Sports",
+   "q": "How many holes are on a standard golf course?",
+   "options": [
+    "18",
+    "9",
+    "12",
+    "21"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-004",
+   "cat": "Sports",
+   "q": "Which country hosts the Tour de France?",
+   "options": [
+    "France",
+    "Belgium",
+    "Italy",
+    "Spain"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-005",
+   "cat": "Sports",
+   "q": "How many points is a touchdown worth in American football?",
+   "options": [
+    "Six",
+    "Three",
+    "Seven",
+    "Two"
+   ],
+   "answer": 0,
+   "fact": "The extra point or two-point try comes after."
+  },
+  {
+   "id": "sport-006",
+   "cat": "Sports",
+   "q": "In which sport is the term 'love' used for a score of zero?",
+   "options": [
+    "Tennis",
+    "Golf",
+    "Badminton",
+    "Cricket"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-007",
+   "cat": "Sports",
+   "q": "How often are the Summer Olympic Games held?",
+   "options": [
+    "Every four years",
+    "Every two years",
+    "Every year",
+    "Every five years"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-008",
+   "cat": "Sports",
+   "q": "Which sport is played at Wimbledon?",
+   "options": [
+    "Tennis",
+    "Golf",
+    "Cricket",
+    "Rugby"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-009",
+   "cat": "Sports",
+   "q": "How many innings are in a standard baseball game?",
+   "options": [
+    "Nine",
+    "Seven",
+    "Ten",
+    "Twelve"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-010",
+   "cat": "Sports",
+   "q": "What is the diameter of a basketball hoop in inches?",
+   "options": [
+    "18",
+    "12",
+    "15",
+    "24"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-011",
+   "cat": "Sports",
+   "q": "Which sport uses a puck?",
+   "options": [
+    "Ice hockey",
+    "Lacrosse",
+    "Curling",
+    "Field hockey"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-012",
+   "cat": "Sports",
+   "q": "In soccer, how many players does each team have on the field?",
+   "options": [
+    "Eleven",
+    "Nine",
+    "Ten",
+    "Twelve"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-013",
+   "cat": "Sports",
+   "q": "Which sport is known as America's pastime?",
+   "options": [
+    "Baseball",
+    "Football",
+    "Basketball",
+    "Hockey"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-014",
+   "cat": "Sports",
+   "q": "What color jersey does the leader of the Tour de France wear?",
+   "options": [
+    "Yellow",
+    "Green",
+    "White",
+    "Red"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-015",
+   "cat": "Sports",
+   "q": "Which boxer was known as 'The Greatest'?",
+   "options": [
+    "Muhammad Ali",
+    "Joe Frazier",
+    "George Foreman",
+    "Mike Tyson"
+   ],
+   "answer": 0,
+   "fact": "Joe Frazier, his great rival, was born in Beaufort, South Carolina."
+  },
+  {
+   "id": "sport-016",
+   "cat": "Sports",
+   "q": "How long is a marathon?",
+   "options": [
+    "26.2 miles",
+    "13.1 miles",
+    "20 miles",
+    "30 miles"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-017",
+   "cat": "Sports",
+   "q": "Which sport uses a shuttlecock?",
+   "options": [
+    "Badminton",
+    "Tennis",
+    "Squash",
+    "Table tennis"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-018",
+   "cat": "Sports",
+   "q": "What is the highest score possible in ten-pin bowling?",
+   "options": [
+    "300",
+    "200",
+    "250",
+    "360"
+   ],
+   "answer": 0,
+   "fact": "Twelve strikes in a row."
+  },
+  {
+   "id": "sport-019",
+   "cat": "Sports",
+   "q": "The Masters golf tournament is played in which state?",
+   "options": [
+    "Georgia",
+    "South Carolina",
+    "Florida",
+    "North Carolina"
+   ],
+   "answer": 0,
+   "fact": "Augusta National is just across the Savannah River from South Carolina."
+  },
+  {
+   "id": "sport-020",
+   "cat": "Sports",
+   "q": "In which sport do teams compete for the Stanley Cup?",
+   "options": [
+    "Ice hockey",
+    "Basketball",
+    "Baseball",
+    "Soccer"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-021",
+   "cat": "Sports",
+   "q": "Which NBA star from Greenville County was nicknamed 'The Big Ticket'?",
+   "options": [
+    "Kevin Garnett",
+    "LeBron James",
+    "Tim Duncan",
+    "Kobe Bryant"
+   ],
+   "answer": 0,
+   "fact": "He went to Mauldin High School before finishing in Chicago."
+  },
+  {
+   "id": "sport-022",
+   "cat": "Sports",
+   "q": "How many rings are on the Olympic flag?",
+   "options": [
+    "Five",
+    "Four",
+    "Six",
+    "Seven"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-023",
+   "cat": "Sports",
+   "q": "Which sport's championship is called the World Series?",
+   "options": [
+    "Baseball",
+    "Football",
+    "Basketball",
+    "Hockey"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-024",
+   "cat": "Sports",
+   "q": "In golf, what is one stroke under par called?",
+   "options": [
+    "Birdie",
+    "Eagle",
+    "Bogey",
+    "Albatross"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-025",
+   "cat": "Sports",
+   "q": "Which sport involves riding waves on a board?",
+   "options": [
+    "Surfing",
+    "Rowing",
+    "Sailing",
+    "Kayaking"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-026",
+   "cat": "Sports",
+   "q": "How many players are on a volleyball team on the court?",
+   "options": [
+    "Six",
+    "Five",
+    "Seven",
+    "Eight"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-027",
+   "cat": "Sports",
+   "q": "Which race is called 'The Most Exciting Two Minutes in Sports'?",
+   "options": [
+    "Kentucky Derby",
+    "Indianapolis 500",
+    "Daytona 500",
+    "Boston Marathon"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-028",
+   "cat": "Sports",
+   "q": "Which country has won the most FIFA World Cups in men's soccer?",
+   "options": [
+    "Brazil",
+    "Germany",
+    "Italy",
+    "Argentina"
+   ],
+   "answer": 0,
+   "fact": "Five titles."
+  },
+  {
+   "id": "sport-029",
+   "cat": "Sports",
+   "q": "Which South Carolina speedway is nicknamed 'Too Tough to Tame'?",
+   "options": [
+    "Darlington Raceway",
+    "Talladega",
+    "Daytona",
+    "Bristol"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "sport-030",
+   "cat": "Sports",
+   "q": "What is the term for three strikes in a row in bowling?",
+   "options": [
+    "A turkey",
+    "A hat trick",
+    "A triple",
+    "A goose"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-001",
+   "cat": "History & Inventions",
+   "q": "Who invented the telephone?",
+   "options": [
+    "Alexander Graham Bell",
+    "Thomas Edison",
+    "Nikola Tesla",
+    "Samuel Morse"
+   ],
+   "answer": 0,
+   "fact": "The first call was made in 1876."
+  },
+  {
+   "id": "histo-inv-002",
+   "cat": "History & Inventions",
+   "q": "Which two brothers made the first powered airplane flight?",
+   "options": [
+    "The Wright brothers",
+    "The Marx brothers",
+    "The Warner brothers",
+    "The Ringling brothers"
+   ],
+   "answer": 0,
+   "fact": "It happened at Kitty Hawk, North Carolina, in 1903."
+  },
+  {
+   "id": "histo-inv-003",
+   "cat": "History & Inventions",
+   "q": "Who was the first President of the United States?",
+   "options": [
+    "George Washington",
+    "Thomas Jefferson",
+    "John Adams",
+    "Benjamin Franklin"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-004",
+   "cat": "History & Inventions",
+   "q": "In what year did the Titanic sink?",
+   "options": [
+    "1912",
+    "1905",
+    "1920",
+    "1931"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-005",
+   "cat": "History & Inventions",
+   "q": "Who painted the ceiling of the Sistine Chapel?",
+   "options": [
+    "Michelangelo",
+    "Leonardo da Vinci",
+    "Raphael",
+    "Donatello"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-006",
+   "cat": "History & Inventions",
+   "q": "Which ancient civilization built the pyramids of Giza?",
+   "options": [
+    "The Egyptians",
+    "The Romans",
+    "The Greeks",
+    "The Aztecs"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-007",
+   "cat": "History & Inventions",
+   "q": "Who is credited with inventing the light bulb that became practical for homes?",
+   "options": [
+    "Thomas Edison",
+    "Nikola Tesla",
+    "Benjamin Franklin",
+    "Henry Ford"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-008",
+   "cat": "History & Inventions",
+   "q": "What was the name of the first successful printing press inventor in Europe?",
+   "options": [
+    "Johannes Gutenberg",
+    "Martin Luther",
+    "Galileo",
+    "Isaac Newton"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-009",
+   "cat": "History & Inventions",
+   "q": "Which country was the first to send a person into space?",
+   "options": [
+    "Soviet Union",
+    "United States",
+    "China",
+    "Germany"
+   ],
+   "answer": 0,
+   "fact": "Yuri Gagarin orbited Earth in 1961."
+  },
+  {
+   "id": "histo-inv-010",
+   "cat": "History & Inventions",
+   "q": "Who was the first woman to fly solo across the Atlantic Ocean?",
+   "options": [
+    "Amelia Earhart",
+    "Bessie Coleman",
+    "Sally Ride",
+    "Harriet Quimby"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-011",
+   "cat": "History & Inventions",
+   "q": "Which President is on the U.S. one-dollar bill?",
+   "options": [
+    "George Washington",
+    "Abraham Lincoln",
+    "Thomas Jefferson",
+    "Andrew Jackson"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-012",
+   "cat": "History & Inventions",
+   "q": "What did Alexander Fleming discover in 1928?",
+   "options": [
+    "Penicillin",
+    "Insulin",
+    "X-rays",
+    "Vaccines"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-013",
+   "cat": "History & Inventions",
+   "q": "Who wrote the Declaration of Independence's first draft?",
+   "options": [
+    "Thomas Jefferson",
+    "John Hancock",
+    "George Washington",
+    "James Madison"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-014",
+   "cat": "History & Inventions",
+   "q": "In which year did the United States declare independence?",
+   "options": [
+    "1776",
+    "1783",
+    "1789",
+    "1765"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-015",
+   "cat": "History & Inventions",
+   "q": "Who invented the World Wide Web?",
+   "options": [
+    "Tim Berners-Lee",
+    "Bill Gates",
+    "Steve Jobs",
+    "Mark Zuckerberg"
+   ],
+   "answer": 0,
+   "fact": "He proposed it in 1989 while at CERN."
+  },
+  {
+   "id": "histo-inv-016",
+   "cat": "History & Inventions",
+   "q": "Which explorer is credited with the first European voyage to reach the Americas in 1492?",
+   "options": [
+    "Christopher Columbus",
+    "Ferdinand Magellan",
+    "Marco Polo",
+    "Vasco da Gama"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-017",
+   "cat": "History & Inventions",
+   "q": "Who developed the theory of relativity?",
+   "options": [
+    "Albert Einstein",
+    "Isaac Newton",
+    "Galileo",
+    "Stephen Hawking"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-018",
+   "cat": "History & Inventions",
+   "q": "Which civil-rights leader gave the 'I Have a Dream' speech in 1963?",
+   "options": [
+    "Martin Luther King Jr.",
+    "Rosa Parks",
+    "Malcolm X",
+    "John Lewis"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-019",
+   "cat": "History & Inventions",
+   "q": "Who was the first woman to win a Nobel Prize?",
+   "options": [
+    "Marie Curie",
+    "Jane Addams",
+    "Mother Teresa",
+    "Rosalind Franklin"
+   ],
+   "answer": 0,
+   "fact": "She won two, in physics and chemistry."
+  },
+  {
+   "id": "histo-inv-020",
+   "cat": "History & Inventions",
+   "q": "What was the name of the ship the Pilgrims sailed to America in 1620?",
+   "options": [
+    "Mayflower",
+    "Santa Maria",
+    "Endeavour",
+    "Discovery"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-021",
+   "cat": "History & Inventions",
+   "q": "Which President signed the Emancipation Proclamation?",
+   "options": [
+    "Abraham Lincoln",
+    "Ulysses S. Grant",
+    "Andrew Johnson",
+    "James Buchanan"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-022",
+   "cat": "History & Inventions",
+   "q": "Who was the first person to fly solo nonstop across the Atlantic?",
+   "options": [
+    "Charles Lindbergh",
+    "Howard Hughes",
+    "Amelia Earhart",
+    "Wiley Post"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-023",
+   "cat": "History & Inventions",
+   "q": "Which ancient wonder was a lighthouse?",
+   "options": [
+    "The Pharos of Alexandria",
+    "The Colossus of Rhodes",
+    "The Great Pyramid",
+    "The Temple of Artemis"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-024",
+   "cat": "History & Inventions",
+   "q": "Who is known as the father of modern computing for his 1936 work on machines?",
+   "options": [
+    "Alan Turing",
+    "Charles Babbage",
+    "Bill Gates",
+    "Steve Wozniak"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-025",
+   "cat": "History & Inventions",
+   "q": "Which company introduced the Model T car in 1908?",
+   "options": [
+    "Ford",
+    "Chevrolet",
+    "Chrysler",
+    "Dodge"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-026",
+   "cat": "History & Inventions",
+   "q": "Who was the first African American to play Major League Baseball in the modern era?",
+   "options": [
+    "Jackie Robinson",
+    "Hank Aaron",
+    "Willie Mays",
+    "Satchel Paige"
+   ],
+   "answer": 0,
+   "fact": "He debuted with the Brooklyn Dodgers in 1947."
+  },
+  {
+   "id": "histo-inv-027",
+   "cat": "History & Inventions",
+   "q": "Which famous scientist is linked with an apple falling from a tree?",
+   "options": [
+    "Isaac Newton",
+    "Galileo",
+    "Einstein",
+    "Darwin"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-028",
+   "cat": "History & Inventions",
+   "q": "Who invented the polio vaccine first given widely in 1955?",
+   "options": [
+    "Jonas Salk",
+    "Louis Pasteur",
+    "Edward Jenner",
+    "Albert Sabin"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-029",
+   "cat": "History & Inventions",
+   "q": "Which document begins with 'We the People'?",
+   "options": [
+    "The U.S. Constitution",
+    "The Declaration of Independence",
+    "The Bill of Rights",
+    "The Gettysburg Address"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "histo-inv-030",
+   "cat": "History & Inventions",
+   "q": "What was the first name of the nurse Nightingale, a founder of modern nursing?",
+   "options": [
+    "Florence",
+    "Clara",
+    "Mary",
+    "Edith"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-001",
+   "cat": "Words & Language",
+   "q": "What is a word that means the same as another word called?",
+   "options": [
+    "Synonym",
+    "Antonym",
+    "Homonym",
+    "Acronym"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-002",
+   "cat": "Words & Language",
+   "q": "How many letters are in the English alphabet?",
+   "options": [
+    "26",
+    "24",
+    "25",
+    "28"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-003",
+   "cat": "Words & Language",
+   "q": "What is the opposite of 'ancient'?",
+   "options": [
+    "Modern",
+    "Old",
+    "Historic",
+    "Antique"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-004",
+   "cat": "Words & Language",
+   "q": "Which language has the most native speakers in the world?",
+   "options": [
+    "Mandarin Chinese",
+    "English",
+    "Spanish",
+    "Hindi"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-005",
+   "cat": "Words & Language",
+   "q": "What do we call a word that reads the same backward and forward, like 'level'?",
+   "options": [
+    "Palindrome",
+    "Anagram",
+    "Acronym",
+    "Pun"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-006",
+   "cat": "Words & Language",
+   "q": "What is the plural of 'mouse'?",
+   "options": [
+    "Mice",
+    "Mouses",
+    "Mices",
+    "Meece"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-007",
+   "cat": "Words & Language",
+   "q": "'Hola' means hello in which language?",
+   "options": [
+    "Spanish",
+    "French",
+    "Italian",
+    "German"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-008",
+   "cat": "Words & Language",
+   "q": "Which punctuation mark ends a question?",
+   "options": [
+    "Question mark",
+    "Period",
+    "Comma",
+    "Exclamation point"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-009",
+   "cat": "Words & Language",
+   "q": "What is the longest word in this list: 'cat', 'elephant', 'dog', 'ox'?",
+   "options": [
+    "Elephant",
+    "Cat",
+    "Dog",
+    "Ox"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-010",
+   "cat": "Words & Language",
+   "q": "What does the abbreviation 'a.m.' mean?",
+   "options": [
+    "Before noon",
+    "After noon",
+    "At midnight",
+    "All morning"
+   ],
+   "answer": 0,
+   "fact": "From the Latin ante meridiem."
+  },
+  {
+   "id": "words-lan-011",
+   "cat": "Words & Language",
+   "q": "Which word is a noun: 'run', 'happy', 'table' or 'quickly'?",
+   "options": [
+    "Table",
+    "Run",
+    "Happy",
+    "Quickly"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-012",
+   "cat": "Words & Language",
+   "q": "What do you call a word formed from the first letters of other words, like NASA?",
+   "options": [
+    "Acronym",
+    "Antonym",
+    "Idiom",
+    "Prefix"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-013",
+   "cat": "Words & Language",
+   "q": "How do you say 'thank you' in French?",
+   "options": [
+    "Merci",
+    "Gracias",
+    "Danke",
+    "Grazie"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-014",
+   "cat": "Words & Language",
+   "q": "What is the name for a group of words that expresses a complete thought?",
+   "options": [
+    "Sentence",
+    "Syllable",
+    "Paragraph",
+    "Phrase"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-015",
+   "cat": "Words & Language",
+   "q": "Which of these is a vowel?",
+   "options": [
+    "E",
+    "B",
+    "T",
+    "Z"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-016",
+   "cat": "Words & Language",
+   "q": "'Bonjour' is a greeting in which language?",
+   "options": [
+    "French",
+    "Spanish",
+    "Portuguese",
+    "Dutch"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-017",
+   "cat": "Words & Language",
+   "q": "What is the plural of 'child'?",
+   "options": [
+    "Children",
+    "Childs",
+    "Childes",
+    "Childrens"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-018",
+   "cat": "Words & Language",
+   "q": "What are the words 'their', 'there' and 'they're' an example of?",
+   "options": [
+    "Homophones",
+    "Synonyms",
+    "Antonyms",
+    "Compound words"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-019",
+   "cat": "Words & Language",
+   "q": "Which word means a fear of heights?",
+   "options": [
+    "Acrophobia",
+    "Claustrophobia",
+    "Arachnophobia",
+    "Hydrophobia"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-020",
+   "cat": "Words & Language",
+   "q": "What is a 'haiku'?",
+   "options": [
+    "A three-line poem",
+    "A Japanese dance",
+    "A kind of tea",
+    "A type of sword"
+   ],
+   "answer": 0,
+   "fact": "Five, seven and five syllables."
+  },
+  {
+   "id": "words-lan-021",
+   "cat": "Words & Language",
+   "q": "'Danke' means thank you in which language?",
+   "options": [
+    "German",
+    "Swedish",
+    "Polish",
+    "Dutch"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-022",
+   "cat": "Words & Language",
+   "q": "What is the term for a story that is not true but teaches a lesson, often with animals?",
+   "options": [
+    "Fable",
+    "Biography",
+    "Memoir",
+    "Essay"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-023",
+   "cat": "Words & Language",
+   "q": "How many syllables are in the word 'Greenville'?",
+   "options": [
+    "Two",
+    "One",
+    "Three",
+    "Four"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-024",
+   "cat": "Words & Language",
+   "q": "What does 'Gracias' mean?",
+   "options": [
+    "Thank you",
+    "Hello",
+    "Goodbye",
+    "Please"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-025",
+   "cat": "Words & Language",
+   "q": "Which is the correct spelling?",
+   "options": [
+    "Necessary",
+    "Neccessary",
+    "Necesary",
+    "Neccesary"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-026",
+   "cat": "Words & Language",
+   "q": "What do you call a word that imitates a sound, like 'buzz'?",
+   "options": [
+    "Onomatopoeia",
+    "Alliteration",
+    "Metaphor",
+    "Simile"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-027",
+   "cat": "Words & Language",
+   "q": "What is the collective term for a group of fish?",
+   "options": [
+    "A school",
+    "A pack",
+    "A flock",
+    "A herd"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-028",
+   "cat": "Words & Language",
+   "q": "Which word is spelled the same in English and Spanish and means 'hospital'?",
+   "options": [
+    "Hospital",
+    "Clinica",
+    "Doctor",
+    "Medico"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-029",
+   "cat": "Words & Language",
+   "q": "In grammar, what kind of word describes a noun?",
+   "options": [
+    "Adjective",
+    "Verb",
+    "Adverb",
+    "Pronoun"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "words-lan-030",
+   "cat": "Words & Language",
+   "q": "What is the name for the dots at the end of a trailing-off sentence...?",
+   "options": [
+    "Ellipsis",
+    "Colon",
+    "Hyphen",
+    "Dash"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-001",
+   "cat": "Arts & Books",
+   "q": "Who painted the Mona Lisa?",
+   "options": [
+    "Leonardo da Vinci",
+    "Michelangelo",
+    "Vincent van Gogh",
+    "Pablo Picasso"
+   ],
+   "answer": 0,
+   "fact": "It hangs in the Louvre in Paris."
+  },
+  {
+   "id": "arts-boo-002",
+   "cat": "Arts & Books",
+   "q": "Who wrote 'Romeo and Juliet'?",
+   "options": [
+    "William Shakespeare",
+    "Charles Dickens",
+    "Jane Austen",
+    "Mark Twain"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-003",
+   "cat": "Arts & Books",
+   "q": "Which painter is famous for 'The Starry Night'?",
+   "options": [
+    "Vincent van Gogh",
+    "Claude Monet",
+    "Salvador Dalí",
+    "Rembrandt"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-004",
+   "cat": "Arts & Books",
+   "q": "Who wrote 'The Adventures of Tom Sawyer'?",
+   "options": [
+    "Mark Twain",
+    "Ernest Hemingway",
+    "Jack London",
+    "Herman Melville"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-005",
+   "cat": "Arts & Books",
+   "q": "What are the three primary colors of paint?",
+   "options": [
+    "Red, yellow and blue",
+    "Red, green and blue",
+    "Orange, purple and green",
+    "Black, white and gray"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-006",
+   "cat": "Arts & Books",
+   "q": "Which author created the detective Sherlock Holmes?",
+   "options": [
+    "Arthur Conan Doyle",
+    "Agatha Christie",
+    "Edgar Allan Poe",
+    "Charles Dickens"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-007",
+   "cat": "Arts & Books",
+   "q": "Who wrote 'Charlotte's Web'?",
+   "options": [
+    "E. B. White",
+    "Roald Dahl",
+    "Beverly Cleary",
+    "Judy Blume"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-008",
+   "cat": "Arts & Books",
+   "q": "Which artist is known for painting water lilies?",
+   "options": [
+    "Claude Monet",
+    "Edgar Degas",
+    "Paul Cézanne",
+    "Henri Matisse"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-009",
+   "cat": "Arts & Books",
+   "q": "Who wrote the 'Harry Potter' books?",
+   "options": [
+    "J. K. Rowling",
+    "Stephen King",
+    "Roald Dahl",
+    "C. S. Lewis"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-010",
+   "cat": "Arts & Books",
+   "q": "What do you call a painting of a person?",
+   "options": [
+    "Portrait",
+    "Landscape",
+    "Still life",
+    "Mural"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-011",
+   "cat": "Arts & Books",
+   "q": "Who wrote 'Pride and Prejudice'?",
+   "options": [
+    "Jane Austen",
+    "Charlotte Brontë",
+    "Emily Brontë",
+    "George Eliot"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-012",
+   "cat": "Arts & Books",
+   "q": "Which Dr. Seuss character steals Christmas?",
+   "options": [
+    "The Grinch",
+    "The Cat in the Hat",
+    "Horton",
+    "The Lorax"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-013",
+   "cat": "Arts & Books",
+   "q": "What is a sculpture carved from a single block of marble called?",
+   "options": [
+    "A statue",
+    "A mosaic",
+    "A fresco",
+    "A collage"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-014",
+   "cat": "Arts & Books",
+   "q": "Who wrote 'The Color Purple'?",
+   "options": [
+    "Alice Walker",
+    "Toni Morrison",
+    "Maya Angelou",
+    "Zora Neale Hurston"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-015",
+   "cat": "Arts & Books",
+   "q": "Which artist painted 'Girl with a Pearl Earring'?",
+   "options": [
+    "Johannes Vermeer",
+    "Rembrandt",
+    "Van Gogh",
+    "Picasso"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-016",
+   "cat": "Arts & Books",
+   "q": "Which poet wrote 'Still I Rise'?",
+   "options": [
+    "Maya Angelou",
+    "Emily Dickinson",
+    "Langston Hughes",
+    "Robert Frost"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-017",
+   "cat": "Arts & Books",
+   "q": "Who wrote 'The Cat in the Hat'?",
+   "options": [
+    "Dr. Seuss",
+    "Maurice Sendak",
+    "Eric Carle",
+    "Shel Silverstein"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-018",
+   "cat": "Arts & Books",
+   "q": "What is the art of folding paper into shapes called?",
+   "options": [
+    "Origami",
+    "Ikebana",
+    "Calligraphy",
+    "Bonsai"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-019",
+   "cat": "Arts & Books",
+   "q": "Who wrote 'A Christmas Carol'?",
+   "options": [
+    "Charles Dickens",
+    "Lewis Carroll",
+    "Robert Louis Stevenson",
+    "Oscar Wilde"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-020",
+   "cat": "Arts & Books",
+   "q": "Which famous ballet features the Sugar Plum Fairy?",
+   "options": [
+    "The Nutcracker",
+    "Swan Lake",
+    "Sleeping Beauty",
+    "Giselle"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-021",
+   "cat": "Arts & Books",
+   "q": "Who wrote the poem 'The Road Not Taken'?",
+   "options": [
+    "Robert Frost",
+    "Walt Whitman",
+    "Emily Dickinson",
+    "Carl Sandburg"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-022",
+   "cat": "Arts & Books",
+   "q": "Which museum in New York is often called 'the Met'?",
+   "options": [
+    "Metropolitan Museum of Art",
+    "Museum of Modern Art",
+    "Guggenheim",
+    "Whitney"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-023",
+   "cat": "Arts & Books",
+   "q": "What is the name of the hobbit in 'The Hobbit'?",
+   "options": [
+    "Bilbo Baggins",
+    "Frodo Baggins",
+    "Samwise Gamgee",
+    "Pippin Took"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-024",
+   "cat": "Arts & Books",
+   "q": "Who wrote 'Where the Wild Things Are'?",
+   "options": [
+    "Maurice Sendak",
+    "Dr. Seuss",
+    "Eric Carle",
+    "Margaret Wise Brown"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-025",
+   "cat": "Arts & Books",
+   "q": "Which artist is famous for painting melting clocks?",
+   "options": [
+    "Salvador Dalí",
+    "Pablo Picasso",
+    "Joan Miró",
+    "René Magritte"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-026",
+   "cat": "Arts & Books",
+   "q": "What is a story told in pictures with speech bubbles called?",
+   "options": [
+    "A comic",
+    "A novel",
+    "A memoir",
+    "A ballad"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-027",
+   "cat": "Arts & Books",
+   "q": "Who wrote 'Green Eggs and Ham'?",
+   "options": [
+    "Dr. Seuss",
+    "Roald Dahl",
+    "A. A. Milne",
+    "Beatrix Potter"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-028",
+   "cat": "Arts & Books",
+   "q": "Which author wrote 'Little Women'?",
+   "options": [
+    "Louisa May Alcott",
+    "Jane Austen",
+    "Laura Ingalls Wilder",
+    "Lucy Maud Montgomery"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-029",
+   "cat": "Arts & Books",
+   "q": "Which bear lives in the Hundred Acre Wood?",
+   "options": [
+    "Winnie-the-Pooh",
+    "Paddington",
+    "Baloo",
+    "Yogi"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "arts-boo-030",
+   "cat": "Arts & Books",
+   "q": "What is the name of the very hungry insect in Eric Carle's famous book?",
+   "options": [
+    "Caterpillar",
+    "Ladybug",
+    "Cricket",
+    "Firefly"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-001",
+   "cat": "Numbers & Puzzles",
+   "q": "How many sides does a hexagon have?",
+   "options": [
+    "Six",
+    "Five",
+    "Seven",
+    "Eight"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-002",
+   "cat": "Numbers & Puzzles",
+   "q": "What is 12 times 12?",
+   "options": [
+    "144",
+    "124",
+    "132",
+    "156"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-003",
+   "cat": "Numbers & Puzzles",
+   "q": "How many minutes are in a full day?",
+   "options": [
+    "1,440",
+    "1,240",
+    "1,400",
+    "1,600"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-004",
+   "cat": "Numbers & Puzzles",
+   "q": "What is the Roman numeral for 50?",
+   "options": [
+    "L",
+    "C",
+    "D",
+    "X"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-005",
+   "cat": "Numbers & Puzzles",
+   "q": "How many degrees are in a right angle?",
+   "options": [
+    "90",
+    "45",
+    "180",
+    "360"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-006",
+   "cat": "Numbers & Puzzles",
+   "q": "What is half of 250?",
+   "options": [
+    "125",
+    "120",
+    "115",
+    "150"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-007",
+   "cat": "Numbers & Puzzles",
+   "q": "How many zeros are in one million?",
+   "options": [
+    "Six",
+    "Five",
+    "Seven",
+    "Nine"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-008",
+   "cat": "Numbers & Puzzles",
+   "q": "What is the next prime number after 7?",
+   "options": [
+    "11",
+    "9",
+    "10",
+    "13"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-009",
+   "cat": "Numbers & Puzzles",
+   "q": "How many sides does a stop sign have?",
+   "options": [
+    "Eight",
+    "Six",
+    "Seven",
+    "Ten"
+   ],
+   "answer": 0,
+   "fact": "It is an octagon."
+  },
+  {
+   "id": "numbe-puz-010",
+   "cat": "Numbers & Puzzles",
+   "q": "What is 15 percent of 200?",
+   "options": [
+    "30",
+    "20",
+    "25",
+    "35"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-011",
+   "cat": "Numbers & Puzzles",
+   "q": "What is the value of pi to two decimal places?",
+   "options": [
+    "3.14",
+    "3.41",
+    "3.12",
+    "3.16"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-012",
+   "cat": "Numbers & Puzzles",
+   "q": "How many days are in a leap year?",
+   "options": [
+    "366",
+    "365",
+    "364",
+    "367"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-013",
+   "cat": "Numbers & Puzzles",
+   "q": "What is 9 squared?",
+   "options": [
+    "81",
+    "18",
+    "72",
+    "99"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-014",
+   "cat": "Numbers & Puzzles",
+   "q": "A dozen is how many?",
+   "options": [
+    "12",
+    "10",
+    "20",
+    "6"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-015",
+   "cat": "Numbers & Puzzles",
+   "q": "How many inches are in a foot?",
+   "options": [
+    "12",
+    "10",
+    "14",
+    "16"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-016",
+   "cat": "Numbers & Puzzles",
+   "q": "What is the sum of the angles in a triangle?",
+   "options": [
+    "180 degrees",
+    "90 degrees",
+    "270 degrees",
+    "360 degrees"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-017",
+   "cat": "Numbers & Puzzles",
+   "q": "What is 1,000 divided by 8?",
+   "options": [
+    "125",
+    "112",
+    "120",
+    "135"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-018",
+   "cat": "Numbers & Puzzles",
+   "q": "How many feet are in a mile?",
+   "options": [
+    "5,280",
+    "5,000",
+    "5,500",
+    "6,000"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-019",
+   "cat": "Numbers & Puzzles",
+   "q": "Which number is both a square and a cube: 64, 50, 27 or 36?",
+   "options": [
+    "64",
+    "50",
+    "27",
+    "36"
+   ],
+   "answer": 0,
+   "fact": "64 is 8 squared and 4 cubed."
+  },
+  {
+   "id": "numbe-puz-020",
+   "cat": "Numbers & Puzzles",
+   "q": "How many seconds are in an hour?",
+   "options": [
+    "3,600",
+    "360",
+    "1,800",
+    "6,000"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-021",
+   "cat": "Numbers & Puzzles",
+   "q": "What comes next: 2, 4, 8, 16, ...?",
+   "options": [
+    "32",
+    "20",
+    "24",
+    "30"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-022",
+   "cat": "Numbers & Puzzles",
+   "q": "What is the Roman numeral for 100?",
+   "options": [
+    "C",
+    "L",
+    "M",
+    "D"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-023",
+   "cat": "Numbers & Puzzles",
+   "q": "How many centimeters are in a meter?",
+   "options": [
+    "100",
+    "10",
+    "1,000",
+    "50"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-024",
+   "cat": "Numbers & Puzzles",
+   "q": "What is 7 times 8?",
+   "options": [
+    "56",
+    "54",
+    "48",
+    "64"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-025",
+   "cat": "Numbers & Puzzles",
+   "q": "How many ounces are in a pound?",
+   "options": [
+    "16",
+    "12",
+    "14",
+    "20"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-026",
+   "cat": "Numbers & Puzzles",
+   "q": "What is a shape with five sides called?",
+   "options": [
+    "Pentagon",
+    "Hexagon",
+    "Octagon",
+    "Trapezoid"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-027",
+   "cat": "Numbers & Puzzles",
+   "q": "What is 100 minus 37?",
+   "options": [
+    "63",
+    "57",
+    "67",
+    "73"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-028",
+   "cat": "Numbers & Puzzles",
+   "q": "How many hours are in a week?",
+   "options": [
+    "168",
+    "148",
+    "158",
+    "178"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-029",
+   "cat": "Numbers & Puzzles",
+   "q": "What is one quarter as a percentage?",
+   "options": [
+    "25 percent",
+    "20 percent",
+    "40 percent",
+    "50 percent"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "numbe-puz-030",
+   "cat": "Numbers & Puzzles",
+   "q": "How many players in a trio?",
+   "options": [
+    "Three",
+    "Two",
+    "Four",
+    "Five"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-001",
+   "cat": "Holidays & Traditions",
+   "q": "On which date is Independence Day celebrated in the United States?",
+   "options": [
+    "July 4",
+    "July 14",
+    "June 4",
+    "May 4"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-002",
+   "cat": "Holidays & Traditions",
+   "q": "Which holiday falls on the fourth Thursday of November?",
+   "options": [
+    "Thanksgiving",
+    "Labor Day",
+    "Veterans Day",
+    "Columbus Day"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-003",
+   "cat": "Holidays & Traditions",
+   "q": "What do people traditionally exchange on Valentine's Day?",
+   "options": [
+    "Cards and flowers",
+    "Fireworks",
+    "Costumes",
+    "Pumpkins"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-004",
+   "cat": "Holidays & Traditions",
+   "q": "Which holiday features carved pumpkins?",
+   "options": [
+    "Halloween",
+    "Easter",
+    "Thanksgiving",
+    "New Year's Eve"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-005",
+   "cat": "Holidays & Traditions",
+   "q": "Which day honors workers with a holiday on the first Monday of September?",
+   "options": [
+    "Labor Day",
+    "Memorial Day",
+    "Presidents' Day",
+    "Flag Day"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-006",
+   "cat": "Holidays & Traditions",
+   "q": "Which federal holiday on June 19 marks emancipation in the United States?",
+   "options": [
+    "Juneteenth",
+    "Memorial Day",
+    "Independence Day",
+    "Flag Day"
+   ],
+   "answer": 0,
+   "fact": "It became a federal holiday in 2021."
+  },
+  {
+   "id": "holid-tra-007",
+   "cat": "Holidays & Traditions",
+   "q": "What flower is the traditional symbol of Mother's Day in the United States?",
+   "options": [
+    "Carnation",
+    "Rose",
+    "Tulip",
+    "Daisy"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-008",
+   "cat": "Holidays & Traditions",
+   "q": "Which holiday features a ball drop in Times Square?",
+   "options": [
+    "New Year's Eve",
+    "Christmas",
+    "Halloween",
+    "Fourth of July"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-009",
+   "cat": "Holidays & Traditions",
+   "q": "Which animal is associated with Groundhog Day?",
+   "options": [
+    "Groundhog",
+    "Rabbit",
+    "Turkey",
+    "Reindeer"
+   ],
+   "answer": 0,
+   "fact": "Punxsutawney Phil makes his forecast every February 2."
+  },
+  {
+   "id": "holid-tra-010",
+   "cat": "Holidays & Traditions",
+   "q": "Which month is National Recovery Month?",
+   "options": [
+    "September",
+    "May",
+    "October",
+    "January"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-011",
+   "cat": "Holidays & Traditions",
+   "q": "Which holiday is celebrated with a menorah?",
+   "options": [
+    "Hanukkah",
+    "Diwali",
+    "Kwanzaa",
+    "Ramadan"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-012",
+   "cat": "Holidays & Traditions",
+   "q": "What is the traditional gift for a first wedding anniversary?",
+   "options": [
+    "Paper",
+    "Silver",
+    "Gold",
+    "Wood"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-013",
+   "cat": "Holidays & Traditions",
+   "q": "Which holiday honors those who served in the U.S. armed forces on November 11?",
+   "options": [
+    "Veterans Day",
+    "Memorial Day",
+    "Armed Forces Day",
+    "Patriot Day"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-014",
+   "cat": "Holidays & Traditions",
+   "q": "What is the name of the festival of lights celebrated in India?",
+   "options": [
+    "Diwali",
+    "Holi",
+    "Eid",
+    "Vesak"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-015",
+   "cat": "Holidays & Traditions",
+   "q": "Which holiday is celebrated on March 17?",
+   "options": [
+    "St. Patrick's Day",
+    "Valentine's Day",
+    "April Fools' Day",
+    "Mardi Gras"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-016",
+   "cat": "Holidays & Traditions",
+   "q": "What color is traditionally worn on St. Patrick's Day?",
+   "options": [
+    "Green",
+    "Red",
+    "Blue",
+    "Orange"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-017",
+   "cat": "Holidays & Traditions",
+   "q": "Which U.S. holiday remembers those who lost their lives in military service, on the last Monday of May?",
+   "options": [
+    "Memorial Day",
+    "Veterans Day",
+    "Labor Day",
+    "Flag Day"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-018",
+   "cat": "Holidays & Traditions",
+   "q": "What is Cinco de Mayo?",
+   "options": [
+    "A May 5 celebration of Mexican heritage",
+    "Mexico's Independence Day",
+    "A harvest festival",
+    "A New Year celebration"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-019",
+   "cat": "Holidays & Traditions",
+   "q": "Which holiday is Ebenezer Scrooge associated with?",
+   "options": [
+    "Christmas",
+    "Easter",
+    "Halloween",
+    "New Year's Day"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-020",
+   "cat": "Holidays & Traditions",
+   "q": "Kwanzaa lasts how many days?",
+   "options": [
+    "Seven",
+    "Three",
+    "Five",
+    "Eight"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-021",
+   "cat": "Holidays & Traditions",
+   "q": "Which holiday's traditional colors are red and green?",
+   "options": [
+    "Christmas",
+    "Easter",
+    "Valentine's Day",
+    "St. Patrick's Day"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-022",
+   "cat": "Holidays & Traditions",
+   "q": "What do many people make on New Year's Day?",
+   "options": [
+    "Resolutions",
+    "Costumes",
+    "Snowmen",
+    "Pumpkin pies"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-023",
+   "cat": "Holidays & Traditions",
+   "q": "Which month is Black History Month in the United States?",
+   "options": [
+    "February",
+    "January",
+    "June",
+    "October"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-024",
+   "cat": "Holidays & Traditions",
+   "q": "Which holiday is celebrated with the Rose Parade in Pasadena?",
+   "options": [
+    "New Year's Day",
+    "Thanksgiving",
+    "Fourth of July",
+    "Memorial Day"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-025",
+   "cat": "Holidays & Traditions",
+   "q": "Which holiday is celebrated on the first day of January?",
+   "options": [
+    "New Year's Day",
+    "New Year's Eve",
+    "Epiphany",
+    "Boxing Day"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-026",
+   "cat": "Holidays & Traditions",
+   "q": "What is the traditional Easter egg-carrying character called?",
+   "options": [
+    "The Easter Bunny",
+    "The Easter Chick",
+    "The Spring Fox",
+    "The Egg Fairy"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-027",
+   "cat": "Holidays & Traditions",
+   "q": "What does 'Mardi Gras' mean in French?",
+   "options": [
+    "Fat Tuesday",
+    "Big Party",
+    "Green Wednesday",
+    "Carnival Night"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-028",
+   "cat": "Holidays & Traditions",
+   "q": "Which holiday celebrates Earth on April 22?",
+   "options": [
+    "Earth Day",
+    "Arbor Day",
+    "World Water Day",
+    "Green Day"
+   ],
+   "answer": 0,
+   "fact": ""
+  },
+  {
+   "id": "holid-tra-029",
+   "cat": "Holidays & Traditions",
+   "q": "Which Southern New Year's tradition involves eating black-eyed peas?",
+   "options": [
+    "For good luck in the new year",
+    "For a warm winter",
+    "For a big harvest",
+    "For a long trip"
+   ],
+   "answer": 0,
+   "fact": "Collard greens for money and cornbread for gold often join them."
+  },
+  {
+   "id": "holid-tra-030",
+   "cat": "Holidays & Traditions",
+   "q": "Which national day celebrates nurses each year on May 6 through May 12?",
+   "options": [
+    "National Nurses Week",
+    "Doctors' Day",
+    "Hospital Week",
+    "Health Day"
+   ],
+   "answer": 0,
+   "fact": "It ends on Florence Nightingale's birthday."
+  }
+ ]
+}
