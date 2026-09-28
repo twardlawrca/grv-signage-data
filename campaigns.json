@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T18:56:54.649Z",
+  "generatedAt": "2026-09-28T03:25:51.390Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -125,65 +125,6 @@
             "mode": "card",
             "fallbackAssetId": null,
             "timeoutMs": 8000
-          }
-        }
-      ]
-    },
-    {
-      "id": "cmp-soberfest-2026-volunteers",
-      "name": "SoberFest 2026 · Volunteer call",
-      "category": "community",
-      "priority": "normal",
-      "status": "active",
-      "schedule": {
-        "startsOn": "2026-09-14",
-        "endsOn": "2026-09-26"
-      },
-      "rotation": {
-        "slideSec": 10,
-        "defaultSec": 180,
-        "includeDefault": true
-      },
-      "targets": {
-        "rule": {
-          "mode": "select",
-          "facilityIds": [
-            "grv"
-          ],
-          "buildingIds": [],
-          "unitIds": [],
-          "unitKinds": [],
-          "profileIds": [
-            "p-lobby",
-            "p-workflex",
-            "p-cafeteria"
-          ]
-        },
-        "deviceIds": [
-          "GRVTV-LOBBY",
-          "GRVTVA123",
-          "GRVTV-ACAFE"
-        ],
-        "facilityCodes": [
-          "GRV"
-        ],
-        "buildingCodes": [],
-        "unitCodes": []
-      },
-      "organization": "Recovery Centers of America",
-      "slides": [
-        {
-          "id": "cnt-sf-message",
-          "type": "message",
-          "title": "SoberFest 2026 needs volunteers",
-          "durationSec": 10,
-          "props": {
-            "eyebrow": "SoberFest 2026 · RCA Greenville",
-            "headline": "SoberFest 2026 needs you",
-            "subline": "Volunteers make the day happen. Sign up at the front desk or with your supervisor.",
-            "theme": "navy",
-            "accent": "gold",
-            "align": "left"
           }
         }
       ]
@@ -1676,7 +1617,7 @@
       "status": "active",
       "schedule": {
         "startsOn": "2026-09-20",
-        "endsOn": "2026-09-25"
+        "endsOn": "2026-10-04"
       },
       "rotation": {
         "slideSec": 14,
@@ -1724,16 +1665,16 @@
       "organization": "Recovery Centers of America",
       "slides": [
         {
-          "id": "cnt-napd-honor",
+          "id": "cnt-napd-celebrating",
           "type": "message",
-          "title": "The people who make recovery possible",
-          "durationSec": 14,
+          "title": "We are celebrating you",
+          "durationSec": 12,
           "props": {
-            "eyebrow": "September 20 · National Addiction Professionals Day",
-            "headline": "The people who make *recovery* possible",
-            "subline": "RCA is proud to honor the addiction professionals and recovery support staff who show up each day with compassion, expertise, and a commitment to helping others live a better life.",
+            "eyebrow": "National Addiction Professionals Day 2026",
+            "headline": "We’re celebrating *you.*",
+            "subline": "Every day, you show up for people during some of the most difficult moments of their lives.",
             "theme": "navy",
-            "accent": "purple",
+            "accent": "gold",
             "align": "left"
           }
         },
@@ -1780,6 +1721,80 @@
                 "text": "When it matters most"
               }
             ]
+          }
+        },
+        {
+          "id": "cnt-napd-onesize",
+          "type": "list",
+          "title": "Never one-size-fits-all",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "And you do this every day",
+            "headline": "Recovery is never *one-size-fits-all*",
+            "subline": "It takes:",
+            "style": "bullets",
+            "columns": 2,
+            "photoAsset": {
+              "id": "ast-greenville-entrance",
+              "file": "greenville-entrance.jpg",
+              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
+              "width": 1280,
+              "height": 853,
+              "local": "RCA-Greenville-Entrance.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "clock",
+                "title": "Patience",
+                "text": ""
+              },
+              {
+                "icon": "refresh",
+                "title": "Persistence",
+                "text": ""
+              },
+              {
+                "icon": "dumbbell",
+                "title": "Grit",
+                "text": ""
+              },
+              {
+                "icon": "stethoscope",
+                "title": "Clinical expertise",
+                "text": ""
+              },
+              {
+                "icon": "user",
+                "title": "Personalization",
+                "text": ""
+              },
+              {
+                "icon": "heart",
+                "title": "Empathy",
+                "text": ""
+              },
+              {
+                "icon": "star",
+                "title": "A belief in the potential of every person you serve",
+                "text": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "cnt-napd-honor",
+          "type": "message",
+          "title": "The people who make recovery possible",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "September 20 · National Addiction Professionals Day",
+            "headline": "The people who make *recovery* possible",
+            "subline": "RCA is proud to honor the addiction professionals and recovery support staff who show up each day with compassion, expertise, and a commitment to helping others live a better life.",
+            "theme": "navy",
+            "accent": "purple",
+            "align": "left"
           }
         },
         {
@@ -1838,6 +1853,51 @@
           }
         },
         {
+          "id": "cnt-napd-across",
+          "type": "list",
+          "title": "Across RCA",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "Across RCA",
+            "headline": "What your work *does*",
+            "subline": "Every day, in every role.",
+            "style": "cards",
+            "columns": 2,
+            "photoAsset": {
+              "id": "ast-greenville-campus",
+              "file": "greenville-campus.jpg",
+              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
+              "width": 1280,
+              "height": 960,
+              "local": "GRVTV-Assets/rca-photo-wide.jpg"
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "route",
+                "title": "Helping patients",
+                "text": "take steps toward recovery"
+              },
+              {
+                "icon": "family",
+                "title": "Supporting their families",
+                "text": "through difficult moments"
+              },
+              {
+                "icon": "award",
+                "title": "Celebrating milestones",
+                "text": "that may have once seemed impossible"
+              },
+              {
+                "icon": "lightbulb",
+                "title": "Reminding people",
+                "text": "that their story does not have to end with addiction"
+              }
+            ]
+          }
+        },
+        {
           "id": "cnt-napd-impact",
           "type": "message",
           "title": "More than 94,000 people",
@@ -1871,6 +1931,20 @@
             },
             "theme": "navy",
             "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-napd-happy",
+          "type": "message",
+          "title": "Happy National Addiction Professionals Day",
+          "durationSec": 12,
+          "props": {
+            "eyebrow": "From all of us at Recovery Centers of America",
+            "headline": "You are making a *difference.*",
+            "subline": "Happy National Addiction Professionals Day.",
+            "theme": "navy",
+            "accent": "gold",
+            "align": "center"
           }
         }
       ]
@@ -2477,83 +2551,6 @@
             "photoAssetId": "",
             "theme": "navy",
             "accent": "gold"
-          }
-        }
-      ]
-    },
-    {
-      "id": "cmp-grv-3yr-block-party-video-2026",
-      "name": "RCA Greenville 3-Year Anniversary | Greenville Alumni Block Party (spot)",
-      "category": "community",
-      "priority": "high",
-      "status": "active",
-      "schedule": {
-        "startsOn": "2026-09-25",
-        "endsOn": "2026-09-25",
-        "endsAt": "20:00"
-      },
-      "rotation": {
-        "slideSec": 20,
-        "defaultSec": 180,
-        "includeDefault": true
-      },
-      "targets": {
-        "rule": {
-          "mode": "select",
-          "facilityIds": [
-            "grv"
-          ],
-          "buildingIds": [],
-          "unitIds": [],
-          "unitKinds": [],
-          "profileIds": []
-        },
-        "deviceIds": [
-          "GRVTV-LOBBY",
-          "GRVTVA123",
-          "GRVTVFAMRM01",
-          "GRVTVFAMRM02",
-          "GRVTV-ACAFE",
-          "GRVTVA229L",
-          "GRVTVA229R",
-          "GRVTVOPLOBBY",
-          "GRVTVA325L",
-          "GRVTVA325R",
-          "GRVTV2B",
-          "GRVTVB315L",
-          "GRVTVB315R",
-          "GRVTVB415L",
-          "GRVTVB415R",
-          "GRVTVB515L",
-          "GRVTVB515R",
-          "GRVTVB615L",
-          "GRVTVB615R"
-        ],
-        "facilityCodes": [
-          "GRV"
-        ],
-        "buildingCodes": [],
-        "unitCodes": []
-      },
-      "organization": "Recovery Centers of America",
-      "slides": [
-        {
-          "id": "cnt-grv-3yr-block-party-video",
-          "type": "video",
-          "title": "Block Party spot (20 s, inside the board frame)",
-          "durationSec": 20,
-          "props": {
-            "src": "GRVTV-Assets/video/anniversary-block-party-2026.mp4",
-            "fit": "cover",
-            "takeover": false,
-            "posterAsset": {
-              "id": "ast-anniversary-block-party-poster",
-              "file": "anniversary-block-party-2026-poster.jpg",
-              "sha256": "673363111385f0464d4ed80aec1c7b95e75efd3b08f6055ec6f0f22cdb1daa61",
-              "width": 960,
-              "height": 445
-            },
-            "caption": "RCA Greenville 3-Year Anniversary · Greenville Alumni Block Party · Friday, September 25, 2026, 5:00 to 8:00 PM"
           }
         }
       ]
