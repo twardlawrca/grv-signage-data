@@ -1,7 +1,7 @@
 {
   "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
   "license": "https://www.usa.gov/government-copyright",
-  "updated_at": "2026-09-28T23:22:32Z",
+  "updated_at": "2026-09-29T13:06:49Z",
   "items": [
     {
       "text": "SAMHSA Awards Almost $250 Million to Expand Addiction Treatment, Overdose Prevention and Mental Health Services",
@@ -16,12 +16,6 @@
       "day": "2026-09-25"
     },
     {
-      "text": "Annual Report to the Nation: Progress Against Lung Cancer Drives Down Cancer Mortality",
-      "meta": "CDC · Sep 22",
-      "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=766495",
-      "day": "2026-09-22"
-    },
-    {
       "text": "West Nile Virus Infections Increasing in Georgia - Georgians Urged to Protect Themselves from Mosquito Bites",
       "meta": "Georgia DPH · Sep 16",
       "url": "https://dph.georgia.gov/press-releases/2026-09-16/west-nile-virus-infections-increasing-georgia-georgians-urged-protect",
@@ -34,10 +28,16 @@
       "day": "2026-09-22"
     },
     {
-      "text": "CDC Data Show Encouraging Progress in Youth Health",
-      "meta": "CDC · Sep 21",
-      "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=766493",
-      "day": "2026-09-21"
+      "text": "HHS Announces Supplemental Funding Awards for Faith-Based Prevention in Alabama, Kansas, and West Virginia",
+      "meta": "SAMHSA · Sep 15",
+      "url": "https://www.samhsa.gov/newsroom/press-announcements/20260915/hhs-announces-supplemental-funding-awards-faith-based-prevention-alabama-kansas-west-virginia",
+      "day": "2026-09-15"
+    },
+    {
+      "text": "DPH Measles Update",
+      "meta": "Georgia DPH · Sep 11",
+      "url": "https://dph.georgia.gov/press-releases/2026-09-11/dph-measles-update",
+      "day": "2026-09-11"
     }
   ]
 }
