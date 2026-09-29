@@ -1,8 +1,14 @@
 {
   "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
   "license": "https://www.usa.gov/government-copyright",
-  "updated_at": "2026-09-29T13:06:49Z",
+  "updated_at": "2026-09-29T22:24:08Z",
   "items": [
+    {
+      "text": "Community Baby Shower - Charleston",
+      "meta": "SC DPH · Sep 29",
+      "url": "https://dph.sc.gov/events/community-baby-shower-charleston",
+      "day": "2026-09-29"
+    },
     {
       "text": "SAMHSA Awards Almost $250 Million to Expand Addiction Treatment, Overdose Prevention and Mental Health Services",
       "meta": "SAMHSA · Sep 25",
@@ -10,10 +16,10 @@
       "day": "2026-09-25"
     },
     {
-      "text": "DPH Supports World Rabies Day 2026: Stronger Together",
-      "meta": "SC DPH · Sep 25",
-      "url": "https://dph.sc.gov/news/dph-supports-world-rabies-day-2026-stronger-together",
-      "day": "2026-09-25"
+      "text": "Annual Report to the Nation: Progress Against Lung Cancer Drives Down Cancer Mortality",
+      "meta": "CDC · Sep 22",
+      "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=766495",
+      "day": "2026-09-22"
     },
     {
       "text": "West Nile Virus Infections Increasing in Georgia - Georgians Urged to Protect Themselves from Mosquito Bites",
@@ -22,22 +28,16 @@
       "day": "2026-09-16"
     },
     {
-      "text": "Tracking Radon Dashboard",
-      "meta": "SC DPH · Sep 22",
-      "url": "https://dph.sc.gov/professionals/public-health-data/sc-tracking/tracking-radon-dashboard",
-      "day": "2026-09-22"
+      "text": "DPH Supports World Rabies Day 2026: Stronger Together",
+      "meta": "SC DPH · Sep 25",
+      "url": "https://dph.sc.gov/news/dph-supports-world-rabies-day-2026-stronger-together",
+      "day": "2026-09-25"
     },
     {
-      "text": "HHS Announces Supplemental Funding Awards for Faith-Based Prevention in Alabama, Kansas, and West Virginia",
-      "meta": "SAMHSA · Sep 15",
-      "url": "https://www.samhsa.gov/newsroom/press-announcements/20260915/hhs-announces-supplemental-funding-awards-faith-based-prevention-alabama-kansas-west-virginia",
-      "day": "2026-09-15"
-    },
-    {
-      "text": "DPH Measles Update",
-      "meta": "Georgia DPH · Sep 11",
-      "url": "https://dph.georgia.gov/press-releases/2026-09-11/dph-measles-update",
-      "day": "2026-09-11"
+      "text": "CDC Data Show Encouraging Progress in Youth Health",
+      "meta": "CDC · Sep 21",
+      "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=766493",
+      "day": "2026-09-21"
     }
   ]
 }

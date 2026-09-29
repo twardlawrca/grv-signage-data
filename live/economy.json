@@ -1,6 +1,6 @@
 {
   "source": "U.S. Bureau of Labor Statistics · Federal Reserve Board · U.S. Energy Information Administration",
-  "updated_at": "2026-09-28T23:22:31Z",
+  "updated_at": "2026-09-29T22:24:08Z",
   "items": [
     {
       "key": "unemployment",
@@ -27,7 +27,7 @@
       "label": "Fed funds rate",
       "value": "3.88%",
       "raw": 3.88,
-      "asof": "September 25",
+      "asof": "September 28",
       "delta": "unchanged",
       "dir": "flat",
       "note": "Effective rate · Federal Reserve"
@@ -35,25 +35,25 @@
     {
       "key": "treasury10",
       "label": "10-year Treasury",
-      "value": "5.17%",
-      "raw": 5.17,
-      "asof": "September 25",
-      "delta": "0.01 pt from Sep 24",
-      "dir": "down",
+      "value": "5.24%",
+      "raw": 5.24,
+      "asof": "September 28",
+      "delta": "0.07 pt from Sep 25",
+      "dir": "up",
       "note": "Yield · Federal Reserve H.15"
     },
     {
       "key": "gas",
       "label": "Regular gas",
-      "value": "$4.48",
-      "raw": 4.478,
-      "asof": "Week of September 21",
-      "asofDate": "2026-09-21",
-      "delta": "0.16 from last week",
-      "dir": "up",
-      "note": "Lower Atlantic $4.16 · EIA, U.S. average",
-      "prev": 4.319,
-      "prevDate": "2026-09-14"
+      "value": "$4.46",
+      "raw": 4.465,
+      "asof": "Week of September 28",
+      "asofDate": "2026-09-28",
+      "delta": "0.01 from last week",
+      "dir": "down",
+      "note": "Lower Atlantic $4.20 · EIA, U.S. average",
+      "prev": 4.478,
+      "prevDate": "2026-09-21"
     }
   ]
 }
