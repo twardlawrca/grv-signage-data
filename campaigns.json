@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T03:25:51.390Z",
+  "generatedAt": "2026-09-30T18:14:52.253Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -1189,6 +1189,168 @@
               "at": [
                 "10:00",
                 "15:00"
+              ],
+              "volume": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-rca-recovery-month-people-2026",
+      "name": "RCA · The people behind the work (Recovery Month film)",
+      "category": "live",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-30",
+        "endsOn": "2026-10-31"
+      },
+      "rotation": {
+        "slideSec": 30,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-rca-recovery-month-people",
+          "type": "video",
+          "title": "The people behind the work (RCA Recovery Month film, 88 s, subtitled)",
+          "durationSec": 88,
+          "props": {
+            "src": "https://rca-grv-demo.netlify.app/rca/rca-recovery-month-people-88s-captioned.mp4",
+            "fit": "cover",
+            "posterAsset": {
+              "id": "ast-rca-recovery-month-poster",
+              "file": "rca-recovery-month-people-poster.jpg",
+              "sha256": "4b74c2f723e152d43856bbe9d9bb82fe85192e8a9d81f9cb2b15e796504a6425",
+              "width": 1920,
+              "height": 1080
+            },
+            "sound": {
+              "at": [
+                "12:00",
+                "17:00"
+              ],
+              "volume": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-rca-recovery-direction-reel-2026",
+      "name": "RCA · Recovery is a direction (reel)",
+      "category": "live",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-09-30",
+        "endsOn": "2026-10-31"
+      },
+      "rotation": {
+        "slideSec": 30,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-rca-recovery-direction-reel",
+          "type": "video",
+          "title": "Recovery is a direction (RCA reel, 33 s)",
+          "durationSec": 33,
+          "props": {
+            "src": "https://rca-grv-demo.netlify.app/rca/rca-recovery-direction-reel-33s.mp4",
+            "fit": "cover",
+            "posterAsset": {
+              "id": "ast-rca-recovery-reel-poster",
+              "file": "rca-recovery-direction-reel-poster.jpg",
+              "sha256": "fd8ac4ae681ab0ea174a3d7ca62886457bfa2faf930591cde9e17d59cafa188f",
+              "width": 1920,
+              "height": 1080
+            },
+            "sound": {
+              "at": [
+                "12:00",
+                "17:00"
               ],
               "volume": 0.6
             }
