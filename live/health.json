@@ -1,18 +1,18 @@
 {
   "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
   "license": "https://www.usa.gov/government-copyright",
-  "updated_at": "2026-09-30T05:43:06Z",
+  "updated_at": "2026-09-30T12:46:47Z",
   "items": [
+    {
+      "text": "Community Baby Shower - Charleston",
+      "meta": "SC DPH · Sep 29",
+      "url": "https://dph.sc.gov/events/community-baby-shower-charleston",
+      "day": "2026-09-29"
+    },
     {
       "text": "SAMHSA Awards Almost $250 Million to Expand Addiction Treatment, Overdose Prevention and Mental Health Services",
       "meta": "SAMHSA · Sep 25",
       "url": "https://www.samhsa.gov/newsroom/press-announcements/20260925/samhsa-awards-almost-250M-expand-addiction-treatment-overdose-prevention-mental-health-services",
-      "day": "2026-09-25"
-    },
-    {
-      "text": "DPH Supports World Rabies Day 2026: Stronger Together",
-      "meta": "SC DPH · Sep 25",
-      "url": "https://dph.sc.gov/news/dph-supports-world-rabies-day-2026-stronger-together",
       "day": "2026-09-25"
     },
     {
@@ -28,10 +28,10 @@
       "day": "2026-09-16"
     },
     {
-      "text": "Tracking Radon Dashboard",
-      "meta": "SC DPH · Sep 22",
-      "url": "https://dph.sc.gov/professionals/public-health-data/sc-tracking/tracking-radon-dashboard",
-      "day": "2026-09-22"
+      "text": "DPH Supports World Rabies Day 2026: Stronger Together",
+      "meta": "SC DPH · Sep 25",
+      "url": "https://dph.sc.gov/news/dph-supports-world-rabies-day-2026-stronger-together",
+      "day": "2026-09-25"
     },
     {
       "text": "CDC Data Show Encouraging Progress in Youth Health",
