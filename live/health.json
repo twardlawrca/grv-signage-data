@@ -1,8 +1,14 @@
 {
   "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
   "license": "https://www.usa.gov/government-copyright",
-  "updated_at": "2026-10-01T22:46:42Z",
+  "updated_at": "2026-10-02T22:21:09Z",
   "items": [
+    {
+      "text": "Secretary Kennedy Announces 8 Communities To Receive $96 Million Through New STREETS Program",
+      "meta": "SAMHSA · Oct 2",
+      "url": "https://www.samhsa.gov/newsroom/press-announcements/20261002/secretary-kennedy-announces-8-communities-receive-96m-through-streets-program",
+      "day": "2026-10-02"
+    },
     {
       "text": "Rabid Bats Confirmed in Dillon and Florence Counties; One Person and One Pet Exposed",
       "meta": "SC DPH · Oct 1",
@@ -14,12 +20,6 @@
       "meta": "Georgia DPH · Sep 30",
       "url": "https://dph.georgia.gov/press-releases/2026-09-30/dph-news-release-measles-jasper-county",
       "day": "2026-09-30"
-    },
-    {
-      "text": "SAMHSA Awards Almost $250 Million to Expand Addiction Treatment, Overdose Prevention and Mental Health Services",
-      "meta": "SAMHSA · Sep 25",
-      "url": "https://www.samhsa.gov/newsroom/press-announcements/20260925/samhsa-awards-almost-250M-expand-addiction-treatment-overdose-prevention-mental-health-services",
-      "day": "2026-09-25"
     },
     {
       "text": "Annual Report to the Nation: Progress Against Lung Cancer Drives Down Cancer Mortality",
@@ -34,10 +34,10 @@
       "day": "2026-10-01"
     },
     {
-      "text": "CDC Data Show Encouraging Progress in Youth Health",
-      "meta": "CDC · Sep 21",
-      "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=766493",
-      "day": "2026-09-21"
+      "text": "SAMHSA Awards Almost $250 Million to Expand Addiction Treatment, Overdose Prevention and Mental Health Services",
+      "meta": "SAMHSA · Sep 25",
+      "url": "https://www.samhsa.gov/newsroom/press-announcements/20260925/samhsa-awards-almost-250M-expand-addiction-treatment-overdose-prevention-mental-health-services",
+      "day": "2026-09-25"
     }
   ]
 }
