@@ -1,15 +1,15 @@
 {
   "source": "U.S. Bureau of Labor Statistics · Federal Reserve Board · U.S. Energy Information Administration",
-  "updated_at": "2026-10-01T22:46:41Z",
+  "updated_at": "2026-10-02T12:50:31Z",
   "items": [
     {
       "key": "unemployment",
       "label": "Unemployment",
-      "value": "4.1%",
-      "raw": 4.1,
-      "asof": "August 2026",
-      "delta": "unchanged",
-      "dir": "flat",
+      "value": "4.2%",
+      "raw": 4.2,
+      "asof": "September 2026",
+      "delta": "0.1 pt from August",
+      "dir": "up",
       "note": "U.S. rate · Bureau of Labor Statistics"
     },
     {
