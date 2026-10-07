@@ -1,7 +1,7 @@
 {
   "source": "Wikipedia · In the news · CC BY-SA 4.0",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "updated_at": "2026-10-07T06:10:51Z",
+  "updated_at": "2026-10-07T23:11:27Z",
   "items": [
     {
       "text": "In motorsport, Elfyn Evans and Scott Martin win the World Rally Championship.",
@@ -16,6 +16,11 @@
     {
       "text": "In rugby league, the Super League Grand Final ends with Wakefield Trinity defeating the Warrington Wolves.",
       "url": "https://en.wikipedia.org/wiki/2026_Super_League_Grand_Final",
+      "day": "2026-10-07"
+    },
+    {
+      "text": "High school students in France and Belgium launch mass protests for better conditions, starting fires and causing 400 schools to be closed.",
+      "url": "https://en.wikipedia.org/wiki/2026_French_lyc%C3%A9e_protests",
       "day": "2026-10-07"
     }
   ]
