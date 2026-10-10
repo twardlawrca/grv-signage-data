@@ -1,8 +1,13 @@
 {
   "source": "Wikipedia · In the news · CC BY-SA 4.0",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "updated_at": "2026-10-10T06:02:32Z",
+  "updated_at": "2026-10-10T12:43:41Z",
   "items": [
+    {
+      "text": "South African jurist Navi Pillay is awarded the Nobel Peace Prize.",
+      "url": "https://en.wikipedia.org/wiki/Navi_Pillay",
+      "day": "2026-10-10"
+    },
     {
       "text": "Henri B. Kagan and Kensō Soai are awarded the Nobel Prize in Chemistry for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis.",
       "url": "https://en.wikipedia.org/wiki/Henri_B._Kagan",
@@ -11,11 +16,6 @@
     {
       "text": "Francis Halzen is awarded the Nobel Prize in Physics for his work in neutrino astronomy.",
       "url": "https://en.wikipedia.org/wiki/Francis_Halzen",
-      "day": "2026-10-10"
-    },
-    {
-      "text": "In motorsport, Elfyn Evans and Scott Martin win the World Rally Championship.",
-      "url": "https://en.wikipedia.org/wiki/2026_World_Rally_Championship",
       "day": "2026-10-10"
     }
   ]
