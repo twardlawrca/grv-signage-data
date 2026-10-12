@@ -1,134 +1,7 @@
 {
-  "generatedAt": "2026-09-30T18:14:52.253Z",
+  "generatedAt": "2026-10-12T19:29:39.730Z",
   "schemaVersion": 1,
   "campaigns": [
-    {
-      "id": "cmp-national-recovery-month-2026",
-      "name": "National Recovery Month 2026",
-      "category": "awareness",
-      "priority": "high",
-      "status": "active",
-      "schedule": {
-        "startsOn": "2026-09-01",
-        "endsOn": "2026-09-30"
-      },
-      "rotation": {
-        "slideSec": 12,
-        "defaultSec": 180,
-        "includeDefault": true
-      },
-      "targets": {
-        "rule": {
-          "mode": "all",
-          "facilityIds": [],
-          "buildingIds": [],
-          "unitIds": [],
-          "unitKinds": [],
-          "profileIds": []
-        },
-        "deviceIds": [
-          "GRVTV-LOBBY",
-          "GRVTVA123",
-          "GRVTVFAMRM01",
-          "GRVTVFAMRM02",
-          "GRVTV-ACAFE",
-          "GRVTVA229L",
-          "GRVTVA229R",
-          "GRVTVOPLOBBY",
-          "GRVTVA325L",
-          "GRVTVA325R",
-          "GRVTV2B",
-          "GRVTVB315L",
-          "GRVTVB315R",
-          "GRVTVB415L",
-          "GRVTVB415R",
-          "GRVTVB515L",
-          "GRVTVB515R",
-          "GRVTVB615L",
-          "GRVTVB615R",
-          "RBYTV-LOBBY",
-          "RBYTV-ACAFE",
-          "RBYTVM212L",
-          "RBYTVM212R",
-          "RBYTVM226L",
-          "RBYTVM226R",
-          "RBYTVM240L",
-          "RBYTVM240R",
-          "RBYTVM312L",
-          "RBYTVM312R",
-          "RBYTVM326L",
-          "RBYTVM326R",
-          "DVNTV-LOBBY",
-          "DVNTV-ACAFE",
-          "DVNTVM210L",
-          "DVNTVM210R",
-          "DVNTVM224L",
-          "DVNTVM224R",
-          "DVNTVM310L",
-          "DVNTVM310R"
-        ],
-        "facilityCodes": [],
-        "buildingCodes": [],
-        "unitCodes": []
-      },
-      "organization": "Recovery Centers of America",
-      "slides": [
-        {
-          "id": "cnt-nrm-message",
-          "type": "message",
-          "title": "September is National Recovery Month",
-          "durationSec": 12,
-          "props": {
-            "eyebrow": "National Recovery Month · September 2026",
-            "headline": "September is National Recovery Month",
-            "subline": "Recovery is possible. Every step forward matters, and no one has to take it alone.",
-            "theme": "navy",
-            "accent": "purple",
-            "align": "left"
-          }
-        },
-        {
-          "id": "cnt-nrm-newsweek",
-          "type": "image",
-          "title": "America's Best Residential Addiction Treatment Centers — Newsweek 2026",
-          "durationSec": 14,
-          "props": {
-            "asset": {
-              "id": "ast-newsweek-2026",
-              "file": "newsweek-2026-badge.webp",
-              "sha256": "b0febb188c2e490ae9efb4827d310c4a570db9207d68321c3db6b8f2c76fc8cd",
-              "width": 1000,
-              "height": 1000
-            },
-            "layout": "feature",
-            "eyebrow": "RCA recognition · 2026",
-            "headline": "Recognized among America's Best Residential Addiction Treatment Centers",
-            "subline": "Newsweek · 2026",
-            "caption": "Recovery Centers of America",
-            "theme": "navy"
-          }
-        },
-        {
-          "id": "cnt-nrm-linkedin",
-          "type": "social",
-          "title": "LinkedIn · The road to recovery leads you here",
-          "durationSec": 16,
-          "props": {
-            "platform": "linkedin",
-            "embedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7501737134895288320",
-            "postUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7501737134895288320",
-            "author": "Recovery Centers of America",
-            "postTitle": "The road to recovery leads you here.",
-            "summary": "The drive into RCA at Greenville is more than a destination. It is the moment you choose something different. A new direction. A fresh start. Every mile brings you closer to a place built for healing, where care is personalized, support is constant, and progress is possible.",
-            "cta": "Call 833-30-RECOVERY",
-            "postedOn": "2026-09-04",
-            "mode": "card",
-            "fallbackAssetId": null,
-            "timeoutMs": 8000
-          }
-        }
-      ]
-    },
     {
       "id": "cmp-big-book-guide",
       "name": "The Big Book · A reader's guide",
@@ -1096,107 +969,6 @@
       ]
     },
     {
-      "id": "cmp-grv-health-news-spots",
-      "name": "RCA GRV Health News · spots",
-      "category": "live",
-      "priority": "normal",
-      "status": "active",
-      "schedule": {
-        "startsOn": "2026-09-25",
-        "endsOn": "2026-10-09"
-      },
-      "rotation": {
-        "slideSec": 30,
-        "defaultSec": 180,
-        "includeDefault": true
-      },
-      "targets": {
-        "rule": {
-          "mode": "select",
-          "facilityIds": [
-            "grv"
-          ],
-          "buildingIds": [],
-          "unitIds": [],
-          "unitKinds": [],
-          "profileIds": [
-            "p-lobby",
-            "p-outpatient",
-            "p-cafeteria",
-            "p-workflex"
-          ]
-        },
-        "deviceIds": [
-          "GRVTV-LOBBY",
-          "GRVTVA123",
-          "GRVTV-ACAFE",
-          "GRVTVOPLOBBY"
-        ],
-        "facilityCodes": [
-          "GRV"
-        ],
-        "buildingCodes": [],
-        "unitCodes": []
-      },
-      "organization": "Recovery Centers of America",
-      "slides": [
-        {
-          "id": "cnt-health-spot-988",
-          "type": "video",
-          "title": "988 You Matter (SAMHSA, 30 s)",
-          "durationSec": 30,
-          "props": {
-            "src": "https://rca-grv-demo.netlify.app/health/samhsa-988-you-matter-30s.mp4",
-            "fit": "cover",
-            "takeover": false,
-            "posterAsset": {
-              "id": "ast-health-spot-988-poster",
-              "file": "health-spot-988-you-matter-poster.jpg",
-              "sha256": "dcb695c365513e2c2e03629f39f6a9b6b9f260c9139f0bca699c345b90bd6af8",
-              "width": 960,
-              "height": 540
-            },
-            "eyebrow": "RCA GRV Health News · SAMHSA",
-            "headline": "You matter. Call or text *988* any hour",
-            "sound": {
-              "at": [
-                "10:00",
-                "15:00"
-              ],
-              "volume": 0.6
-            }
-          }
-        },
-        {
-          "id": "cnt-health-spot-tthy-friend",
-          "type": "video",
-          "title": "Talk. They Hear You: Helping a Friend (SAMHSA, 32 s)",
-          "durationSec": 32,
-          "props": {
-            "src": "https://rca-grv-demo.netlify.app/health/samhsa-tthy-helping-a-friend-30s.mp4",
-            "fit": "cover",
-            "takeover": false,
-            "posterAsset": {
-              "id": "ast-health-spot-tthy-friend-poster",
-              "file": "health-spot-tthy-helping-a-friend-poster.jpg",
-              "sha256": "6d06ce0f3032b66864be80c096228017f02f611fcfcd06bcf04911a70d15ba2d",
-              "width": 960,
-              "height": 540
-            },
-            "eyebrow": "RCA GRV Health News · SAMHSA",
-            "headline": "Talk. They hear you: *helping* a friend",
-            "sound": {
-              "at": [
-                "10:00",
-                "15:00"
-              ],
-              "volume": 0.6
-            }
-          }
-        }
-      ]
-    },
-    {
       "id": "cmp-rca-recovery-month-people-2026",
       "name": "RCA · The people behind the work (Recovery Month film)",
       "category": "live",
@@ -1351,6 +1123,254 @@
               "at": [
                 "12:00",
                 "17:00"
+              ],
+              "volume": 0.6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-grv-world-mental-health-day-2026",
+      "name": "World Mental Health Day 2026",
+      "category": "awareness",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-10-12",
+        "endsOn": "2026-10-31"
+      },
+      "rotation": {
+        "slideSec": 12,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-wmhd-day",
+          "type": "message",
+          "title": "World Mental Health Day",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "October 10, 2026",
+            "headline": "World Mental *Health* *Day*",
+            "subline": "A time to raise awareness of mental health and the importance of care and support. It’s an opportunity to encourage open conversations, show compassion, and remind people that they don’t have to face challenges alone.",
+            "align": "left",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-wmhd-both",
+          "type": "message",
+          "title": "Mental health and physical health",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "Mental health and recovery",
+            "headline": "Mental health is just as important as *physical* *health*.",
+            "subline": "For many people, mental health and substance use are deeply connected. Seeking support for both can be an important part of building a stronger, more sustainable recovery.",
+            "align": "left",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-wmhd-one-in-seven",
+          "type": "message",
+          "title": "1 in 7 people",
+          "durationSec": 12,
+          "props": {
+            "headline": "*1* *in* *7* people globally live with a mental disorder.",
+            "subline": "Source: WHO, 2026",
+            "align": "left",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-wmhd-access",
+          "type": "message",
+          "title": "Care isn't reaching everyone",
+          "durationSec": 12,
+          "props": {
+            "headline": "Care isn’t reaching *everyone*.",
+            "subline": "Most people with mental disorders do not have access to effective care.\nSource: WHO, 2026",
+            "align": "left",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-wmhd-tips",
+          "type": "list",
+          "title": "5 tips to improve mental health",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "World Mental Health Day",
+            "headline": "5 tips to improve *mental* *health*",
+            "subline": "Source: NHS · Five steps to mental wellbeing",
+            "style": "steps",
+            "columns": 5,
+            "items": [
+              {
+                "icon": "users",
+                "title": "Connect with someone you trust",
+                "text": ""
+              },
+              {
+                "icon": "dumbbell",
+                "title": "Move your body",
+                "text": ""
+              },
+              {
+                "icon": "lightbulb",
+                "title": "Learn something new",
+                "text": ""
+              },
+              {
+                "icon": "heart",
+                "title": "Do something kind",
+                "text": ""
+              },
+              {
+                "icon": "leaf",
+                "title": "Pause and notice the present",
+                "text": ""
+              }
+            ],
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-wmhd-help",
+          "type": "message",
+          "title": "Help is available 24/7",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "Help is available 24/7",
+            "headline": "*833-30-RECOVERY*",
+            "subline": "If you or someone you love is struggling with substance use, call us today: 833-307-3268 · RecoveryCentersofAmerica.com",
+            "align": "center",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-rca-high-functioning-reel-2026",
+      "name": "RCA · High-functioning addiction is real (reel)",
+      "category": "live",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-10-12",
+        "endsOn": "2026-11-15"
+      },
+      "rotation": {
+        "slideSec": 30,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-rca-high-functioning-reel",
+          "type": "video",
+          "title": "High-functioning addiction is real (RCA reel, 41 s)",
+          "durationSec": 41,
+          "props": {
+            "src": "https://rca-grv-demo.netlify.app/rca/rca-high-functioning-reel-40s.mp4",
+            "fit": "cover",
+            "posterAsset": {
+              "id": "ast-rca-high-functioning-reel-poster",
+              "file": "rca-high-functioning-reel-poster.jpg",
+              "sha256": "c02177475d0258771f5f0fa8bb062e659b389bf0555e09981d2084450d6e14cc",
+              "width": 1920,
+              "height": 1080
+            },
+            "sound": {
+              "at": [
+                "13:00",
+                "16:00"
               ],
               "volume": 0.6
             }
@@ -1767,346 +1787,6 @@
             },
             "theme": "navy",
             "accent": "gold"
-          }
-        }
-      ]
-    },
-    {
-      "id": "cmp-addiction-professionals-day-2026",
-      "name": "National Addiction Professionals Day · Thank you",
-      "category": "employee",
-      "priority": "normal",
-      "status": "active",
-      "schedule": {
-        "startsOn": "2026-09-20",
-        "endsOn": "2026-10-04"
-      },
-      "rotation": {
-        "slideSec": 14,
-        "defaultSec": 180,
-        "includeDefault": true
-      },
-      "targets": {
-        "rule": {
-          "mode": "select",
-          "facilityIds": [
-            "grv"
-          ],
-          "buildingIds": [],
-          "unitIds": [],
-          "unitKinds": [],
-          "profileIds": []
-        },
-        "deviceIds": [
-          "GRVTV-LOBBY",
-          "GRVTVA123",
-          "GRVTVFAMRM01",
-          "GRVTVFAMRM02",
-          "GRVTV-ACAFE",
-          "GRVTVA229L",
-          "GRVTVA229R",
-          "GRVTVOPLOBBY",
-          "GRVTVA325L",
-          "GRVTVA325R",
-          "GRVTV2B",
-          "GRVTVB315L",
-          "GRVTVB315R",
-          "GRVTVB415L",
-          "GRVTVB415R",
-          "GRVTVB515L",
-          "GRVTVB515R",
-          "GRVTVB615L",
-          "GRVTVB615R"
-        ],
-        "facilityCodes": [
-          "GRV"
-        ],
-        "buildingCodes": [],
-        "unitCodes": []
-      },
-      "organization": "Recovery Centers of America",
-      "slides": [
-        {
-          "id": "cnt-napd-celebrating",
-          "type": "message",
-          "title": "We are celebrating you",
-          "durationSec": 12,
-          "props": {
-            "eyebrow": "National Addiction Professionals Day 2026",
-            "headline": "We’re celebrating *you.*",
-            "subline": "Every day, you show up for people during some of the most difficult moments of their lives.",
-            "theme": "navy",
-            "accent": "gold",
-            "align": "left"
-          }
-        },
-        {
-          "id": "cnt-napd-showup",
-          "type": "list",
-          "title": "Every day, you show up",
-          "durationSec": 16,
-          "props": {
-            "eyebrow": "National Addiction Professionals Day",
-            "headline": "Every day, you *show* *up*",
-            "subline": "For people during some of the most difficult moments of their lives.",
-            "style": "cards",
-            "columns": 2,
-            "photoAsset": {
-              "id": "ast-greenville-campus",
-              "file": "greenville-campus.jpg",
-              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
-              "width": 1280,
-              "height": 960,
-              "local": "GRVTV-Assets/rca-photo-wide.jpg"
-            },
-            "theme": "navy",
-            "accent": "gold",
-            "items": [
-              {
-                "icon": "chat",
-                "title": "You listen",
-                "text": "When someone needs to be heard"
-              },
-              {
-                "icon": "shield",
-                "title": "You advocate",
-                "text": "For someone who needs a voice"
-              },
-              {
-                "icon": "lightbulb",
-                "title": "You share your expertise",
-                "text": "When the path forward feels uncertain"
-              },
-              {
-                "icon": "heart",
-                "title": "You offer compassion and respect",
-                "text": "When it matters most"
-              }
-            ]
-          }
-        },
-        {
-          "id": "cnt-napd-onesize",
-          "type": "list",
-          "title": "Never one-size-fits-all",
-          "durationSec": 16,
-          "props": {
-            "eyebrow": "And you do this every day",
-            "headline": "Recovery is never *one-size-fits-all*",
-            "subline": "It takes:",
-            "style": "bullets",
-            "columns": 2,
-            "photoAsset": {
-              "id": "ast-greenville-entrance",
-              "file": "greenville-entrance.jpg",
-              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
-              "width": 1280,
-              "height": 853,
-              "local": "RCA-Greenville-Entrance.jpg"
-            },
-            "theme": "navy",
-            "accent": "gold",
-            "items": [
-              {
-                "icon": "clock",
-                "title": "Patience",
-                "text": ""
-              },
-              {
-                "icon": "refresh",
-                "title": "Persistence",
-                "text": ""
-              },
-              {
-                "icon": "dumbbell",
-                "title": "Grit",
-                "text": ""
-              },
-              {
-                "icon": "stethoscope",
-                "title": "Clinical expertise",
-                "text": ""
-              },
-              {
-                "icon": "user",
-                "title": "Personalization",
-                "text": ""
-              },
-              {
-                "icon": "heart",
-                "title": "Empathy",
-                "text": ""
-              },
-              {
-                "icon": "star",
-                "title": "A belief in the potential of every person you serve",
-                "text": ""
-              }
-            ]
-          }
-        },
-        {
-          "id": "cnt-napd-honor",
-          "type": "message",
-          "title": "The people who make recovery possible",
-          "durationSec": 14,
-          "props": {
-            "eyebrow": "September 20 · National Addiction Professionals Day",
-            "headline": "The people who make *recovery* possible",
-            "subline": "RCA is proud to honor the addiction professionals and recovery support staff who show up each day with compassion, expertise, and a commitment to helping others live a better life.",
-            "theme": "navy",
-            "accent": "purple",
-            "align": "left"
-          }
-        },
-        {
-          "id": "cnt-napd-roles",
-          "type": "list",
-          "title": "Every role makes a difference",
-          "durationSec": 16,
-          "props": {
-            "eyebrow": "Our treatment team",
-            "headline": "Every role makes a *difference*",
-            "subline": "From clinical care and medical support to admissions, operations, and beyond.",
-            "style": "cards",
-            "columns": 3,
-            "photoAsset": {
-              "id": "ast-greenville-entrance",
-              "file": "greenville-entrance.jpg",
-              "sha256": "86b2923f6ecf45ecaf736f6dcc2b42eb15ccd98bb83f5c9bc7749b4989ac19af",
-              "width": 1280,
-              "height": 853,
-              "local": "RCA-Greenville-Entrance.jpg"
-            },
-            "theme": "navy",
-            "accent": "gold",
-            "items": [
-              {
-                "icon": "chat",
-                "title": "Clinical care",
-                "text": "Compassion and expertise, every day"
-              },
-              {
-                "icon": "stethoscope",
-                "title": "Medical support",
-                "text": "Care around the clock"
-              },
-              {
-                "icon": "users",
-                "title": "Recovery support",
-                "text": "Beside our patients at every step"
-              },
-              {
-                "icon": "phone",
-                "title": "Admissions",
-                "text": "The first welcome, any hour of the day"
-              },
-              {
-                "icon": "key",
-                "title": "Operations",
-                "text": "Everything that keeps our doors open"
-              },
-              {
-                "icon": "star",
-                "title": "And beyond",
-                "text": "Every role, every shift"
-              }
-            ]
-          }
-        },
-        {
-          "id": "cnt-napd-across",
-          "type": "list",
-          "title": "Across RCA",
-          "durationSec": 16,
-          "props": {
-            "eyebrow": "Across RCA",
-            "headline": "What your work *does*",
-            "subline": "Every day, in every role.",
-            "style": "cards",
-            "columns": 2,
-            "photoAsset": {
-              "id": "ast-greenville-campus",
-              "file": "greenville-campus.jpg",
-              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
-              "width": 1280,
-              "height": 960,
-              "local": "GRVTV-Assets/rca-photo-wide.jpg"
-            },
-            "theme": "navy",
-            "accent": "gold",
-            "items": [
-              {
-                "icon": "route",
-                "title": "Helping patients",
-                "text": "take steps toward recovery"
-              },
-              {
-                "icon": "family",
-                "title": "Supporting their families",
-                "text": "through difficult moments"
-              },
-              {
-                "icon": "award",
-                "title": "Celebrating milestones",
-                "text": "that may have once seemed impossible"
-              },
-              {
-                "icon": "lightbulb",
-                "title": "Reminding people",
-                "text": "that their story does not have to end with addiction"
-              }
-            ]
-          }
-        },
-        {
-          "id": "cnt-napd-impact",
-          "type": "message",
-          "title": "More than 94,000 people",
-          "durationSec": 16,
-          "props": {
-            "eyebrow": "Since we opened our doors in March of 2016",
-            "headline": "More than *94,000* people have received care at RCA",
-            "subline": "Thank you for your skill. Thank you for your heart. Thank you for the difficult conversations, the small victories, the long days, and the moments when you help someone see hope again.",
-            "theme": "navy",
-            "accent": "purple",
-            "align": "left"
-          }
-        },
-        {
-          "id": "cnt-napd-thanks",
-          "type": "quote",
-          "title": "Thank you to our incredible team",
-          "durationSec": 16,
-          "props": {
-            "eyebrow": "National Addiction Professionals Day",
-            "quote": "Thank you to our incredible team for the work you do, the lives you touch, and the hope you help create every day.",
-            "author": "Recovery Centers of America at Greenville",
-            "source": "We are grateful for the work you do. You are making a difference.",
-            "photoAsset": {
-              "id": "ast-greenville-campus",
-              "file": "greenville-campus.jpg",
-              "sha256": "315b55854e39f33c8bce0fed608dcf8e6ebcd96742116f6c6f76caff49300821",
-              "width": 1280,
-              "height": 960,
-              "local": "GRVTV-Assets/rca-photo-wide.jpg"
-            },
-            "theme": "navy",
-            "accent": "gold"
-          }
-        },
-        {
-          "id": "cnt-napd-happy",
-          "type": "message",
-          "title": "Happy National Addiction Professionals Day",
-          "durationSec": 12,
-          "props": {
-            "eyebrow": "From all of us at Recovery Centers of America",
-            "headline": "You are making a *difference.*",
-            "subline": "Happy National Addiction Professionals Day.",
-            "theme": "navy",
-            "accent": "gold",
-            "align": "center"
           }
         }
       ]
