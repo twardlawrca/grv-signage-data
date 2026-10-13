@@ -1,8 +1,14 @@
 {
   "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
   "license": "https://www.usa.gov/government-copyright",
-  "updated_at": "2026-10-08T23:27:01Z",
+  "updated_at": "2026-10-13T22:55:11Z",
   "items": [
+    {
+      "text": "DPH Confirms New Measles Case, Urges Vaccination",
+      "meta": "Georgia DPH · Oct 13",
+      "url": "https://dph.georgia.gov/press-releases/2026-10-13/dph-confirms-new-measles-case-urges-vaccination",
+      "day": "2026-10-13"
+    },
     {
       "text": "Measles Wastewater Surveillance",
       "meta": "SC DPH · Oct 8",
@@ -14,12 +20,6 @@
       "meta": "SAMHSA · Oct 2",
       "url": "https://www.samhsa.gov/newsroom/press-announcements/20261002/secretary-kennedy-announces-8-communities-receive-96m-through-streets-program",
       "day": "2026-10-02"
-    },
-    {
-      "text": "DPH News Release - Measles in Jasper County",
-      "meta": "Georgia DPH · Sep 30",
-      "url": "https://dph.georgia.gov/press-releases/2026-09-30/dph-news-release-measles-jasper-county",
-      "day": "2026-09-30"
     },
     {
       "text": "Annual Report to the Nation: Progress Against Lung Cancer Drives Down Cancer Mortality",
@@ -34,10 +34,10 @@
       "day": "2026-10-07"
     },
     {
-      "text": "SAMHSA Awards Almost $250 Million to Expand Addiction Treatment, Overdose Prevention and Mental Health Services",
-      "meta": "SAMHSA · Sep 25",
-      "url": "https://www.samhsa.gov/newsroom/press-announcements/20260925/samhsa-awards-almost-250M-expand-addiction-treatment-overdose-prevention-mental-health-services",
-      "day": "2026-09-25"
+      "text": "DPH News Release - Measles in Jasper County",
+      "meta": "Georgia DPH · Sep 30",
+      "url": "https://dph.georgia.gov/press-releases/2026-09-30/dph-news-release-measles-jasper-county",
+      "day": "2026-09-30"
     }
   ]
 }
