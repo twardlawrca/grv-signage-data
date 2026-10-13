@@ -25,5 +25,17 @@
   "quote": {
     "text": "Strength does not come from physical capacity. It comes from an indomitable will.",
     "by": "Mahatma Gandhi"
+  },
+  "_readme_menu": "Cafeteria menu TVs (GRV-CafeMenu-Signage.html). menu.roles: computer name -> now | day. menu.rotate: computer name -> none | cw | ccw, ONLY for a portrait TV whose Windows output is still landscape (fix Windows first). menu.moments: Kitchen Moments cooking films on the 'now' TV (enabled true/false as a JSON boolean; intervalMin; hosts.<NAME>.enabled). Exact computer names, upper case.",
+  "menu": {
+    "roles": {
+      "GRVTVMENU01": "now",
+      "GRVTVMENU02": "day"
+    },
+    "rotate": {},
+    "moments": {
+      "enabled": true,
+      "intervalMin": 8
+    }
   }
 }

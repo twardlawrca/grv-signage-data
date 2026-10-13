@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "caption": "Illustrative footage.",
+  "films": [
+    {
+      "id": "scrambled-eggs",
+      "file": "scrambled-eggs-v1-1080x1920.mp4",
+      "poster": "scrambled-eggs-v1-poster.jpg",
+      "seconds": 15.5,
+      "meals": [
+        "breakfast"
+      ],
+      "requires": [
+        "egg scrambled"
+      ],
+      "shows": "Eggs whisked in a bowl, scrambled in a pan, folded until creamy. Licensed stock footage (Pexels License), not RCA's kitchen."
+    },
+    {
+      "id": "bacon-strips",
+      "file": "bacon-strips-v1-1080x1920.mp4",
+      "poster": "bacon-strips-v1-poster.jpg",
+      "seconds": 15.2,
+      "meals": [
+        "breakfast"
+      ],
+      "requires": [
+        "bacon strips"
+      ],
+      "shows": "Bacon strips laid in a pan, frying, a sizzling close-up. Licensed stock footage (Pexels License), not RCA's kitchen."
+    },
+    {
+      "id": "pancakes",
+      "file": "pancakes-v1-1080x1920.mp4",
+      "poster": "pancakes-v1-poster.jpg",
+      "seconds": 16.2,
+      "meals": [
+        "breakfast"
+      ],
+      "requires": [
+        "pancake"
+      ],
+      "shows": "Batter ladled onto a griddle, a pancake flipped, pancakes on a plate. Licensed stock footage (Pexels License), not RCA's kitchen."
+    },
+    {
+      "id": "waffles",
+      "file": "waffles-v1-1080x1920.mp4",
+      "poster": "waffles-v1-poster.jpg",
+      "seconds": 15.5,
+      "meals": [
+        "breakfast"
+      ],
+      "requires": [
+        [
+          "belgian waffle",
+          "baked waffle"
+        ]
+      ],
+      "shows": "Dough placed on a Belgian-style waffle iron by a gloved hand, golden waffles lifted out. Licensed stock footage (Pexels License), not RCA's kitchen."
+    },
+    {
+      "id": "french-fries",
+      "file": "french-fries-v1-1080x1920.mp4",
+      "poster": "french-fries-v1-poster.jpg",
+      "seconds": 15.6,
+      "meals": [
+        "lunch"
+      ],
+      "requires": [
+        "french fried potatoes"
+      ],
+      "shows": "Fries in a fryer basket, fresh fries in a paper cone. Licensed stock footage (Pexels License), not RCA's kitchen."
+    },
+    {
+      "id": "fried-rice",
+      "file": "fried-rice-v1-1080x1920.mp4",
+      "poster": "fried-rice-v1-poster.jpg",
+      "seconds": 15.6,
+      "meals": [
+        "dinner"
+      ],
+      "requires": [
+        "fried rice"
+      ],
+      "shows": "Fried rice tossed over the flame and stirred in a skillet. Licensed stock footage (Pexels License), not RCA's kitchen."
+    }
+  ],
+  "base": "https://rca-grv-demo.netlify.app/menu-moments/"
+}

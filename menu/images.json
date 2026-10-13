@@ -1,0 +1,43 @@
+{
+ "_readme": "meals: { \"<signature>\": { file, w, h, focal: [x 0..1, y 0..1], table: 0..1, caption, dates: [YYYY-MM-DD...], id, source, sha256, prompt } }. signature as in image-plan.json (built from the PRINTED names, so display-name edits never change it). file is relative to the board asset folder GRVTV-Assets/menu/ (1024x1024 sRGB JPEG q86, written by GRVTV-2/tools/cafe-menu/stage-meal-image.py). focal = the dish the crop and slow push centre on; table = where clean table begins in front of the plate (caption zone, bottom left), kept inside every crop so the caption never sits on food. APPROVED illustrations only. A meal with no entry (or a file that fails to load) shows the plain layout, never a similar photo.",
+ "schema": "grv-cafe-images/1",
+ "caption": "AI-generated meal illustration.",
+ "meals": {
+  "lunch|chicken salad sandwich|rosemary potatoes wedges|salad bar|unsweet iced tea": {
+   "file": "lunch-46c4bc66.jpg",
+   "w": 1024,
+   "h": 1024,
+   "focal": [
+    0.459,
+    0.586
+   ],
+   "table": 0.83,
+   "caption": "AI-generated meal illustration.",
+   "dates": [
+    "2026-10-12"
+   ],
+   "id": "46c4bc66",
+   "source": "2026-10-12-lunch.png",
+   "sha256": "c6e1c06568365e7e3383b878e22021aa90641f05c75d652f9653587234d2e358",
+   "prompt": "A chicken salad sandwich on soft bread, cut in half to show the creamy chicken salad filling, on an ivory stoneware plate with a thin navy-blue rim. Beside the sandwich on the same plate, golden roasted potato wedges with crisp browned edges and small sprigs of fresh rosemary. Behind the plate, a small ivory bowl of plain fresh mixed green salad leaves. Exactly one tall glass of plain unsweetened iced tea with ice cubes stands behind the plate. Professional editorial food photography for a warm, welcoming dining room. Three-quarter view from about 35 degrees above the table. Soft natural window light from the left, warm late-morning tone, gentle shadows to the right. Shallow depth of field with the sandwich in crisp focus. Light oak wooden table with a folded oatmeal-colored linen napkin beside the plate; simple, uncluttered, realistic home-style portions, natural textures, appetizing true-to-life color. Background softly out of focus, warm neutral tones. No text, no lettering, no logos, no labels, no people, no hands."
+  },
+  "dinner|garlic bread|beef lasagna|marinara sauce|fresh garden blend vegetables|chocolate chip cookies|unsweet iced tea": {
+   "file": "dinner-8ee0857d.jpg",
+   "w": 1024,
+   "h": 1024,
+   "focal": [
+    0.5,
+    0.57
+   ],
+   "table": 0.93,
+   "caption": "AI-generated meal illustration.",
+   "dates": [
+    "2026-10-12"
+   ],
+   "id": "8ee0857d",
+   "source": "2026-10-12-dinner.png",
+   "sha256": "262e723b6152ceae0ef93ed0eddb3a0e603990974b2a58b58bbd1395e79b6209",
+   "prompt": "A warm, settled home-style dinner on an ivory stoneware plate with a thin navy-blue rim: a generous square slice of beef lasagna showing distinct layers of pasta, beef sauce and melted cheese, with a lightly browned top and rich red marinara sauce spooned beside it; next to it a serving of steamed garden vegetables (broccoli florets, sliced carrots and green beans); and one slice of golden toasted garlic bread brushed with butter and flecked with garlic and parsley, resting on the plate rim. A gentle wisp of steam rises from the lasagna. Behind the plate, a small ivory side plate with exactly two chocolate chip cookies, and exactly one tall glass of plain unsweetened iced tea with ice. Nothing else on the table. Professional editorial food photography for a warm, welcoming dining room. Three-quarter view from about 35 degrees above the table. Warm golden evening window light from the left, deeper soft shadows, cozy and settled. Shallow depth of field with the lasagna in crisp focus. Light oak wooden table with a folded oatmeal-colored linen napkin beside the plate; simple, uncluttered, realistic portions, natural textures, appetizing true-to-life color. Leave some empty table in the foreground. Background softly out of focus, warm neutral tones. No text, no lettering, no logos, no labels, no people, no hands."
+  }
+ }
+}

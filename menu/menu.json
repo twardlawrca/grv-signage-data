@@ -1,0 +1,4657 @@
+{
+ "schema": "grv-cafe-menu/1",
+ "timezone": "America/New_York",
+ "generatedAt": "2026-10-12T18:30:00-04:00",
+ "source": {
+  "title": "2026 Fall/Winter RCA",
+  "diet": "General",
+  "texture": "Regular",
+  "printed": "2026-10-12 11:55",
+  "pages": 5,
+  "file": "rca-greenville-menu-2026-fall-winter.pdf",
+  "sha256": "11b6613f5bc3e6c919ce4cdaf675612f486e9d04a751c47ecca462ea97818d25",
+  "transcription": "menu-source-2026-10-12_2026-11-08.json",
+  "items": 647,
+  "cells": 84
+ },
+ "validFrom": "2026-10-12",
+ "validThrough": "2026-11-08",
+ "hours": {
+  "source": "Tevin Wardlaw (Regional IT), 2026-10-12; Dietary to confirm",
+  "confirmed": false,
+  "meals": [
+   {
+    "id": "breakfast",
+    "label": "Breakfast",
+    "start": "07:00",
+    "end": "11:00"
+   },
+   {
+    "id": "lunch",
+    "label": "Lunch",
+    "start": "11:00",
+    "end": "15:00"
+   },
+   {
+    "id": "dinner",
+    "label": "Dinner",
+    "start": "15:00",
+    "end": "19:00"
+   }
+  ],
+  "byDate": {}
+ },
+ "codes": {
+  "show": false,
+  "legend": {},
+  "tokens": [
+   "GF",
+   "ML",
+   "OSG",
+   "IL",
+   "RTL",
+   "MEM",
+   "FB",
+   "NSA"
+  ]
+ },
+ "lexicon": {
+  "note": "Presentation grouping only (reviewed with Dietary); never a dietary claim. Used for items added by hand without a kind.",
+  "kinds": {
+   "main": [
+    "B L T Sandwich On White",
+    "Baked Waffle",
+    "BBQ Chicken Quarter",
+    "BBQ Pork",
+    "Beef Lasagna",
+    "Beef Meatloaf",
+    "Beef Pot Pie",
+    "Belgian Waffle",
+    "Biscuit & Cream Gravy",
+    "Biscuit & Sawmill Gravy",
+    "Blueberry Pancake",
+    "Bratwurst on Bun",
+    "Breaded 8-Cut Chicken",
+    "Cheese Personal Pizza",
+    "Cheeseburger on Bun",
+    "Chef Salad",
+    "Chicken & Gnocchi Dumplings",
+    "Chicken Parmesan Cutlet",
+    "Chicken Salad Sandwich",
+    "Chicken Taco Stew",
+    "Chicken Tenders",
+    "Classic Hamburger",
+    "Cranberry Glazed Chicken Breast",
+    "Egg Bacon Cheese English Muffin",
+    "Egg Ham and Cheese Croissant",
+    "Egg Scrambled",
+    "French Dip Sandwich",
+    "French Toast w/Butter & Syrup",
+    "Grilled Cheese Sandwich",
+    "Grilled Chicken Caesar Salad",
+    "Grilled Chicken Sandwich",
+    "Gyros/Tzatziki Sauce",
+    "Hawaiian Ham",
+    "Hearty Beef Chili",
+    "Homemade Chicken Pot Pie",
+    "Homemade Chili Hot Dog",
+    "Honey Ginger Chicken Thighs",
+    "Hot Dog on Bun",
+    "Italian Hoagie",
+    "Meatloaf",
+    "Naan Cheese Flatbread Pizza",
+    "Orange Breaded Chicken",
+    "Orange Chicken Stir Fry",
+    "Pancake",
+    "Pepperoni Pizza",
+    "Philly Cheese Steak Grinder",
+    "Philly Chicken Sandwich",
+    "Pulled Chicken BBQ on Bun",
+    "Roast Beef",
+    "Roast Beef & Cheddar Melt",
+    "Roasted Pork Loin",
+    "Rosemary Chicken Quarter",
+    "Salisbury Steak",
+    "Shepherd's Pie",
+    "Shrimp & Sausage Jambalaya",
+    "Smoked Beef Brisket",
+    "Soft Chicken Tacos w/Cheese",
+    "Spaghetti & Meat Sauce",
+    "Stuffed Bell Pepper",
+    "Sweet & Sour Chicken",
+    "Taco Bar",
+    "Tilapia Piccata",
+    "Tortellini Primavera",
+    "Turkey & Swiss Melt on White",
+    "Turkey Cheese Sub",
+    "Vegetarian Pizza"
+   ],
+   "side": [
+    "American Fried Potatoes",
+    "Asian Mixed Vegetables",
+    "Baby Carrots",
+    "Bacon Strips",
+    "Baked Beans",
+    "BBQ Bacon Green Beans",
+    "Beef Barley Soup",
+    "Breakfast Ham",
+    "Breakfast Potatoes",
+    "Brown Rice",
+    "Buttered Carrots",
+    "Carrot and Apple Slaw",
+    "Carrot Slaw",
+    "Chips & Salsa",
+    "Cilantro Lime Jasmine Rice",
+    "Cole Slaw",
+    "Country Style Green Beans",
+    "Creamy Coleslaw",
+    "Cucumber Mint Salad",
+    "Cucumber Tomato Salad",
+    "Curly Fried Potatoes",
+    "Dijon Dill Potato Salad",
+    "Egg Roll Vegetarian",
+    "French Fried Potatoes",
+    "Fresh Garden Blend Vegetables",
+    "Fresh Potato Fries",
+    "Fresh Steamed Broccoli",
+    "Fried Rice",
+    "Garlic Lemon Broccoli",
+    "Ginger Fried Rice",
+    "Golden Home Fries",
+    "Golden Roasted Potato Wedges",
+    "Green Beans w/Sautéed Bacon",
+    "Grilled Zucchini",
+    "Hash Brown Patty",
+    "Hashbrowns",
+    "Hashbrowns w/Onion",
+    "Herbed Couscous",
+    "Herbed Rice",
+    "Home Fries",
+    "Homemade Potato Chip",
+    "Italian Pasta Salad Rotini",
+    "Macaroni & Cheese",
+    "Mashed Potatoes",
+    "Mexican Rice",
+    "Oven Baked Fries",
+    "Oven Baked Sweet Potato Fries",
+    "Oven Roasted Tomato Bisque",
+    "Oven-Roasted Brussels Sprouts",
+    "Parmesan Roasted Potatoes",
+    "Peas & Carrots Plain",
+    "Peas & Carrots- Seasoned",
+    "Peppers and Onions Fajita Style",
+    "Potato Chips",
+    "Potsticker, Chicken Lemongrass",
+    "Rice White",
+    "Roasted Broccoli",
+    "Roasted Butternut Squash",
+    "Roasted Cauliflower",
+    "Roasted Poblano Corn",
+    "Roasted Potato Wedges",
+    "Roasted Potatoes",
+    "Roasted Spiced Sweet Potatoes",
+    "Roasted Vegetable and Wild Rice Soup",
+    "Rosemary Potatoes Wedges",
+    "Salad Bar",
+    "Sausage Links",
+    "Sausage Patty",
+    "Scalloped Potatoes",
+    "Seasoned Hashbrowns",
+    "Shredded Hash Browns",
+    "Soup Creamy Tomato",
+    "South Western Potates",
+    "Southwest Hash Browns",
+    "Spaghetti",
+    "Spanish Rice",
+    "Steak Fries",
+    "Steamed Baby Carrots",
+    "Steamed Fresh Zucchini",
+    "Sweet & Smokey Potato Salad",
+    "Turkey Sausage Links",
+    "Vegetable Egg Roll",
+    "Vegtable Pork Egg Roll"
+   ],
+   "bread": [
+    "Banana Bread",
+    "Banana Muffin",
+    "Biscuit",
+    "Buttermilk Biscuits",
+    "Cornbread Jalapeno Cheddar",
+    "Dinner Roll",
+    "Garlic Bread",
+    "Garlic Toast",
+    "Hawaiian Roll",
+    "Herbed Garlic Toast",
+    "Hushpuppies",
+    "Irish Soda Bread",
+    "Parker House Roll",
+    "Walnut Banana Bread",
+    "Wheat Roll"
+   ],
+   "dessert": [
+    "Apple Brown Betty",
+    "Apple Crisp",
+    "Banana Split Sundae",
+    "Brownie",
+    "Cake Brownie Oreo",
+    "Cappuccino Pudding",
+    "Carnival Cookies",
+    "Chocolate Chip Cookies",
+    "Chocolate Ice Cream",
+    "Churros",
+    "Deluxe Chocolate Cake",
+    "Fried Apples",
+    "Frosted Chocolate Cupcake",
+    "Frosted Pumpkin Cake",
+    "Funnel Cake",
+    "Homemade Apple Cobbler",
+    "Peanut Butter Brownie",
+    "Peanut Butter Icebox Pie",
+    "Pudding Parfait",
+    "Rocky Road Brownie",
+    "Strawberry Short Cake",
+    "Unfrosted Banana Cake",
+    "Unfrosted Devil's Food Cake",
+    "Vanilla Ice Cream",
+    "White Raspberry Cake"
+   ],
+   "accompaniment": [
+    "Black Bean Garnish",
+    "Brown Gravy",
+    "Chopped Cilantro",
+    "Diced Onion Garnish",
+    "Diced Tomatoes",
+    "Honey Mustard Sauce",
+    "Kansas City BBQ Sauce",
+    "Lettuce & Tomato Garnish",
+    "Lettuce Onion Tomato",
+    "Lettuce, Tomato, Onion & Pickle",
+    "Lime Crema",
+    "Marinara Sauce",
+    "Mix Shredded cheese Garnish",
+    "Salsa",
+    "Salsa Roja",
+    "Sausage Gravy",
+    "Sauteed Onions & Peppers",
+    "Sauteed Onions Garnish",
+    "Sawmill Gravy",
+    "Shredded Lettuce",
+    "Sour Cream",
+    "Tomatillo Salsa"
+   ],
+   "condiment": [
+    "Brown Sugar Condiment",
+    "Butter",
+    "Coffee Creamer",
+    "Grape Jelly",
+    "Pancake Syrup",
+    "Salted Margarine"
+   ],
+   "beverage": [
+    "2% Milk",
+    "Coffee",
+    "Orange Juice",
+    "Unsweet Iced Tea"
+   ],
+   "staple": [
+    "Banana",
+    "Oatmeal",
+    "Wheat Toast"
+   ]
+  },
+  "overrides": [
+   {
+    "date": "2026-10-16",
+    "meal": "breakfast",
+    "name": "Buttermilk Biscuits",
+    "kind": "main",
+    "why": "Printed first at breakfast with Sausage Gravy: the biscuits-and-gravy dish the menu prints as one item on Oct 22 and Nov 6. Stays bread at Nov 2 dinner."
+   },
+   {
+    "date": "2026-10-30",
+    "meal": "breakfast",
+    "name": "Biscuit",
+    "kind": "main",
+    "why": "Printed first at breakfast with Sawmill Gravy: the Nov 6 menu prints the same dish as one item 'Biscuit & Sawmill Gravy'. Name-level kind stays bread."
+   }
+  ]
+ },
+ "days": {
+  "2026-10-12": {
+   "weekday": "Monday",
+   "cycleWeek": 2,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Southwest Hash Browns",
+      "src": "Southwest Hash Browns",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Breakfast Ham",
+      "src": "Breakfast Ham",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Chicken Salad Sandwich",
+      "src": "Chicken Salad Sandwich",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Rosemary Potato Wedges",
+      "src": "Rosemary Potatoes Wedges",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Salad Bar",
+      "src": "Salad Bar",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Garlic Bread",
+      "src": "Garlic Bread",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Beef Lasagna",
+      "src": "Beef Lasagna",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Marinara Sauce",
+      "src": "Marinara Sauce",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Fresh Garden Blend Vegetables",
+      "src": "Fresh Garden Blend Vegetables",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Chocolate Chip Cookies",
+      "src": "Chocolate Chip Cookies",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-13": {
+   "weekday": "Tuesday",
+   "cycleWeek": 2,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Egg, Ham & Cheese Croissant",
+      "src": "Egg Ham and Cheese Croissant",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Hash Brown Patty",
+      "src": "Hash Brown Patty",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Turkey Sausage Links",
+      "src": "Turkey Sausage Links",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Turkey & Swiss Melt on White",
+      "src": "Turkey & Swiss Melt on White",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Curly Fried Potatoes",
+      "src": "Curly Fried Potatoes",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Soft Chicken Tacos with Cheese",
+      "src": "Soft Chicken Tacos w/Cheese",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Salsa Roja",
+      "src": "Salsa Roja",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Chips & Salsa",
+      "src": "Chips & Salsa",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Sour Cream",
+      "src": "Sour Cream",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Spanish Rice",
+      "src": "Spanish Rice",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "White Raspberry Cake",
+      "src": "White Raspberry Cake",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-14": {
+   "weekday": "Wednesday",
+   "cycleWeek": 2,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Belgian Waffle",
+      "src": "Belgian Waffle",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Bacon Strips",
+      "src": "Bacon Strips",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Pancake Syrup",
+      "src": "Pancake Syrup",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Roast Beef & Cheddar Melt",
+      "src": "Roast Beef & Cheddar Melt",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Steak Fries",
+      "src": "Steak Fries",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Cucumber Tomato Salad",
+      "src": "Cucumber Tomato Salad",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Orange Chicken Stir Fry",
+      "src": "Orange Chicken Stir Fry",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Fried Rice",
+      "src": "Fried Rice",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Vegetable Egg Roll",
+      "src": "Vegetable Egg Roll",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Fried Apples",
+      "src": "Fried Apples",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-15": {
+   "weekday": "Thursday",
+   "cycleWeek": 2,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Pancake",
+      "src": "Pancake",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Southwestern Potatoes",
+      "src": "South Western Potates",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Smoked Beef Brisket",
+      "src": "Smoked Beef Brisket",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Macaroni & Cheese",
+      "src": "Macaroni & Cheese",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Baked Beans",
+      "src": "Baked Beans",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Creamy Coleslaw",
+      "src": "Creamy Coleslaw",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "BBQ Chicken Quarter",
+      "src": "BBQ Chicken Quarter",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "White Rice",
+      "src": "Rice White",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Fresh Garden Blend Vegetables",
+      "src": "Fresh Garden Blend Vegetables",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Brownie",
+      "src": "Brownie",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-16": {
+   "weekday": "Friday",
+   "cycleWeek": 2,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Buttermilk Biscuits",
+      "src": "Buttermilk Biscuits",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Sausage Gravy",
+      "src": "Sausage Gravy",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Home Fries",
+      "src": "Home Fries",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Wheat Roll",
+      "src": "Wheat Roll",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Meatloaf",
+      "src": "Meatloaf",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Scalloped Potatoes",
+      "src": "Scalloped Potatoes",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Steamed Fresh Zucchini",
+      "src": "Steamed Fresh Zucchini",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "BBQ Pork",
+      "src": "BBQ Pork",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Roasted Potatoes",
+      "src": "MEM Roasted Potatoes",
+      "kind": "side",
+      "codes": [
+       "MEM"
+      ]
+     },
+     {
+      "name": "Homemade Apple Cobbler",
+      "src": "Homemade Apple Cobbler",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-17": {
+   "weekday": "Saturday",
+   "cycleWeek": 2,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Baked Waffle",
+      "src": "Baked Waffle",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Sausage Links",
+      "src": "Sausage Links",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Pancake Syrup",
+      "src": "Pancake Syrup",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Grilled Chicken Sandwich",
+      "src": "Grilled Chicken Sandwich",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Potato Chips",
+      "src": "Potato Chips",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Creamy Coleslaw",
+      "src": "Creamy Coleslaw",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Wheat Roll",
+      "src": "Wheat Roll",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Salisbury Steak",
+      "src": "Salisbury Steak IL",
+      "kind": "main",
+      "codes": [
+       "IL"
+      ],
+      "featured": true
+     },
+     {
+      "name": "Mashed Potatoes",
+      "src": "Mashed Potatoes",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Plain Peas & Carrots",
+      "src": "Peas & Carrots Plain",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Chocolate Ice Cream",
+      "src": "Chocolate Ice Cream",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-18": {
+   "weekday": "Sunday",
+   "cycleWeek": 2,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Bacon Strips",
+      "src": "Bacon Strips",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Shredded Hash Browns",
+      "src": "Shredded Hash Browns",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana Bread",
+      "src": "Banana Bread",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Cheeseburger on a Bun",
+      "src": "Cheeseburger on Bun",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Oven Baked Fries",
+      "src": "Oven Baked Fries",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Hawaiian Roll",
+      "src": "Hawaiian Roll",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Hawaiian Ham",
+      "src": "Hawaiian Ham",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Roasted Spiced Sweet Potatoes",
+      "src": "Roasted Spiced Sweet Potatoes",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Green Beans with Sautéed Bacon",
+      "src": "Green Beans w/Sautéed Bacon",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Apple Crisp",
+      "src": "Apple Crisp",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-19": {
+   "weekday": "Monday",
+   "cycleWeek": 3,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Breakfast Ham",
+      "src": "Breakfast Ham",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Breakfast Potatoes",
+      "src": "Breakfast Potatoes",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Creamy Tomato Soup",
+      "src": "GF Soup Creamy Tomato",
+      "kind": "side",
+      "codes": [
+       "GF"
+      ]
+     },
+     {
+      "name": "Grilled Cheese Sandwich",
+      "src": "Grilled Cheese Sandwich(ML)",
+      "kind": "main",
+      "codes": [
+       "ML"
+      ],
+      "featured": true
+     },
+     {
+      "name": "Potato Chips",
+      "src": "Potato Chips",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Seasoned Peas & Carrots",
+      "src": "Peas & Carrots- Seasoned",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Herbed Garlic Toast",
+      "src": "Herbed Garlic Toast",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Tortellini Primavera",
+      "src": "Tortellini Primavera(ML)",
+      "kind": "main",
+      "codes": [
+       "ML"
+      ],
+      "featured": true
+     },
+     {
+      "name": "Grilled Zucchini",
+      "src": "Grilled Zucchini",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Carnival Cookies",
+      "src": "Carnival Cookies",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-20": {
+   "weekday": "Tuesday",
+   "cycleWeek": 3,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Egg, Bacon & Cheese English Muffin",
+      "src": "Egg Bacon Cheese English Muffin",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Home Fries",
+      "src": "Home Fries",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Walnut Banana Bread",
+      "src": "Walnut Banana Bread",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Bratwurst on a Bun",
+      "src": "Bratwurst on Bun",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Sautéed Onions",
+      "src": "Sauteed Onions Garnish",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Oven Baked Fries",
+      "src": "Oven Baked Fries",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Roasted Cauliflower",
+      "src": "Roasted Cauliflower",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Chicken Taco Stew",
+      "src": "Chicken Taco Stew",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Salsa Roja",
+      "src": "Salsa Roja",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Tomatillo Salsa",
+      "src": "Tomatillo Salsa",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Lime Crema",
+      "src": "Lime Crema",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Mexican Rice",
+      "src": "Mexican Rice(OSG)",
+      "kind": "side",
+      "codes": [
+       "OSG"
+      ]
+     },
+     {
+      "name": "Roasted Poblano Corn",
+      "src": "Roasted Poblano Corn",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Churros",
+      "src": "Churros",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-21": {
+   "weekday": "Wednesday",
+   "cycleWeek": 3,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Pancake",
+      "src": "Pancake",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Turkey Sausage Links",
+      "src": "Turkey Sausage Links",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Pancake Syrup",
+      "src": "Pancake Syrup",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Gyros with Tzatziki Sauce",
+      "src": "Gyros/Tzatziki Sauce",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Oven Baked Sweet Potato Fries",
+      "src": "Oven Baked Sweet Potato Fries",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Honey Ginger Chicken Thighs",
+      "src": "Honey Ginger Chicken Thighs",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Fried Rice",
+      "src": "Fried Rice",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Chicken Lemongrass Potsticker",
+      "src": "Potsticker, Chicken Lemongrass",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Asian Mixed Vegetables",
+      "src": "Asian Mixed Vegetables",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Peanut Butter Brownie",
+      "src": "Peanut Butter Brownie",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-22": {
+   "weekday": "Thursday",
+   "cycleWeek": 3,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Biscuit & Cream Gravy",
+      "src": "Biscuit & Cream Gravy",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Home Fries",
+      "src": "Home Fries",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Sausage Patty",
+      "src": "Sausage Patty",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Dinner Roll",
+      "src": "Dinner Roll",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Chef Salad",
+      "src": "Chef Salad(GF)",
+      "kind": "main",
+      "codes": [
+       "GF"
+      ],
+      "featured": true
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Irish Soda Bread",
+      "src": "Irish Soda Bread",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Shepherd's Pie",
+      "src": "Shepherd's Pie",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Brown Gravy",
+      "src": "Brown Gravy",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Apple Brown Betty",
+      "src": "Apple Brown Betty",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-23": {
+   "weekday": "Friday",
+   "cycleWeek": 3,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Golden Home Fries",
+      "src": "Golden Home Fries",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Bacon Strips",
+      "src": "Bacon Strips",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "French Dip Sandwich",
+      "src": "French Dip Sandwich",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Homemade Potato Chips",
+      "src": "Homemade Potato Chip",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Jalapeño Cheddar Cornbread",
+      "src": "Cornbread Jalapeno Cheddar",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "BBQ Chicken Quarter",
+      "src": "BBQ Chicken Quarter",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Kansas City BBQ Sauce",
+      "src": "Kansas City BBQ Sauce",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Macaroni & Cheese",
+      "src": "Macaroni & Cheese",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Buttered Carrots",
+      "src": "Buttered Carrots",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Strawberry Shortcake",
+      "src": "Strawberry Short Cake",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-24": {
+   "weekday": "Saturday",
+   "cycleWeek": 3,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Belgian Waffle",
+      "src": "Belgian Waffle",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Breakfast Ham",
+      "src": "Breakfast Ham",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Hash Browns with Onion",
+      "src": "Hashbrowns w/Onion",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Pancake Syrup",
+      "src": "Pancake Syrup",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Garlic Bread",
+      "src": "Garlic Bread",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Chicken & Gnocchi Dumplings",
+      "src": "Chicken & Gnocchi Dumplings",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Parker House Roll",
+      "src": "Parker House Roll",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Stuffed Bell Pepper",
+      "src": "Stuffed Bell Pepper",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "White Rice",
+      "src": "Rice White",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Cake Brownie Oreo",
+      "src": "Cake Brownie Oreo",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-25": {
+   "weekday": "Sunday",
+   "cycleWeek": 3,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Sausage Links",
+      "src": "Sausage Links",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Hash Browns",
+      "src": "Hashbrowns",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Cranberry Glazed Chicken Breast",
+      "src": "Cranberry Glazed Chicken Breast",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Roasted Spiced Sweet Potatoes",
+      "src": "Roasted Spiced Sweet Potatoes",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Country Style Green Beans",
+      "src": "Country Style Green Beans",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Hushpuppies",
+      "src": "Hushpuppies",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Shrimp & Sausage Jambalaya",
+      "src": "Shrimp & Sausage Jambalaya",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Unfrosted Banana Cake",
+      "src": "Unfrosted Banana Cake",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-26": {
+   "weekday": "Monday",
+   "cycleWeek": 4,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Sausage Links",
+      "src": "Sausage Links",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Home Fries",
+      "src": "Home Fries",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "BLT Sandwich on White",
+      "src": "B L T Sandwich On White",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Homemade Potato Chips",
+      "src": "Homemade Potato Chip",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Grilled Zucchini",
+      "src": "Grilled Zucchini",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Garlic Bread",
+      "src": "Garlic Bread",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Chicken Parmesan Cutlet",
+      "src": "Chicken Parmesan Cutlet",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Marinara Sauce",
+      "src": "Marinara Sauce",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Spaghetti",
+      "src": "Spaghetti",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Garlic Lemon Broccoli",
+      "src": "Garlic Lemon Broccoli",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Cappuccino Pudding",
+      "src": "Cappuccino Pudding",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-27": {
+   "weekday": "Tuesday",
+   "cycleWeek": 4,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Egg, Bacon & Cheese English Muffin",
+      "src": "Egg Bacon Cheese English Muffin",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Hash Browns with Onion",
+      "src": "Hashbrowns w/Onion",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Homemade Chili Hot Dog",
+      "src": "Homemade Chili Hot Dog",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Steak Fries",
+      "src": "Steak Fries",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Soft Chicken Tacos with Cheese",
+      "src": "Soft Chicken Tacos w/Cheese",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Salsa Roja",
+      "src": "Salsa Roja",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Tomatillo Salsa",
+      "src": "Tomatillo Salsa",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Diced Onions",
+      "src": "Diced Onion Garnish",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Diced Tomatoes",
+      "src": "Diced Tomatoes",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Shredded Lettuce",
+      "src": "Shredded Lettuce",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Chopped Cilantro",
+      "src": "Chopped Cilantro",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Mixed Shredded Cheese",
+      "src": "Mix Shredded cheese Garnish",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Lime Crema",
+      "src": "Lime Crema",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Cilantro Lime Jasmine Rice",
+      "src": "Cilantro Lime Jasmine Rice",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Fajita-Style Peppers & Onions",
+      "src": "Peppers and Onions Fajita Style",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Churros",
+      "src": "Churros",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-28": {
+   "weekday": "Wednesday",
+   "cycleWeek": 4,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "French Toast with Butter & Syrup",
+      "src": "French Toast w/Butter & Syrup",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Sausage Patty",
+      "src": "Sausage Patty",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Pancake Syrup",
+      "src": "Pancake Syrup",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Chicken Tenders",
+      "src": "Chicken Tenders",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Honey Mustard Sauce",
+      "src": "Honey Mustard Sauce",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Golden Roasted Potato Wedges",
+      "src": "Golden Roasted Potato Wedges",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Carrot Slaw",
+      "src": "Carrot Slaw",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Orange Breaded Chicken",
+      "src": "Orange Breaded Chicken(OSG)",
+      "kind": "main",
+      "codes": [
+       "OSG"
+      ],
+      "featured": true
+     },
+     {
+      "name": "Fried Rice",
+      "src": "Fried Rice",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Vegetarian Egg Roll",
+      "src": "Egg Roll Vegetarian",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Rocky Road Brownie",
+      "src": "Rocky Road Brownie",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-29": {
+   "weekday": "Thursday",
+   "cycleWeek": 4,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Pancake",
+      "src": "Pancake",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Bacon Strips",
+      "src": "Bacon Strips",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Beef Barley Soup",
+      "src": "Beef Barley Soup",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Italian Hoagie",
+      "src": "Italian Hoagie",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Turkey & Cheese Sub",
+      "src": "Turkey Cheese Sub",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Lettuce, Onion & Tomato",
+      "src": "Lettuce Onion Tomato",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Homemade Potato Chips",
+      "src": "Homemade Potato Chip",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Carrot & Apple Slaw",
+      "src": "Carrot and Apple Slaw(ML)",
+      "kind": "side",
+      "codes": [
+       "ML"
+      ]
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Beef Pot Pie",
+      "src": "Beef Pot Pie",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Fresh Steamed Broccoli",
+      "src": "Fresh Steamed Broccoli",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Peanut Butter Icebox Pie",
+      "src": "Peanut Butter Icebox Pie",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-30": {
+   "weekday": "Friday",
+   "cycleWeek": 4,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Biscuit",
+      "src": "Biscuit",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Sawmill Gravy",
+      "src": "Sawmill Gravy",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Sausage Patty",
+      "src": "Sausage Patty",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Walnut Banana Bread",
+      "src": "Walnut Banana Bread",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Oven Roasted Tomato Bisque",
+      "src": "Oven Roasted Tomato Bisque(OSG)",
+      "kind": "side",
+      "codes": [
+       "OSG"
+      ]
+     },
+     {
+      "name": "Tilapia Piccata",
+      "src": "Tilapia Piccata",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Herbed Couscous",
+      "src": "Herbed Couscous",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Roasted Butternut Squash",
+      "src": "Roasted Butternut Squash",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "BBQ Chicken Quarter",
+      "src": "BBQ Chicken Quarter",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Kansas City BBQ Sauce",
+      "src": "Kansas City BBQ Sauce",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Sweet & Smoky Potato Salad",
+      "src": "Sweet & Smokey Potato Salad",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "BBQ Bacon Green Beans",
+      "src": "BBQ Bacon Green Beans RTL",
+      "kind": "side",
+      "codes": [
+       "RTL"
+      ]
+     },
+     {
+      "name": "Frosted Chocolate Cupcake",
+      "src": "Frosted Chocolate Cupcake",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-10-31": {
+   "weekday": "Saturday",
+   "cycleWeek": 4,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Baked Waffle",
+      "src": "Baked Waffle",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Sausage Links",
+      "src": "Sausage Links",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Roasted Vegetable & Wild Rice Soup",
+      "src": "Roasted Vegetable and Wild Rice Soup",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Philly Cheese Steak Grinder",
+      "src": "Philly Cheese Steak Grinder",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "French Fried Potatoes",
+      "src": "French Fried Potatoes",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Cucumber Mint Salad",
+      "src": "Cucumber Mint Salad",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Personal Cheese Pizza",
+      "src": "Cheese Personal Pizza(ML)",
+      "kind": "main",
+      "codes": [
+       "ML"
+      ],
+      "featured": true
+     },
+     {
+      "name": "Pepperoni Pizza",
+      "src": "Pepperoni Pizza",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Vegetarian Pizza",
+      "src": "Vegetarian Pizza(ML)",
+      "kind": "main",
+      "codes": [
+       "ML"
+      ]
+     },
+     {
+      "name": "Roasted Broccoli",
+      "src": "Roasted Broccoli",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Banana Split Sundae",
+      "src": "Banana Split Sundae",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-11-01": {
+   "weekday": "Sunday",
+   "cycleWeek": 4,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "American Fried Potatoes",
+      "src": "American Fried Potatoes",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "BBQ Pulled Chicken on a Bun",
+      "src": "Pulled Chicken BBQ on Bun",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Dijon Dill Potato Salad",
+      "src": "Dijon Dill Potato Salad IL",
+      "kind": "side",
+      "codes": [
+       "IL"
+      ]
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Beef Meatloaf",
+      "src": "Beef Meatloaf",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Brown Gravy",
+      "src": "Brown Gravy",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Mashed Potatoes",
+      "src": "Mashed Potatoes",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Pudding Parfait",
+      "src": "Pudding Parfait",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-11-02": {
+   "weekday": "Monday",
+   "cycleWeek": 1,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Breakfast Ham",
+      "src": "Breakfast Ham",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Seasoned Hash Browns",
+      "src": "Seasoned Hashbrowns",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Turkey & Swiss Melt on White",
+      "src": "Turkey & Swiss Melt on White",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Lettuce & Tomato",
+      "src": "Lettuce & Tomato Garnish",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "French Fried Potatoes",
+      "src": "French Fried Potatoes",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Buttermilk Biscuits",
+      "src": "Buttermilk Biscuits",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Homemade Chicken Pot Pie",
+      "src": "Homemade Chicken Pot Pie",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Parmesan Roasted Potatoes",
+      "src": "Parmesan Roasted Potatoes",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Steamed Baby Carrots",
+      "src": "Steamed Baby Carrots",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Brownie",
+      "src": "Brownie",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-11-03": {
+   "weekday": "Tuesday",
+   "cycleWeek": 1,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Bacon Strips",
+      "src": "Bacon Strips",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Taco Bar",
+      "src": "Taco Bar",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Salsa",
+      "src": "Salsa",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Black Beans",
+      "src": "Black Bean Garnish",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Spanish Rice",
+      "src": "Spanish Rice",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Breaded 8-Cut Chicken",
+      "src": "Breaded 8-Cut Chicken",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Mashed Potatoes",
+      "src": "FB Mashed Potatoes",
+      "kind": "side",
+      "codes": [
+       "FB"
+      ]
+     },
+     {
+      "name": "Fresh Garden Blend Vegetables",
+      "src": "Fresh Garden Blend Vegetables",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Vanilla Ice Cream",
+      "src": "NSA Vanilla Ice Cream",
+      "kind": "dessert",
+      "codes": [
+       "NSA"
+      ]
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-11-04": {
+   "weekday": "Wednesday",
+   "cycleWeek": 1,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Blueberry Pancake",
+      "src": "Blueberry Pancake",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Turkey Sausage Links",
+      "src": "Turkey Sausage Links",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Pancake Syrup",
+      "src": "Pancake Syrup",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Classic Hamburger",
+      "src": "Classic Hamburger",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Lettuce, Tomato, Onion & Pickle",
+      "src": "Lettuce, Tomato, Onion & Pickle",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "French Fried Potatoes",
+      "src": "French Fried Potatoes",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Garlic Bread",
+      "src": "Garlic Bread",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Spaghetti & Meat Sauce",
+      "src": "Spaghetti & Meat Sauce",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Roasted Broccoli",
+      "src": "Roasted Broccoli",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Frosted Pumpkin Cake",
+      "src": "Frosted Pumpkin Cake",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-11-05": {
+   "weekday": "Thursday",
+   "cycleWeek": 1,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Bacon Strips",
+      "src": "Bacon Strips",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Naan Cheese Flatbread Pizza",
+      "src": "Naan Cheese Flatbread Pizza",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Marinara Sauce",
+      "src": "Marinara Sauce",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Italian Rotini Pasta Salad",
+      "src": "Italian Pasta Salad Rotini",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Rosemary Chicken Quarter",
+      "src": "Rosemary Chicken Quarter",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Herbed Rice",
+      "src": "Herbed Rice",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Fresh Garden Blend Vegetables",
+      "src": "Fresh Garden Blend Vegetables",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unfrosted Devil's Food Cake",
+      "src": "Unfrosted Devil's Food Cake",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-11-06": {
+   "weekday": "Friday",
+   "cycleWeek": 1,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Biscuit & Sawmill Gravy",
+      "src": "Biscuit & Sawmill Gravy",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Sausage Patty",
+      "src": "Sausage Patty",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Butter",
+      "src": "Butter",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Garlic Toast",
+      "src": "Garlic Toast",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Grilled Chicken Caesar Salad",
+      "src": "Grilled Chicken Caesar Salad",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Roasted Pork Loin",
+      "src": "Roasted Pork Loin",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Roasted Potato Wedges",
+      "src": "MEM Roasted Potato Wedges",
+      "kind": "side",
+      "codes": [
+       "MEM"
+      ]
+     },
+     {
+      "name": "Baby Carrots",
+      "src": "Baby Carrots",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Funnel Cake",
+      "src": "Funnel Cake",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-11-07": {
+   "weekday": "Saturday",
+   "cycleWeek": 1,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Bacon Strips",
+      "src": "Bacon Strips",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Pancake Syrup",
+      "src": "Pancake Syrup",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Philly Chicken Sandwich",
+      "src": "Philly Chicken Sandwich",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Sautéed Onions & Peppers",
+      "src": "Sauteed Onions & Peppers",
+      "kind": "accompaniment",
+      "codes": []
+     },
+     {
+      "name": "Fresh Potato Fries",
+      "src": "Fresh Potato Fries",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Roast Beef",
+      "src": "Roast Beef",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Brown Rice",
+      "src": "Brown Rice",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oven-Roasted Brussels Sprouts",
+      "src": "Oven-Roasted Brussels Sprouts",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Homemade Apple Cobbler",
+      "src": "Homemade Apple Cobbler",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  },
+  "2026-11-08": {
+   "weekday": "Sunday",
+   "cycleWeek": 1,
+   "meals": {
+    "breakfast": [
+     {
+      "name": "Scrambled Eggs",
+      "src": "Egg Scrambled",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Sausage Links",
+      "src": "Sausage Links",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "American Fried Potatoes",
+      "src": "American Fried Potatoes",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Oatmeal",
+      "src": "Oatmeal",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana",
+      "src": "Banana",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Wheat Toast",
+      "src": "Wheat Toast",
+      "kind": "staple",
+      "codes": []
+     },
+     {
+      "name": "Banana Muffin",
+      "src": "Banana Muffin",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Coffee Creamer",
+      "src": "Coffee Creamer",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Orange Juice",
+      "src": "Orange Juice",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "2% Milk",
+      "src": "2% Milk",
+      "kind": "beverage",
+      "codes": []
+     },
+     {
+      "name": "Coffee",
+      "src": "Coffee",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "lunch": [
+     {
+      "name": "Hot Dog on a Bun",
+      "src": "Hot Dog on Bun",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Hearty Beef Chili",
+      "src": "Hearty Beef Chili",
+      "kind": "main",
+      "codes": []
+     },
+     {
+      "name": "Potato Chips",
+      "src": "Potato Chips",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Coleslaw",
+      "src": "Cole Slaw",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ],
+    "dinner": [
+     {
+      "name": "Sweet & Sour Chicken",
+      "src": "Sweet & Sour Chicken",
+      "kind": "main",
+      "codes": [],
+      "featured": true
+     },
+     {
+      "name": "Ginger Fried Rice",
+      "src": "Ginger Fried Rice",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Vegetable Pork Egg Roll",
+      "src": "Vegtable Pork Egg Roll",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Deluxe Chocolate Cake",
+      "src": "Deluxe Chocolate Cake",
+      "kind": "dessert",
+      "codes": []
+     },
+     {
+      "name": "Unsweetened Iced Tea",
+      "src": "Unsweet Iced Tea",
+      "kind": "beverage",
+      "codes": []
+     }
+    ]
+   }
+  }
+ }
+}

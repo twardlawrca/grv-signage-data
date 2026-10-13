@@ -1,0 +1,5 @@
+{
+ "_readme": "Owner-edited. Each notice: {id, text (<= 90 characters, plain words, no dietary or allergen claims unless Dietary wrote them), from: YYYY-MM-DD, through: YYYY-MM-DD, meals: [breakfast|lunch|dinner] (empty = every meal), screens: [now|day] (empty = both)}. Expired notices are ignored. Starts EMPTY: never invent notices.",
+ "schema": "grv-cafe-notices/1",
+ "notices": []
+}
