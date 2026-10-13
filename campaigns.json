@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T19:29:39.730Z",
+  "generatedAt": "2026-10-13T18:02:22.103Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -1292,6 +1292,111 @@
             "subline": "If you or someone you love is struggling with substance use, call us today: 833-307-3268 · RecoveryCentersofAmerica.com",
             "align": "center",
             "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-grv-substance-abuse-prevention-month-2026",
+      "name": "National Substance Abuse Prevention Month 2026",
+      "category": "awareness",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-10-13",
+        "endsOn": "2026-10-31"
+      },
+      "rotation": {
+        "slideSec": 12,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-sapm-month",
+          "type": "message",
+          "title": "National Substance Abuse Prevention Month",
+          "durationSec": 12,
+          "props": {
+            "eyebrow": "October 2026",
+            "headline": "National Substance Abuse *Prevention* *Month*",
+            "align": "left",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-sapm-purpose",
+          "type": "message",
+          "title": "A time to raise awareness",
+          "durationSec": 14,
+          "props": {
+            "headline": "National Substance Abuse Prevention Month",
+            "subline": "is a time to raise awareness of how substance use affects individuals, families, and communities. It’s an opportunity to replace stigma with understanding, encourage open conversations, and remind people that support is available.",
+            "align": "left",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-sapm-alone",
+          "type": "message",
+          "title": "No one should navigate recovery alone",
+          "durationSec": 14,
+          "props": {
+            "headline": "No one should have to navigate recovery *alone*.",
+            "subline": "Compassionate, evidence-based treatment and support are available, and asking for help can be the first step toward lasting change.",
+            "align": "left",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-sapm-help",
+          "type": "message",
+          "title": "Call 833-30-RECOVERY",
+          "durationSec": 14,
+          "props": {
+            "headline": "*833-30-RECOVERY*",
+            "subline": "If you or someone you love is struggling with substance use, call us today: 833-307-3268 · RecoveryCentersofAmerica.com",
+            "align": "center",
             "accent": "gold"
           }
         }
