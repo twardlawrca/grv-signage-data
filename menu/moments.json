@@ -82,6 +82,20 @@
         "fried rice"
       ],
       "shows": "Fried rice tossed over the flame and stirred in a skillet. Licensed stock footage (Pexels License), not RCA's kitchen."
+    },
+    {
+      "id": "garden-blend",
+      "file": "garden-blend-v1-1080x1920.mp4",
+      "poster": "garden-blend-v1-poster.jpg",
+      "seconds": 15.1,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "requires": [
+        "fresh garden blend vegetables"
+      ],
+      "shows": "Mixed vegetables poured into a hot pan and sauteed (broccoli, red pepper, onion, squash). Shown for Dietary's Garden Blend; the mix is illustrative. Licensed stock footage (Pexels License), not RCA's kitchen."
     }
   ],
   "base": "https://rca-grv-demo.netlify.app/menu-moments/"
