@@ -96,6 +96,20 @@
         "fresh garden blend vegetables"
       ],
       "shows": "Mixed vegetables poured into a hot pan and sauteed (broccoli, red pepper, onion, squash). Shown for Dietary's Garden Blend; the mix is illustrative. Licensed stock footage (Pexels License), not RCA's kitchen."
+    },
+    {
+      "id": "mac-and-cheese",
+      "file": "mac-and-cheese-v1-1080x1920.mp4",
+      "poster": "mac-and-cheese-v1-poster.jpg",
+      "seconds": 16.0,
+      "meals": [
+        "lunch",
+        "dinner"
+      ],
+      "requires": [
+        "macaroni & cheese"
+      ],
+      "shows": "Elbow macaroni in cheese sauce lifted from a skillet with a spoon. Licensed stock footage (Pexels License), not RCA's kitchen."
     }
   ],
   "base": "https://rca-grv-demo.netlify.app/menu-moments/"
