@@ -157,6 +157,14 @@
       "poster": "kitchen-pepper-steam-v1-poster.jpg",
       "seconds": 12.5,
       "shows": "A hand grinding a pepper mill over a steaming pot; no food is touched. Licensed stock footage (Pexels License), not RCA's kitchen."
+    },
+    {
+      "id": "kitchen-kettle-hob",
+      "kind": "generic",
+      "file": "kitchen-kettle-hob-v1-1080x1920.mp4",
+      "poster": "kitchen-kettle-hob-v1-poster.jpg",
+      "seconds": 13.0,
+      "shows": "A slow push-in on a polished kettle sitting on a hob against a tiled wall. Licensed stock footage (Pexels License), not RCA's kitchen."
     }
   ],
   "base": "https://rca-grv-demo.netlify.app/menu-moments/"
