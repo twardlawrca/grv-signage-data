@@ -175,9 +175,12 @@
     "breakfast"
    ],
    "requires": [
-    "belgian waffle",
-    "pancake syrup",
-    "salted margarine"
+     [
+       "belgian waffle",
+       "baked waffle"
+     ],
+     "pancake syrup",
+     "salted margarine"
    ],
    "focal": [
     0.561,
