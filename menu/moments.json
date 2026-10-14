@@ -89,7 +89,6 @@
       "poster": "garden-blend-v1-poster.jpg",
       "seconds": 15.1,
       "meals": [
-        "lunch",
         "dinner"
       ],
       "requires": [
