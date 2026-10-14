@@ -673,10 +673,10 @@
     "Grape Jelly": "Grape Jelly",
     "Pancake Syrup": "Pancake Syrup",
     "Salted Margarine": "Salted Margarine",
-    "2% Milk": "2% Milk",
+    "2% Milk": "Milk",
     "Coffee": "Coffee",
     "Orange Juice": "Orange Juice",
-    "Unsweet Iced Tea": "Unsweetened Iced Tea",
+    "Unsweet Iced Tea": "Iced Tea",
     "Banana": "Banana",
     "Oatmeal": "Oatmeal",
     "Wheat Toast": "Wheat Toast"
@@ -869,8 +869,13 @@
     },
     {
       "src": "Unsweet Iced Tea",
-      "display": "Unsweetened Iced Tea",
-      "why": "Word form: 'Unsweet' is food-service shorthand (Tevin's example, 2026-10-12)."
+      "display": "Iced Tea",
+      "why": "Tevin on site 2026-10-14: show it as 'Iced Tea' (was 'Unsweetened Iced Tea', his 2026-10-12 example). Presentation only; src keeps the printed text."
+    },
+    {
+      "src": "2% Milk",
+      "display": "Milk",
+      "why": "Tevin on site 2026-10-14: drop '2%' from the name. Presentation only; src keeps the printed text."
     },
     {
       "src": "Cake Brownie Oreo",
