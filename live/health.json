@@ -1,19 +1,19 @@
 {
   "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
   "license": "https://www.usa.gov/government-copyright",
-  "updated_at": "2026-10-13T22:55:11Z",
+  "updated_at": "2026-10-14T05:03:26Z",
   "items": [
+    {
+      "text": "SC EMS Training Committee to Meet Thursday, Oct. 15, 2026",
+      "meta": "SC DPH · Oct 13",
+      "url": "https://dph.sc.gov/news/sc-ems-training-committee-meet-thursday-oct-15-2026",
+      "day": "2026-10-13"
+    },
     {
       "text": "DPH Confirms New Measles Case, Urges Vaccination",
       "meta": "Georgia DPH · Oct 13",
       "url": "https://dph.georgia.gov/press-releases/2026-10-13/dph-confirms-new-measles-case-urges-vaccination",
       "day": "2026-10-13"
-    },
-    {
-      "text": "Measles Wastewater Surveillance",
-      "meta": "SC DPH · Oct 8",
-      "url": "https://dph.sc.gov/public/data-maps-reports/measles-wastewater-surveillance",
-      "day": "2026-10-08"
     },
     {
       "text": "Secretary Kennedy Announces 8 Communities To Receive $96 Million Through New STREETS Program",
@@ -28,10 +28,10 @@
       "day": "2026-09-22"
     },
     {
-      "text": "DPH Underscores the Critical Role of Early Detection During Breast Cancer Awareness Month",
-      "meta": "SC DPH · Oct 7",
-      "url": "https://dph.sc.gov/news/dph-underscores-critical-role-early-detection-during-breast-cancer-awareness-month",
-      "day": "2026-10-07"
+      "text": "SC EMS Training Committee Meeting - Thursday, Oct. 15, 2026",
+      "meta": "SC DPH · Oct 13",
+      "url": "https://dph.sc.gov/events/sc-ems-training-committee-meeting-thursday-oct-15-2026",
+      "day": "2026-10-13"
     },
     {
       "text": "DPH News Release - Measles in Jasper County",
