@@ -1,5 +1,5 @@
 {
- "_readme": "meals: { \"<signature>\": { file, w, h, focal: [x 0..1, y 0..1], table: 0..1, caption, dates: [YYYY-MM-DD...], id, source, sha256, prompt } }. signature as in image-plan.json (built from the PRINTED names, so display-name edits never change it). file is relative to the board asset folder GRVTV-Assets/menu/ (1024x1024 sRGB JPEG q86, written by GRVTV-2/tools/cafe-menu/stage-meal-image.py). focal = the dish the crop and slow push centre on; table = where clean table begins in front of the plate (caption zone, bottom left), kept inside every crop so the caption never sits on food. APPROVED illustrations only. A meal with no entry (or a file that fails to load) shows the plain layout, never a similar photo.",
+ "_readme": "meals: { \"<signature>\": { file, w, h, focal, table, caption, dates, id, source, sha256, prompt } }: the two approved Oct 12 AI illustrations, keyed by the engine's signature of the PRINTED names (stage-meal-image.py); they win over photos[]. photos: [ { id, file, w, h, meals[], requires[], focal, table?, cap 'bl'|'br', caption, keep, source{} } ]: licensed free stock, one per featured dish, reused when the dish repeats. Shown only when every requires entry is a PRINTED source name of that meal (condiments count; an entry may list alternative names), requires[0] is the featured main and the meal has no correction notice; else the TYPE COVER on MENU01 (a meal with its own correction notice gets the plain doorway, never the cover) / the plain doorway on MENU02, never a similar photo. caption 'Illustrative photo.' in the cap corner, on plate or table. file = photo-<id>.jpg in GRVTV-Assets/menu/ (ship it with a board publish before pushing this file): sRGB JPEG q84, 1600-2000 px long edge, never upsampled; staged only by GRVTV-2/tools/cafe-menu/stage-stock-photo.py. keep and source are audit fields (ignored by the engine). Approved by Tevin (test-engine.js APPROVED_PHOTOS; a new id needs his yes): egg-ham-cheese-croissant, turkey-swiss-melt-on-white, scrambled-eggs-closeup, belgian-waffle-syrup-butter-v2, pancakes-plain-plate. PARKED, never listed: the original pancake-stack-butter and belgian-waffle-syrup-butter (caption on food at every size).",
  "schema": "grv-cafe-images/1",
  "caption": "AI-generated meal illustration.",
  "meals": {
@@ -39,5 +39,216 @@
    "sha256": "262e723b6152ceae0ef93ed0eddb3a0e603990974b2a58b58bbd1395e79b6209",
    "prompt": "A warm, settled home-style dinner on an ivory stoneware plate with a thin navy-blue rim: a generous square slice of beef lasagna showing distinct layers of pasta, beef sauce and melted cheese, with a lightly browned top and rich red marinara sauce spooned beside it; next to it a serving of steamed garden vegetables (broccoli florets, sliced carrots and green beans); and one slice of golden toasted garlic bread brushed with butter and flecked with garlic and parsley, resting on the plate rim. A gentle wisp of steam rises from the lasagna. Behind the plate, a small ivory side plate with exactly two chocolate chip cookies, and exactly one tall glass of plain unsweetened iced tea with ice. Nothing else on the table. Professional editorial food photography for a warm, welcoming dining room. Three-quarter view from about 35 degrees above the table. Warm golden evening window light from the left, deeper soft shadows, cozy and settled. Shallow depth of field with the lasagna in crisp focus. Light oak wooden table with a folded oatmeal-colored linen napkin beside the plate; simple, uncluttered, realistic portions, natural textures, appetizing true-to-life color. Leave some empty table in the foreground. Background softly out of focus, warm neutral tones. No text, no lettering, no logos, no labels, no people, no hands."
   }
- }
+ },
+ "photos": [
+  {
+   "id": "egg-ham-cheese-croissant",
+   "file": "photo-egg-ham-cheese-croissant.jpg",
+   "w": 1600,
+   "h": 1105,
+   "meals": [
+    "breakfast"
+   ],
+   "requires": [
+    "egg ham and cheese croissant",
+    "coffee"
+   ],
+   "focal": [
+    0.36,
+    0.53
+   ],
+   "cap": "br",
+   "caption": "Illustrative photo.",
+   "keep": [
+    0.0,
+    0.08,
+    0.7,
+    0.98
+   ],
+   "source": {
+    "site": "Unsplash",
+    "license": "Unsplash License (free, not Unsplash+)",
+    "page": "https://unsplash.com/photos/a-croissant-sandwich-is-on-a-blue-plate-hqFsvuPP1zc",
+    "by": "Ali Olfian",
+    "checked": "2026-10-13",
+    "original": "unsplash-hqFsvuPP1zc.jpg (3200x3200)",
+    "crop": [
+     320,
+     0,
+     2880,
+     1990
+    ],
+    "master": "breakfast-egg-ham-cheese-croissant.jpg (2880x1990)",
+    "shows": "croissant with scrambled egg, ham and melted cheese on a blue plate; coffee cup on a saucer (Coffee is printed); wood table. Tomato salad cropped out.",
+    "sha256": "969ba3351eb6138fa4b7f365620a2559735a1c492f56663e11dba663860d7f50"
+   }
+  },
+  {
+   "id": "turkey-swiss-melt-on-white",
+   "file": "photo-turkey-swiss-melt-on-white.jpg",
+   "w": 1600,
+   "h": 1200,
+   "meals": [
+    "lunch"
+   ],
+   "requires": [
+    "turkey & swiss melt on white"
+   ],
+   "focal": [
+    0.5,
+    0.5
+   ],
+   "table": 0.78,
+   "cap": "bl",
+   "caption": "Illustrative photo.",
+   "keep": [
+    0.03,
+    0.07,
+    0.94,
+    0.95
+   ],
+   "source": {
+    "site": "Pexels",
+    "license": "Pexels License",
+    "page": "https://www.pexels.com/photo/grilled-cheese-on-a-plate-14941252/",
+    "by": "MikeGz",
+    "checked": "2026-10-13",
+    "original": "pexels-14941252.jpg (3200x4800)",
+    "crop": [
+     0,
+     1220,
+     3200,
+     2400
+    ],
+    "master": "lunch-turkey-swiss-melt.jpg (3200x2400)",
+    "shows": "toasted white-bread sandwich with melted white cheese and pale turkey on a white plate and paper napkin; wood table",
+    "sha256": "071a1a491987cca3b8e602596cb96c3d58ebf3721d82f58cec85e1594cbb23e7"
+   }
+  },
+  {
+   "id": "scrambled-eggs-closeup",
+   "file": "photo-scrambled-eggs-closeup.jpg",
+   "w": 1920,
+   "h": 886,
+   "meals": [
+    "breakfast"
+   ],
+   "requires": [
+    "egg scrambled"
+   ],
+   "focal": [
+    0.52,
+    0.3
+   ],
+   "cap": "br",
+   "caption": "Illustrative photo.",
+   "keep": [
+    0.2,
+    0.0,
+    0.85,
+    0.72
+   ],
+   "source": {
+    "site": "Pexels",
+    "license": "Pexels License",
+    "page": "https://www.pexels.com/photo/13599631/",
+    "by": "Luke Landon",
+    "checked": "2026-10-13",
+    "original": "pexels-13599631.jpg (3335x3896)",
+    "crop": [
+     150,
+     1650,
+     3035,
+     1400
+    ],
+    "master": "scrambled-eggs-closeup.jpg (3034x1400)",
+    "shows": "close-up of plain scrambled eggs on a grey plate, wood table at the edges; two raw eggs in shell at the top of the original cropped out; no herbs, pepper or other food",
+    "sha256": "710e95baa84eb66e17407a15758137adb02435f30404d780b8043402e183758c"
+   }
+  },
+  {
+   "id": "belgian-waffle-syrup-butter-v2",
+   "file": "photo-belgian-waffle-syrup-butter-v2.jpg",
+   "w": 1600,
+   "h": 959,
+   "meals": [
+    "breakfast"
+   ],
+   "requires": [
+    "belgian waffle",
+    "pancake syrup",
+    "salted margarine"
+   ],
+   "focal": [
+    0.561,
+    0.426
+   ],
+   "cap": "bl",
+   "caption": "Illustrative photo.",
+   "keep": [
+    0.34,
+    0.055,
+    0.78,
+    0.8
+   ],
+   "source": {
+    "site": "Unsplash",
+    "license": "Unsplash License",
+    "page": "https://unsplash.com/photos/v4IwVaaxoFo",
+    "by": "Jodie Morgan",
+    "checked": "2026-10-13",
+    "original": "unsplash-v4IwVaaxoFo.jpg (4288x2848)",
+    "crop": [
+     0,
+     690,
+     3600,
+     2158
+    ],
+    "master": "waffle-v4iw-v2.jpg (3600x2158)",
+    "shows": "round Belgian waffle on a speckled green plate, butter pat with syrup on top and syrup in the centre pockets; white tile table, red-striped napkin, fork and knife at right; knife blade with a butter smear and a butter-dish corner at top-left (butter stick and daffodils cropped out). No bacon, ham, eggs, fruit, sugar or cream.",
+    "sha256": "b7eb8da903f2864dfd947a70f7bbf7f514ddd1ff81b94a5aa88eced57e34efa7"
+   }
+  },
+  {
+   "id": "pancakes-plain-plate",
+   "file": "photo-pancakes-plain-plate.jpg",
+   "w": 1600,
+   "h": 1072,
+   "meals": [
+    "breakfast"
+   ],
+   "requires": [
+    "pancake"
+   ],
+   "focal": [
+    0.63,
+    0.5
+   ],
+   "cap": "bl",
+   "caption": "Illustrative photo.",
+   "keep": [
+    0.363,
+    0.246,
+    0.957,
+    0.754
+   ],
+   "source": {
+    "site": "Unsplash",
+    "license": "Unsplash License",
+    "page": "https://unsplash.com/photos/nePE2cnJNbs",
+    "by": "Fauzan",
+    "checked": "2026-10-13",
+    "original": "unsplash-nePE2cnJNbs.jpg (6000x4000)",
+    "crop": [
+     1142,
+     658,
+     4020,
+     2693
+    ],
+    "master": "pancake-nepe-v2.jpg (4020x2693)",
+    "shows": "three plain golden pancakes on a small white plate on dark wood; no butter, syrup, fruit or toppings",
+    "sha256": "110a44c6c68be391660aa99b082ed5ff24dcd7bd3992dedbf215877ac298c06c"
+   }
+  }
+ ]
 }
