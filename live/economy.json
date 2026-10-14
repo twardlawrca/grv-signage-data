@@ -1,6 +1,6 @@
 {
   "source": "U.S. Bureau of Labor Statistics · Federal Reserve Board · U.S. Energy Information Administration",
-  "updated_at": "2026-10-13T22:55:11Z",
+  "updated_at": "2026-10-14T17:21:22Z",
   "items": [
     {
       "key": "unemployment",
@@ -15,11 +15,11 @@
     {
       "key": "inflation",
       "label": "Inflation",
-      "value": "3.4%",
-      "raw": 3.4,
-      "asof": "August 2026",
-      "delta": "unchanged",
-      "dir": "flat",
+      "value": "3.7%",
+      "raw": 3.74,
+      "asof": "September 2026",
+      "delta": "0.3 pt from August",
+      "dir": "up",
       "note": "Consumer prices, past 12 months · BLS"
     },
     {
@@ -45,15 +45,15 @@
     {
       "key": "gas",
       "label": "Regular gas",
-      "value": "$4.35",
-      "raw": 4.354,
-      "asof": "Week of October 5",
-      "asofDate": "2026-10-05",
-      "delta": "0.11 from last week",
+      "value": "$4.33",
+      "raw": 4.331,
+      "asof": "Week of October 12",
+      "asofDate": "2026-10-12",
+      "delta": "0.02 from last week",
       "dir": "down",
-      "note": "Lower Atlantic $3.96 · EIA, U.S. average",
-      "prev": 4.465,
-      "prevDate": "2026-09-28"
+      "note": "Lower Atlantic $3.93 · EIA, U.S. average",
+      "prev": 4.354,
+      "prevDate": "2026-10-05"
     }
   ]
 }
