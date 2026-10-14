@@ -59,16 +59,16 @@
     },
     {
       "id": "french-fries",
-      "file": "french-fries-v1-1080x1920.mp4",
-      "poster": "french-fries-v1-poster.jpg",
-      "seconds": 15.6,
+      "file": "french-fries-v2-1080x1920.mp4",
+      "poster": "french-fries-v2-poster.jpg",
+      "seconds": 10.4,
       "meals": [
         "lunch"
       ],
       "requires": [
         "french fried potatoes"
       ],
-      "shows": "Fries in a fryer basket, fresh fries in a paper cone. Licensed stock footage (Pexels License), not RCA's kitchen."
+      "shows": "A basket of fries going into the fryer. Licensed stock footage (Pexels License), not RCA's kitchen."
     },
     {
       "id": "fried-rice",
