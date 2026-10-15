@@ -26,7 +26,7 @@
     "text": "Strength does not come from physical capacity. It comes from an indomitable will.",
     "by": "Mahatma Gandhi"
   },
-  "_readme_menu": "Cafeteria menu TVs (GRV-CafeMenu-Signage.html). menu.roles: computer name -> now | day. menu.rotate: computer name -> none | cw | ccw, ONLY for a portrait TV whose Windows output is still landscape (fix Windows first). menu.moments: Kitchen Moments cooking films (enabled true/false as a JSON boolean; intervalMin; hosts.<NAME>.enabled). mode \"generic\" (2026-10-14) = the kitchen reel: generic kitchen footage full screen every intervalMin minutes on BOTH TVs, all day, MENU01 at hosts.GRVTVMENU01.offsetMin (1) and MENU02 at hosts.GRVTVMENU02.offsetMin (3.5) past each 5 minutes, so one TV always shows the menu and no film lands on a meal start; mode \"menu\" (or no mode) = the old dish-matched films on the 'now' TV only. To stop every film set enabled to false; to go back to the old behaviour set mode to \"menu\" and intervalMin to 8. Exact computer names, upper case.",
+  "_readme_menu": "Cafeteria menu TVs (GRV-CafeMenu-Signage.html). menu.roles: computer name -> now | day. menu.rotate: computer name -> none | cw | ccw, ONLY for a portrait TV whose Windows output is still landscape (fix Windows first). menu.moments: Kitchen Moments cooking films (enabled true/false as a JSON boolean; intervalMin; hosts.<NAME>.enabled). mode \"generic\" (2026-10-14) = the kitchen reel: generic kitchen footage full screen every intervalMin minutes on BOTH TVs, all day, MENU01 at hosts.GRVTVMENU01.offsetMin (1) and MENU02 at hosts.GRVTVMENU02.offsetMin (3.5) past each 5 minutes, so one TV always shows the menu and no film lands on a meal start; mode \"menu\" (or no mode) = the old dish-matched films on the 'now' TV only. To stop every film set enabled to false; to go back to the old behaviour set mode to \"menu\" and intervalMin to 8. menu.night (2026-10-15, engine cafe-menu 1.5.0): the night screen on BOTH TVs (navy sky, crescent moon, clouds, \"Thank you for stopping by.\" / \"The kitchen is closed for the night.\"), New York time from start to end (may cross midnight), no films at night, alerts still show; enabled must be the JSON boolean true; to turn it off set enabled to false or delete the block (takes effect within ~15 min). Exact computer names, upper case.",
   "menu": {
     "roles": {
       "GRVTVMENU01": "now",
@@ -45,6 +45,11 @@
           "offsetMin": 3.5
         }
       }
+    },
+    "night": {
+      "enabled": true,
+      "start": "22:00",
+      "end": "07:00"
     }
   }
 }
