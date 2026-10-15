@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T18:02:22.103Z",
+  "generatedAt": "2026-10-15T15:45:36.940Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -1397,6 +1397,183 @@
             "headline": "*833-30-RECOVERY*",
             "subline": "If you or someone you love is struggling with substance use, call us today: 833-307-3268 · RecoveryCentersofAmerica.com",
             "align": "center",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-grv-employee-experience-survey-2026",
+      "name": "2026 Employee Experience Survey",
+      "category": "employee",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-10-15",
+        "endsOn": "2026-10-23"
+      },
+      "rotation": {
+        "slideSec": 12,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": [
+            "p-nursing",
+            "p-workflex"
+          ]
+        },
+        "deviceIds": [
+          "GRVTVA123",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-ees-thanks",
+          "type": "message",
+          "title": "2026 Employee Experience Survey",
+          "durationSec": 12,
+          "props": {
+            "eyebrow": "Participation rate update",
+            "headline": "2026 Employee *Experience* *Survey*",
+            "subline": "Thank you to the 20% of our team who have already shared their feedback.",
+            "align": "left",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-ees-foodtruck",
+          "type": "message",
+          "title": "Who will win the food truck this year?",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "Who will win the food truck this year?",
+            "headline": "RCA at *Mount* *Dora* leads.",
+            "subline": "RCA at Devon is right behind, and reigning champs RCA at Westminster are in third.",
+            "align": "left",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-ees-chart-top",
+          "type": "list",
+          "title": "Survey response rate by location (as of Oct 15) · ranks 1 to 7",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "2026 Employee Experience Survey",
+            "headline": "Survey response rate by *location*",
+            "subline": "As of Oct 15 · ranks 1 to 7",
+            "style": "bullets",
+            "columns": 2,
+            "items": [
+              {
+                "icon": "chat",
+                "title": "Mount Dora · 39.1%"
+              },
+              {
+                "icon": "chat",
+                "title": "Devon · 36.6%"
+              },
+              {
+                "icon": "chat",
+                "title": "Westminster/Worcester · 29.3%"
+              },
+              {
+                "icon": "chat",
+                "title": "Monroeville · 26.2%"
+              },
+              {
+                "icon": "chat",
+                "title": "Raritan Bay · 25.4%"
+              },
+              {
+                "icon": "chat",
+                "title": "Indianapolis · 22.1%"
+              },
+              {
+                "icon": "chat",
+                "title": "Capital Region/VA OP · 19.2%"
+              }
+            ],
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-ees-chart-rest",
+          "type": "list",
+          "title": "Survey response rate by location (as of Oct 15) · ranks 8 to 13",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "2026 Employee Experience Survey",
+            "headline": "Survey response rate by *location*",
+            "subline": "As of Oct 15 · ranks 8 to 13 · Greenville starred",
+            "style": "bullets",
+            "columns": 2,
+            "items": [
+              {
+                "icon": "chat",
+                "title": "Enterprise Support Center (ESC) · 18.7%"
+              },
+              {
+                "icon": "chat",
+                "title": "Lighthouse · 17.1%"
+              },
+              {
+                "icon": "chat",
+                "title": "Bracebridge Hall/DE OP · 16.7%"
+              },
+              {
+                "icon": "star",
+                "title": "Greenville · 14.1%"
+              },
+              {
+                "icon": "chat",
+                "title": "St. Charles/Rolling Meadows · 12.6%"
+              },
+              {
+                "icon": "chat",
+                "title": "Danvers · 12.3%"
+              }
+            ],
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-ees-take",
+          "type": "message",
+          "title": "Help Greenville climb the board",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "Survey closes Friday, October 23 at 11:59 PM ET",
+            "headline": "Help Greenville *climb* the *board*.",
+            "subline": "Greenville is at 14.1% so far. Look for the email from RCA Communications to take the survey.",
+            "align": "left",
             "accent": "gold"
           }
         }
