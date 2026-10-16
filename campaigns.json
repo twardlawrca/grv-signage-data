@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T15:45:36.940Z",
+  "generatedAt": "2026-10-16T14:43:57.000Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -2812,6 +2812,102 @@
             "revealSec": 6,
             "intro": true,
             "outro": true,
+            "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-grv-parade-small-talk-2026",
+      "name": "In the news · Parade: why small talk drains some people (Dr. Peter Vernig)",
+      "category": "recognition",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-10-16",
+        "endsOn": "2026-11-06"
+      },
+      "rotation": {
+        "slideSec": 18,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": [
+            "p-lobby",
+            "p-family",
+            "p-outpatient",
+            "p-cafeteria"
+          ]
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTVOPLOBBY",
+          "GRVTV-ACAFE"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-parade-why",
+          "type": "message",
+          "title": "Why small talk can feel draining",
+          "durationSec": 18,
+          "props": {
+            "eyebrow": "In the news · Parade",
+            "headline": "Why small talk can feel *draining*.",
+            "subline": "RCA’s Dr. Peter Vernig, VP of Mental Health Services, told Parade the brain rewards feeling connected and heard, and surface-level chatter often doesn’t deliver that. Introverts, he says, have “a finite social battery.”",
+            "align": "left",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-parade-connection",
+          "type": "message",
+          "title": "Real connection is part of emotional wellness",
+          "durationSec": 18,
+          "props": {
+            "eyebrow": "In the news · Parade",
+            "headline": "Real *connection* is part of emotional *wellness*.",
+            "subline": "Meaningful conversation releases oxytocin, which is linked to connection and long-term well-being. Dr. Vernig points to a study in which the happiest people had about twice as many substantive conversations as the unhappiest.",
+            "align": "left",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-parade-read",
+          "type": "image",
+          "title": "Read the full story",
+          "durationSec": 20,
+          "props": {
+            "asset": {
+              "id": "ast-parade-small-talk-qr",
+              "file": "parade-small-talk-qr.png",
+              "sha256": "62357fbd70cbae0d104d2146b7dca0f3de89f3638c20ad88f13841f8f859ee8b",
+              "width": 1416,
+              "height": 1416
+            },
+            "layout": "feature",
+            "eyebrow": "In the news · Parade",
+            "headline": "Read the full *story*",
+            "subline": "Scan the code with your phone to read Dr. Vernig’s interview, also featured on Yahoo Life and AOL.",
+            "caption": "RecoveryCentersOfAmerica.com/news",
             "theme": "navy",
             "accent": "gold"
           }
