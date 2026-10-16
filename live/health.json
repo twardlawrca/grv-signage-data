@@ -1,8 +1,14 @@
 {
   "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
   "license": "https://www.usa.gov/government-copyright",
-  "updated_at": "2026-10-15T21:31:29Z",
+  "updated_at": "2026-10-16T21:22:26Z",
   "items": [
+    {
+      "text": "Helpline Offers Immediate Crisis Counseling to People in Advance of Tropical Storm Champi Set to Impact Guam and the…",
+      "meta": "SAMHSA · Oct 16",
+      "url": "https://www.samhsa.gov/newsroom/press-announcements/20261016/ddh-offers-crisis-counseling-tropical-storm-champi",
+      "day": "2026-10-16"
+    },
     {
       "text": "DPH Spotlights Safety Tips, Hosts Drawing Contest for International Bat Week",
       "meta": "SC DPH · Oct 15",
@@ -14,12 +20,6 @@
       "meta": "Georgia DPH · Oct 13",
       "url": "https://dph.georgia.gov/press-releases/2026-10-13/dph-confirms-new-measles-case-urges-vaccination",
       "day": "2026-10-13"
-    },
-    {
-      "text": "Secretary Kennedy Announces 8 Communities To Receive $96 Million Through New STREETS Program",
-      "meta": "SAMHSA · Oct 2",
-      "url": "https://www.samhsa.gov/newsroom/press-announcements/20261002/secretary-kennedy-announces-8-communities-receive-96m-through-streets-program",
-      "day": "2026-10-02"
     },
     {
       "text": "Annual Report to the Nation: Progress Against Lung Cancer Drives Down Cancer Mortality",
@@ -34,10 +34,10 @@
       "day": "2026-10-13"
     },
     {
-      "text": "DPH News Release - Measles in Jasper County",
-      "meta": "Georgia DPH · Sep 30",
-      "url": "https://dph.georgia.gov/press-releases/2026-09-30/dph-news-release-measles-jasper-county",
-      "day": "2026-09-30"
+      "text": "Secretary Kennedy Announces 8 Communities To Receive $96 Million Through New STREETS Program",
+      "meta": "SAMHSA · Oct 2",
+      "url": "https://www.samhsa.gov/newsroom/press-announcements/20261002/secretary-kennedy-announces-8-communities-receive-96m-through-streets-program",
+      "day": "2026-10-02"
     }
   ]
 }
