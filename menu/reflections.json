@@ -1,0 +1,306 @@
+{
+  "schema": "grv-cafe-reflections/1",
+  "updated": "2026-10-18",
+  "items": [
+    {
+      "id": "rf-01",
+      "text": "Every day is a fresh beginning, every morn is the world made new.",
+      "by": "Susan Coolidge",
+      "source": {
+        "work": "New Every Morning (A Few More Verses)",
+        "year": 1889,
+        "url": "https://gutenberg.org/files/49518/49518-h/49518-h.htm"
+      }
+    },
+    {
+      "id": "rf-02",
+      "text": "For in the dew of little things the heart finds its morning and is refreshed.",
+      "by": "Kahlil Gibran",
+      "source": {
+        "work": "The Prophet, On Friendship",
+        "year": 1923,
+        "url": "https://www.gutenberg.org/cache/epub/58585/pg58585-images.html"
+      }
+    },
+    {
+      "id": "rf-03",
+      "text": "Hope is the thing with feathers that perches in the soul.",
+      "by": "Emily Dickinson",
+      "source": {
+        "work": "Poems, Second Series",
+        "year": 1891,
+        "url": "https://www.gutenberg.org/cache/epub/12242/pg12242-images.html"
+      }
+    },
+    {
+      "id": "rf-04",
+      "text": "What is this life if, full of care, we have no time to stand and stare.",
+      "by": "W. H. Davies",
+      "source": {
+        "work": "Leisure (Songs of Joy and Others)",
+        "year": 1911,
+        "url": "https://en.wikisource.org/wiki/The_Collected_Poems_of_William_H._Davies/Leisure"
+      }
+    },
+    {
+      "id": "rf-05",
+      "text": "What do we live for, if it is not to make life less difficult to each other?",
+      "by": "George Eliot",
+      "source": {
+        "work": "Middlemarch, chapter 72",
+        "year": 1872,
+        "url": "https://www.gutenberg.org/ebooks/145"
+      }
+    },
+    {
+      "id": "rf-07",
+      "text": "My heart is like an apple-tree whose boughs are bent with thickset fruit.",
+      "by": "Christina Rossetti",
+      "source": {
+        "work": "A Birthday (Goblin Market and Other Poems)",
+        "year": 1862,
+        "url": "https://rpo.library.utoronto.ca/poems/birthday"
+      }
+    },
+    {
+      "id": "rf-08",
+      "text": "When thou wishest to delight thyself, think of the virtues of those who live with thee.",
+      "by": "Marcus Aurelius",
+      "source": {
+        "work": "Meditations, book VI (George Long translation)",
+        "year": 1862,
+        "url": "https://classics.mit.edu/Antoninus/meditations.6.six.html"
+      }
+    },
+    {
+      "id": "rf-09",
+      "text": "If Winter comes, can Spring be far behind?",
+      "by": "Percy Bysshe Shelley",
+      "source": {
+        "work": "Ode to the West Wind",
+        "year": 1820,
+        "url": "https://poets.org/poem/ode-west-wind"
+      }
+    },
+    {
+      "id": "rf-10",
+      "text": "The butterfly counts not months but moments, and has time enough.",
+      "by": "Rabindranath Tagore",
+      "source": {
+        "work": "Fireflies",
+        "year": 1928,
+        "url": "https://archive.org/details/dli.venugopal.844"
+      }
+    },
+    {
+      "id": "rf-11",
+      "text": "The only reward of virtue is virtue; the only way to have a friend is to be one.",
+      "by": "Ralph Waldo Emerson",
+      "source": {
+        "work": "Friendship (Essays: First Series)",
+        "year": 1841,
+        "url": "https://emersoncentral.com/texts/essays-first-series/friendship/"
+      }
+    },
+    {
+      "id": "rf-12",
+      "text": "The journey of a thousand li commenced with a single step.",
+      "by": "Lao Tzu",
+      "source": {
+        "work": "Tao Te Ching, chapter 64 (James Legge translation)",
+        "year": 1891,
+        "url": "https://gutenberg.org/cache/epub/216/pg216.txt"
+      }
+    },
+    {
+      "id": "rf-13",
+      "text": "Isn’t it nice to think that tomorrow is a new day with no mistakes in it yet?",
+      "by": "L. M. Montgomery",
+      "source": {
+        "work": "Anne of Green Gables, chapter 21",
+        "year": 1908,
+        "url": "https://www.gutenberg.org/cache/epub/45/pg45-images.html"
+      }
+    },
+    {
+      "id": "rf-14",
+      "text": "Nature’s peace will flow into you as sunshine flows into trees.",
+      "by": "John Muir",
+      "source": {
+        "work": "Our National Parks",
+        "year": 1901,
+        "url": "https://www.gutenberg.org/cache/epub/60929/pg60929-images.html"
+      }
+    },
+    {
+      "id": "rf-15",
+      "text": "How far that little candle throws his beams! So shines a good deed in a naughty world.",
+      "by": "William Shakespeare",
+      "source": {
+        "work": "The Merchant of Venice, act 5",
+        "year": 1600,
+        "url": "https://shakespeare.mit.edu/merchant/merchant.5.1.html"
+      }
+    },
+    {
+      "id": "rf-16",
+      "text": "Very little indeed is necessary for living a happy life.",
+      "by": "Marcus Aurelius",
+      "source": {
+        "work": "Meditations, book VII (George Long translation)",
+        "year": 1862,
+        "url": "https://classics.mit.edu/Antoninus/meditations.7.seven.html"
+      }
+    },
+    {
+      "id": "rf-17",
+      "text": "The world is so full of a number of things, I’m sure we should all be as happy as kings.",
+      "by": "Robert Louis Stevenson",
+      "source": {
+        "work": "Happy Thought (A Child’s Garden of Verses)",
+        "year": 1885,
+        "url": "https://www.gutenberg.org/cache/epub/136/pg136-images.html"
+      }
+    },
+    {
+      "id": "rf-32",
+      "text": "Where you tend a rose, my lad, a thistle cannot grow.",
+      "by": "Frances Hodgson Burnett",
+      "source": {
+        "work": "The Secret Garden, chapter 27",
+        "year": 1911,
+        "url": "https://www.gutenberg.org/ebooks/113"
+      }
+    },
+    {
+      "id": "rf-19",
+      "text": "And then my heart with pleasure fills, and dances with the Daffodils.",
+      "by": "William Wordsworth",
+      "source": {
+        "work": "I Wandered Lonely as a Cloud (Poems, in Two Volumes)",
+        "year": 1807,
+        "url": "https://romantic-circles.org/sites/default/files/RCOldSite/www/rchs/reader/wwdaff.html"
+      }
+    },
+    {
+      "id": "rf-20",
+      "text": "Is it not delightful to have friends coming from distant quarters?",
+      "by": "Confucius",
+      "source": {
+        "work": "The Analects, book I (James Legge translation)",
+        "year": 1861,
+        "url": "https://gutenberg.org/cache/epub/3330/pg3330-images.html"
+      }
+    },
+    {
+      "id": "rf-21",
+      "text": "Sit still my heart, do not raise your dust. Let the world find its way to you.",
+      "by": "Rabindranath Tagore",
+      "source": {
+        "work": "Stray Birds",
+        "year": 1916,
+        "url": "https://www.gutenberg.org/cache/epub/6524/pg6524-images.html"
+      }
+    },
+    {
+      "id": "rf-22",
+      "text": "I’m not afraid of storms, for I’m learning how to sail my ship.",
+      "by": "Louisa May Alcott",
+      "source": {
+        "work": "Little Women, Part Two, chapter 44",
+        "year": 1869,
+        "url": "https://www.gutenberg.org/cache/epub/514/pg514-images.html"
+      }
+    },
+    {
+      "id": "rf-23",
+      "text": "Write it on your heart that every day is the best day in the year.",
+      "by": "Ralph Waldo Emerson",
+      "source": {
+        "work": "Works and Days (Society and Solitude)",
+        "year": 1870,
+        "url": "https://emersoncentral.com/texts/society-and-solitude/works-and-days/"
+      }
+    },
+    {
+      "id": "rf-24",
+      "text": "Little friends may prove great friends.",
+      "by": "Aesop",
+      "source": {
+        "work": "The Lion and the Mouse (retold by Joseph Jacobs, The Fables of Aesop)",
+        "year": 1894,
+        "url": "https://gutenberg.org/cache/epub/28/pg28-images.html"
+      }
+    },
+    {
+      "id": "rf-25",
+      "text": "If I can stop one heart from breaking, I shall not live in vain.",
+      "by": "Emily Dickinson",
+      "source": {
+        "work": "Poems, First Series",
+        "year": 1890,
+        "url": "https://www.gutenberg.org/cache/epub/12242/pg12242-images.html"
+      }
+    },
+    {
+      "id": "rf-26",
+      "text": "There is nothing—absolute nothing—half so much worth doing as simply messing about in boats.",
+      "by": "Kenneth Grahame",
+      "source": {
+        "work": "The Wind in the Willows, chapter 1",
+        "year": 1908,
+        "url": "https://www.gutenberg.org/cache/epub/289/pg289-images.html"
+      }
+    },
+    {
+      "id": "rf-27",
+      "text": "Hope springs eternal in the human breast.",
+      "by": "Alexander Pope",
+      "source": {
+        "work": "An Essay on Man, Epistle I",
+        "year": 1733,
+        "url": "https://www.gutenberg.org/cache/epub/2428/pg2428-images.html"
+      }
+    },
+    {
+      "id": "rf-28",
+      "text": "And forget not that the earth delights to feel your bare feet and the winds long to play with your hair.",
+      "by": "Kahlil Gibran",
+      "source": {
+        "work": "The Prophet, On Clothes",
+        "year": 1923,
+        "url": "https://www.gutenberg.org/cache/epub/58585/pg58585-images.html"
+      }
+    },
+    {
+      "id": "rf-29",
+      "text": "No one is useless in this world who lightens the burden of it for any one else.",
+      "by": "Charles Dickens",
+      "source": {
+        "work": "Our Mutual Friend",
+        "year": 1865,
+        "url": "https://www.gutenberg.org/ebooks/883"
+      }
+    },
+    {
+      "id": "rf-30",
+      "text": "I would always rather be happy than dignified.",
+      "by": "Charlotte Brontë",
+      "source": {
+        "work": "Jane Eyre, chapter 34",
+        "year": 1847,
+        "url": "https://www.gutenberg.org/cache/epub/1260/pg1260-images.html"
+      }
+    },
+    {
+      "id": "rf-31",
+      "text": "Only that day dawns to which we are awake. There is more day to dawn. The sun is but a morning star.",
+      "by": "Henry David Thoreau",
+      "source": {
+        "work": "Walden, Conclusion",
+        "year": 1854,
+        "url": "https://en.wikisource.org/wiki/Walden,_or,_Life_in_the_Woods/Conclusion"
+      }
+    }
+  ]
+}

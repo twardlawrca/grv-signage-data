@@ -1,0 +1,702 @@
+{
+  "schema": "grv-cafe-good-to-know/1",
+  "_readme": "Healthy habits tips and Food facts for the cafeteria menu TVs (CONTRACT Draft 12; cafe-menu.js 1.7.0). Clinical / nutrition content: an item shows ONLY when Dietary has approved it -- \"reviewStatus\": \"approved\" together with \"reviewedBy\" (the reviewer's name) and \"reviewedOn\" (YYYY-MM-DD). \"pending\" and \"retired\" never show. One tip and one fact a day (the New York date picks them, the same on both TVs). No times, no dish names; a tip is never paired with a dish. Where the strip under the menu is short, a fact shows its question and answer without its reveal, and a tip's source moves beside the title (or to the end of the tip): approve each question + answer as a pair that stands on its own. Steps: work/cafe-menu/proof/enhance-1015/MAINTAIN.md section 11.",
+  "updated": "2026-10-18",
+  "tips": [
+    {
+      "id": "ffr-01",
+      "text": "Every meal is a chance to nourish your body. The benefits add up over time, bite by bite.",
+      "source": "USDA & HHS",
+      "topic": "nourishment",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Small Changes Matter. Start Simple with MyPlate Today.",
+          "publisher": "USDA and HHS, Dietary Guidelines for Americans 2020-2025 (dietaryguidelines.gov)",
+          "url": "https://www.dietaryguidelines.gov/sites/default/files/2021-03/DGA_2020-2025_StartSimple_withMyPlate_English_BW.pdf",
+          "accessed": "2026-10-15",
+          "supports": "Says healthy eating matters at every stage of life and that the benefits of food choices add up over time, bite by bite."
+        }
+      ],
+      "notes": "General encouragement only; no individual instruction. The cited MyPlate sheet belongs to the 2020-2025 Dietary Guidelines edition (the 2025-2030 edition is now current); reviewer to confirm wording still fits."
+    },
+    {
+      "id": "ffr-02",
+      "text": "Variety matters: fruits, vegetables, grains, protein foods, and dairy or fortified soy all have a place.",
+      "source": "USDA & HHS",
+      "topic": "nourishment",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Small Changes Matter. Start Simple with MyPlate Today.",
+          "publisher": "USDA and HHS, Dietary Guidelines for Americans 2020-2025 (dietaryguidelines.gov)",
+          "url": "https://www.dietaryguidelines.gov/sites/default/files/2021-03/DGA_2020-2025_StartSimple_withMyPlate_English_BW.pdf",
+          "accessed": "2026-10-15",
+          "supports": "States it is important to eat a variety of fruits, vegetables, grains, protein foods, and dairy or fortified soy alternatives."
+        }
+      ],
+      "notes": "Names the five MyPlate groups neutrally; no foods are ranked or labelled good/bad. Dietary to confirm the wording suits the current menu and any texture-modified or special diets."
+    },
+    {
+      "id": "ffr-03",
+      "text": "Fruits and vegetables fit at any meal or snack. Trying a new one might become a new favorite.",
+      "source": "MedlinePlus (NIH) · USDA & HHS",
+      "topic": "nourishment",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Dietary Guidelines for Americans 2025 - 2030 (MedlinePlus Medical Encyclopedia)",
+          "publisher": "MedlinePlus, National Library of Medicine (NIH); reviewed 2026-02-09",
+          "url": "https://medlineplus.gov/ency/article/002093.htm",
+          "accessed": "2026-10-15",
+          "supports": "Has a section encouraging fruits and vegetables throughout the day."
+        },
+        {
+          "title": "Small Changes Matter. Start Simple with MyPlate Today.",
+          "publisher": "USDA and HHS, Dietary Guidelines for Americans 2020-2025 (dietaryguidelines.gov)",
+          "url": "https://www.dietaryguidelines.gov/sites/default/files/2021-03/DGA_2020-2025_StartSimple_withMyPlate_English_BW.pdf",
+          "accessed": "2026-10-15",
+          "supports": "Suggests ready-to-eat fruit as a quick snack and trying new vegetables or grains, noting you might discover a new favorite."
+        }
+      ],
+      "notes": "Second sentence is an encouragement, not a health claim."
+    },
+    {
+      "id": "ffr-04",
+      "text": "Eating regularly can help you feel better and stay focused. Fuel your day one meal at a time.",
+      "source": "Academy of Nutrition and Dietetics",
+      "topic": "steady-meal-routines",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Eating to Boost Energy",
+          "publisher": "Academy of Nutrition and Dietetics (eatright.org); reviewed 2026-04-22",
+          "url": "https://www.eatright.org/health/wellness/healthful-habits/eating-to-boost-energy",
+          "accessed": "2026-10-15",
+          "supports": "Says people feel better and more focused when they have fuel in their system on a regular basis."
+        },
+        {
+          "title": "How to Practice Intuitive Eating While Supporting Your Nutrition Needs",
+          "publisher": "Academy of Nutrition and Dietetics (eatright.org)",
+          "url": "https://www.eatright.org/health/wellness/weight-and-body-positivity/how-to-practice-intuitive-eating-while-supporting-your-nutrition-needs",
+          "accessed": "2026-10-15",
+          "supports": "States that regular meals and snacks can help support energy."
+        }
+      ],
+      "notes": "The second source sits in the Academy's weight-and-body-positivity section; only the energy statement is used, and the tip contains no weight or body-size message."
+    },
+    {
+      "id": "ffr-05",
+      "text": "A snack can bridge the gap between one meal and the next.",
+      "source": "Academy of Nutrition and Dietetics",
+      "topic": "steady-meal-routines",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Eating to Boost Energy",
+          "publisher": "Academy of Nutrition and Dietetics (eatright.org); reviewed 2026-04-22",
+          "url": "https://www.eatright.org/health/wellness/healthful-habits/eating-to-boost-energy",
+          "accessed": "2026-10-15",
+          "supports": "Describes snacks as a way to bridge from one meal to the next rather than to fill you up."
+        }
+      ],
+      "notes": "Reviewer to confirm snack availability on the unit before this is shown."
+    },
+    {
+      "id": "ffr-06",
+      "text": "Knowing what's coming can ease mealtime stress. Planning ahead may help.",
+      "source": "Academy of Nutrition and Dietetics",
+      "topic": "steady-meal-routines",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "3 Strategies for Successful Meal Planning",
+          "publisher": "Academy of Nutrition and Dietetics (eatright.org); reviewed 2026-03-03",
+          "url": "https://www.eatright.org/food/planning/smart-shopping/3-strategies-for-successful-meal-planning",
+          "accessed": "2026-10-15",
+          "supports": "States that planning ahead may help relieve mealtime stress."
+        }
+      ],
+      "notes": "Written for people planning their own meals; here it is a gentle nod to the posted menu. Modest wording (may)."
+    },
+    {
+      "id": "ffr-07",
+      "text": "Water helps your body keep a normal temperature and cushions your joints.",
+      "source": "CDC",
+      "topic": "hydration",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "About Water and Healthier Drinks",
+          "publisher": "Centers for Disease Control and Prevention, Healthy Weight and Growth (page dated 2026-03-05)",
+          "url": "https://www.cdc.gov/healthy-weight-growth/water-healthy-drinks/index.html",
+          "accessed": "2026-10-15",
+          "supports": "Lists keeping a normal temperature and lubricating and cushioning joints among the ways water helps the body."
+        }
+      ],
+      "notes": "The CDC page also discusses weight and calories; none of that is used. Reviewer to confirm no patient on a fluid restriction would be confused (the tip is general, not an instruction to drink more)."
+    },
+    {
+      "id": "ffr-08",
+      "text": "Drinking water can help prevent dehydration, which may cause unclear thinking and mood changes.",
+      "source": "CDC",
+      "topic": "hydration",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "About Water and Healthier Drinks",
+          "publisher": "Centers for Disease Control and Prevention, Healthy Weight and Growth (page dated 2026-03-05)",
+          "url": "https://www.cdc.gov/healthy-weight-growth/water-healthy-drinks/index.html",
+          "accessed": "2026-10-15",
+          "supports": "Says drinking water can prevent dehydration, which may cause unclear thinking and mood change, among other effects."
+        }
+      ],
+      "notes": "Phrased with can/may as the CDC does. Clinical reviewer to confirm the mood wording is acceptable for this audience; shorter alternative: end the sentence after 'dehydration'."
+    },
+    {
+      "id": "ffr-09",
+      "text": "A squeeze of fruit adds a splash of flavor to a glass of water.",
+      "source": "USDA & HHS",
+      "topic": "hydration",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Small Changes Matter. Start Simple with MyPlate Today.",
+          "publisher": "USDA and HHS, Dietary Guidelines for Americans 2020-2025 (dietaryguidelines.gov)",
+          "url": "https://www.dietaryguidelines.gov/sites/default/files/2021-03/DGA_2020-2025_StartSimple_withMyPlate_English_BW.pdf",
+          "accessed": "2026-10-15",
+          "supports": "Suggests chilled plain or sparkling water with a squeeze of fruit for a splash of flavor."
+        }
+      ],
+      "notes": "Practical idea only. Show only if citrus or similar is actually available at the water station."
+    },
+    {
+      "id": "ffr-10",
+      "text": "People who eat with others more often tend to report feeling happier. Pull up a chair if you like.",
+      "source": "R. I. M. Dunbar (2017)",
+      "topic": "eating-with-others",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Breaking Bread: the Functions of Social Eating",
+          "publisher": "R. I. M. Dunbar, Adaptive Human Behavior and Physiology 3(3):198-211, 2017 (PubMed Central)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6979515",
+          "accessed": "2026-10-15",
+          "supports": "A national survey found people who eat socially more often feel happier and more satisfied with life and are more engaged with their communities."
+        }
+      ],
+      "notes": "Survey (association, not proof of cause; UK adults) so the wording is 'tend to report'. Peer-reviewed. The invitation is optional so patients who prefer quiet are not pressured."
+    },
+    {
+      "id": "ffr-11",
+      "text": "Good company can make mealtimes more enjoyable. Share a table whenever it feels right.",
+      "source": "NIH",
+      "topic": "eating-with-others",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Health Tips for Older Adults",
+          "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIH)",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/health-tips-for-older-adults",
+          "accessed": "2026-10-15",
+          "supports": "Advises trying to share meals with someone whose company you enjoy and links good company with more enjoyable meals."
+        },
+        {
+          "title": "Overcoming Roadblocks to Healthy Eating",
+          "publisher": "National Institute on Aging (NIH)",
+          "url": "https://www.nia.nih.gov/health/overcoming-roadblocks-healthy-eating",
+          "accessed": "2026-10-15",
+          "supports": "Suggests cooking or eating with a friend or at a community setting so you have some company while you eat."
+        }
+      ],
+      "notes": "Both NIH sources are written for older adults; the tip makes only an enjoyment claim (no nutrition-benefit claim) because adult evidence linking shared meals to diet quality is mixed."
+    },
+    {
+      "id": "ffr-12",
+      "text": "Questions about food? Your care team and dietitian are the right people to ask.",
+      "source": "Academy of Nutrition and Dietetics · MedlinePlus (NIH)",
+      "topic": "care-team",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "About RDNs and NDTRs",
+          "publisher": "Academy of Nutrition and Dietetics (eatright.org)",
+          "url": "https://www.eatright.org/about-rdns-and-ndtrs",
+          "accessed": "2026-10-15",
+          "supports": "Describes registered dietitian nutritionists as food and nutrition experts who work in hospitals and health care facilities, teaching patients about nutrition."
+        },
+        {
+          "title": "Dietary Guidelines for Americans 2025 - 2030 (MedlinePlus Medical Encyclopedia)",
+          "publisher": "MedlinePlus, National Library of Medicine (NIH); reviewed 2026-02-09",
+          "url": "https://medlineplus.gov/ency/article/002093.htm",
+          "accessed": "2026-10-15",
+          "supports": "Advises discussing dietary changes with a health care provider or registered dietitian."
+        }
+      ],
+      "notes": "FACILITY CHECK: Dietary to confirm that patients can reach a dietitian or the care team with food questions, and how, before this is shown."
+    },
+    {
+      "id": "ffr-13",
+      "text": "Registered dietitians are food and nutrition experts. Ask your care team how to reach one.",
+      "source": "Academy of Nutrition and Dietetics",
+      "topic": "care-team",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "About RDNs and NDTRs",
+          "publisher": "Academy of Nutrition and Dietetics (eatright.org)",
+          "url": "https://www.eatright.org/about-rdns-and-ndtrs",
+          "accessed": "2026-10-15",
+          "supports": "States that registered dietitian nutritionists are food and nutrition experts with graduate-level education, supervised practice, and a national exam."
+        }
+      ],
+      "notes": "FACILITY CHECK: confirm the RCA Greenville process for requesting a dietitian conversation; adjust the second sentence to match."
+    },
+    {
+      "id": "ffr-14",
+      "text": "Thinking about changing how you eat? Talk with your care team or dietitian first.",
+      "source": "MedlinePlus (NIH)",
+      "topic": "care-team",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Dietary Guidelines for Americans 2025 - 2030 (MedlinePlus Medical Encyclopedia)",
+          "publisher": "MedlinePlus, National Library of Medicine (NIH); reviewed 2026-02-09",
+          "url": "https://medlineplus.gov/ency/article/002093.htm",
+          "accessed": "2026-10-15",
+          "supports": "Says to discuss any dietary changes with your health care provider or registered dietitian first."
+        }
+      ],
+      "notes": "A referral, not an instruction about what to eat. Pairs naturally with ffr-12."
+    }
+  ],
+  "facts": [
+    {
+      "id": "ft-01",
+      "question": "Roughly how much of an apple is air, which helps it float in water?",
+      "answer": "About one quarter (25%)",
+      "reveal": "That air is why apples tend to float in water.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Apples | SNAP-Ed",
+          "publisher": "USDA Food and Nutrition Service, SNAP-Ed Connection (Seasonal Produce Guide)",
+          "url": "https://snaped.fna.usda.gov/resources/nutrition-education-materials/seasonal-produce-guide/apples",
+          "accessed": "2026-10-15",
+          "supports": "Fun fact: apples are about 25% air and tend to float in water."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-02",
+      "question": "What is a bunch of bananas called?",
+      "answer": "A hand",
+      "reveal": "Bananas curve slightly because they grow toward the light.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Bananas | SNAP-Ed",
+          "publisher": "USDA Food and Nutrition Service, SNAP-Ed Connection (Seasonal Produce Guide)",
+          "url": "https://snaped.fna.usda.gov/resources/nutrition-education-materials/seasonal-produce-guide/bananas",
+          "accessed": "2026-10-15",
+          "supports": "Fun facts: a bunch of bananas is called a hand; bananas curve slightly because they grow toward the light."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-03",
+      "question": "What do ripe cranberries do when their field is flooded at harvest time?",
+      "answer": "They float to the top",
+      "reveal": "That is why cranberry fields are flooded when it is time to harvest.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Cranberries | SNAP-Ed",
+          "publisher": "USDA Food and Nutrition Service, SNAP-Ed Connection (Seasonal Produce Guide)",
+          "url": "https://snaped.fna.usda.gov/resources/nutrition-education-materials/seasonal-produce-guide/cranberries",
+          "accessed": "2026-10-15",
+          "supports": "At harvest the fields are flooded and the cranberries float to the top of the water."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-04",
+      "question": "A watermelon is over what percent water?",
+      "answer": "Over 90 percent",
+      "reveal": "Red, pink, orange, or yellow, a watermelon is mostly water.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Watermelon | SNAP-Ed",
+          "publisher": "USDA Food and Nutrition Service, SNAP-Ed Connection (Seasonal Produce Guide)",
+          "url": "https://snaped.fna.usda.gov/resources/nutrition-education-materials/seasonal-produce-guide/watermelon",
+          "accessed": "2026-10-15",
+          "supports": "A watermelon is over 90% water and comes in red, pink, orange, and yellow."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-05",
+      "question": "About how many seeds sit on the outside of an average strawberry?",
+      "answer": "About 200",
+      "reveal": "Each tiny speck is really a small fruit with a seed inside.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Strawberries | SNAP-Ed",
+          "publisher": "USDA Food and Nutrition Service, SNAP-Ed Connection (Seasonal Produce Guide)",
+          "url": "https://snaped.fna.usda.gov/resources/nutrition-education-materials/seasonal-produce-guide/strawberries",
+          "accessed": "2026-10-15",
+          "supports": "Fun fact: an average strawberry has about 200 seeds on the outside."
+        },
+        {
+          "title": "Digital Flowers: Fruits, Flower to fruit, Fragaria",
+          "publisher": "University of Illinois (life.illinois.edu)",
+          "url": "https://www.life.illinois.edu/help/digitalflowers/Fruits/7.htm",
+          "accessed": "2026-10-15",
+          "supports": "The whole strawberry is an enlarged fleshy receptacle; the actual fruits are the tiny achenes scattered on its surface."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-06",
+      "question": "Botanically, is a peanut a true nut or a legume?",
+      "answer": "A legume",
+      "reveal": "Peanuts do not meet the botanical definition of a true nut.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Nuts (Celebrating Wildflowers, Ethnobotany: Food)",
+          "publisher": "USDA Forest Service",
+          "url": "https://www.fs.usda.gov/wildflowers/ethnobotany/food/nuts.shtml",
+          "accessed": "2026-10-15",
+          "supports": "Peanuts are actually legumes and do not meet the botanical definition of a true nut."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-07",
+      "question": "Botanically speaking, is a tomato a fruit or a vegetable?",
+      "answer": "A fruit",
+      "reveal": "Cooks use it like a vegetable, but botanically it is a fruit.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Tomatoes",
+          "publisher": "MU Extension, University of Missouri (2018-07-31)",
+          "url": "https://extension.missouri.edu/news/tomatoes",
+          "accessed": "2026-10-15",
+          "supports": "Botanically speaking, tomatoes are more of a fruit; in cooking and nutrition they are considered a vegetable."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-08",
+      "question": "On which continent were potatoes first domesticated?",
+      "answer": "South America (the Andes)",
+      "reveal": "Potatoes began in the Andes mountains of South America.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Potato",
+          "publisher": "International Potato Center (CIP)",
+          "url": "https://cipotato.org/potato/",
+          "accessed": "2026-10-15",
+          "supports": "The potato originated and was first domesticated in the Andes mountains of South America."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-09",
+      "question": "Which grain is the main staple food for over half the world's people?",
+      "answer": "Rice",
+      "reveal": "USDA says rice is the primary staple food for more than half the world.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Rice - Rice Sector at a Glance",
+          "publisher": "USDA Economic Research Service (page updated 2026-10-09)",
+          "url": "https://www.ers.usda.gov/topics/crops/rice/rice-sector-at-a-glance",
+          "accessed": "2026-10-15",
+          "supports": "Rice is the primary staple food for more than half the world's population."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-10",
+      "question": "What colors were the first cultivated carrots?",
+      "answer": "Purple and yellow",
+      "reveal": "Orange carrots came along later, first reported in Europe.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Simon: Carrot Facts",
+          "publisher": "USDA Agricultural Research Service (P.W. Simon, Vegetable Crops Research Unit, Madison WI; modified 2020-08-17)",
+          "url": "https://www.ars.usda.gov/midwest-area/madison-wi/vegetable-crops-research/docs/simon-carrot-facts/",
+          "accessed": "2026-10-15",
+          "supports": "Timeline: purple and yellow carrots spread from Afghanistan to the eastern Mediterranean by 900-1000 AD; an orange type was first reported in The Netherlands and adjoining regions."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-11",
+      "question": "What inside a popcorn kernel turns to steam and makes it pop?",
+      "answer": "Water (moisture)",
+      "reveal": "Steam builds pressure inside the tough hull until the kernel bursts.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Celebrate National Popcorn Day with locally grown Illinois popcorn",
+          "publisher": "Illinois Extension, University of Illinois (Nicole Flowers-Kimmerle, 2026-01-16)",
+          "url": "https://extension.illinois.edu/blogs/ilriverhort/2026-01-16-celebrate-national-popcorn-day-locally-grown-illinois-popcorn",
+          "accessed": "2026-10-15",
+          "supports": "Kernels hold about 14% water that turns to steam and builds pressure inside a tough hull until the pop."
+        },
+        {
+          "title": "Growing popcorn in home gardens",
+          "publisher": "University of Minnesota Extension (reviewed 2026)",
+          "url": "https://extension.umn.edu/vegetables/growing-popcorn",
+          "accessed": "2026-10-15",
+          "supports": "A small amount of moisture within the hard kernel turns to steam, causing the kernel to burst."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-12",
+      "question": "Do avocados ripen on the tree, or only after they are picked?",
+      "answer": "Only after they are picked",
+      "reveal": "Florida extension experts say avocados do not ripen on the tree.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "CIR1034/MG213: Avocado Growing in the Florida Home Landscape",
+          "publisher": "UF/IFAS Extension, University of Florida (Crane, Balerdi, Maguire)",
+          "url": "https://ask.ifas.ufl.edu/publication/MG213",
+          "accessed": "2026-10-15",
+          "supports": "Avocado fruit does not generally ripen until it falls or is picked from the tree."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-13",
+      "question": "Kale, cabbage, and broccoli were all bred from which one wild plant?",
+      "answer": "Wild cabbage (Brassica oleracea)",
+      "reveal": "Growers bred one plant into many vegetables, from leafy kale to flowering broccoli.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "We've been genetically altering plants for thousands of years",
+          "publisher": "Illinois Extension, University of Illinois (Christopher Enroth)",
+          "url": "https://extension.illinois.edu/blogs/good-growing/2015-06-12-weve-been-geneetically-altering-plants-thousands-years",
+          "accessed": "2026-10-15",
+          "supports": "Wild cabbage (Brassica oleracea) was selectively bred into broccoli, cabbage, cauliflower, Brussels sprouts, kale, and more."
+        },
+        {
+          "title": "Is Broccoli Man-Made?",
+          "publisher": "Cornell Cooperative Extension of Orange County NY (Joan Kean, 2022-01-28)",
+          "url": "https://blogs.cornell.edu/master-gardeners-cce-oc/2022/01/28/is-broccoli-man-made/",
+          "accessed": "2026-10-15",
+          "supports": "Broccoli is a derivative of Brassica oleracea; many Brassica vegetables are cultivars of one wild mustard/cabbage species."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-14",
+      "question": "As a green bell pepper ripens, which colors can it turn?",
+      "answer": "Yellow, orange, and then red",
+      "reveal": "A pepper's color tells you how ripe it is.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Bell Peppers | SNAP-Ed",
+          "publisher": "USDA Food and Nutrition Service, SNAP-Ed Connection (Seasonal Produce Guide)",
+          "url": "https://snaped.fna.usda.gov/resources/nutrition-education-materials/seasonal-produce-guide/bell-peppers",
+          "accessed": "2026-10-15",
+          "supports": "The color of a pepper indicates its ripeness; as they ripen they change from green to yellow, orange, and eventually red."
+        },
+        {
+          "title": "Peppers (Home Vegetable Gardening)",
+          "publisher": "Illinois Extension, University of Illinois",
+          "url": "https://extension.illinois.edu/gardening/peppers",
+          "accessed": "2026-10-15",
+          "supports": "Bell peppers may be harvested green or left on the plant to ripen to red, yellow, orange, or brown."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-15",
+      "question": "Pumpkins are native to which part of the world?",
+      "answer": "The Americas",
+      "reveal": "Pumpkins have been grown in North America for thousands of years.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Pumpkin: An ancient vegetable still in vogue today",
+          "publisher": "MU Extension, University of Missouri (2024-10-10)",
+          "url": "https://extension.missouri.edu/news/pumpkin-an-ancient-vegetable-still-in-vogue-today",
+          "accessed": "2026-10-15",
+          "supports": "Archaeological evidence suggests pumpkins and winter squash are native to the Americas; pumpkins have been grown in North America for about 5,000 years."
+        },
+        {
+          "title": "The History of Squash",
+          "publisher": "Illinois Extension, University of Illinois (Ryan Pankau, 2017-11-22)",
+          "url": "https://extension.illinois.edu/blogs/garden-scoop/2017-11-22-history-squash",
+          "accessed": "2026-10-15",
+          "supports": "Squash and pumpkins originated in the New World (genus Cucurbita), with Mexico believed to be the point of origin of the genus."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "ft-16",
+      "question": "About how many blueberries can one bush produce in a year?",
+      "answer": "Over 6,000",
+      "reveal": "A single blueberry bush can make more than 6,000 berries each year.",
+      "reviewStatus": "pending",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "startsOn": null,
+      "endsOn": null,
+      "sources": [
+        {
+          "title": "Blueberries | SNAP-Ed",
+          "publisher": "USDA Food and Nutrition Service, SNAP-Ed Connection (Seasonal Produce Guide)",
+          "url": "https://snaped.fna.usda.gov/resources/nutrition-education-materials/seasonal-produce-guide/blueberries",
+          "accessed": "2026-10-15",
+          "supports": "Fun fact: a single blueberry bush can produce over 6,000 blueberries each year."
+        }
+      ],
+      "notes": null
+    }
+  ]
+}

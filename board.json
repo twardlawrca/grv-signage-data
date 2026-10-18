@@ -23,8 +23,9 @@
     ]
   },
   "quote": {
-    "text": "Strength does not come from physical capacity. It comes from an indomitable will.",
-    "by": "Mahatma Gandhi"
+    "text": "Where you tend a rose, my lad, a thistle cannot grow.",
+    "by": "Frances Hodgson Burnett",
+    "bank": "menu/reflections.json"
   },
   "_readme_menu": "Cafeteria menu TVs (GRV-CafeMenu-Signage.html). menu.roles: computer name -> now | day. menu.rotate: computer name -> none | cw | ccw, ONLY for a portrait TV whose Windows output is still landscape (fix Windows first). menu.moments: Kitchen Moments cooking films (enabled true/false as a JSON boolean; intervalMin; hosts.<NAME>.enabled). mode \"generic\" (2026-10-14) = the kitchen reel: generic kitchen footage full screen every intervalMin minutes on BOTH TVs, all day, MENU01 at hosts.GRVTVMENU01.offsetMin (1) and MENU02 at hosts.GRVTVMENU02.offsetMin (3.5) past each 5 minutes, so one TV always shows the menu and no film lands on a meal start; mode \"menu\" (or no mode) = the old dish-matched films on the 'now' TV only. To stop every film set enabled to false; to go back to the old behaviour set mode to \"menu\" and intervalMin to 8. menu.night (2026-10-15, engine cafe-menu 1.5.0): the night screen on BOTH TVs (navy sky, crescent moon, clouds, \"Thank you for stopping by.\" / \"The kitchen is closed for the night.\"), New York time from start to end (may cross midnight), no films at night, alerts still show; enabled must be the JSON boolean true; to turn it off set enabled to false or delete the block (takes effect within ~15 min). menu.theme (2026-10-15, cafe-menu 1.6.0): seasonal looks on BOTH TVs by New York date (schedule entries: theme autumn|thanksgiving|winter|newyear, start/end as MM-DD every year or YYYY-MM-DD one year, both ends included; optional override {theme, until} or \"standard\"); paused at night. menu.features: the feature strip (enabled, dwellSec, gapSec, order of ids from menu/features.json; only items with reviewStatus \"approved\" and in date show). To turn either off set its enabled to false or delete the block. Exact computer names, upper case.",
   "menu": {
@@ -64,7 +65,8 @@
       "enabled": true,
       "dwellSec": 45,
       "gapSec": 0,
-      "order": ["compliments-kitchen", "this-week"]
+      "order": ["compliments-kitchen", "this-week", "reflection", "healthy-habits", "food-facts"],
+      "hosts": { "GRVTVMENU02": { "order": ["compliments-kitchen", "this-week", "reflection", "healthy-habits", "food-facts", "week-ahead"] } }
     }
   }
 }

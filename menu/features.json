@@ -1,6 +1,6 @@
 {
   "schema": "grv-cafe-features/1",
-  "_readme": "The cafeteria menu boards' feature slot (CONTRACT Draft 11; cafe-menu.js 1.6.0). An item shows ONLY when reviewStatus is \"approved\", today (New York) is inside its optional startsOn..endsOn (inclusive), its fields are well formed and no text names a time. Drafts (\"draft\", \"review\") and \"retired\" never show. Rotation, dwell and gap live in board.json menu.features. Steps: work/cafe-menu/proof/enhance-1015/MAINTAIN.md.",
+  "_readme": "The cafeteria menu boards' feature slot (CONTRACT Draft 11; cafe-menu.js 1.6.0) and MENU02's evening page (Draft 12; cafe-menu.js 1.7.0). An item shows ONLY when reviewStatus is \"approved\", today (New York) is inside its optional startsOn..endsOn (inclusive), its fields are well formed and no text names a time. Drafts (\"draft\", \"review\") and \"retired\" never show. Rotation, dwell and gap live in board.json menu.features (an id missing from its order never shows). Steps: work/cafe-menu/proof/enhance-1015/MAINTAIN.md.",
   "items": [
     {
       "id": "compliments-kitchen",
@@ -23,6 +23,44 @@
       "title": "Coming this week",
       "max": 3,
       "_note": "Built from menu.json: each upcoming printed day's dinner (its featured dish, the board's display name), skipping today; never past validThrough (Nov 8, 2026); a meal with its own correction notice is skipped; hides when no future printed day remains."
+    },
+    {
+      "id": "week-ahead",
+      "type": "weekahead",
+      "reviewStatus": "approved",
+      "approvedBy": "Tevin Wardlaw",
+      "approvedOn": "2026-10-18",
+      "weekMin": 6,
+      "tomorrowMin": 4,
+      "_note": "MENU02 only (its board.json order): in the evening (after dinner, before the night screen) the board alternates tomorrow's day (tomorrowMin minutes) with THE WEEK AHEAD (weekMin minutes): the next 7 printed days from tomorrow, each with its lunch and dinner main dishes from menu.json (featured first, at most two, the printed name exactly). Hides when fewer than 3 days remain (from Nov 6 with the current menu)."
+    },
+    {
+      "id": "reflection",
+      "type": "reflection",
+      "reviewStatus": "approved",
+      "approvedBy": "Tevin Wardlaw",
+      "approvedOn": "2026-10-18",
+      "title": "Daily reflection",
+      "_note": "One quote a day from menu/reflections.json (text + author; the source stays in the file), the same on both TVs. Tevin approved the feature and the 30 quotes on 2026-10-18 (list: work/cafe-menu/content-1015/REFLECTIONS-REVIEW.md). To strike a quote, set its \"reviewStatus\": \"retired\" in reflections.json."
+    },
+    {
+      "id": "healthy-habits",
+      "type": "habits",
+      "reviewStatus": "approved",
+      "approvedBy": "Tevin Wardlaw",
+      "approvedOn": "2026-10-18",
+      "title": "Healthy habits",
+      "_note": "One tip a day from menu/good-to-know.json, ONLY among the tips Dietary approved there (reviewStatus approved + reviewedBy + reviewedOn). Every tip ships pending, so this card shows nothing until Dietary signs off."
+    },
+    {
+      "id": "food-facts",
+      "type": "facts",
+      "reviewStatus": "approved",
+      "approvedBy": "Tevin Wardlaw",
+      "approvedOn": "2026-10-18",
+      "title": "Food facts",
+      "revealAfterSec": 12,
+      "_note": "One fact a day from menu/good-to-know.json, ONLY among the facts Dietary approved there; the question first, the answer after revealAfterSec seconds (with its reveal sentence only where the strip has room for the full card; elsewhere the answer closes the question's line). Every fact ships pending, so this card shows nothing until Dietary signs off."
     }
   ]
 }
