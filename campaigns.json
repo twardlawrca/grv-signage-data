@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T14:43:57.000Z",
+  "generatedAt": "2026-10-18T13:30:00.000Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -2845,16 +2845,14 @@
           "profileIds": [
             "p-lobby",
             "p-family",
-            "p-outpatient",
-            "p-cafeteria"
+            "p-outpatient"
           ]
         },
         "deviceIds": [
           "GRVTV-LOBBY",
           "GRVTVFAMRM01",
           "GRVTVFAMRM02",
-          "GRVTVOPLOBBY",
-          "GRVTV-ACAFE"
+          "GRVTVOPLOBBY"
         ],
         "facilityCodes": [
           "GRV"
@@ -2909,6 +2907,73 @@
             "subline": "Scan the code with your phone to read Dr. Vernig’s interview, also featured on Yahoo Life and AOL.",
             "caption": "RecoveryCentersOfAmerica.com/news",
             "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-grv-parade-small-talk-2026-cafe",
+      "name": "In the news · Parade: why small talk drains some people (Dr. Peter Vernig) (cafeteria, no QR)",
+      "category": "recognition",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-10-16",
+        "endsOn": "2026-11-06"
+      },
+      "rotation": {
+        "slideSec": 18,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": [
+            "p-cafeteria"
+          ]
+        },
+        "deviceIds": [
+          "GRVTV-ACAFE"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-parade-why-cafe",
+          "type": "message",
+          "title": "Why small talk can feel draining",
+          "durationSec": 18,
+          "props": {
+            "eyebrow": "In the news · Parade",
+            "headline": "Why small talk can feel *draining*.",
+            "subline": "RCA’s Dr. Peter Vernig, VP of Mental Health Services, told Parade the brain rewards feeling connected and heard, and surface-level chatter often doesn’t deliver that. Introverts, he says, have “a finite social battery.”",
+            "align": "left",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-parade-connection-cafe",
+          "type": "message",
+          "title": "Real connection is part of emotional wellness",
+          "durationSec": 18,
+          "props": {
+            "eyebrow": "In the news · Parade",
+            "headline": "Real *connection* is part of emotional *wellness*.",
+            "subline": "Meaningful conversation releases oxytocin, which is linked to connection and long-term well-being. Dr. Vernig points to a study in which the happiest people had about twice as many substantive conversations as the unhappiest.",
+            "align": "left",
             "accent": "gold"
           }
         }
