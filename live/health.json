@@ -1,25 +1,25 @@
 {
   "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
   "license": "https://www.usa.gov/government-copyright",
-  "updated_at": "2026-10-16T21:22:26Z",
+  "updated_at": "2026-10-19T22:28:39Z",
   "items": [
+    {
+      "text": "Rabid Bat and Raccoons Confirmed in Multiple Counties; Three People Exposed",
+      "meta": "SC DPH · Oct 19",
+      "url": "https://dph.sc.gov/news/rabid-bat-and-raccoons-confirmed-multiple-counties-three-people-exposed",
+      "day": "2026-10-19"
+    },
+    {
+      "text": "DPH Measles Investigation Identifies Potential Public Exposures",
+      "meta": "Georgia DPH · Oct 19",
+      "url": "https://dph.georgia.gov/press-releases/2026-10-19/dph-measles-investigation-identifies-potential-public-exposures",
+      "day": "2026-10-19"
+    },
     {
       "text": "Helpline Offers Immediate Crisis Counseling to People in Advance of Tropical Storm Champi Set to Impact Guam and the…",
       "meta": "SAMHSA · Oct 16",
       "url": "https://www.samhsa.gov/newsroom/press-announcements/20261016/ddh-offers-crisis-counseling-tropical-storm-champi",
       "day": "2026-10-16"
-    },
-    {
-      "text": "DPH Spotlights Safety Tips, Hosts Drawing Contest for International Bat Week",
-      "meta": "SC DPH · Oct 15",
-      "url": "https://dph.sc.gov/news/dph-spotlights-safety-tips-hosts-drawing-contest-international-bat-week",
-      "day": "2026-10-15"
-    },
-    {
-      "text": "DPH Confirms New Measles Case, Urges Vaccination",
-      "meta": "Georgia DPH · Oct 13",
-      "url": "https://dph.georgia.gov/press-releases/2026-10-13/dph-confirms-new-measles-case-urges-vaccination",
-      "day": "2026-10-13"
     },
     {
       "text": "Annual Report to the Nation: Progress Against Lung Cancer Drives Down Cancer Mortality",
@@ -28,16 +28,16 @@
       "day": "2026-09-22"
     },
     {
-      "text": "SC EMS Training Committee to Meet Thursday, Oct. 15, 2026",
-      "meta": "SC DPH · Oct 13",
-      "url": "https://dph.sc.gov/news/sc-ems-training-committee-meet-thursday-oct-15-2026",
-      "day": "2026-10-13"
+      "text": "EMS for Children Advisory Committee to Meet Thursday, Oct. 22, 2026",
+      "meta": "SC DPH · Oct 19",
+      "url": "https://dph.sc.gov/news/ems-children-advisory-committee-meet-thursday-oct-22-2026",
+      "day": "2026-10-19"
     },
     {
-      "text": "Secretary Kennedy Announces 8 Communities To Receive $96 Million Through New STREETS Program",
-      "meta": "SAMHSA · Oct 2",
-      "url": "https://www.samhsa.gov/newsroom/press-announcements/20261002/secretary-kennedy-announces-8-communities-receive-96m-through-streets-program",
-      "day": "2026-10-02"
+      "text": "DPH Confirms New Measles Case, Urges Vaccination",
+      "meta": "Georgia DPH · Oct 13",
+      "url": "https://dph.georgia.gov/press-releases/2026-10-13/dph-confirms-new-measles-case-urges-vaccination",
+      "day": "2026-10-13"
     }
   ]
 }
