@@ -134,7 +134,10 @@
     "breakfast"
    ],
    "requires": [
-    "egg scrambled"
+     [
+       "egg scrambled",
+       "scrambled eggs"
+     ]
    ],
    "focal": [
     0.52,
@@ -221,7 +224,10 @@
     "breakfast"
    ],
    "requires": [
-    "pancake"
+     [
+       "pancake",
+       "pancakes"
+     ]
    ],
    "focal": [
     0.63,
