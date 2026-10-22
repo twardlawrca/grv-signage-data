@@ -39,7 +39,229 @@
     "end": "18:00"
    }
   ],
-  "byDate": {}
+  "byDate": {
+   "2026-10-22": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:30",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "12:00",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:00"
+    }
+   ],
+   "2026-10-23": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:30",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "12:00",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:00"
+    }
+   ],
+   "2026-10-24": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:30",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "12:00",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:00"
+    }
+   ],
+   "2026-10-25": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:30",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "12:00",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:00"
+    }
+   ],
+   "2026-10-26": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:00",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "11:30",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:30"
+    }
+   ],
+   "2026-10-27": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:00",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "11:30",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:30"
+    }
+   ],
+   "2026-10-28": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:00",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "11:30",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:30"
+    }
+   ],
+   "2026-10-29": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:00",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "11:30",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:30"
+    }
+   ],
+   "2026-10-30": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:00",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "11:30",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:30"
+    }
+   ],
+   "2026-10-31": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:00",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "11:30",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:30"
+    }
+   ],
+   "2026-11-01": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:00",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "11:30",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:30"
+    }
+   ]
+  },
+  "byDateSource": "Unidine weekly sheet (Greenville 2026 Menu 10.22.26.pdf) printed hours, applied per Tevin 2026-10-22 ('yes, use the printed hours'): Week 3 (Oct 22-25) breakfast 7:30-8:30, lunch 12:00-1:00, dinner 5:00-6:00; Week 4 (Oct 26-Nov 1) breakfast 7:00-8:30, lunch 11:30-1:00, dinner 5:00-6:30. Dates without a printed sheet use hours.meals."
  },
  "codes": {
   "show": false,
@@ -4602,8 +4824,8 @@
    "printedHours": {
     "week3": "Breakfast 7:30-8:30 am, Lunch 12:00-1:00 pm, Dinner 5:00-6:00 pm",
     "week4": "Breakfast 7:00-8:30 am, Lunch 11:30 am-1:00 pm, Dinner 5:00-6:30 pm",
-    "applied": false,
-    "note": "hours.meals unchanged pending Tevin"
+    "applied": true,
+    "note": "applied 2026-10-22 as hours.byDate for 2026-10-22..2026-11-01 (Tevin: 'yes, use the printed hours'); hours.meals unchanged for other dates"
    }
   }
  ]
