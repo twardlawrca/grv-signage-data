@@ -1,8 +1,13 @@
 {
   "source": "Wikipedia · In the news · CC BY-SA 4.0",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "updated_at": "2026-10-26T04:59:11Z",
+  "updated_at": "2026-10-26T22:46:07Z",
   "items": [
+    {
+      "text": "In the Serbian parliamentary election, the Student List wins a majority of seats, defeating former President Aleksandar Vučić.",
+      "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
+      "day": "2026-10-26"
+    },
     {
       "text": "Two high-impact security vulnerabilities in PHP cause disruptions to many online services.",
       "url": "https://en.wikipedia.org/wiki/PHP2Shell",
