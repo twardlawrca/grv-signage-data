@@ -1,18 +1,18 @@
 {
   "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
   "license": "https://www.usa.gov/government-copyright",
-  "updated_at": "2026-10-27T05:16:37Z",
+  "updated_at": "2026-10-27T22:25:02Z",
   "items": [
+    {
+      "text": "DPH Confirms Three New Measles Cases",
+      "meta": "Georgia DPH · Oct 27",
+      "url": "https://dph.georgia.gov/press-releases/2026-10-27/dph-confirms-three-new-measles-cases",
+      "day": "2026-10-27"
+    },
     {
       "text": "DPH Emphasizes Dangers of Lead Exposure and How to Prevent It for National Lead Poisoning Prevention Week",
       "meta": "SC DPH · Oct 21",
       "url": "https://dph.sc.gov/news/dph-emphasizes-dangers-lead-exposure-and-how-prevent-it-national-lead-poisoning-prevention",
-      "day": "2026-10-21"
-    },
-    {
-      "text": "NOPR Revisions to Chapter 511-1-3 \"Vital Records\"",
-      "meta": "Georgia DPH · Oct 21",
-      "url": "https://dph.georgia.gov/notices-regs-and-rule-making/2026-10-21/nopr-revisions-chapter-511-1-3-vital-records",
       "day": "2026-10-21"
     },
     {
@@ -28,15 +28,15 @@
       "day": "2026-09-22"
     },
     {
+      "text": "NOPR Revisions to Chapter 511-1-3 \"Vital Records\"",
+      "meta": "Georgia DPH · Oct 21",
+      "url": "https://dph.georgia.gov/notices-regs-and-rule-making/2026-10-21/nopr-revisions-chapter-511-1-3-vital-records",
+      "day": "2026-10-21"
+    },
+    {
       "text": "Trauma Advisory Council to Meet Thursday, Oct. 22, 2026",
       "meta": "SC DPH · Oct 19",
       "url": "https://dph.sc.gov/news/trauma-advisory-council-meet-thursday-oct-22-2026",
-      "day": "2026-10-19"
-    },
-    {
-      "text": "DPH Measles Investigation Identifies Potential Public Exposures",
-      "meta": "Georgia DPH · Oct 19",
-      "url": "https://dph.georgia.gov/press-releases/2026-10-19/dph-measles-investigation-identifies-potential-public-exposures",
       "day": "2026-10-19"
     }
   ]
