@@ -1,8 +1,14 @@
 {
   "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
   "license": "https://www.usa.gov/government-copyright",
-  "updated_at": "2026-10-27T22:25:02Z",
+  "updated_at": "2026-10-28T22:41:50Z",
   "items": [
+    {
+      "text": "SAMHSA Releases New NSDUH Data Spotlight on Religious Beliefs and Adolescent Substance Use",
+      "meta": "SAMHSA · Oct 28",
+      "url": "https://www.samhsa.gov/newsroom/press-announcements/20261028/nsduh-data-spotlight-religious-beliefs-and-adolescent-substance-use",
+      "day": "2026-10-28"
+    },
     {
       "text": "DPH Confirms Three New Measles Cases",
       "meta": "Georgia DPH · Oct 27",
@@ -16,21 +22,15 @@
       "day": "2026-10-21"
     },
     {
-      "text": "Helpline Offers Immediate Crisis Counseling to People in Advance of Tropical Storm Champi Set to Impact Guam and the…",
-      "meta": "SAMHSA · Oct 16",
-      "url": "https://www.samhsa.gov/newsroom/press-announcements/20261016/ddh-offers-crisis-counseling-tropical-storm-champi",
-      "day": "2026-10-16"
-    },
-    {
       "text": "Annual Report to the Nation: Progress Against Lung Cancer Drives Down Cancer Mortality",
       "meta": "CDC · Sep 22",
       "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=766495",
       "day": "2026-09-22"
     },
     {
-      "text": "NOPR Revisions to Chapter 511-1-3 \"Vital Records\"",
+      "text": "NOA Revisions to Chapter 511-1-3 \"Vital Records\"",
       "meta": "Georgia DPH · Oct 21",
-      "url": "https://dph.georgia.gov/notices-regs-and-rule-making/2026-10-21/nopr-revisions-chapter-511-1-3-vital-records",
+      "url": "https://dph.georgia.gov/notices-regs-and-rule-making/2026-10-21/noa-revisions-chapter-511-1-3-vital-records",
       "day": "2026-10-21"
     },
     {
