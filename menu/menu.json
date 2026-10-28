@@ -783,12 +783,6 @@
       "src": "Salad Bar",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -821,12 +815,6 @@
       "name": "Chocolate Chip Cookies",
       "src": "Chocolate Chip Cookies",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -930,12 +918,6 @@
       "src": "Curly Fried Potatoes",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -974,12 +956,6 @@
       "name": "White Raspberry Cake",
       "src": "White Raspberry Cake",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -1095,12 +1071,6 @@
       "src": "Cucumber Tomato Salad",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -1127,12 +1097,6 @@
       "name": "Fried Apples",
       "src": "Fried Apples",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -1248,12 +1212,6 @@
       "src": "Creamy Coleslaw",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -1280,12 +1238,6 @@
       "name": "Brownie",
       "src": "Brownie",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -1407,12 +1359,6 @@
       "src": "Steamed Fresh Zucchini",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -1435,12 +1381,6 @@
       "name": "Homemade Apple Cobbler",
       "src": "Homemade Apple Cobbler",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -1556,12 +1496,6 @@
       "src": "Creamy Coleslaw",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -1596,12 +1530,6 @@
       "name": "Chocolate Ice Cream",
       "src": "Chocolate Ice Cream",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -1711,12 +1639,6 @@
       "src": "Oven Baked Fries",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -1749,12 +1671,6 @@
       "name": "Apple Crisp",
       "src": "Apple Crisp",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -1874,12 +1790,6 @@
       "src": "Peas & Carrots- Seasoned",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -1908,12 +1818,6 @@
       "name": "Carnival Cookies",
       "src": "Carnival Cookies",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -2029,12 +1933,6 @@
       "src": "Roasted Cauliflower",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -2081,12 +1979,6 @@
       "name": "Churros",
       "src": "Churros",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -2196,12 +2088,6 @@
       "src": "Oven Baked Sweet Potato Fries",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -2234,12 +2120,6 @@
       "name": "Peanut Butter Brownie",
       "src": "Peanut Butter Brownie",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -2343,12 +2223,6 @@
       "kind": "main",
       "codes": [],
       "featured": true
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -2375,12 +2249,6 @@
       "name": "Apple Brown Betty",
       "src": "Apple Brown Betty",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -2484,12 +2352,6 @@
       "src": "Homemade Chips",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -2522,12 +2384,6 @@
       "name": "Strawberry Shortcake",
       "src": "Strawberry Short Cake",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -2637,12 +2493,6 @@
       "src": "Garlic Toast",
       "kind": "bread",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -2669,12 +2519,6 @@
       "name": "Oreo Brownie Cake",
       "src": "Oreo Brownie Cake",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -2784,12 +2628,6 @@
       "src": "Green Beans",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -2810,12 +2648,6 @@
       "name": "Banana Cake",
       "src": "Banana Cake",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -2937,12 +2769,6 @@
       "src": "Chef’s Choice Soup",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -2969,12 +2795,6 @@
       "name": "Pudding Parfait",
       "src": "Pudding Parfait",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -3090,12 +2910,6 @@
       "src": "Chef’s Choice Soup",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -3122,12 +2936,6 @@
       "name": "Churros",
       "src": "Churros",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -3243,12 +3051,6 @@
       "src": "Chef’s Choice Soup",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -3275,12 +3077,6 @@
       "name": "Rocky Road Brownie",
       "src": "Rocky Road Brownie",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -3396,12 +3192,6 @@
       "src": "Chef’s Choice Soup",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -3428,12 +3218,6 @@
       "name": "Peanut Butter Pie",
       "src": "Peanut Butter Pie",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -3549,12 +3333,6 @@
       "src": "Chef’s Choice Soup",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -3587,12 +3365,6 @@
       "name": "Chocolate Cupcake",
       "src": "Chocolate Cupcake",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -3714,12 +3486,6 @@
       "src": "Chef’s Choice Soup",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -3740,12 +3506,6 @@
       "name": "Funnel Cakes",
       "src": "Funnel Cakes",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -3861,12 +3621,6 @@
       "src": "Chef’s Choice Soup",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -3893,12 +3647,6 @@
       "name": "Pudding Parfait",
       "src": "Pudding Parfait",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -4002,12 +3750,6 @@
       "src": "Fries",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -4034,12 +3776,6 @@
       "name": "Brownie",
       "src": "Brownie",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -4149,12 +3885,6 @@
       "src": "Rice",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -4181,12 +3911,6 @@
       "name": "Ice Cream",
       "src": "Ice Cream",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -4284,12 +4008,6 @@
       "src": "Fries",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -4316,12 +4034,6 @@
       "name": "Pumpkin Cake",
       "src": "Pumpkin Cake",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -4419,12 +4131,6 @@
       "src": "Pasta Salad",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -4451,12 +4157,6 @@
       "name": "Devil's Food Cake",
       "src": "Devils Food Cake",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -4554,12 +4254,6 @@
       "src": "Garlic Bread",
       "kind": "bread",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -4586,12 +4280,6 @@
       "name": "Funnel Cake",
       "src": "Funnel Cake",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -4689,12 +4377,6 @@
       "src": "Fries",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -4721,12 +4403,6 @@
       "name": "Apple Turnover",
       "src": "Apple Turnover",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -4836,12 +4512,6 @@
       "src": "Slaw",
       "kind": "side",
       "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
-      "codes": []
      }
     ],
     "dinner": [
@@ -4868,12 +4538,6 @@
       "name": "Chocolate Cake",
       "src": "Chocolate Cake",
       "kind": "dessert",
-      "codes": []
-     },
-     {
-      "name": "Iced Tea",
-      "src": "Unsweet Iced Tea",
-      "kind": "beverage",
       "codes": []
      }
     ]
@@ -4919,6 +4583,12 @@
    "sha256": "9ca2ed7b3c8a46d5d036d5817158d1e2028aec4575f242e1cbb77c66b8fdaac7",
    "dates": "2026-11-03 dinner only",
    "change": "Fried Chicken, Mashed Potatoes, Fresh Vegetables -> Oven Roasted Chicken, Sweet Pot Crisp (shown as Sweet Potato Crisp), Greens; Ice Cream unchanged; every other cell identical to the sheet applied in 5fd0d49"
+  },
+  {
+   "at": "2026-10-28",
+   "by": "Tevin Wardlaw (Regional IT): 'Also, you can remove tea altogether.'",
+   "dates": "all (2026-10-12..2026-11-08)",
+   "change": "Iced Tea (printed Unsweet Iced Tea) removed from every lunch and dinner (56 items); do not add it back when applying future sheets"
   }
  ]
 }
