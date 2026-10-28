@@ -136,7 +136,8 @@
    "requires": [
      [
        "egg scrambled",
-       "scrambled eggs"
+       "scrambled eggs",
+       "scramble eggs"
      ]
    ],
    "focal": [

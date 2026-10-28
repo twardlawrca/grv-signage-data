@@ -259,9 +259,149 @@
      "start": "17:00",
      "end": "18:30"
     }
+   ],
+   "2026-11-02": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:30",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "12:00",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:00"
+    }
+   ],
+   "2026-11-03": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:30",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "12:00",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:00"
+    }
+   ],
+   "2026-11-04": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:30",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "12:00",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:00"
+    }
+   ],
+   "2026-11-05": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:30",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "12:00",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:00"
+    }
+   ],
+   "2026-11-06": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:30",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "12:00",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:00"
+    }
+   ],
+   "2026-11-07": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:30",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "12:00",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:00"
+    }
+   ],
+   "2026-11-08": [
+    {
+     "id": "breakfast",
+     "label": "Breakfast",
+     "start": "07:30",
+     "end": "08:30"
+    },
+    {
+     "id": "lunch",
+     "label": "Lunch",
+     "start": "12:00",
+     "end": "13:00"
+    },
+    {
+     "id": "dinner",
+     "label": "Dinner",
+     "start": "17:00",
+     "end": "18:00"
+    }
    ]
   },
-  "byDateSource": "Unidine weekly sheet (Greenville 2026 Menu 10.22.26.pdf) printed hours, applied per Tevin 2026-10-22 ('yes, use the printed hours'): Week 3 (Oct 22-25) breakfast 7:30-8:30, lunch 12:00-1:00, dinner 5:00-6:00; Week 4 (Oct 26-Nov 1) breakfast 7:00-8:30, lunch 11:30-1:00, dinner 5:00-6:30. Dates without a printed sheet use hours.meals."
+  "byDateSource": "Unidine weekly sheet (Greenville 2026 Menu 10.22.26.pdf) printed hours, applied per Tevin 2026-10-22 ('yes, use the printed hours'): Week 3 (Oct 22-25) breakfast 7:30-8:30, lunch 12:00-1:00, dinner 5:00-6:00; Week 4 (Oct 26-Nov 1) breakfast 7:00-8:30, lunch 11:30-1:00, dinner 5:00-6:30. nov_2-8_2026.pdf (Nov 2-8, applied 2026-10-28 on the same rule): breakfast 7:30-8:30, lunch 12:00-1:00, dinner 5:00-6:00. Dates without a printed sheet use hours.meals."
  },
  "codes": {
   "show": false,
@@ -3771,20 +3911,20 @@
     "breakfast": [
      {
       "name": "Scrambled Eggs",
-      "src": "Egg Scrambled",
+      "src": "Scramble Eggs",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Breakfast Ham",
-      "src": "Breakfast Ham",
+      "name": "Ham",
+      "src": "Ham",
       "kind": "side",
       "codes": []
      },
      {
-      "name": "Seasoned Hash Browns",
-      "src": "Seasoned Hashbrowns",
+      "name": "Hash Browns",
+      "src": "Hashbrown",
       "kind": "side",
       "codes": []
      },
@@ -3813,14 +3953,14 @@
       "codes": []
      },
      {
-      "name": "Grape Jelly",
-      "src": "Grape Jelly",
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
       "kind": "condiment",
       "codes": []
      },
      {
-      "name": "Brown Sugar",
-      "src": "Brown Sugar Condiment",
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
       "kind": "condiment",
       "codes": []
      },
@@ -3851,21 +3991,15 @@
     ],
     "lunch": [
      {
-      "name": "Turkey & Swiss Melt on White",
-      "src": "Turkey & Swiss Melt on White",
+      "name": "Turkey & Cheese Melt",
+      "src": "Turkey & Cheese Melt",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Lettuce & Tomato",
-      "src": "Lettuce & Tomato Garnish",
-      "kind": "accompaniment",
-      "codes": []
-     },
-     {
-      "name": "French Fried Potatoes",
-      "src": "French Fried Potatoes",
+      "name": "Fries",
+      "src": "Fries",
       "kind": "side",
       "codes": []
      },
@@ -3878,27 +4012,21 @@
     ],
     "dinner": [
      {
-      "name": "Buttermilk Biscuits",
-      "src": "Buttermilk Biscuits",
-      "kind": "bread",
-      "codes": []
-     },
-     {
-      "name": "Homemade Chicken Pot Pie",
-      "src": "Homemade Chicken Pot Pie",
+      "name": "Chicken Pot Pie over Biscuit",
+      "src": "Chicken Pot Pie over Biscuit",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Parmesan Roasted Potatoes",
-      "src": "Parmesan Roasted Potatoes",
+      "name": "Roasted Potatoes",
+      "src": "Roasted Potatoes",
       "kind": "side",
       "codes": []
      },
      {
-      "name": "Steamed Baby Carrots",
-      "src": "Steamed Baby Carrots",
+      "name": "Carrots",
+      "src": "Carrots",
       "kind": "side",
       "codes": []
      },
@@ -3924,14 +4052,14 @@
     "breakfast": [
      {
       "name": "Scrambled Eggs",
-      "src": "Egg Scrambled",
+      "src": "Scrambled Eggs",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Bacon Strips",
-      "src": "Bacon Strips",
+      "name": "Bacon",
+      "src": "Bacon",
       "kind": "side",
       "codes": []
      },
@@ -3966,14 +4094,14 @@
       "codes": []
      },
      {
-      "name": "Salted Margarine",
-      "src": "Salted Margarine",
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
       "kind": "condiment",
       "codes": []
      },
      {
-      "name": "Grape Jelly",
-      "src": "Grape Jelly",
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
       "kind": "condiment",
       "codes": []
      },
@@ -4012,13 +4140,13 @@
      },
      {
       "name": "Black Beans",
-      "src": "Black Bean Garnish",
-      "kind": "accompaniment",
+      "src": "Black Beans",
+      "kind": "side",
       "codes": []
      },
      {
-      "name": "Spanish Rice",
-      "src": "Spanish Rice",
+      "name": "Rice",
+      "src": "Rice",
       "kind": "side",
       "codes": []
      },
@@ -4031,33 +4159,29 @@
     ],
     "dinner": [
      {
-      "name": "Breaded 8-Cut Chicken",
-      "src": "Breaded 8-Cut Chicken",
+      "name": "Fried Chicken",
+      "src": "Fried Chicken",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
       "name": "Mashed Potatoes",
-      "src": "FB Mashed Potatoes",
-      "kind": "side",
-      "codes": [
-       "FB"
-      ]
-     },
-     {
-      "name": "Garden Blend",
-      "src": "Fresh Garden Blend Vegetables",
+      "src": "Mashed Potatoes",
       "kind": "side",
       "codes": []
      },
      {
-      "name": "Vanilla Ice Cream",
-      "src": "NSA Vanilla Ice Cream",
+      "name": "Fresh Vegetables",
+      "src": "Fresh Vegetables",
+      "kind": "side",
+      "codes": []
+     },
+     {
+      "name": "Ice Cream",
+      "src": "Ice Cream",
       "kind": "dessert",
-      "codes": [
-       "NSA"
-      ]
+      "codes": []
      },
      {
       "name": "Iced Tea",
@@ -4074,21 +4198,15 @@
    "meals": {
     "breakfast": [
      {
-      "name": "Blueberry Pancake",
-      "src": "Blueberry Pancake",
+      "name": "Pancakes",
+      "src": "Pancake",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Scrambled Eggs",
-      "src": "Egg Scrambled",
-      "kind": "main",
-      "codes": []
-     },
-     {
-      "name": "Turkey Sausage Links",
-      "src": "Turkey Sausage Links",
+      "name": "Turkey Sausage",
+      "src": "Turkey Sausage",
       "kind": "side",
       "codes": []
      },
@@ -4111,12 +4229,6 @@
       "codes": []
      },
      {
-      "name": "Pancake Syrup",
-      "src": "Pancake Syrup",
-      "kind": "condiment",
-      "codes": []
-     },
-     {
       "name": "Coffee Creamer",
       "src": "Coffee Creamer",
       "kind": "condiment",
@@ -4129,14 +4241,14 @@
       "codes": []
      },
      {
-      "name": "Salted Margarine",
-      "src": "Salted Margarine",
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
       "kind": "condiment",
       "codes": []
      },
      {
-      "name": "Grape Jelly",
-      "src": "Grape Jelly",
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
       "kind": "condiment",
       "codes": []
      },
@@ -4161,21 +4273,15 @@
     ],
     "lunch": [
      {
-      "name": "Classic Hamburger",
-      "src": "Classic Hamburger",
+      "name": "Hamburger",
+      "src": "Hamburger",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Lettuce, Tomato, Onion & Pickle",
-      "src": "Lettuce, Tomato, Onion & Pickle",
-      "kind": "accompaniment",
-      "codes": []
-     },
-     {
-      "name": "French Fried Potatoes",
-      "src": "French Fried Potatoes",
+      "name": "Fries",
+      "src": "Fries",
       "kind": "side",
       "codes": []
      },
@@ -4188,12 +4294,6 @@
     ],
     "dinner": [
      {
-      "name": "Garlic Bread",
-      "src": "Garlic Bread",
-      "kind": "bread",
-      "codes": []
-     },
-     {
       "name": "Spaghetti & Meat Sauce",
       "src": "Spaghetti & Meat Sauce",
       "kind": "main",
@@ -4201,14 +4301,20 @@
       "featured": true
      },
      {
-      "name": "Roasted Broccoli",
-      "src": "Roasted Broccoli",
+      "name": "Broccoli",
+      "src": "Broccoli",
       "kind": "side",
       "codes": []
      },
      {
-      "name": "Frosted Pumpkin Cake",
-      "src": "Frosted Pumpkin Cake",
+      "name": "Garlic Bread",
+      "src": "Garlic Bread",
+      "kind": "bread",
+      "codes": []
+     },
+     {
+      "name": "Pumpkin Cake",
+      "src": "Pumpkin Cake",
       "kind": "dessert",
       "codes": []
      },
@@ -4228,14 +4334,14 @@
     "breakfast": [
      {
       "name": "Scrambled Eggs",
-      "src": "Egg Scrambled",
+      "src": "Scrambled Eggs",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Bacon Strips",
-      "src": "Bacon Strips",
+      "name": "Bacon",
+      "src": "Bacon",
       "kind": "side",
       "codes": []
      },
@@ -4264,6 +4370,12 @@
       "codes": []
      },
      {
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
       "name": "Grape Jelly",
       "src": "Grape Jelly",
       "kind": "condiment",
@@ -4272,12 +4384,6 @@
      {
       "name": "Salted Margarine",
       "src": "Salted Margarine",
-      "kind": "condiment",
-      "codes": []
-     },
-     {
-      "name": "Brown Sugar",
-      "src": "Brown Sugar Condiment",
       "kind": "condiment",
       "codes": []
      },
@@ -4302,21 +4408,15 @@
     ],
     "lunch": [
      {
-      "name": "Naan Cheese Flatbread Pizza",
-      "src": "Naan Cheese Flatbread Pizza",
+      "name": "Naan Flatbread Pizza",
+      "src": "Naan Flat Bread Pizza",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Marinara Sauce",
-      "src": "Marinara Sauce",
-      "kind": "accompaniment",
-      "codes": []
-     },
-     {
-      "name": "Italian Rotini Pasta Salad",
-      "src": "Italian Pasta Salad Rotini",
+      "name": "Pasta Salad",
+      "src": "Pasta Salad",
       "kind": "side",
       "codes": []
      },
@@ -4329,27 +4429,27 @@
     ],
     "dinner": [
      {
-      "name": "Rosemary Chicken Quarter",
-      "src": "Rosemary Chicken Quarter",
+      "name": "Chicken Quarters",
+      "src": "Chicken Quarters",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Herbed Rice",
-      "src": "Herbed Rice",
+      "name": "Rice",
+      "src": "Rice",
       "kind": "side",
       "codes": []
      },
      {
-      "name": "Garden Blend",
-      "src": "Fresh Garden Blend Vegetables",
+      "name": "Fresh Cut Vegetables",
+      "src": "Fresh Cut Vegetables",
       "kind": "side",
       "codes": []
      },
      {
-      "name": "Unfrosted Devil's Food Cake",
-      "src": "Unfrosted Devil's Food Cake",
+      "name": "Devil's Food Cake",
+      "src": "Devils Food Cake",
       "kind": "dessert",
       "codes": []
      },
@@ -4368,21 +4468,15 @@
    "meals": {
     "breakfast": [
      {
-      "name": "Biscuit & Sawmill Gravy",
-      "src": "Biscuit & Sawmill Gravy",
+      "name": "Biscuits & Gravy",
+      "src": "Biscuits & Gravy",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Scrambled Eggs",
-      "src": "Egg Scrambled",
-      "kind": "main",
-      "codes": []
-     },
-     {
-      "name": "Sausage Patty",
-      "src": "Sausage Patty",
+      "name": "Sausage",
+      "src": "Sausage",
       "kind": "side",
       "codes": []
      },
@@ -4411,20 +4505,20 @@
       "codes": []
      },
      {
-      "name": "Grape Jelly",
-      "src": "Grape Jelly",
-      "kind": "condiment",
-      "codes": []
-     },
-     {
       "name": "Brown Sugar",
       "src": "Brown Sugar Condiment",
       "kind": "condiment",
       "codes": []
      },
      {
-      "name": "Butter",
-      "src": "Butter",
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
+      "kind": "condiment",
+      "codes": []
+     },
+     {
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
       "kind": "condiment",
       "codes": []
      },
@@ -4449,17 +4543,17 @@
     ],
     "lunch": [
      {
-      "name": "Garlic Toast",
-      "src": "Garlic Toast",
-      "kind": "bread",
-      "codes": []
-     },
-     {
       "name": "Grilled Chicken Caesar Salad",
       "src": "Grilled Chicken Caesar Salad",
       "kind": "main",
       "codes": [],
       "featured": true
+     },
+     {
+      "name": "Garlic Bread",
+      "src": "Garlic Bread",
+      "kind": "bread",
+      "codes": []
      },
      {
       "name": "Iced Tea",
@@ -4470,19 +4564,17 @@
     ],
     "dinner": [
      {
-      "name": "Roasted Pork Loin",
-      "src": "Roasted Pork Loin",
+      "name": "Pork Loin",
+      "src": "Pork Loin",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Roasted Potato Wedges",
-      "src": "MEM Roasted Potato Wedges",
+      "name": "Roasted Potatoes",
+      "src": "Roasted Potatoes",
       "kind": "side",
-      "codes": [
-       "MEM"
-      ]
+      "codes": []
      },
      {
       "name": "Baby Carrots",
@@ -4512,14 +4604,14 @@
     "breakfast": [
      {
       "name": "Scrambled Eggs",
-      "src": "Egg Scrambled",
+      "src": "Scrambled Eggs",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Bacon Strips",
-      "src": "Bacon Strips",
+      "name": "Bacon",
+      "src": "Bacon",
       "kind": "side",
       "codes": []
      },
@@ -4554,20 +4646,14 @@
       "codes": []
      },
      {
-      "name": "Salted Margarine",
-      "src": "Salted Margarine",
-      "kind": "condiment",
-      "codes": []
-     },
-     {
       "name": "Grape Jelly",
       "src": "Grape Jelly",
       "kind": "condiment",
       "codes": []
      },
      {
-      "name": "Pancake Syrup",
-      "src": "Pancake Syrup",
+      "name": "Salted Margarine",
+      "src": "Salted Margarine",
       "kind": "condiment",
       "codes": []
      },
@@ -4592,21 +4678,15 @@
     ],
     "lunch": [
      {
-      "name": "Philly Chicken Sandwich",
-      "src": "Philly Chicken Sandwich",
+      "name": "Chicken Philly with Peppers & Onions",
+      "src": "Chicken Philly w Peppers & Onions",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Sautéed Onions & Peppers",
-      "src": "Sauteed Onions & Peppers",
-      "kind": "accompaniment",
-      "codes": []
-     },
-     {
-      "name": "Fresh Potato Fries",
-      "src": "Fresh Potato Fries",
+      "name": "Fries",
+      "src": "Fries",
       "kind": "side",
       "codes": []
      },
@@ -4619,8 +4699,8 @@
     ],
     "dinner": [
      {
-      "name": "Roast Beef",
-      "src": "Roast Beef",
+      "name": "Roasted Beef",
+      "src": "Roasted Beef",
       "kind": "main",
       "codes": [],
       "featured": true
@@ -4632,14 +4712,14 @@
       "codes": []
      },
      {
-      "name": "Oven-Roasted Brussels Sprouts",
-      "src": "Oven-Roasted Brussels Sprouts",
+      "name": "Brussels Sprouts",
+      "src": "Brussel Sprouts",
       "kind": "side",
       "codes": []
      },
      {
-      "name": "Homemade Apple Cobbler",
-      "src": "Homemade Apple Cobbler",
+      "name": "Apple Turnover",
+      "src": "Apple Turnover",
       "kind": "dessert",
       "codes": []
      },
@@ -4659,20 +4739,14 @@
     "breakfast": [
      {
       "name": "Scrambled Eggs",
-      "src": "Egg Scrambled",
+      "src": "Scrambled Eggs",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Sausage Links",
-      "src": "Sausage Links",
-      "kind": "side",
-      "codes": []
-     },
-     {
-      "name": "American Fried Potatoes",
-      "src": "American Fried Potatoes",
+      "name": "Sausage",
+      "src": "Sausage",
       "kind": "side",
       "codes": []
      },
@@ -4695,26 +4769,20 @@
       "codes": []
      },
      {
-      "name": "Banana Muffin",
-      "src": "Banana Muffin",
-      "kind": "bread",
-      "codes": []
-     },
-     {
       "name": "Coffee Creamer",
       "src": "Coffee Creamer",
       "kind": "condiment",
       "codes": []
      },
      {
-      "name": "Grape Jelly",
-      "src": "Grape Jelly",
+      "name": "Brown Sugar",
+      "src": "Brown Sugar Condiment",
       "kind": "condiment",
       "codes": []
      },
      {
-      "name": "Brown Sugar",
-      "src": "Brown Sugar Condiment",
+      "name": "Grape Jelly",
+      "src": "Grape Jelly",
       "kind": "condiment",
       "codes": []
      },
@@ -4745,27 +4813,27 @@
     ],
     "lunch": [
      {
-      "name": "Hot Dog on a Bun",
-      "src": "Hot Dog on Bun",
+      "name": "Hot Dog Bar",
+      "src": "Hotdog Bar",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Hearty Beef Chili",
-      "src": "Hearty Beef Chili",
-      "kind": "main",
+      "name": "Homemade Chili",
+      "src": "Homemade Chili",
+      "kind": "accompaniment",
       "codes": []
      },
      {
-      "name": "Potato Chips",
-      "src": "Potato Chips",
+      "name": "Chips",
+      "src": "Chips",
       "kind": "side",
       "codes": []
      },
      {
-      "name": "Coleslaw",
-      "src": "Cole Slaw",
+      "name": "Slaw",
+      "src": "Slaw",
       "kind": "side",
       "codes": []
      },
@@ -4785,20 +4853,20 @@
       "featured": true
      },
      {
-      "name": "Ginger Fried Rice",
-      "src": "Ginger Fried Rice",
+      "name": "Fried Rice",
+      "src": "Fried Rice",
       "kind": "side",
       "codes": []
      },
      {
-      "name": "Vegetable Pork Egg Roll",
-      "src": "Vegtable Pork Egg Roll",
+      "name": "Egg Roll",
+      "src": "Egg Roll",
       "kind": "side",
       "codes": []
      },
      {
-      "name": "Deluxe Chocolate Cake",
-      "src": "Deluxe Chocolate Cake",
+      "name": "Chocolate Cake",
+      "src": "Chocolate Cake",
       "kind": "dessert",
       "codes": []
      },
@@ -4826,6 +4894,22 @@
     "week4": "Breakfast 7:00-8:30 am, Lunch 11:30 am-1:00 pm, Dinner 5:00-6:30 pm",
     "applied": true,
     "note": "applied 2026-10-22 as hours.byDate for 2026-10-22..2026-11-01 (Tevin: 'yes, use the printed hours'); hours.meals unchanged for other dates"
+   }
+  },
+  {
+   "at": "2026-10-28",
+   "by": "Tevin Wardlaw (Regional IT): re-sent the Nov 2-8 sheet after 'Wait. Pull back this latest upload.'",
+   "file": "nov_2-8_2026.pdf",
+   "supersedes": "Nov_2-8.pdf (applied 85f9f61, pulled back 7d7a4a5; same text, logos then covered some dinner words)",
+   "sha256": "b9fc7d880b9d1bd830ca5d347b053a7c3ff60acfae41b8b31ccb3930d20bfb52",
+   "source": "Unidine weekly menu, one page, Monday..Sunday = 2026-11-02..08 (replaces the 2026-10-12 Dietary cycle for those dates)",
+   "dates": "2026-11-02..2026-11-08",
+   "kept": "everyday items from the 2026-10-12 Dietary menu (juice, milk, coffee, oatmeal, banana, wheat toast, breakfast condiments; iced tea at lunch and dinner): the weekly sheet has no rows for them",
+   "note": "theme logos (Dinner header band) are not menu items and are not shown on screen",
+   "printedHours": {
+    "all": "Breakfast 7:30-8:30 am, Lunch 12:00-1:00 pm, Dinner 5:00-6:00 pm",
+    "applied": true,
+    "where": "hours.byDate"
    }
   }
  ]
