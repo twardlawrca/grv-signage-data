@@ -4159,21 +4159,21 @@
     ],
     "dinner": [
      {
-      "name": "Fried Chicken",
-      "src": "Fried Chicken",
+      "name": "Oven Roasted Chicken",
+      "src": "Oven Roasted Chicken",
       "kind": "main",
       "codes": [],
       "featured": true
      },
      {
-      "name": "Mashed Potatoes",
-      "src": "Mashed Potatoes",
+      "name": "Sweet Potato Crisp",
+      "src": "Sweet Pot Crisp",
       "kind": "side",
       "codes": []
      },
      {
-      "name": "Fresh Vegetables",
-      "src": "Fresh Vegetables",
+      "name": "Greens",
+      "src": "Greens",
       "kind": "side",
       "codes": []
      },
@@ -4911,6 +4911,14 @@
     "applied": true,
     "where": "hours.byDate"
    }
+  },
+  {
+   "at": "2026-10-28",
+   "by": "Tevin Wardlaw (Regional IT): 'Sorry. This is the correct one!'",
+   "file": "nov_2-8_2026.pdf (corrected copy)",
+   "sha256": "9ca2ed7b3c8a46d5d036d5817158d1e2028aec4575f242e1cbb77c66b8fdaac7",
+   "dates": "2026-11-03 dinner only",
+   "change": "Fried Chicken, Mashed Potatoes, Fresh Vegetables -> Oven Roasted Chicken, Sweet Pot Crisp (shown as Sweet Potato Crisp), Greens; Ice Cream unchanged; every other cell identical to the sheet applied in 5fd0d49"
   }
  ]
 }
