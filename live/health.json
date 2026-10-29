@@ -1,8 +1,14 @@
 {
   "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
   "license": "https://www.usa.gov/government-copyright",
-  "updated_at": "2026-10-28T22:41:50Z",
+  "updated_at": "2026-10-29T06:00:20Z",
   "items": [
+    {
+      "text": "Rabid Bats Confirmed in Greenville and York Counties; One Person and One Pet Exposed",
+      "meta": "SC DPH · Oct 28",
+      "url": "https://dph.sc.gov/news/rabid-bats-confirmed-greenville-and-york-counties-one-person-and-one-pet-exposed",
+      "day": "2026-10-28"
+    },
     {
       "text": "SAMHSA Releases New NSDUH Data Spotlight on Religious Beliefs and Adolescent Substance Use",
       "meta": "SAMHSA · Oct 28",
@@ -16,28 +22,22 @@
       "day": "2026-10-27"
     },
     {
-      "text": "DPH Emphasizes Dangers of Lead Exposure and How to Prevent It for National Lead Poisoning Prevention Week",
-      "meta": "SC DPH · Oct 21",
-      "url": "https://dph.sc.gov/news/dph-emphasizes-dangers-lead-exposure-and-how-prevent-it-national-lead-poisoning-prevention",
-      "day": "2026-10-21"
-    },
-    {
       "text": "Annual Report to the Nation: Progress Against Lung Cancer Drives Down Cancer Mortality",
       "meta": "CDC · Sep 22",
       "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=766495",
       "day": "2026-09-22"
     },
     {
+      "text": "DPH Emphasizes Dangers of Lead Exposure and How to Prevent It for National Lead Poisoning Prevention Week",
+      "meta": "SC DPH · Oct 21",
+      "url": "https://dph.sc.gov/news/dph-emphasizes-dangers-lead-exposure-and-how-prevent-it-national-lead-poisoning-prevention",
+      "day": "2026-10-21"
+    },
+    {
       "text": "NOA Revisions to Chapter 511-1-3 \"Vital Records\"",
       "meta": "Georgia DPH · Oct 21",
       "url": "https://dph.georgia.gov/notices-regs-and-rule-making/2026-10-21/noa-revisions-chapter-511-1-3-vital-records",
       "day": "2026-10-21"
-    },
-    {
-      "text": "Trauma Advisory Council to Meet Thursday, Oct. 22, 2026",
-      "meta": "SC DPH · Oct 19",
-      "url": "https://dph.sc.gov/news/trauma-advisory-council-meet-thursday-oct-22-2026",
-      "day": "2026-10-19"
     }
   ]
 }
