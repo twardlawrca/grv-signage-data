@@ -31,7 +31,7 @@
     "enabled": true,
     "schedule": [
       { "theme": "halloween", "start": "10-25", "end": "10-31" },
-      { "theme": "autumn", "start": "10-01", "end": "thanksgiving-5" },
+      { "theme": "autumn", "start": "10-01", "end": "10-31" },
       { "theme": "thanksgiving", "start": "thanksgiving-4", "end": "thanksgiving+3" }
     ],
     "hosts": {}
