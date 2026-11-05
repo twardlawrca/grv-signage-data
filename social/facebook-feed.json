@@ -1,0 +1,22 @@
+{
+  "_comment": "Latest from Facebook -- the posts the nursing-station TVs (both sides) and the cafeteria main TV show as NATIVE cards (our own image + caption, no Facebook chrome). Boards read this file every 5 minutes; a data push is all it takes, no engine publish. Read order on the boards: this file (last good copy kept on the box) -> GRVTV-Panels/facebook-feed.json in the engine -> the page's built-in list.",
+  "_how_to_add_a_post": "1) Save the post's ORIGINAL image (the file RCA Marketing uploaded, never a screenshot, never a download from Facebook's CDN) into social/images/ with a new, lower-case, dash-separated name (e.g. 2026-10-20-family-day.jpg; jpg/png/webp; about 1080-2000 px on the long side, under ~600 KB). 2) Add an entry to posts: id, url, image, imageAlt, caption (the full post text), page, postedOn (YYYY-MM-DD), reviewStatus. 3) Set reviewStatus to approved only after the post passes the curation guidance. 4) Commit + push. Never overwrite an image file with different content; add a new file name instead.",
+  "_curation_guidance": "Patient- and family-facing screens in an addiction-treatment facility: recovery stories, RCA milestones, community moments, evergreen mission content. AVOID trigger material, fundraising/donation asks, and any client photo, name or testimonial without documented consent.",
+  "_fields": "id (short slug), url (the Facebook post, kept for reference and as the fallback: if the image cannot load the board embeds this post the v3 way), image (file name in social/images/), imageAlt (what the image shows), caption (full text; the card shows about 4 lines and fades the rest), captionTruncated (true only while the caption is known to be incomplete; the card adds an ellipsis unless the text already ends a sentence), page (name in the card header), postedOn (YYYY-MM-DD, shown as a month and day), startsOn / endsOn (optional New York dates, inclusive), reviewStatus (approved | draft; anything but approved never shows). A plain URL string still works and shows the Facebook embed.",
+  "_schema_version": "2.0",
+  "_last_updated": "2026-11-05",
+  "_curator": "Tevin Wardlaw + RCA Marketing",
+  "posts": [
+    {
+      "id": "home-for-the-holidays-2026",
+      "image": "2026-11-05-home-for-the-holidays.jpg",
+      "imageAlt": "Friends and family laughing around an outdoor Thanksgiving table among autumn trees, with the words Home for the Holidays and: Don’t wait for January. Take the first step now, with care that fits your needs.",
+      "caption": "Don’t wait for January to start feeling better. 🍂\n\nThe weeks before the holidays are a good time to take the first step, not a reason to put it off. Recovery Centers of America’s flexible outpatient programs let you get addiction and mental health treatment while you stay home, with care that fits around work, family and everyday life. You can get healthy for the holidays without missing them.",
+      "page": "Recovery Centers of America at Greenville",
+      "postedOn": "2026-11-05",
+      "startsOn": "2026-11-05",
+      "endsOn": "2026-12-31",
+      "reviewStatus": "approved"
+    }
+  ]
+}
