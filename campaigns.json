@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T16:47:42Z",
+  "generatedAt": "2026-11-06T17:51:26Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -3043,6 +3043,385 @@
               "height": 540
             },
             "caption": "Register: extended.recoverycentersofamerica.com/event-grv-hockey-0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-rca-family-caregivers-month-2026",
+      "name": "National Family Caregivers Month · Three Ways We Support Families in Recovery",
+      "category": "awareness",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-11-05",
+        "endsOn": "2026-11-30"
+      },
+      "rotation": {
+        "slideSec": 12,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-caregivers-cover",
+          "type": "image",
+          "title": "Three Ways We Support Families in Recovery",
+          "durationSec": 14,
+          "props": {
+            "layout": "feature",
+            "asset": {
+              "id": "ast-caregivers-family-photo",
+              "file": "caregivers-family-photo.jpg",
+              "sha256": "f89bae21aa3af5e23d0f57704341cd4471cd0dca927ab03fd0747a261b42ea2f",
+              "width": 896,
+              "height": 638
+            },
+            "eyebrow": "November · National Family Caregivers Month",
+            "headline": "Three Ways We Support *Families* in *Recovery*",
+            "subline": "You may have questions about addiction, treatment, or how to offer support. You deserve support and guidance, too.",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-caregivers-education",
+          "type": "message",
+          "title": "Family Education and Coaching",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "Way 1 of 3 · National Family Caregivers Month",
+            "headline": "*Family* Education and *Coaching*",
+            "subline": "Understanding addiction is the first step toward meaningful support. Our clinical team helps families navigate recovery with knowledge, guidance, and practical tools.",
+            "align": "left",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-caregivers-webinars",
+          "type": "message",
+          "title": "Family Webinars & Support Groups",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "Way 2 of 3 · National Family Caregivers Month",
+            "headline": "Family *Webinars* & *Support* *Groups*",
+            "subline": "You don’t have to navigate your loved one’s recovery alone. Connect with families who understand, gain practical guidance, and find encouragement through our webinars and support groups.",
+            "align": "left",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-caregivers-treatment-planning",
+          "type": "message",
+          "title": "Family Involvement in Treatment Planning",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "Way 3 of 3 · National Family Caregivers Month",
+            "headline": "Family *Involvement* in Treatment *Planning*",
+            "subline": "Recovery doesn’t end when treatment does. When appropriate, we involve families in treatment planning to strengthen communication, rebuild trust, and create a healthier foundation for lasting recovery.",
+            "align": "left",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-caregivers-where-to-turn",
+          "type": "image",
+          "title": "Where to turn",
+          "durationSec": 16,
+          "props": {
+            "layout": "feature",
+            "asset": {
+              "id": "ast-caregivers-family-photo",
+              "file": "caregivers-family-photo.jpg",
+              "sha256": "f89bae21aa3af5e23d0f57704341cd4471cd0dca927ab03fd0747a261b42ea2f",
+              "width": 896,
+              "height": 638
+            },
+            "eyebrow": "National Family Caregivers Month",
+            "headline": "Helping Someone You Love Find *Recovery* Starts With Knowing Where to Turn.",
+            "subline": "You don’t have to navigate this alone. Our intervention services help families take the next step toward treatment with guidance, compassion, and support.\nCall 833-30-RECOVERY · recoverycentersofamerica.com",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-rca-veterans-military-families-month-2026",
+      "name": "National Veterans and Military Families Month 2026",
+      "category": "awareness",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-11-05",
+        "endsOn": "2026-11-30"
+      },
+      "rotation": {
+        "slideSec": 12,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-vets-month",
+          "type": "image",
+          "title": "National Veterans and Military Families Month",
+          "durationSec": 16,
+          "props": {
+            "asset": {
+              "id": "ast-veterans-month-photo",
+              "file": "veterans-month-photo.jpg",
+              "sha256": "b10577b1dea969e44accd1db3b19adffe9eb508f72cd9e0b654d587e2d38818e",
+              "width": 712,
+              "height": 568
+            },
+            "layout": "feature",
+            "eyebrow": "November is",
+            "headline": "National *Veterans* and *Military* *Families* Month",
+            "subline": "We’re recognizing the families whose lives are shaped by service and reminding them that they deserve support, too.",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-vets-carry",
+          "type": "message",
+          "title": "Responsibilities others may never see",
+          "durationSec": 14,
+          "props": {
+            "eyebrow": "National Veterans and Military Families Month",
+            "headline": "Through deployments, homecomings, and changing routines, military spouses, partners, and loved ones often carry *responsibilities* others may never see.",
+            "align": "left",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-vets-support",
+          "type": "message",
+          "title": "RCA’s RESCU program",
+          "durationSec": 18,
+          "props": {
+            "eyebrow": "National Veterans and Military Families Month",
+            "headline": "When addiction or mental health concerns become part of that experience, knowing where to *turn* can make a *difference*.",
+            "subline": "RCA’s RESCU program provides specialized treatment for service members, veterans, and their families. Call 833-30-RECOVERY to learn about available support.",
+            "align": "left",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-rca-in-the-news-ai-governance-2026",
+      "name": "In the news · HR.com: How Behavioral Health Providers Can Adopt AI Without Risking Patient Privacy (Lancer Seaman)",
+      "category": "recognition",
+      "priority": "normal",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-11-05",
+        "endsOn": "2026-11-30"
+      },
+      "rotation": {
+        "slideSec": 18,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": [
+            "p-lobby",
+            "p-outpatient",
+            "p-cafeteria",
+            "p-nursing",
+            "p-workflex"
+          ]
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-news-ai-feature",
+          "type": "image",
+          "title": "HR.com: How Behavioral Health Providers Can Adopt AI Without Risking Patient Privacy",
+          "durationSec": 20,
+          "props": {
+            "asset": {
+              "id": "ast-news-ai-governance-photo",
+              "file": "news-ai-governance-photo.jpg",
+              "sha256": "61fa7cffb7518bc9f7af4fec4f73ee117445e04c9165478548aa63ed5f970519",
+              "width": 640,
+              "height": 590
+            },
+            "layout": "feature",
+            "eyebrow": "In the news",
+            "headline": "HR.com: How Behavioral Health Providers Can Adopt *AI* Without Risking Patient Privacy",
+            "subline": "A seven-step AI governance framework to reduce risk and enable adoption.",
+            "caption": "HR Legal & Compliance Excellence magazine · October 2026 edition",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-news-ai-backward",
+          "type": "message",
+          "title": "Most organizations start with a policy. That is backward.",
+          "durationSec": 22,
+          "props": {
+            "eyebrow": "In the news · HR.com",
+            "headline": "Most organizations start their AI strategy by writing a policy. Lancer Seaman, Chief Information and Security Officer at Recovery Centers of America, says that’s *backward*.",
+            "subline": "The framework starts with a cross-functional governance committee and clear guiding principles, before any policy is drafted.",
+            "align": "left",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-news-ai-takeaways",
+          "type": "list",
+          "title": "A few takeaways for healthcare leaders",
+          "durationSec": 38,
+          "props": {
+            "eyebrow": "In the news · HR.com",
+            "headline": "A few *takeaways* for healthcare leaders",
+            "subline": "HR Legal & Compliance Excellence magazine · October 2026 edition",
+            "style": "bullets",
+            "columns": 2,
+            "items": [
+              {
+                "icon": "scale",
+                "title": "Match oversight to risk.",
+                "text": "Brainstorming and meeting summaries need limited review. Hiring, financial, clinical, and confidential-data use cases need much stronger controls, and protected health information sits in the highest tier."
+              },
+              {
+                "icon": "stethoscope",
+                "title": "In behavioral health, AI is advisory.",
+                "text": "Licensed clinicians remain responsible for every diagnostic, therapeutic, and prescribing decision."
+              },
+              {
+                "icon": "user",
+                "title": "“Human in the loop”",
+                "text": "only works if someone owns each use case, understands its data and outputs, and knows when to escalate."
+              },
+              {
+                "icon": "shield",
+                "title": "Don’t over-restrict.",
+                "text": "Rules that are too strict don’t stop AI use. They push it out of sight and create shadow IT."
+              }
+            ],
+            "theme": "navy",
+            "accent": "gold"
           }
         }
       ]
