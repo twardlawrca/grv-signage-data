@@ -1,7 +1,7 @@
 {
   "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
   "license": "https://www.usa.gov/government-copyright",
-  "updated_at": "2026-11-06T06:59:44Z",
+  "updated_at": "2026-11-06T19:32:38Z",
   "items": [
     {
       "text": "Rabid Racoon Confirmed in Charleston County; One Person Exposed",
@@ -22,12 +22,6 @@
       "day": "2026-10-28"
     },
     {
-      "text": "Annual Report to the Nation: Progress Against Lung Cancer Drives Down Cancer Mortality",
-      "meta": "CDC · Sep 22",
-      "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=766495",
-      "day": "2026-09-22"
-    },
-    {
       "text": "SC Water Safety Coalition",
       "meta": "SC DPH · Nov 2",
       "url": "https://dph.sc.gov/health-wellness/injury-tobacco-and-substance-use-prevention/injury-and-violence-prevention/water/sc",
@@ -38,6 +32,12 @@
       "meta": "Georgia DPH · Oct 27",
       "url": "https://dph.georgia.gov/press-releases/2026-10-27/dph-confirms-three-new-measles-cases",
       "day": "2026-10-27"
+    },
+    {
+      "text": "Helpline Offers Immediate Crisis Counseling to People in Advance of Tropical Storm Champi Set to Impact Guam and the…",
+      "meta": "SAMHSA · Oct 16",
+      "url": "https://www.samhsa.gov/newsroom/press-announcements/20261016/ddh-offers-crisis-counseling-tropical-storm-champi",
+      "day": "2026-10-16"
     }
   ]
 }
