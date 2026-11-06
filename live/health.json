@@ -1,19 +1,19 @@
 {
   "source": "SC DPH · Georgia DPH · SAMHSA · CDC · U.S. and state government works",
   "license": "https://www.usa.gov/government-copyright",
-  "updated_at": "2026-11-04T06:41:45Z",
+  "updated_at": "2026-11-06T06:59:44Z",
   "items": [
+    {
+      "text": "Rabid Racoon Confirmed in Charleston County; One Person Exposed",
+      "meta": "SC DPH · Nov 5",
+      "url": "https://dph.sc.gov/news/rabid-racoon-confirmed-charleston-county-one-person-exposed",
+      "day": "2026-11-05"
+    },
     {
       "text": "Medical Cannabis Card Fee Increase",
       "meta": "Georgia DPH · Nov 3",
       "url": "https://dph.georgia.gov/press-releases/2026-11-03/medical-cannabis-card-fee-increase",
       "day": "2026-11-03"
-    },
-    {
-      "text": "SC Water Safety Coalition",
-      "meta": "SC DPH · Nov 2",
-      "url": "https://dph.sc.gov/health-wellness/injury-tobacco-and-substance-use-prevention/injury-and-violence-prevention/water/sc",
-      "day": "2026-11-02"
     },
     {
       "text": "SAMHSA Releases New NSDUH Data Spotlight on Religious Beliefs and Adolescent Substance Use",
@@ -28,10 +28,10 @@
       "day": "2026-09-22"
     },
     {
-      "text": "DPH Highlights Stroke Smart SC Effort for World Stroke Day",
-      "meta": "SC DPH · Oct 28",
-      "url": "https://dph.sc.gov/news/dph-highlights-stroke-smart-sc-effort-world-stroke-day",
-      "day": "2026-10-28"
+      "text": "SC Water Safety Coalition",
+      "meta": "SC DPH · Nov 2",
+      "url": "https://dph.sc.gov/health-wellness/injury-tobacco-and-substance-use-prevention/injury-and-violence-prevention/water/sc",
+      "day": "2026-11-02"
     },
     {
       "text": "DPH Confirms Three New Measles Cases",
