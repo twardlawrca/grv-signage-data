@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T17:51:26Z",
+  "generatedAt": "2026-11-10T18:34:40Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -3285,7 +3285,7 @@
           "props": {
             "eyebrow": "National Veterans and Military Families Month",
             "headline": "When addiction or mental health concerns become part of that experience, knowing where to *turn* can make a *difference*.",
-            "subline": "RCA’s RESCU program provides specialized treatment for service members, veterans, and their families. Call 833-30-RECOVERY to learn about available support.",
+            "subline": "RCA’s RESCU program provides specialized treatment for service members, veterans, and their families at select RCA centers. Call 833-30-RECOVERY to learn about available support.",
             "align": "left",
             "theme": "navy",
             "accent": "gold"
@@ -3420,6 +3420,224 @@
                 "text": "Rules that are too strict don’t stop AI use. They push it out of sight and create shadow IT."
               }
             ],
+            "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmp-grv-veterans-day-2026",
+      "name": "Veterans Day 2026",
+      "category": "awareness",
+      "priority": "high",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-11-11",
+        "endsOn": "2026-11-11",
+        "everyMin": 5
+      },
+      "rotation": {
+        "slideSec": 12,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America",
+      "slides": [
+        {
+          "id": "cnt-vday-flag",
+          "type": "image",
+          "title": "Veterans Day flag",
+          "durationSec": 12,
+          "props": {
+            "asset": {
+              "id": "ast-flag-wall",
+              "file": "flag-wall.jpg",
+              "sha256": "f94ff72bd46d28f158b2b4513d98ad8d433577c8b12212a4c6bdcde786f45c18",
+              "width": 1173,
+              "height": 660
+            },
+            "layout": "cover",
+            "motion": "wave",
+            "eyebrow": "",
+            "headline": "Veterans Day · Thank you for your *service*.",
+            "subline": "",
+            "caption": "Veterans Day · Thank you for your service.",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-vday-video",
+          "type": "video",
+          "title": "Veterans Day Parade footage (DVIDS, 18 s, silent)",
+          "durationSec": 18,
+          "props": {
+            "src": "GRVTV-Assets/video/veterans-day-2026.mp4",
+            "fit": "cover",
+            "takeover": true,
+            "posterAsset": {
+              "id": "ast-veterans-day-2026-poster",
+              "file": "veterans-day-2026-poster.jpg",
+              "sha256": "1583f81c1dde4a41d4330099dd578343030daf41a1fe18a0327d184be5e5db9e",
+              "width": 960,
+              "height": 540
+            },
+            "eyebrow": "Footage: U.S. Marine Corps video by Cpl. Hannah Adams, via DVIDS",
+            "headline": "The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement."
+          }
+        },
+        {
+          "id": "cnt-vday-thanks",
+          "type": "message",
+          "title": "Thank you",
+          "durationSec": 12,
+          "props": {
+            "eyebrow": "Wednesday, November 11, 2026",
+            "headline": "Thank you to every *veteran* in our community.",
+            "subline": "Patients, alumni, families, and team members: we are grateful for your service.",
+            "align": "left",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-vday-history",
+          "type": "message",
+          "title": "Where Veterans Day began",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "Where Veterans Day began · Source: U.S. Department of Veterans Affairs",
+            "headline": "Veterans Day began as *Armistice* *Day*.",
+            "subline": "Fighting in World War I ended at the eleventh hour of the eleventh day of the eleventh month, 1918. In 1954 the day was renamed to honor American veterans of all wars.",
+            "align": "left",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-vday-branches",
+          "type": "list",
+          "title": "We honor all who served",
+          "durationSec": 12,
+          "props": {
+            "eyebrow": "Veterans Day 2026",
+            "headline": "We honor all who *served*",
+            "subline": "The six branches of the U.S. Armed Forces · Source: U.S. Code, Title 10 (10 U.S.C. § 101)",
+            "style": "cards",
+            "columns": 3,
+            "photoAsset": {
+              "id": "ast-flag-wall",
+              "file": "flag-wall.jpg",
+              "sha256": "f94ff72bd46d28f158b2b4513d98ad8d433577c8b12212a4c6bdcde786f45c18",
+              "width": 1173,
+              "height": 660
+            },
+            "theme": "navy",
+            "accent": "gold",
+            "items": [
+              {
+                "icon": "flag",
+                "title": "Army",
+                "text": ""
+              },
+              {
+                "icon": "flag",
+                "title": "Marine Corps",
+                "text": ""
+              },
+              {
+                "icon": "flag",
+                "title": "Navy",
+                "text": ""
+              },
+              {
+                "icon": "flag",
+                "title": "Air Force",
+                "text": ""
+              },
+              {
+                "icon": "flag",
+                "title": "Space Force",
+                "text": ""
+              },
+              {
+                "icon": "flag",
+                "title": "Coast Guard",
+                "text": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "cnt-vday-rescu",
+          "type": "image",
+          "title": "RCA RESCU program",
+          "durationSec": 16,
+          "props": {
+            "asset": {
+              "id": "ast-veterans-month-photo",
+              "file": "veterans-month-photo.jpg",
+              "sha256": "b10577b1dea969e44accd1db3b19adffe9eb508f72cd9e0b654d587e2d38818e",
+              "width": 712,
+              "height": 568
+            },
+            "layout": "feature",
+            "eyebrow": "RCA’s RESCU program",
+            "headline": "Specialized treatment for those who *served*",
+            "subline": "RCA’s RESCU program provides specialized treatment for service members, veterans, and their families at select RCA centers.",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        },
+        {
+          "id": "cnt-vday-close",
+          "type": "message",
+          "title": "Home of the Free",
+          "durationSec": 10,
+          "props": {
+            "eyebrow": "Veterans Day 2026",
+            "headline": "Home of the Free. Because of the *Brave*.",
+            "subline": "Thank you, veterans.",
+            "align": "left",
             "theme": "navy",
             "accent": "gold"
           }
