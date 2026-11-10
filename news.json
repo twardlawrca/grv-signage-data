@@ -1,7 +1,13 @@
 {
   "source": "recoverycentersofamerica.com WP REST (categories 274,291)",
-  "updated_at": "2026-11-09T19:52:15Z",
+  "updated_at": "2026-11-10T03:36:10Z",
   "items": [
+    {
+      "title": "6abc Action News Covers Recovery Centers of America’s Second Annual Sober Tailgate",
+      "date": "2026-11-09T15:06:41",
+      "excerpt": "6abc Action News featured Recovery Centers of America’s second annual sober tailgate, where Philadelphia Eagles fans came together to celebrate game day without alcohol. In…",
+      "url": "https://recoverycentersofamerica.com/news/6abc-philadelphia-rca-sober-tailgate/"
+    },
     {
       "title": "Recovery Centers of America Celebrates Ten Years of Lifesaving Addiction Treatment in Central Massachusetts",
       "date": "2026-11-04T19:36:33",
@@ -43,12 +49,6 @@
       "date": "2026-10-14T19:12:42",
       "excerpt": "Lancer Seaman, chief information and security officer at Recovery Centers of America, outlines a seven-step AI governance framework in the October 2026 issue of HR.com’s…",
       "url": "https://recoverycentersofamerica.com/news/ai-governance-patient-privacy-lancer-seaman-hr-com/"
-    },
-    {
-      "title": "Karen Wolownik Albert Discusses Kratom Withdrawal with FOX 32 Chicago",
-      "date": "2026-10-09T18:20:44",
-      "excerpt": "Karen Wolownik Albert, CEO of Recovery Centers of America at St. Charles, joined FOX 32 Chicago to talk about kratom, a product often marketed as…",
-      "url": "https://recoverycentersofamerica.com/news/kratom-withdrawal-karen-wolownik-albert-fox-32-chicago/"
     }
   ]
 }
