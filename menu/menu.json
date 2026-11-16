@@ -6339,8 +6339,8 @@
       "featured": true
      },
      {
-      "name": "Sausage Link",
-      "src": "Sausage Link",
+      "name": "Sausage",
+      "src": "Sausage",
       "kind": "side",
       "codes": []
      },
@@ -7242,6 +7242,17 @@
     "applied": true,
     "where": "hours.byDate (timing only; never shown on screen)"
    }
+  },
+  {
+   "at": "2026-11-16",
+   "by": "Tevin Wardlaw (Regional IT): 'Updated RCA GRV Menu for \"Nov. 16th - 22nd\".'",
+   "file": "greenville nov 16-22 menu.pdf",
+   "sha256": "1fedc517d7df772e0895e9664e58a9d968aa8365e97750f09511730d70dd6b69",
+   "source": "Unidine weekly menu, one page, Monday..Sunday, footer 'Nov 16 - 22' (confirms the Mon-Sun mapping used for Nov 8-24.pdf page 2)",
+   "dates": "2026-11-16..2026-11-22 compared item by item",
+   "changed": "2026-11-18 breakfast: 'Sausage Link' -> 'Sausage' (printed text)",
+   "unchanged": "every other item, the Soup row (Chef's Choice), the 'Also Available' row, Chef's Choice Dessert, and the printed hours Breakfast 8:00-9:00 am, Lunch 12:00-1:00 pm, Dinner 5:00-6:00 pm (hours.byDate, timing only, never on screen)",
+   "note": "theme logos (The Taste of the World, AJI Mexican Grill, World of BBQ, Comfort food, Umami, al dente, chef's table) are not menu items; no Iced Tea added"
   }
  ]
 }
