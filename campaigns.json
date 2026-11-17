@@ -2961,7 +2961,10 @@
             "intro": true,
             "outro": true,
             "theme": "navy",
-            "accent": "gold"
+            "accent": "gold",
+            "rotate": ["trivia", "scramble", "riddle"],
+            "scramble": { "count": 8, "wordSec": 15, "revealSec": 6 },
+            "riddle": { "count": 6, "riddleSec": 20, "revealSec": 7 }
           }
         }
       ]

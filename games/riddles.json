@@ -1,0 +1,1056 @@
+{
+  "_usage": "GRV Riddles & Brain Teasers rounds (campaign overlay games). Boards pick `count` items per round from a seeded per-day permutation. kind = riddle | teaser; q <= 150 chars; a <= 40 chars; why <= 120 chars. Family-friendly, fair, solvable in ~20 s; run tools/lint_games.py before shipping.",
+  "version": "2026-11-17b",
+  "items": [
+    {
+      "id": "rdl-001",
+      "kind": "riddle",
+      "q": "What has 88 keys but can't open a single lock?",
+      "a": "A piano",
+      "why": "Its keys play notes, not open doors."
+    },
+    {
+      "id": "rdl-002",
+      "kind": "riddle",
+      "q": "What hangs on the wall and has hands but can't clap?",
+      "a": "A clock",
+      "why": "Its hands point to the hour and the minute."
+    },
+    {
+      "id": "rdl-003",
+      "kind": "riddle",
+      "q": "What gets wetter the more it dries?",
+      "a": "A towel",
+      "why": "The more it dries you, the more water it holds."
+    },
+    {
+      "id": "rdl-004",
+      "kind": "riddle",
+      "q": "What has a neck and a collar but no head?",
+      "a": "A shirt",
+      "why": "Shirts have both, and no head of their own."
+    },
+    {
+      "id": "rdl-005",
+      "kind": "riddle",
+      "q": "What has teeth but never bites, and keeps your hair neat?",
+      "a": "A comb",
+      "why": "Its teeth glide through hair instead of food."
+    },
+    {
+      "id": "rdl-006",
+      "kind": "riddle",
+      "q": "What has four legs, never walks, and holds your plate at dinner?",
+      "a": "A table",
+      "why": "It stands all day and goes nowhere."
+    },
+    {
+      "id": "rdl-007",
+      "kind": "riddle",
+      "q": "What has a spine and pages but isn't a person?",
+      "a": "A book",
+      "why": "A book's spine holds all its pages together."
+    },
+    {
+      "id": "rdl-008",
+      "kind": "riddle",
+      "q": "What has a mouth and a bed but never eats or sleeps?",
+      "a": "A river",
+      "why": "It flows out of its mouth into the sea, and runs along its bed."
+    },
+    {
+      "id": "rdl-009",
+      "kind": "riddle",
+      "q": "What runs when you turn its handle but never leaves the sink?",
+      "a": "A faucet",
+      "why": "Water runs from it, but the faucet stays put."
+    },
+    {
+      "id": "rdl-010",
+      "kind": "riddle",
+      "q": "What goes up when the rain comes down?",
+      "a": "An umbrella",
+      "why": "You open it as the first drops fall."
+    },
+    {
+      "id": "rdl-011",
+      "kind": "riddle",
+      "q": "The more you take, the more you leave behind. What are they?",
+      "a": "Footsteps",
+      "why": "Every step you take leaves another print."
+    },
+    {
+      "id": "rdl-012",
+      "kind": "riddle",
+      "q": "What belongs to you but other people use more than you do?",
+      "a": "Your name",
+      "why": "Everyone else says it far more often than you do."
+    },
+    {
+      "id": "rdl-013",
+      "kind": "riddle",
+      "q": "What comes once in a minute, twice in a moment, but never in a week?",
+      "a": "The letter M",
+      "why": "Look at the spelling of each word: minute has one M, moment has two."
+    },
+    {
+      "id": "rdl-014",
+      "kind": "riddle",
+      "q": "What word gets shorter when you add two letters to it?",
+      "a": "Short",
+      "why": "Add \"er\" and you get \"shorter\"."
+    },
+    {
+      "id": "rdl-015",
+      "kind": "riddle",
+      "q": "What building has the most stories?",
+      "a": "A library",
+      "why": "Stories, as in tales, not floors."
+    },
+    {
+      "id": "rdl-016",
+      "kind": "riddle",
+      "q": "What has a thumb and four fingers but isn't alive?",
+      "a": "A glove",
+      "why": "It has a spot for each finger and your thumb."
+    },
+    {
+      "id": "rdl-017",
+      "kind": "riddle",
+      "q": "What can travel around the world while staying in one corner?",
+      "a": "A stamp",
+      "why": "It sits in the corner of the envelope the whole way there."
+    },
+    {
+      "id": "rdl-018",
+      "kind": "riddle",
+      "q": "What flies without wings and cries without eyes?",
+      "a": "A cloud",
+      "why": "It drifts across the sky and rains."
+    },
+    {
+      "id": "rdl-019",
+      "kind": "riddle",
+      "q": "What has a head and a tail but no body?",
+      "a": "A coin",
+      "why": "Heads on one side, tails on the other."
+    },
+    {
+      "id": "rdl-020",
+      "kind": "riddle",
+      "q": "What gets bigger the more you take away from it?",
+      "a": "A hole",
+      "why": "Dig out more dirt and the hole grows."
+    },
+    {
+      "id": "rdl-021",
+      "kind": "riddle",
+      "q": "What invention lets you look right through a wall?",
+      "a": "A window",
+      "why": "It's a see-through gap in the wall."
+    },
+    {
+      "id": "rdl-022",
+      "kind": "riddle",
+      "q": "What has teeth but never eats, and holds your jacket closed?",
+      "a": "A zipper",
+      "why": "Its little teeth lock together to close the jacket."
+    },
+    {
+      "id": "rdl-023",
+      "kind": "riddle",
+      "q": "What starts with T, ends with T, and is full of T?",
+      "a": "A teapot",
+      "why": "It starts and ends with the letter T, and it holds tea."
+    },
+    {
+      "id": "rdl-024",
+      "kind": "riddle",
+      "q": "What starts with E, ends with E, and holds just one letter?",
+      "a": "An envelope",
+      "why": "Envelope starts and ends with E, and it holds a letter."
+    },
+    {
+      "id": "rdl-025",
+      "kind": "riddle",
+      "q": "What is full of holes but still holds water?",
+      "a": "A sponge",
+      "why": "The holes soak up water and keep it inside."
+    },
+    {
+      "id": "rdl-026",
+      "kind": "riddle",
+      "q": "What can fill a whole room but takes up no space?",
+      "a": "Light",
+      "why": "Switch it on and the room fills, and nothing moves in."
+    },
+    {
+      "id": "rdl-027",
+      "kind": "riddle",
+      "q": "What goes all the way around a yard but never moves?",
+      "a": "A fence",
+      "why": "It circles the yard and stays right where it is."
+    },
+    {
+      "id": "rdl-028",
+      "kind": "riddle",
+      "q": "What is always in front of you but can't be seen?",
+      "a": "The future",
+      "why": "It's always ahead of you, and you can't see it yet."
+    },
+    {
+      "id": "rdl-029",
+      "kind": "riddle",
+      "q": "What has a tongue and laces but never talks?",
+      "a": "A shoe",
+      "why": "The tongue sits under the laces and says nothing."
+    },
+    {
+      "id": "rdl-030",
+      "kind": "riddle",
+      "q": "What green vegetable has a heart in the middle and leaves you pull off one by one?",
+      "a": "An artichoke",
+      "why": "Peel away its leaves and you reach the soft heart."
+    },
+    {
+      "id": "rdl-031",
+      "kind": "riddle",
+      "q": "What has ears but cannot hear?",
+      "a": "Corn",
+      "why": "An ear of corn grows on a stalk."
+    },
+    {
+      "id": "rdl-032",
+      "kind": "riddle",
+      "q": "What has one head, one foot, and four legs?",
+      "a": "A bed",
+      "why": "A bed has a head, a foot and four legs."
+    },
+    {
+      "id": "rdl-033",
+      "kind": "riddle",
+      "q": "What goes up and down but never moves?",
+      "a": "A staircase",
+      "why": "The steps rise and fall, but the stairs stay put."
+    },
+    {
+      "id": "rdl-034",
+      "kind": "riddle",
+      "q": "What hangs in a classroom, starts out dark, and fills up with chalk writing?",
+      "a": "A chalkboard",
+      "why": "Teachers write on its dark surface with chalk and wipe it off after."
+    },
+    {
+      "id": "rdl-035",
+      "kind": "riddle",
+      "q": "What fuzzy yellow thing gets served but never eaten?",
+      "a": "A tennis ball",
+      "why": "A serve starts the point in tennis."
+    },
+    {
+      "id": "rdl-036",
+      "kind": "riddle",
+      "q": "What kind of band holds a rolled-up newspaper but never plays music?",
+      "a": "A rubber band",
+      "why": "It stretches and holds things together instead."
+    },
+    {
+      "id": "rdl-037",
+      "kind": "riddle",
+      "q": "What has a foot but no legs, and helps you draw straight lines?",
+      "a": "A ruler",
+      "why": "A ruler is 12 inches long, which makes one foot."
+    },
+    {
+      "id": "rdl-038",
+      "kind": "riddle",
+      "q": "What is made of water but floats on water?",
+      "a": "Ice",
+      "why": "Ice is lighter than liquid water, so it floats."
+    },
+    {
+      "id": "rdl-039",
+      "kind": "riddle",
+      "q": "What falls from the clouds in drops and fills puddles on the ground?",
+      "a": "Rain",
+      "why": "When cloud droplets get heavy enough, they fall as rain."
+    },
+    {
+      "id": "rdl-040",
+      "kind": "riddle",
+      "q": "What has twelve months on it but is only good for one year?",
+      "a": "A calendar",
+      "why": "Each new year needs a fresh one on the wall."
+    },
+    {
+      "id": "rdl-041",
+      "kind": "riddle",
+      "q": "What sits right in the middle of both March and April?",
+      "a": "The letter R",
+      "why": "MARCH and APRIL have five letters each, and R is third in both."
+    },
+    {
+      "id": "rdl-042",
+      "kind": "riddle",
+      "q": "What month has 28 days?",
+      "a": "All of them",
+      "why": "Every month has at least 28 days."
+    },
+    {
+      "id": "rdl-043",
+      "kind": "riddle",
+      "q": "What is always coming but never arrives?",
+      "a": "Tomorrow",
+      "why": "It's always a day away, and when it comes it's called today."
+    },
+    {
+      "id": "rdl-044",
+      "kind": "riddle",
+      "q": "What must be broken before you can cook with it?",
+      "a": "An egg",
+      "why": "You break the shell to cook what's inside."
+    },
+    {
+      "id": "rdl-045",
+      "kind": "riddle",
+      "q": "What is bought by the yard but walked on?",
+      "a": "A carpet",
+      "why": "Carpet is sold by the yard and goes on the floor."
+    },
+    {
+      "id": "rdl-046",
+      "kind": "riddle",
+      "q": "What can you tell, play on a friend, and laugh at?",
+      "a": "A joke",
+      "why": "You tell a joke, play a joke, and laugh at a good one."
+    },
+    {
+      "id": "rdl-047",
+      "kind": "riddle",
+      "q": "What kind of coat is always wet when you put it on?",
+      "a": "A coat of paint",
+      "why": "Fresh paint is wet when it goes on the wall."
+    },
+    {
+      "id": "rdl-048",
+      "kind": "riddle",
+      "q": "What has cities with no houses, mountains with no trees, and water with no fish?",
+      "a": "A map",
+      "why": "It shows all of those, drawn on paper."
+    },
+    {
+      "id": "rdl-049",
+      "kind": "riddle",
+      "q": "What gets shorter every time you sharpen it?",
+      "a": "A pencil",
+      "why": "Each sharpening shaves off a little more wood and lead."
+    },
+    {
+      "id": "rdl-050",
+      "kind": "riddle",
+      "q": "What has many keys but no locks, and a space bar but no room?",
+      "a": "A keyboard",
+      "why": "You type on its keys and press the space bar."
+    },
+    {
+      "id": "rdl-051",
+      "kind": "riddle",
+      "q": "I'm tall when I'm young and short when I'm old. What am I?",
+      "a": "A candle",
+      "why": "It burns down a little more each hour."
+    },
+    {
+      "id": "rdl-052",
+      "kind": "riddle",
+      "q": "What falls in winter without ever getting hurt?",
+      "a": "Snow",
+      "why": "Snow floats down softly and lands as a fluffy blanket."
+    },
+    {
+      "id": "rdl-053",
+      "kind": "riddle",
+      "q": "What kind of tree can you carry in your hand?",
+      "a": "A palm",
+      "why": "Your palm is the inside of your hand."
+    },
+    {
+      "id": "rdl-054",
+      "kind": "riddle",
+      "q": "What is full of holes but can still catch fish?",
+      "a": "A net",
+      "why": "The holes let water through and keep the fish in."
+    },
+    {
+      "id": "rdl-055",
+      "kind": "riddle",
+      "q": "What has a spout and a handle and sings when it's hot?",
+      "a": "A kettle",
+      "why": "It whistles when the water boils."
+    },
+    {
+      "id": "rdl-056",
+      "kind": "riddle",
+      "q": "What bird also lifts steel beams at building sites?",
+      "a": "A crane",
+      "why": "Cranes are birds, and cranes are also the tall machines on job sites."
+    },
+    {
+      "id": "rdl-057",
+      "kind": "riddle",
+      "q": "What animal can jump higher than a house?",
+      "a": "Any animal",
+      "why": "A house can't jump at all."
+    },
+    {
+      "id": "rdl-058",
+      "kind": "riddle",
+      "q": "What loses its head every morning but gets it back at night?",
+      "a": "A pillow",
+      "why": "You lift your head off it each morning and lay it back at night."
+    },
+    {
+      "id": "rdl-059",
+      "kind": "riddle",
+      "q": "What has layers and makes your eyes water when you chop it?",
+      "a": "An onion",
+      "why": "Chopping it lets out a gas that stings your eyes."
+    },
+    {
+      "id": "rdl-060",
+      "kind": "riddle",
+      "q": "What has a hole in the middle, comes glazed or sprinkled, and goes well with coffee?",
+      "a": "A doughnut",
+      "why": "It's a sweet ring of dough with the hole built in."
+    },
+    {
+      "id": "rdl-061",
+      "kind": "riddle",
+      "q": "What can you hold in your left hand but never in your right?",
+      "a": "Your right hand",
+      "why": "It's attached to the right arm, so only the left can hold it."
+    },
+    {
+      "id": "rdl-062",
+      "kind": "riddle",
+      "q": "What arches across the sky in seven colors but can never be touched?",
+      "a": "A rainbow",
+      "why": "It appears when sun shines through rain, and you can't reach it."
+    },
+    {
+      "id": "rdl-063",
+      "kind": "riddle",
+      "q": "What always points north but never travels?",
+      "a": "A compass",
+      "why": "Its pointer swings to north and stays there."
+    },
+    {
+      "id": "rdl-064",
+      "kind": "riddle",
+      "q": "What has six strings but can't tie a single knot?",
+      "a": "A guitar",
+      "why": "Its strings make music, not knots."
+    },
+    {
+      "id": "rdl-065",
+      "kind": "riddle",
+      "q": "What has a bridge, four strings and a bow, tucks under your chin, and crosses no river?",
+      "a": "A violin",
+      "why": "A violin's bridge holds up the strings."
+    },
+    {
+      "id": "rdl-066",
+      "kind": "riddle",
+      "q": "What has a bell, a mouthpiece, and a slide?",
+      "a": "A trombone",
+      "why": "Slide it in and out to change the note."
+    },
+    {
+      "id": "rdl-067",
+      "kind": "riddle",
+      "q": "What follows lightning but arrives a little late?",
+      "a": "Thunder",
+      "why": "Light travels faster than sound, so you hear thunder after the flash."
+    },
+    {
+      "id": "rdl-068",
+      "kind": "riddle",
+      "q": "What floats like a feather, shines with rainbow colors, and pops when you grab it?",
+      "a": "A bubble",
+      "why": "It's a thin film of soapy water wrapped around air."
+    },
+    {
+      "id": "rdl-069",
+      "kind": "riddle",
+      "q": "What has a peak and a foot but never walks?",
+      "a": "A mountain",
+      "why": "The peak is the top and the foot is the base."
+    },
+    {
+      "id": "rdl-070",
+      "kind": "riddle",
+      "q": "What has rings inside that tell you how old it is?",
+      "a": "A tree",
+      "why": "Each year adds one ring to the trunk."
+    },
+    {
+      "id": "rdl-071",
+      "kind": "riddle",
+      "q": "What rises every morning without an alarm clock?",
+      "a": "The sun",
+      "why": "It comes up all by itself each day."
+    },
+    {
+      "id": "rdl-072",
+      "kind": "riddle",
+      "q": "What changes shape through the month but stays in the sky?",
+      "a": "The moon",
+      "why": "It goes from crescent to full and back."
+    },
+    {
+      "id": "rdl-073",
+      "kind": "riddle",
+      "q": "I carry my house on my back, leave a shiny trail, and move slowly. What am I?",
+      "a": "A snail",
+      "why": "Its shell is its home and the trail is slime."
+    },
+    {
+      "id": "rdl-074",
+      "kind": "riddle",
+      "q": "I'm a bird in a black-and-white suit that swims but can't fly. What am I?",
+      "a": "A penguin",
+      "why": "Penguins use their wings as flippers."
+    },
+    {
+      "id": "rdl-075",
+      "kind": "riddle",
+      "q": "What has a hood, a trunk, and a horn but isn't an animal?",
+      "a": "A car",
+      "why": "Every car has all three."
+    },
+    {
+      "id": "rdl-076",
+      "kind": "riddle",
+      "q": "What has a tail and stays up by catching the wind?",
+      "a": "A kite",
+      "why": "The wind lifts it while you hold the string."
+    },
+    {
+      "id": "rdl-077",
+      "kind": "riddle",
+      "q": "What has a crown and a brim but isn't royal?",
+      "a": "A hat",
+      "why": "It's the top part and the edge of a hat."
+    },
+    {
+      "id": "rdl-078",
+      "kind": "riddle",
+      "q": "What has a cap but no head, and writes with a tiny rolling ball?",
+      "a": "A pen",
+      "why": "A ballpoint pen rolls ink out through a tiny ball at its tip."
+    },
+    {
+      "id": "rdl-079",
+      "kind": "riddle",
+      "q": "What has a seat, a back, and arms but never gets up?",
+      "a": "A chair",
+      "why": "It holds you up and never stands."
+    },
+    {
+      "id": "rdl-080",
+      "kind": "riddle",
+      "q": "What stands by the road, fills up with letters, and can't read a single one?",
+      "a": "A mailbox",
+      "why": "Letters go in, but it never opens one."
+    },
+    {
+      "id": "rdl-081",
+      "kind": "riddle",
+      "q": "What gets smaller every time you use it with water?",
+      "a": "A bar of soap",
+      "why": "It wears away a little with each wash."
+    },
+    {
+      "id": "rdl-082",
+      "kind": "riddle",
+      "q": "What can't talk but answers when you speak?",
+      "a": "An echo",
+      "why": "It repeats your own words back."
+    },
+    {
+      "id": "rdl-083",
+      "kind": "riddle",
+      "q": "What bean is never grown in a garden?",
+      "a": "A jelly bean",
+      "why": "It's made of sugar in a candy factory."
+    },
+    {
+      "id": "rdl-084",
+      "kind": "riddle",
+      "q": "What follows you around in the sun but vanishes when it's cloudy?",
+      "a": "Your shadow",
+      "why": "It needs a light to appear."
+    },
+    {
+      "id": "rdl-085",
+      "kind": "riddle",
+      "q": "What is taller sitting down than standing up?",
+      "a": "A dog",
+      "why": "When a dog sits, its head is up taller than when it stands on all fours."
+    },
+    {
+      "id": "rdl-086",
+      "kind": "riddle",
+      "q": "What hangs from the roof in winter and melts in the sun?",
+      "a": "An icicle",
+      "why": "It forms from dripping water that freezes and grows downward."
+    },
+    {
+      "id": "rdl-087",
+      "kind": "riddle",
+      "q": "I'm round and flat, I spin, and I play music when an arm touches me. What am I?",
+      "a": "A record",
+      "why": "The arm follows its grooves to play the music."
+    },
+    {
+      "id": "rdl-088",
+      "kind": "riddle",
+      "q": "What disappears the moment you say its name?",
+      "a": "Silence",
+      "why": "Speaking breaks it."
+    },
+    {
+      "id": "rdl-089",
+      "kind": "riddle",
+      "q": "What do you throw out when you want to use it and pull in when you're done?",
+      "a": "An anchor",
+      "why": "You drop it overboard to stay put and haul it up to leave."
+    },
+    {
+      "id": "rdl-090",
+      "kind": "riddle",
+      "q": "What big bird scoops up fish in a stretchy pouch under its beak?",
+      "a": "A pelican",
+      "why": "The pouch scoops up fish and water, then drains the water out."
+    },
+    {
+      "id": "rdl-091",
+      "kind": "riddle",
+      "q": "I wear a yellow coat that you peel off, and I'm soft and sweet inside. What am I?",
+      "a": "A banana",
+      "why": "The yellow coat is the peel."
+    },
+    {
+      "id": "rdl-092",
+      "kind": "riddle",
+      "q": "Bees make me, I'm golden and sticky, and I go on toast. What am I?",
+      "a": "Honey",
+      "why": "Bees make it from flower nectar."
+    },
+    {
+      "id": "rdl-093",
+      "kind": "riddle",
+      "q": "What bird can fly backwards?",
+      "a": "A hummingbird",
+      "why": "It beats its wings so fast it can go in any direction."
+    },
+    {
+      "id": "rdl-094",
+      "kind": "riddle",
+      "q": "I'm orange, I grow underground, and rabbits love me. What am I?",
+      "a": "A carrot",
+      "why": "It's a root vegetable."
+    },
+    {
+      "id": "rdl-095",
+      "kind": "riddle",
+      "q": "What fruit wears a crown and a spiky coat?",
+      "a": "A pineapple",
+      "why": "The leafy crown sits on top of a spiky skin."
+    },
+    {
+      "id": "rdl-096",
+      "kind": "riddle",
+      "q": "What has arms that spin in the wind but never goes anywhere?",
+      "a": "A windmill",
+      "why": "Its blades turn in the breeze."
+    },
+    {
+      "id": "rdl-097",
+      "kind": "riddle",
+      "q": "What has a handle but no door and holds your morning coffee?",
+      "a": "A mug",
+      "why": "It's a cup with a handle."
+    },
+    {
+      "id": "rdl-098",
+      "kind": "riddle",
+      "q": "What has a saddle but no horse?",
+      "a": "A bicycle",
+      "why": "You sit on its saddle and pedal."
+    },
+    {
+      "id": "rdl-099",
+      "kind": "riddle",
+      "q": "What sits on your nose and has two lenses?",
+      "a": "Glasses",
+      "why": "They help you see clearly."
+    },
+    {
+      "id": "rdl-100",
+      "kind": "riddle",
+      "q": "What has no beginning and no end, no matter where you start tracing it?",
+      "a": "A circle",
+      "why": "Its line loops back on itself, with no first or last point."
+    },
+    {
+      "id": "rdl-101",
+      "kind": "riddle",
+      "q": "What measures 36 inches and has three feet but can't walk?",
+      "a": "A yard",
+      "why": "Three 12-inch feet make one yard."
+    },
+    {
+      "id": "rdl-102",
+      "kind": "riddle",
+      "q": "What goes in the toaster flat and pops out warm and golden?",
+      "a": "Bread",
+      "why": "The toaster makes it toast."
+    },
+    {
+      "id": "rdl-103",
+      "kind": "riddle",
+      "q": "What can push a sailboat and fly a kite but is invisible?",
+      "a": "The wind",
+      "why": "You only see what it moves."
+    },
+    {
+      "id": "rdl-104",
+      "kind": "riddle",
+      "q": "What has a shaggy head, a long handle, and leaves the floor shiny?",
+      "a": "A mop",
+      "why": "Dip it in the bucket, then swish it across the floor."
+    },
+    {
+      "id": "rdl-105",
+      "kind": "riddle",
+      "q": "What has a handle and wheels, and you pack it before you travel?",
+      "a": "A suitcase",
+      "why": "It holds your clothes while you travel."
+    },
+    {
+      "id": "tsr-001",
+      "kind": "teaser",
+      "q": "What number comes next: 2, 4, 8, 16, ...?",
+      "a": "32",
+      "why": "Each number doubles."
+    },
+    {
+      "id": "tsr-002",
+      "kind": "teaser",
+      "q": "Find the next number: 1, 4, 9, 16, ...",
+      "a": "25",
+      "why": "These are square numbers: 1x1, 2x2, 3x3, 4x4, so 5x5."
+    },
+    {
+      "id": "tsr-003",
+      "kind": "teaser",
+      "q": "Keep this going: 1, 1, 2, 3, 5, 8, ...",
+      "a": "13",
+      "why": "Each number is the sum of the two before it: 5 + 8 = 13."
+    },
+    {
+      "id": "tsr-004",
+      "kind": "teaser",
+      "q": "Continue the countdown: 99, 88, 77, 66, ...",
+      "a": "55",
+      "why": "Each number drops by 11."
+    },
+    {
+      "id": "tsr-005",
+      "kind": "teaser",
+      "q": "Which number follows 2, 3, 5, 7, 11?",
+      "a": "13",
+      "why": "These are the prime numbers in order."
+    },
+    {
+      "id": "tsr-006",
+      "kind": "teaser",
+      "q": "Finish the pattern: 1, 3, 6, 10, ...",
+      "a": "15",
+      "why": "The jumps grow by one each time: +2, +3, +4, then +5."
+    },
+    {
+      "id": "tsr-007",
+      "kind": "teaser",
+      "q": "Which day is next: Mon, Wed, Fri, Sun, Tue, ...?",
+      "a": "Thu",
+      "why": "Skip a day each time, looping through the week: Tue, then Thu."
+    },
+    {
+      "id": "tsr-008",
+      "kind": "teaser",
+      "q": "Which letter is next: J, F, M, A, M, J, ...?",
+      "a": "J",
+      "why": "They are the first letters of the months: July comes next."
+    },
+    {
+      "id": "tsr-009",
+      "kind": "teaser",
+      "q": "Which letter is next: O, T, T, F, F, S, S, E, ...?",
+      "a": "N",
+      "why": "They start the numbers one to eight, so nine comes next."
+    },
+    {
+      "id": "tsr-010",
+      "kind": "teaser",
+      "q": "How many sides do two triangles have all together?",
+      "a": "6",
+      "why": "Each triangle has three sides, and 3 + 3 = 6."
+    },
+    {
+      "id": "tsr-011",
+      "kind": "teaser",
+      "q": "A farmer has 17 sheep, and all but 9 wander off. How many are left?",
+      "a": "9",
+      "why": "All but 9 means 9 stay."
+    },
+    {
+      "id": "tsr-012",
+      "kind": "teaser",
+      "q": "How many times can you take 5 away from 25?",
+      "a": "Once",
+      "why": "After the first time it is 20, not 25."
+    },
+    {
+      "id": "tsr-013",
+      "kind": "teaser",
+      "q": "Double my number and add 4 to get 20. What's my number?",
+      "a": "8",
+      "why": "Double 8 is 16, and 16 + 4 = 20."
+    },
+    {
+      "id": "tsr-014",
+      "kind": "teaser",
+      "q": "Two coins make 30 cents, and one of them isn't a nickel. What are they?",
+      "a": "A quarter and a nickel",
+      "why": "One isn't a nickel, but the other one is."
+    },
+    {
+      "id": "tsr-015",
+      "kind": "teaser",
+      "q": "How many months have 31 days?",
+      "a": "7",
+      "why": "January, March, May, July, August, October and December."
+    },
+    {
+      "id": "tsr-016",
+      "kind": "teaser",
+      "q": "A clock takes 5 seconds to strike 6. How long does it take to strike 12?",
+      "a": "11 seconds",
+      "why": "Six strikes have 5 gaps of 1 second, and twelve have 11 gaps."
+    },
+    {
+      "id": "tsr-017",
+      "kind": "teaser",
+      "q": "A bat and a ball cost $1.10, and the bat costs $1 more than the ball. How much is the ball?",
+      "a": "5 cents",
+      "why": "Ball 5 cents, bat $1.05: that's $1.10 total and $1 apart."
+    },
+    {
+      "id": "tsr-018",
+      "kind": "teaser",
+      "q": "What letter completes this: A, C, E, G, ...?",
+      "a": "I",
+      "why": "It skips a letter each time."
+    },
+    {
+      "id": "tsr-019",
+      "kind": "teaser",
+      "q": "Which letter is next: Z, Y, X, W, ...?",
+      "a": "V",
+      "why": "The alphabet runs backwards."
+    },
+    {
+      "id": "tsr-020",
+      "kind": "teaser",
+      "q": "Spot the rule and continue: 1, 2, 4, 7, 11, ...",
+      "a": "16",
+      "why": "The jumps grow: +1, +2, +3, +4, then +5."
+    },
+    {
+      "id": "tsr-021",
+      "kind": "teaser",
+      "q": "What number comes next: 64, 32, 16, 8, ...?",
+      "a": "4",
+      "why": "Each number is cut in half."
+    },
+    {
+      "id": "tsr-022",
+      "kind": "teaser",
+      "q": "Name the next number: 3, 9, 27, ...",
+      "a": "81",
+      "why": "Each number is multiplied by 3."
+    },
+    {
+      "id": "tsr-023",
+      "kind": "teaser",
+      "q": "What follows 2, 5, 8, 11?",
+      "a": "14",
+      "why": "Each number goes up by 3."
+    },
+    {
+      "id": "tsr-024",
+      "kind": "teaser",
+      "q": "Count along: 7, 14, 21, 28, ...",
+      "a": "35",
+      "why": "Count by sevens."
+    },
+    {
+      "id": "tsr-025",
+      "kind": "teaser",
+      "q": "What is the next number: 2, 6, 12, 20, ...?",
+      "a": "30",
+      "why": "The jumps are +4, +6, +8, so next is +10."
+    },
+    {
+      "id": "tsr-026",
+      "kind": "teaser",
+      "q": "Complete the sequence: A1, B2, C3, D4, ...",
+      "a": "E5",
+      "why": "The letters and the numbers both go up by one."
+    },
+    {
+      "id": "tsr-027",
+      "kind": "teaser",
+      "q": "Look for the rule: 1, 8, 27, 64, ...",
+      "a": "125",
+      "why": "These are cubes: 1x1x1, 2x2x2, up to 5x5x5."
+    },
+    {
+      "id": "tsr-028",
+      "kind": "teaser",
+      "q": "Count by twelves: 12, 24, 36, 48, ...",
+      "a": "60",
+      "why": "48 + 12 = 60, which is five dozen."
+    },
+    {
+      "id": "tsr-029",
+      "kind": "teaser",
+      "q": "A rooster lays an egg on top of a pointed roof. Which way does it roll?",
+      "a": "Neither way",
+      "why": "Roosters don't lay eggs."
+    },
+    {
+      "id": "tsr-030",
+      "kind": "teaser",
+      "q": "Which is heavier: a pound of feathers or a pound of bricks?",
+      "a": "Neither",
+      "why": "Both weigh one pound."
+    },
+    {
+      "id": "tsr-031",
+      "kind": "teaser",
+      "q": "How far can a runner go into the woods?",
+      "a": "Halfway",
+      "why": "After halfway, the runner is running back out."
+    },
+    {
+      "id": "tsr-032",
+      "kind": "teaser",
+      "q": "Sam's mom has four kids: April, May, June, and one more. What's the fourth one called?",
+      "a": "Sam",
+      "why": "Sam's mom has four kids, and Sam is one of them."
+    },
+    {
+      "id": "tsr-033",
+      "kind": "teaser",
+      "q": "A red house is made of red bricks, a blue house of blue bricks. What is a greenhouse made of?",
+      "a": "Glass",
+      "why": "A greenhouse is a glass building for plants."
+    },
+    {
+      "id": "tsr-034",
+      "kind": "teaser",
+      "q": "You're in a race and pass the person in second place. What place are you in?",
+      "a": "Second",
+      "why": "You took their spot, but the leader is still ahead."
+    },
+    {
+      "id": "tsr-035",
+      "kind": "teaser",
+      "q": "Two fathers and two sons go fishing and catch three fish, one each. How?",
+      "a": "Only three people",
+      "why": "A grandfather, his son, and his grandson."
+    },
+    {
+      "id": "tsr-036",
+      "kind": "teaser",
+      "q": "Add the missing number: 5, 10, 20, 40, ...",
+      "a": "80",
+      "why": "Each number doubles."
+    },
+    {
+      "id": "tsr-037",
+      "kind": "teaser",
+      "q": "What can you put in a barrel to make it lighter?",
+      "a": "A hole",
+      "why": "A hole takes away material, so it weighs less."
+    },
+    {
+      "id": "tsr-038",
+      "kind": "teaser",
+      "q": "Three bakers make 3 pies in 3 hours. How many bakers make 100 pies in 100 hours?",
+      "a": "3",
+      "why": "Each baker makes 1 pie every 3 hours, so 3 bakers make 1 an hour: 100 in 100 hours."
+    },
+    {
+      "id": "tsr-039",
+      "kind": "teaser",
+      "q": "If today is Wednesday, what day was it the day before yesterday?",
+      "a": "Monday",
+      "why": "Yesterday was Tuesday, so the day before was Monday."
+    },
+    {
+      "id": "tsr-040",
+      "kind": "teaser",
+      "q": "A ship's rope ladder has 8 rungs underwater. The tide rises 4 feet. How many rungs are underwater now?",
+      "a": "8",
+      "why": "The ship floats up with the tide, so the same 8 rungs stay under."
+    },
+    {
+      "id": "tsr-041",
+      "kind": "teaser",
+      "q": "How can a person go 8 days without sleep?",
+      "a": "They sleep at night",
+      "why": "They stay awake all 8 days and do all their sleeping at night."
+    },
+    {
+      "id": "tsr-042",
+      "kind": "teaser",
+      "q": "Which shape is next: triangle, square, pentagon, ...?",
+      "a": "Hexagon",
+      "why": "Sides go up by one: 3, 4, 5, then 6."
+    },
+    {
+      "id": "tsr-043",
+      "kind": "teaser",
+      "q": "Which number is next: 31, 28, 31, 30, 31, ...?",
+      "a": "30",
+      "why": "These are the days in January through May, so June has 30."
+    },
+    {
+      "id": "tsr-044",
+      "kind": "teaser",
+      "q": "Half of my number plus 5 makes 15. What's my number?",
+      "a": "20",
+      "why": "Half of 20 is 10, and 10 + 5 = 15."
+    },
+    {
+      "id": "tsr-045",
+      "kind": "teaser",
+      "q": "Two digits add to 9 and multiply to 20. What are they?",
+      "a": "4 and 5",
+      "why": "4 + 5 = 9 and 4 x 5 = 20."
+    }
+  ]
+}

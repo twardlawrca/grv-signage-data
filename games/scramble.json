@@ -1,0 +1,1606 @@
+{
+  "_usage": "GRV Word Scramble rounds (campaign overlay games). Boards pick `count` items per round from a seeded per-day permutation. word = 4-9 letters A-Z; scramble = the pre-checked shuffled order shown on screen; clue <= 60 chars; fact <= 110 chars. Family-friendly general knowledge only; run tools/lint_games.py before shipping.",
+  "version": "2026-11-17b",
+  "items": [
+    {
+      "id": "scr-animals-001",
+      "cat": "Animals",
+      "word": "GIRAFFE",
+      "scramble": "FIERGFA",
+      "clue": "The tallest animal on land",
+      "fact": "A giraffe's tongue can be about 20 inches long."
+    },
+    {
+      "id": "scr-animals-002",
+      "cat": "Animals",
+      "word": "PENGUIN",
+      "scramble": "PUENNGI",
+      "clue": "Bird that swims but cannot fly",
+      "fact": "Emperor penguins can stand nearly four feet tall."
+    },
+    {
+      "id": "scr-animals-003",
+      "cat": "Animals",
+      "word": "DOLPHIN",
+      "scramble": "DIPLONH",
+      "clue": "Playful sea mammal that leaps from waves",
+      "fact": "Dolphins talk to each other with clicks and whistles."
+    },
+    {
+      "id": "scr-animals-004",
+      "cat": "Animals",
+      "word": "ELEPHANT",
+      "scramble": "NELPEHAT",
+      "clue": "Huge gray animal with a trunk",
+      "fact": "An elephant's trunk is used for breathing, smelling and grabbing food."
+    },
+    {
+      "id": "scr-animals-005",
+      "cat": "Animals",
+      "word": "KANGAROO",
+      "scramble": "AGORONKA",
+      "clue": "Australian animal that hops",
+      "fact": "A baby kangaroo is called a joey."
+    },
+    {
+      "id": "scr-animals-006",
+      "cat": "Animals",
+      "word": "OCTOPUS",
+      "scramble": "PTOUSOC",
+      "clue": "Eight-armed sea creature",
+      "fact": "An octopus has three hearts."
+    },
+    {
+      "id": "scr-animals-007",
+      "cat": "Animals",
+      "word": "HEDGEHOG",
+      "scramble": "EHGOGDEH",
+      "clue": "Small spiny animal that curls into a ball",
+      "fact": "A hedgehog is covered in thousands of spines."
+    },
+    {
+      "id": "scr-animals-008",
+      "cat": "Animals",
+      "word": "ZEBRA",
+      "scramble": "RABZE",
+      "clue": "Striped relative of the horse",
+      "fact": "No two zebras have exactly the same stripe pattern."
+    },
+    {
+      "id": "scr-animals-009",
+      "cat": "Animals",
+      "word": "OTTER",
+      "scramble": "TTROE",
+      "clue": "Playful swimmer that floats on its back",
+      "fact": "Sea otters hold paws while resting so they don't drift apart."
+    },
+    {
+      "id": "scr-animals-010",
+      "cat": "Animals",
+      "word": "FLAMINGO",
+      "scramble": "AINLGOMF",
+      "clue": "Tall pink bird that stands on one leg",
+      "fact": "Flamingos get their pink color from the foods they eat."
+    },
+    {
+      "id": "scr-animals-011",
+      "cat": "Animals",
+      "word": "SQUIRREL",
+      "scramble": "LRURSIQE",
+      "clue": "Bushy-tailed climber that buries acorns",
+      "fact": "Squirrels forget some buried nuts, which helps new trees grow."
+    },
+    {
+      "id": "scr-animals-012",
+      "cat": "Animals",
+      "word": "TURTLE",
+      "scramble": "TRTELU",
+      "clue": "Reptile that carries its shell",
+      "fact": "Turtles have been around for over 200 million years."
+    },
+    {
+      "id": "scr-animals-013",
+      "cat": "Animals",
+      "word": "PEACOCK",
+      "scramble": "CAKOCPE",
+      "clue": "Bird with a fan of colorful tail feathers",
+      "fact": "Only male peafowl grow the big showy tail."
+    },
+    {
+      "id": "scr-animals-014",
+      "cat": "Animals",
+      "word": "KOALA",
+      "scramble": "LAOKA",
+      "clue": "Fuzzy Australian climber that munches eucalyptus",
+      "fact": "Koalas sleep many hours a day, often 18 or more."
+    },
+    {
+      "id": "scr-animals-015",
+      "cat": "Animals",
+      "word": "BEAVER",
+      "scramble": "BREAEV",
+      "clue": "Builder of dams and lodges",
+      "fact": "A beaver's front teeth never stop growing."
+    },
+    {
+      "id": "scr-animals-016",
+      "cat": "Animals",
+      "word": "LLAMA",
+      "scramble": "AALML",
+      "clue": "Woolly South American pack animal that may hum",
+      "fact": "A baby llama is called a cria."
+    },
+    {
+      "id": "scr-animals-017",
+      "cat": "Animals",
+      "word": "CHEETAH",
+      "scramble": "EEHAHCT",
+      "clue": "Spotted big cat built for speed",
+      "fact": "A cheetah can sprint about 60 miles per hour."
+    },
+    {
+      "id": "scr-animals-018",
+      "cat": "Animals",
+      "word": "OSTRICH",
+      "scramble": "TSOCRIH",
+      "clue": "The largest bird in the world",
+      "fact": "An ostrich can run roughly 40 miles per hour."
+    },
+    {
+      "id": "scr-animals-019",
+      "cat": "Animals",
+      "word": "WALRUS",
+      "scramble": "RSWULA",
+      "clue": "Sea animal with long tusks and whiskers",
+      "fact": "Walruses use their whiskers to find food on the sea floor."
+    },
+    {
+      "id": "scr-animals-020",
+      "cat": "Animals",
+      "word": "HAMSTER",
+      "scramble": "AHREMST",
+      "clue": "Small pet with stuffed cheek pouches",
+      "fact": "Hamsters are most active at night and sleep much of the day."
+    },
+    {
+      "id": "scr-food-001",
+      "cat": "Food & Cooking",
+      "word": "PANCAKE",
+      "scramble": "AEPANCK",
+      "clue": "Flat breakfast stack served with syrup",
+      "fact": "Pancakes are ready to flip when bubbles form on top."
+    },
+    {
+      "id": "scr-food-002",
+      "cat": "Food & Cooking",
+      "word": "SPAGHETTI",
+      "scramble": "TIGAPESHT",
+      "clue": "Long thin Italian pasta",
+      "fact": "Spaghetti means little strings in Italian."
+    },
+    {
+      "id": "scr-food-003",
+      "cat": "Food & Cooking",
+      "word": "BROCCOLI",
+      "scramble": "LCBIOCRO",
+      "clue": "Green vegetable that looks like tiny trees",
+      "fact": "Broccoli belongs to the cabbage family."
+    },
+    {
+      "id": "scr-food-004",
+      "cat": "Food & Cooking",
+      "word": "PUMPKIN",
+      "scramble": "IPMPNKU",
+      "clue": "Orange gourd used for pies",
+      "fact": "Pumpkins are about 90 percent water."
+    },
+    {
+      "id": "scr-food-005",
+      "cat": "Food & Cooking",
+      "word": "AVOCADO",
+      "scramble": "ACDAOVO",
+      "clue": "Green fruit used to make guacamole",
+      "fact": "Avocados ripen after they are picked, not on the tree."
+    },
+    {
+      "id": "scr-food-006",
+      "cat": "Food & Cooking",
+      "word": "CINNAMON",
+      "scramble": "NNAIMOCN",
+      "clue": "Warm brown spice from tree bark",
+      "fact": "Cinnamon sticks are strips of bark that curl into rolls as they dry."
+    },
+    {
+      "id": "scr-food-007",
+      "cat": "Food & Cooking",
+      "word": "MUSHROOM",
+      "scramble": "OHOMMSRU",
+      "clue": "Fungus often sliced onto pizza",
+      "fact": "Mushrooms are fungi, not plants."
+    },
+    {
+      "id": "scr-food-008",
+      "cat": "Food & Cooking",
+      "word": "BLUEBERRY",
+      "scramble": "YREBERLUB",
+      "clue": "Small round blue fruit found in muffins",
+      "fact": "Blueberries are native to North America."
+    },
+    {
+      "id": "scr-food-009",
+      "cat": "Food & Cooking",
+      "word": "POPCORN",
+      "scramble": "ORONPPC",
+      "clue": "Kernels that puff up when heated",
+      "fact": "Popcorn pops when water inside the kernel turns to steam."
+    },
+    {
+      "id": "scr-food-010",
+      "cat": "Food & Cooking",
+      "word": "CARROT",
+      "scramble": "ACTRRO",
+      "clue": "Crunchy orange root vegetable",
+      "fact": "Carrots also come in purple, yellow and white."
+    },
+    {
+      "id": "scr-food-011",
+      "cat": "Food & Cooking",
+      "word": "PRETZEL",
+      "scramble": "EZPERLT",
+      "clue": "Twisted baked snack with coarse salt",
+      "fact": "Soft pretzels get their shiny brown crust from a quick dip before baking."
+    },
+    {
+      "id": "scr-food-012",
+      "cat": "Food & Cooking",
+      "word": "WAFFLE",
+      "scramble": "WLAEFF",
+      "clue": "Breakfast treat with a grid pattern",
+      "fact": "National Waffle Day in the US is August 24."
+    },
+    {
+      "id": "scr-food-013",
+      "cat": "Food & Cooking",
+      "word": "CABBAGE",
+      "scramble": "CBEAABG",
+      "clue": "Leafy round vegetable used in coleslaw",
+      "fact": "Coleslaw comes from a Dutch word meaning cabbage salad."
+    },
+    {
+      "id": "scr-food-014",
+      "cat": "Food & Cooking",
+      "word": "LASAGNA",
+      "scramble": "ANAGLAS",
+      "clue": "Layered baked pasta dish with sauce",
+      "fact": "Garfield the cartoon cat is famous for loving lasagna."
+    },
+    {
+      "id": "scr-food-015",
+      "cat": "Food & Cooking",
+      "word": "BISCUIT",
+      "scramble": "CUBSTII",
+      "clue": "Soft, flaky Southern breakfast bread",
+      "fact": "Biscuits rise because baking powder makes bubbles in the dough."
+    },
+    {
+      "id": "scr-food-016",
+      "cat": "Food & Cooking",
+      "word": "TOMATO",
+      "scramble": "OOTTMA",
+      "clue": "Red fruit often treated as a vegetable",
+      "fact": "Tomatoes belong to the same plant family as potatoes and peppers."
+    },
+    {
+      "id": "scr-food-017",
+      "cat": "Food & Cooking",
+      "word": "NOODLE",
+      "scramble": "EDOLNO",
+      "clue": "Long strand of pasta in soup",
+      "fact": "Noodles are made from dough that is rolled and cut."
+    },
+    {
+      "id": "scr-food-018",
+      "cat": "Food & Cooking",
+      "word": "OATMEAL",
+      "scramble": "ETMOALA",
+      "clue": "Warm breakfast porridge from rolled grains",
+      "fact": "Oats are a whole grain."
+    },
+    {
+      "id": "scr-food-019",
+      "cat": "Food & Cooking",
+      "word": "CUCUMBER",
+      "scramble": "UMRCUBEC",
+      "clue": "Cool green veggie that becomes pickles",
+      "fact": "Cucumbers are about 95 percent water."
+    },
+    {
+      "id": "scr-food-020",
+      "cat": "Food & Cooking",
+      "word": "SPINACH",
+      "scramble": "ACPINSH",
+      "clue": "Leafy green you can eat raw or cooked",
+      "fact": "Spinach leaves shrink a lot when cooked."
+    },
+    {
+      "id": "scr-nature-001",
+      "cat": "Nature & Weather",
+      "word": "RAINBOW",
+      "scramble": "OBAINRW",
+      "clue": "Colorful arc after a storm",
+      "fact": "A rainbow has seven traditional colors, from red to violet."
+    },
+    {
+      "id": "scr-nature-002",
+      "cat": "Nature & Weather",
+      "word": "THUNDER",
+      "scramble": "RUHTNED",
+      "clue": "Rumble that follows a flash in the sky",
+      "fact": "Thunder is the sound of air rapidly expanding around lightning."
+    },
+    {
+      "id": "scr-nature-003",
+      "cat": "Nature & Weather",
+      "word": "BREEZE",
+      "scramble": "EEEBZR",
+      "clue": "A light, gentle wind",
+      "fact": "Sea breezes blow from cool water toward warm land by day."
+    },
+    {
+      "id": "scr-nature-004",
+      "cat": "Nature & Weather",
+      "word": "BLIZZARD",
+      "scramble": "RLDBZIZA",
+      "clue": "Heavy snowstorm with strong wind",
+      "fact": "A blizzard needs winds of at least 35 mph, per the weather service."
+    },
+    {
+      "id": "scr-nature-005",
+      "cat": "Nature & Weather",
+      "word": "WATERFALL",
+      "scramble": "RWTLAEFAL",
+      "clue": "River water dropping over a cliff",
+      "fact": "Niagara Falls sits on the border of New York and Ontario."
+    },
+    {
+      "id": "scr-nature-006",
+      "cat": "Nature & Weather",
+      "word": "VOLCANO",
+      "scramble": "COOLNVA",
+      "clue": "Mountain that erupts with lava",
+      "fact": "Hawaii is home to some of the world's most active volcanoes."
+    },
+    {
+      "id": "scr-nature-007",
+      "cat": "Nature & Weather",
+      "word": "GLACIER",
+      "scramble": "CALRGIE",
+      "clue": "Slow river of ice",
+      "fact": "Glaciers store a large share of Earth's fresh water."
+    },
+    {
+      "id": "scr-nature-008",
+      "cat": "Nature & Weather",
+      "word": "MEADOW",
+      "scramble": "DWAMEO",
+      "clue": "Grassy field full of wildflowers",
+      "fact": "Meadows are busy with bees, butterflies and birds."
+    },
+    {
+      "id": "scr-nature-009",
+      "cat": "Nature & Weather",
+      "word": "CANYON",
+      "scramble": "OYCANN",
+      "clue": "Deep valley carved by a river",
+      "fact": "Arizona's Grand Canyon is about 277 miles long."
+    },
+    {
+      "id": "scr-nature-010",
+      "cat": "Nature & Weather",
+      "word": "SNOWFLAKE",
+      "scramble": "OALNEKFSW",
+      "clue": "Frozen crystal that falls in winter",
+      "fact": "Snowflakes form with six sides or points."
+    },
+    {
+      "id": "scr-nature-011",
+      "cat": "Nature & Weather",
+      "word": "PUDDLE",
+      "scramble": "UDPLED",
+      "clue": "Small pool of rainwater on the ground",
+      "fact": "Puddles vanish as the sun turns the water into vapor."
+    },
+    {
+      "id": "scr-nature-012",
+      "cat": "Nature & Weather",
+      "word": "JUNGLE",
+      "scramble": "JLUNEG",
+      "clue": "Dense, hot tropical woodland",
+      "fact": "Jungles get lots of rain and are full of plant and animal life."
+    },
+    {
+      "id": "scr-nature-013",
+      "cat": "Nature & Weather",
+      "word": "RIVER",
+      "scramble": "ERRIV",
+      "clue": "Flowing water that heads toward the sea",
+      "fact": "The Mississippi River runs about 2,340 miles."
+    },
+    {
+      "id": "scr-nature-014",
+      "cat": "Nature & Weather",
+      "word": "ISLAND",
+      "scramble": "NLISDA",
+      "clue": "Land surrounded by water",
+      "fact": "Greenland is the largest island in the world."
+    },
+    {
+      "id": "scr-nature-015",
+      "cat": "Nature & Weather",
+      "word": "SEASHELL",
+      "scramble": "ASLELSHE",
+      "clue": "Beach find once home to a sea creature",
+      "fact": "Seashells are built by animals such as snails and clams."
+    },
+    {
+      "id": "scr-nature-016",
+      "cat": "Nature & Weather",
+      "word": "DRIZZLE",
+      "scramble": "ZELRDZI",
+      "clue": "Very light rain",
+      "fact": "Drizzle drops are smaller than regular raindrops."
+    },
+    {
+      "id": "scr-nature-017",
+      "cat": "Nature & Weather",
+      "word": "LIGHTNING",
+      "scramble": "INNGIGLTH",
+      "clue": "Bright flash during a storm",
+      "fact": "A lightning bolt is hotter than the surface of the sun."
+    },
+    {
+      "id": "scr-nature-018",
+      "cat": "Nature & Weather",
+      "word": "AUTUMN",
+      "scramble": "UMUTAN",
+      "clue": "Season when leaves change color",
+      "fact": "Autumn is also called fall in the United States."
+    },
+    {
+      "id": "scr-nature-019",
+      "cat": "Nature & Weather",
+      "word": "MOUNTAIN",
+      "scramble": "NNTIMUOA",
+      "clue": "Very tall landform with a peak",
+      "fact": "The Appalachians stretch from Canada down to Alabama."
+    },
+    {
+      "id": "scr-nature-020",
+      "cat": "Nature & Weather",
+      "word": "PEBBLE",
+      "scramble": "BLBEPE",
+      "clue": "Small smooth stone from a stream",
+      "fact": "Rivers smooth pebbles as they tumble along."
+    },
+    {
+      "id": "scr-house-001",
+      "cat": "Around the House",
+      "word": "COUCH",
+      "scramble": "CHCUO",
+      "clue": "Comfy seat in the living room",
+      "fact": "Couches are also called sofas."
+    },
+    {
+      "id": "scr-house-002",
+      "cat": "Around the House",
+      "word": "WINDOW",
+      "scramble": "WNOIDW",
+      "clue": "Glass opening that lets in light",
+      "fact": "Window comes from an old Norse term meaning wind eye."
+    },
+    {
+      "id": "scr-house-003",
+      "cat": "Around the House",
+      "word": "CURTAIN",
+      "scramble": "CNTAIUR",
+      "clue": "Cloth hung to cover a window",
+      "fact": "Curtains can keep a room cooler by blocking sunlight."
+    },
+    {
+      "id": "scr-house-004",
+      "cat": "Around the House",
+      "word": "PILLOW",
+      "scramble": "OILWLP",
+      "clue": "Soft thing you rest your head on at night",
+      "fact": "People have used pillows for thousands of years."
+    },
+    {
+      "id": "scr-house-005",
+      "cat": "Around the House",
+      "word": "MIRROR",
+      "scramble": "MRORRI",
+      "clue": "Shows your reflection",
+      "fact": "Early mirrors were made of polished stone."
+    },
+    {
+      "id": "scr-house-006",
+      "cat": "Around the House",
+      "word": "CARPET",
+      "scramble": "PTECAR",
+      "clue": "Soft floor covering from wall to wall",
+      "fact": "Carpets can be made from wool, nylon or cotton."
+    },
+    {
+      "id": "scr-house-007",
+      "cat": "Around the House",
+      "word": "CLOSET",
+      "scramble": "STCLEO",
+      "clue": "Small space for hanging clothes",
+      "fact": "Walk-in closets are big enough to step inside."
+    },
+    {
+      "id": "scr-house-008",
+      "cat": "Around the House",
+      "word": "DOORBELL",
+      "scramble": "OEDLOBRL",
+      "clue": "Press it to let someone know you've arrived",
+      "fact": "Many modern doorbells have built-in cameras."
+    },
+    {
+      "id": "scr-house-009",
+      "cat": "Around the House",
+      "word": "TOASTER",
+      "scramble": "STATEOR",
+      "clue": "Pops up golden brown bread",
+      "fact": "The pop-up toaster arrived in the 1920s."
+    },
+    {
+      "id": "scr-house-010",
+      "cat": "Around the House",
+      "word": "FIREPLACE",
+      "scramble": "CFIPAERLE",
+      "clue": "Cozy spot for burning logs",
+      "fact": "Many fireplaces have a mantel above them."
+    },
+    {
+      "id": "scr-house-011",
+      "cat": "Around the House",
+      "word": "HALLWAY",
+      "scramble": "LYALWHA",
+      "clue": "Narrow passage between rooms",
+      "fact": "In older Southern homes, a wide center hallway helped breezes cool the house."
+    },
+    {
+      "id": "scr-house-012",
+      "cat": "Around the House",
+      "word": "BALCONY",
+      "scramble": "NOBCALY",
+      "clue": "Small platform jutting out from an upper floor",
+      "fact": "Balconies usually have a railing for safety."
+    },
+    {
+      "id": "scr-house-013",
+      "cat": "Around the House",
+      "word": "GARAGE",
+      "scramble": "RGEAAG",
+      "clue": "Place to park the car at home",
+      "fact": "Garage comes from a French word meaning to shelter."
+    },
+    {
+      "id": "scr-house-014",
+      "cat": "Around the House",
+      "word": "PANTRY",
+      "scramble": "AYRTNP",
+      "clue": "Cupboard where food is stored",
+      "fact": "Pantry comes from an old French word for a bread room."
+    },
+    {
+      "id": "scr-house-015",
+      "cat": "Around the House",
+      "word": "SPONGE",
+      "scramble": "PGEONS",
+      "clue": "Soft, absorbent cleaning tool",
+      "fact": "Sponges soak up water because they are full of tiny holes."
+    },
+    {
+      "id": "scr-house-016",
+      "cat": "Around the House",
+      "word": "BROOM",
+      "scramble": "OORMB",
+      "clue": "Sweeps the floor",
+      "fact": "Brooms were traditionally made of bundled twigs or straw."
+    },
+    {
+      "id": "scr-house-017",
+      "cat": "Around the House",
+      "word": "KETTLE",
+      "scramble": "EKLTET",
+      "clue": "Pot used to boil water for tea",
+      "fact": "Many kettles whistle when the water boils."
+    },
+    {
+      "id": "scr-house-018",
+      "cat": "Around the House",
+      "word": "CUSHION",
+      "scramble": "UNSHCIO",
+      "clue": "Soft pad on a sofa",
+      "fact": "Throw cushions add comfort and color to a room."
+    },
+    {
+      "id": "scr-house-019",
+      "cat": "Around the House",
+      "word": "CHIMNEY",
+      "scramble": "YIHCMEN",
+      "clue": "Tall stack rising from a roof",
+      "fact": "A chimney carries warm air up and out of a house."
+    },
+    {
+      "id": "scr-house-020",
+      "cat": "Around the House",
+      "word": "BLANKET",
+      "scramble": "BALETNK",
+      "clue": "Warm cover for a bed or sofa",
+      "fact": "Blankets trap warm air near your body."
+    },
+    {
+      "id": "scr-sports-001",
+      "cat": "Sports & Games",
+      "word": "SOCCER",
+      "scramble": "CEOSCR",
+      "clue": "Team sport played mostly with the feet",
+      "fact": "Soccer is called football in most of the world."
+    },
+    {
+      "id": "scr-sports-002",
+      "cat": "Sports & Games",
+      "word": "TENNIS",
+      "scramble": "SNENIT",
+      "clue": "Racket sport played over a net",
+      "fact": "Wimbledon in England is a famous tennis tournament."
+    },
+    {
+      "id": "scr-sports-003",
+      "cat": "Sports & Games",
+      "word": "CHESS",
+      "scramble": "HSSCE",
+      "clue": "Board game with kings and knights",
+      "fact": "A chess board has 64 squares."
+    },
+    {
+      "id": "scr-sports-004",
+      "cat": "Sports & Games",
+      "word": "BASEBALL",
+      "scramble": "AELBBLSA",
+      "clue": "Game with bats, bases and home runs",
+      "fact": "A baseball game normally has nine innings."
+    },
+    {
+      "id": "scr-sports-005",
+      "cat": "Sports & Games",
+      "word": "SKIING",
+      "scramble": "IISNGK",
+      "clue": "Gliding downhill on snow",
+      "fact": "Skis were used for travel in Scandinavia thousands of years ago."
+    },
+    {
+      "id": "scr-sports-006",
+      "cat": "Sports & Games",
+      "word": "HOCKEY",
+      "scramble": "CEHYKO",
+      "clue": "Sport played on ice with sticks and a puck",
+      "fact": "Hockey pucks are made of hard rubber."
+    },
+    {
+      "id": "scr-sports-007",
+      "cat": "Sports & Games",
+      "word": "SWIMMING",
+      "scramble": "MINSGIMW",
+      "clue": "Moving through water with strokes",
+      "fact": "Swimming works muscles all over the body."
+    },
+    {
+      "id": "scr-sports-008",
+      "cat": "Sports & Games",
+      "word": "CHECKERS",
+      "scramble": "EKEHCSRC",
+      "clue": "Board game of jumping pieces",
+      "fact": "Checkers uses the same 64-square board as chess."
+    },
+    {
+      "id": "scr-sports-009",
+      "cat": "Sports & Games",
+      "word": "CYCLING",
+      "scramble": "ICYNGCL",
+      "clue": "Riding a bicycle for sport or fun",
+      "fact": "The Tour de France is a famous cycling race."
+    },
+    {
+      "id": "scr-sports-010",
+      "cat": "Sports & Games",
+      "word": "BADMINTON",
+      "scramble": "NTOMANIDB",
+      "clue": "Racket sport played with a shuttlecock",
+      "fact": "Badminton is named after Badminton House in England."
+    },
+    {
+      "id": "scr-sports-011",
+      "cat": "Sports & Games",
+      "word": "CROQUET",
+      "scramble": "QTUOCRE",
+      "clue": "Lawn game with mallets and hoops",
+      "fact": "Croquet players tap balls through hoops with a mallet."
+    },
+    {
+      "id": "scr-sports-012",
+      "cat": "Sports & Games",
+      "word": "MARBLES",
+      "scramble": "MBELARS",
+      "clue": "Small glass balls rolled in a classic game",
+      "fact": "Children have played with marbles for hundreds of years."
+    },
+    {
+      "id": "scr-sports-013",
+      "cat": "Sports & Games",
+      "word": "JIGSAW",
+      "scramble": "GAIWSJ",
+      "clue": "Puzzle of interlocking pieces",
+      "fact": "The first jigsaw puzzles were maps cut into pieces."
+    },
+    {
+      "id": "scr-sports-014",
+      "cat": "Sports & Games",
+      "word": "BOCCE",
+      "scramble": "CEOBC",
+      "clue": "Lawn game of rolling balls toward a small ball",
+      "fact": "The small target ball in bocce is called the pallino."
+    },
+    {
+      "id": "scr-sports-015",
+      "cat": "Sports & Games",
+      "word": "SOFTBALL",
+      "scramble": "LTALFOBS",
+      "clue": "Like baseball, but with a larger ball",
+      "fact": "Most softballs are about 12 inches around."
+    },
+    {
+      "id": "scr-sports-016",
+      "cat": "Sports & Games",
+      "word": "LACROSSE",
+      "scramble": "SEASRCLO",
+      "clue": "Sport using sticks with nets to carry a ball",
+      "fact": "Lacrosse was first played by Native American communities."
+    },
+    {
+      "id": "scr-sports-017",
+      "cat": "Sports & Games",
+      "word": "HOPSCOTCH",
+      "scramble": "THPOCCHSO",
+      "clue": "Chalk game of jumping on numbered squares",
+      "fact": "The scotch in hopscotch means a line scratched on the ground."
+    },
+    {
+      "id": "scr-sports-018",
+      "cat": "Sports & Games",
+      "word": "RUGBY",
+      "scramble": "BRYUG",
+      "clue": "Oval-ball team sport named for an English school",
+      "fact": "A rugby union team has 15 players on the field at a time."
+    },
+    {
+      "id": "scr-sports-019",
+      "cat": "Sports & Games",
+      "word": "SURFING",
+      "scramble": "GSNIFRU",
+      "clue": "Riding ocean waves on a board",
+      "fact": "Surfing began centuries ago in Polynesia."
+    },
+    {
+      "id": "scr-sports-020",
+      "cat": "Sports & Games",
+      "word": "ROWING",
+      "scramble": "WNOGIR",
+      "clue": "Pulling oars to move a boat",
+      "fact": "Rowers face backward as the boat moves forward."
+    },
+    {
+      "id": "scr-music-001",
+      "cat": "Music",
+      "word": "GUITAR",
+      "scramble": "IUGART",
+      "clue": "Six-string instrument you strum",
+      "fact": "Classical guitars use nylon strings; many others use steel strings."
+    },
+    {
+      "id": "scr-music-002",
+      "cat": "Music",
+      "word": "PIANO",
+      "scramble": "OIPAN",
+      "clue": "Keyboard with black and white keys",
+      "fact": "A modern piano has 88 keys."
+    },
+    {
+      "id": "scr-music-003",
+      "cat": "Music",
+      "word": "VIOLIN",
+      "scramble": "IONVIL",
+      "clue": "Small string instrument played with a bow",
+      "fact": "A violin bow is strung with horsehair."
+    },
+    {
+      "id": "scr-music-004",
+      "cat": "Music",
+      "word": "TRUMPET",
+      "scramble": "RPMETUT",
+      "clue": "Brass instrument with three valves",
+      "fact": "Uncoiled, a trumpet's tubing would stretch nearly five feet."
+    },
+    {
+      "id": "scr-music-005",
+      "cat": "Music",
+      "word": "MELODY",
+      "scramble": "ELYMDO",
+      "clue": "The tune you hum along to",
+      "fact": "The word melody comes from a Greek word for singing."
+    },
+    {
+      "id": "scr-music-006",
+      "cat": "Music",
+      "word": "RHYTHM",
+      "scramble": "YRMHTH",
+      "clue": "The beat pattern in a song",
+      "fact": "RHYTHM has no a, e, i, o or u in it."
+    },
+    {
+      "id": "scr-music-007",
+      "cat": "Music",
+      "word": "CHORUS",
+      "scramble": "UORCSH",
+      "clue": "The part of a song that repeats",
+      "fact": "A chorus is also the name for a group of singers."
+    },
+    {
+      "id": "scr-music-008",
+      "cat": "Music",
+      "word": "FLUTE",
+      "scramble": "UELTF",
+      "clue": "Slim wind instrument you blow across",
+      "fact": "Flutes are among the oldest known musical instruments."
+    },
+    {
+      "id": "scr-music-009",
+      "cat": "Music",
+      "word": "CELLO",
+      "scramble": "LECOL",
+      "clue": "Large string instrument played sitting down",
+      "fact": "Cello is short for its full Italian name, violoncello."
+    },
+    {
+      "id": "scr-music-010",
+      "cat": "Music",
+      "word": "BANJO",
+      "scramble": "JOANB",
+      "clue": "Twangy string instrument with a round body",
+      "fact": "The banjo is closely tied to bluegrass and folk music."
+    },
+    {
+      "id": "scr-music-011",
+      "cat": "Music",
+      "word": "UKULELE",
+      "scramble": "ULEKUEL",
+      "clue": "Small four-string Hawaiian guitar",
+      "fact": "Ukulele is often translated from Hawaiian as jumping flea."
+    },
+    {
+      "id": "scr-music-012",
+      "cat": "Music",
+      "word": "SAXOPHONE",
+      "scramble": "XAHPOENOS",
+      "clue": "Curved jazz instrument with a reed",
+      "fact": "The saxophone was invented by Adolphe Sax in the 1840s."
+    },
+    {
+      "id": "scr-music-013",
+      "cat": "Music",
+      "word": "CLARINET",
+      "scramble": "EIRACNTL",
+      "clue": "Woodwind instrument with a single reed",
+      "fact": "Clarinets are common in orchestras and marching bands."
+    },
+    {
+      "id": "scr-music-014",
+      "cat": "Music",
+      "word": "HARMONICA",
+      "scramble": "MRCHAANIO",
+      "clue": "Small mouth organ you blow and draw air through",
+      "fact": "In 1965, an astronaut played Jingle Bells on a harmonica in space."
+    },
+    {
+      "id": "scr-music-015",
+      "cat": "Music",
+      "word": "ORCHESTRA",
+      "scramble": "EHARCSOTR",
+      "clue": "Large group of musicians led by a conductor",
+      "fact": "A full orchestra can have around 100 musicians."
+    },
+    {
+      "id": "scr-music-016",
+      "cat": "Music",
+      "word": "CONCERT",
+      "scramble": "TROCCNE",
+      "clue": "Live music performance",
+      "fact": "Concerts are held in halls, parks and stadiums."
+    },
+    {
+      "id": "scr-music-017",
+      "cat": "Music",
+      "word": "LULLABY",
+      "scramble": "YULABLL",
+      "clue": "Soft song to help a baby sleep",
+      "fact": "Lullabies exist in cultures all around the world."
+    },
+    {
+      "id": "scr-music-018",
+      "cat": "Music",
+      "word": "SYMPHONY",
+      "scramble": "YHMYNSOP",
+      "clue": "Long piece written for a full orchestra",
+      "fact": "Beethoven wrote nine symphonies."
+    },
+    {
+      "id": "scr-music-019",
+      "cat": "Music",
+      "word": "TROMBONE",
+      "scramble": "NOMROEBT",
+      "clue": "Brass instrument with a slide",
+      "fact": "Trombone is Italian for large trumpet."
+    },
+    {
+      "id": "scr-music-020",
+      "cat": "Music",
+      "word": "ACCORDION",
+      "scramble": "ORCOANCDI",
+      "clue": "Squeezebox with keys and bellows",
+      "fact": "An accordion makes sound as air moves across reeds."
+    },
+    {
+      "id": "scr-space-001",
+      "cat": "Space & Science",
+      "word": "PLANET",
+      "scramble": "ANEPLT",
+      "clue": "World that circles a star",
+      "fact": "Our solar system has eight planets."
+    },
+    {
+      "id": "scr-space-002",
+      "cat": "Space & Science",
+      "word": "GALAXY",
+      "scramble": "LGXAYA",
+      "clue": "Giant system of billions of stars",
+      "fact": "Our solar system is in the Milky Way galaxy."
+    },
+    {
+      "id": "scr-space-003",
+      "cat": "Space & Science",
+      "word": "COMET",
+      "scramble": "EMTCO",
+      "clue": "Icy space traveler with a glowing tail",
+      "fact": "Halley's Comet returns about every 76 years."
+    },
+    {
+      "id": "scr-space-004",
+      "cat": "Space & Science",
+      "word": "ROCKET",
+      "scramble": "TOECKR",
+      "clue": "Vehicle that launches into space",
+      "fact": "A rocket must reach about 17,500 mph to orbit Earth."
+    },
+    {
+      "id": "scr-space-005",
+      "cat": "Space & Science",
+      "word": "ECLIPSE",
+      "scramble": "LPIECSE",
+      "clue": "When the moon covers the sun",
+      "fact": "A total solar eclipse crossed the U.S. on April 8, 2024."
+    },
+    {
+      "id": "scr-space-006",
+      "cat": "Space & Science",
+      "word": "TELESCOPE",
+      "scramble": "TOEEECLSP",
+      "clue": "Tool for viewing faraway stars",
+      "fact": "Galileo used a telescope to study the moon in 1609."
+    },
+    {
+      "id": "scr-space-007",
+      "cat": "Space & Science",
+      "word": "GRAVITY",
+      "scramble": "AVYRTIG",
+      "clue": "Force that pulls things toward Earth",
+      "fact": "Gravity on the Moon is about one sixth of Earth's."
+    },
+    {
+      "id": "scr-space-008",
+      "cat": "Space & Science",
+      "word": "ASTEROID",
+      "scramble": "ARTSODEI",
+      "clue": "Rocky space body smaller than a planet",
+      "fact": "Most asteroids orbit between Mars and Jupiter."
+    },
+    {
+      "id": "scr-space-009",
+      "cat": "Space & Science",
+      "word": "MAGNET",
+      "scramble": "NTEAGM",
+      "clue": "Pulls iron toward it",
+      "fact": "Every magnet has a north pole and a south pole."
+    },
+    {
+      "id": "scr-space-010",
+      "cat": "Space & Science",
+      "word": "OXYGEN",
+      "scramble": "XONGEY",
+      "clue": "Gas we breathe in from the air",
+      "fact": "Oxygen makes up about 21 percent of Earth's air."
+    },
+    {
+      "id": "scr-space-011",
+      "cat": "Space & Science",
+      "word": "MOLECULE",
+      "scramble": "ULEOMCEL",
+      "clue": "Tiny group of atoms joined together",
+      "fact": "A single drop of water holds more than a billion trillion molecules."
+    },
+    {
+      "id": "scr-space-012",
+      "cat": "Space & Science",
+      "word": "ORBIT",
+      "scramble": "ROITB",
+      "clue": "Path a moon takes around a planet",
+      "fact": "Earth takes about 365 days to orbit the sun."
+    },
+    {
+      "id": "scr-space-013",
+      "cat": "Space & Science",
+      "word": "UNIVERSE",
+      "scramble": "RIVUEENS",
+      "clue": "Everything that exists, from atoms to galaxies",
+      "fact": "Light from the sun takes about eight minutes to reach Earth."
+    },
+    {
+      "id": "scr-space-014",
+      "cat": "Space & Science",
+      "word": "COSMOS",
+      "scramble": "CSOSOM",
+      "clue": "Another word for the whole universe",
+      "fact": "The word cosmos comes from a Greek word meaning order."
+    },
+    {
+      "id": "scr-space-015",
+      "cat": "Space & Science",
+      "word": "PRISM",
+      "scramble": "PIMRS",
+      "clue": "Glass shape that splits light into colors",
+      "fact": "Isaac Newton used prisms to study colors of light."
+    },
+    {
+      "id": "scr-space-016",
+      "cat": "Space & Science",
+      "word": "FOSSIL",
+      "scramble": "LFSOIS",
+      "clue": "Ancient imprint of a plant or animal in rock",
+      "fact": "The word fossil comes from a Latin word meaning dug up."
+    },
+    {
+      "id": "scr-space-017",
+      "cat": "Space & Science",
+      "word": "BATTERY",
+      "scramble": "ATREBTY",
+      "clue": "Stores energy to power a flashlight",
+      "fact": "The first electric battery was built around 1800."
+    },
+    {
+      "id": "scr-space-018",
+      "cat": "Space & Science",
+      "word": "ASTRONAUT",
+      "scramble": "TTSOAANRU",
+      "clue": "Person who travels to space",
+      "fact": "Astronaut comes from Greek words meaning star sailor."
+    },
+    {
+      "id": "scr-space-019",
+      "cat": "Space & Science",
+      "word": "ENERGY",
+      "scramble": "EYNGRE",
+      "clue": "The power that makes things move and work",
+      "fact": "Solar panels turn sunlight into electricity."
+    },
+    {
+      "id": "scr-space-020",
+      "cat": "Space & Science",
+      "word": "GLOBE",
+      "scramble": "EGLOB",
+      "clue": "Round model of Earth",
+      "fact": "Most globes tilt at about 23 degrees, like Earth."
+    },
+    {
+      "id": "scr-places-001",
+      "cat": "Places in the USA",
+      "word": "ALASKA",
+      "scramble": "AKLAAS",
+      "clue": "The largest US state by area",
+      "fact": "Alaska became the 49th US state in 1959."
+    },
+    {
+      "id": "scr-places-002",
+      "cat": "Places in the USA",
+      "word": "FLORIDA",
+      "scramble": "DLIOAFR",
+      "clue": "Peninsula state known for oranges and beaches",
+      "fact": "Florida's capital is Tallahassee."
+    },
+    {
+      "id": "scr-places-003",
+      "cat": "Places in the USA",
+      "word": "HAWAII",
+      "scramble": "AHIIAW",
+      "clue": "Island state in the Pacific",
+      "fact": "Hawaii is made up of volcanic islands."
+    },
+    {
+      "id": "scr-places-004",
+      "cat": "Places in the USA",
+      "word": "OREGON",
+      "scramble": "GNOREO",
+      "clue": "Pacific Northwest state with Crater Lake",
+      "fact": "At 1,943 feet, Crater Lake is the deepest lake in the US."
+    },
+    {
+      "id": "scr-places-005",
+      "cat": "Places in the USA",
+      "word": "COLUMBIA",
+      "scramble": "CIMALOBU",
+      "clue": "Capital city of South Carolina",
+      "fact": "Columbia sits where the Broad and Saluda Rivers meet to form the Congaree."
+    },
+    {
+      "id": "scr-places-006",
+      "cat": "Places in the USA",
+      "word": "MYRTLE",
+      "scramble": "YMELRT",
+      "clue": "___ Beach on the South Carolina coast",
+      "fact": "The Grand Strand is about 60 miles of beaches along the South Carolina coast."
+    },
+    {
+      "id": "scr-places-007",
+      "cat": "Places in the USA",
+      "word": "CLEMSON",
+      "scramble": "ELOCNMS",
+      "clue": "South Carolina college town with a tiger mascot",
+      "fact": "Clemson University welcomed its first students in 1893."
+    },
+    {
+      "id": "scr-places-008",
+      "cat": "Places in the USA",
+      "word": "YOSEMITE",
+      "scramble": "TSMIEYOE",
+      "clue": "California park with Half Dome",
+      "fact": "Yosemite National Park is in California's Sierra Nevada."
+    },
+    {
+      "id": "scr-places-009",
+      "cat": "Places in the USA",
+      "word": "BOSTON",
+      "scramble": "NSBOTO",
+      "clue": "Capital city of Massachusetts",
+      "fact": "Boston Common, set aside in 1634, is the oldest city park in the US."
+    },
+    {
+      "id": "scr-places-010",
+      "cat": "Places in the USA",
+      "word": "DENVER",
+      "scramble": "EVRDEN",
+      "clue": "Capital city of Colorado",
+      "fact": "Denver is called the Mile High City; its elevation is about 5,280 feet."
+    },
+    {
+      "id": "scr-places-011",
+      "cat": "Places in the USA",
+      "word": "CHICAGO",
+      "scramble": "HCGAOCI",
+      "clue": "Big city on Lake Michigan",
+      "fact": "Chicago is nicknamed the Windy City."
+    },
+    {
+      "id": "scr-places-012",
+      "cat": "Places in the USA",
+      "word": "SEATTLE",
+      "scramble": "TLEAETS",
+      "clue": "Washington city known for coffee and rain",
+      "fact": "Seattle hosted the 1962 World's Fair."
+    },
+    {
+      "id": "scr-places-013",
+      "cat": "Places in the USA",
+      "word": "VERMONT",
+      "scramble": "ONVTMER",
+      "clue": "New England state known for maple syrup",
+      "fact": "Vermont makes more maple syrup than any other US state."
+    },
+    {
+      "id": "scr-places-014",
+      "cat": "Places in the USA",
+      "word": "ARIZONA",
+      "scramble": "IAAZNRO",
+      "clue": "Southwest state home to the Grand Canyon",
+      "fact": "Arizona became the 48th US state on February 14, 1912."
+    },
+    {
+      "id": "scr-places-015",
+      "cat": "Places in the USA",
+      "word": "MONTANA",
+      "scramble": "ANMATNO",
+      "clue": "Big Sky Country state with Glacier park",
+      "fact": "Montana's capital is Helena."
+    },
+    {
+      "id": "scr-places-016",
+      "cat": "Places in the USA",
+      "word": "TENNESSEE",
+      "scramble": "NETESSEEN",
+      "clue": "The Volunteer State",
+      "fact": "Tennessee shares Great Smoky Mountains, the most visited US national park."
+    },
+    {
+      "id": "scr-places-017",
+      "cat": "Places in the USA",
+      "word": "NASHVILLE",
+      "scramble": "VLELANIHS",
+      "clue": "Tennessee city nicknamed Music City",
+      "fact": "Nashville is home to the Grand Ole Opry, on the radio since 1925."
+    },
+    {
+      "id": "scr-places-018",
+      "cat": "Places in the USA",
+      "word": "SAVANNAH",
+      "scramble": "SNAAHVNA",
+      "clue": "Georgia city of shady historic squares",
+      "fact": "Founded in 1733, Savannah is the oldest city in Georgia."
+    },
+    {
+      "id": "scr-places-019",
+      "cat": "Places in the USA",
+      "word": "CHARLOTTE",
+      "scramble": "TOLHERACT",
+      "clue": "Largest city in North Carolina",
+      "fact": "Charlotte is nicknamed the Queen City, after Britain's Queen Charlotte."
+    },
+    {
+      "id": "scr-places-020",
+      "cat": "Places in the USA",
+      "word": "COLORADO",
+      "scramble": "DOOROLCA",
+      "clue": "Rocky Mountain state home to Pikes Peak",
+      "fact": "Colorado has more than 50 mountain peaks over 14,000 feet tall."
+    },
+    {
+      "id": "scr-hobbies-001",
+      "cat": "Hobbies & Crafts",
+      "word": "KNITTING",
+      "scramble": "GIKTNTNI",
+      "clue": "Making cloth from yarn with two sticks",
+      "fact": "Knitting loops yarn into rows of stitches."
+    },
+    {
+      "id": "scr-hobbies-002",
+      "cat": "Hobbies & Crafts",
+      "word": "PAINTING",
+      "scramble": "ANNPITIG",
+      "clue": "Art made with brushes and color",
+      "fact": "Many painters mix colors on a flat palette."
+    },
+    {
+      "id": "scr-hobbies-003",
+      "cat": "Hobbies & Crafts",
+      "word": "GARDENING",
+      "scramble": "RGIAGNDNE",
+      "clue": "Growing flowers and vegetables outdoors",
+      "fact": "Tending plants can be a calming pastime."
+    },
+    {
+      "id": "scr-hobbies-004",
+      "cat": "Hobbies & Crafts",
+      "word": "BAKING",
+      "scramble": "AIKNBG",
+      "clue": "Making bread and cakes in an oven",
+      "fact": "Bakers measure ingredients carefully for the best results."
+    },
+    {
+      "id": "scr-hobbies-005",
+      "cat": "Hobbies & Crafts",
+      "word": "CROCHET",
+      "scramble": "OERTCCH",
+      "clue": "Making fabric with yarn and a single hook",
+      "fact": "Crochet comes from a French word for hook."
+    },
+    {
+      "id": "scr-hobbies-006",
+      "cat": "Hobbies & Crafts",
+      "word": "SEWING",
+      "scramble": "SWGNEI",
+      "clue": "Joining fabric with thread",
+      "fact": "Elias Howe patented an early sewing machine in 1846."
+    },
+    {
+      "id": "scr-hobbies-007",
+      "cat": "Hobbies & Crafts",
+      "word": "QUILTING",
+      "scramble": "NQIGTLIU",
+      "clue": "Stitching fabric layers into a patchwork cover",
+      "fact": "Quilts are often passed down in families."
+    },
+    {
+      "id": "scr-hobbies-008",
+      "cat": "Hobbies & Crafts",
+      "word": "POTTERY",
+      "scramble": "TRPOYTE",
+      "clue": "Shaping clay into bowls and vases",
+      "fact": "Pottery is among the oldest human crafts."
+    },
+    {
+      "id": "scr-hobbies-009",
+      "cat": "Hobbies & Crafts",
+      "word": "SKETCH",
+      "scramble": "CTEKSH",
+      "clue": "A quick, rough drawing",
+      "fact": "Artists often sketch with a pencil before painting."
+    },
+    {
+      "id": "scr-hobbies-010",
+      "cat": "Hobbies & Crafts",
+      "word": "CAMPING",
+      "scramble": "INCGAMP",
+      "clue": "Sleeping outdoors in a tent",
+      "fact": "Campers often cook over a campfire."
+    },
+    {
+      "id": "scr-hobbies-011",
+      "cat": "Hobbies & Crafts",
+      "word": "FISHING",
+      "scramble": "SIGNFHI",
+      "clue": "Casting a line into a lake or stream",
+      "fact": "Many anglers use a rod, a reel and a hook."
+    },
+    {
+      "id": "scr-hobbies-012",
+      "cat": "Hobbies & Crafts",
+      "word": "HIKING",
+      "scramble": "IHGIKN",
+      "clue": "Walking a long trail through nature",
+      "fact": "The Appalachian Trail stretches about 2,200 miles."
+    },
+    {
+      "id": "scr-hobbies-013",
+      "cat": "Hobbies & Crafts",
+      "word": "JOURNAL",
+      "scramble": "RJLNOAU",
+      "clue": "Notebook for writing your daily thoughts",
+      "fact": "Many people write in a journal for a few minutes a day."
+    },
+    {
+      "id": "scr-hobbies-014",
+      "cat": "Hobbies & Crafts",
+      "word": "ORIGAMI",
+      "scramble": "IAGOIRM",
+      "clue": "Japanese art of folding paper",
+      "fact": "Origami is Japanese for folding paper."
+    },
+    {
+      "id": "scr-hobbies-015",
+      "cat": "Hobbies & Crafts",
+      "word": "WOODWORK",
+      "scramble": "KOROWWOD",
+      "clue": "Crafting furniture and objects from timber",
+      "fact": "Woodworkers use saws, planes and chisels."
+    },
+    {
+      "id": "scr-hobbies-016",
+      "cat": "Hobbies & Crafts",
+      "word": "WEAVING",
+      "scramble": "GVWNIEA",
+      "clue": "Crossing threads together on a loom",
+      "fact": "Ancient Egyptians wove fine linen cloth from flax plants."
+    },
+    {
+      "id": "scr-hobbies-017",
+      "cat": "Hobbies & Crafts",
+      "word": "SCRAPBOOK",
+      "scramble": "OKPABRSOC",
+      "clue": "Album for photos and keepsakes",
+      "fact": "Scrapbook pages mix photos, stickers and notes."
+    },
+    {
+      "id": "scr-hobbies-018",
+      "cat": "Hobbies & Crafts",
+      "word": "KAYAKING",
+      "scramble": "YKNIKAGA",
+      "clue": "Paddling a narrow boat with a double blade",
+      "fact": "Kayaks were first built by Arctic peoples."
+    },
+    {
+      "id": "scr-hobbies-019",
+      "cat": "Hobbies & Crafts",
+      "word": "COLLAGE",
+      "scramble": "CLGELAO",
+      "clue": "Art made by gluing paper pieces together",
+      "fact": "Collage comes from a French word meaning gluing."
+    },
+    {
+      "id": "scr-hobbies-020",
+      "cat": "Hobbies & Crafts",
+      "word": "CANVAS",
+      "scramble": "AANCSV",
+      "clue": "Cloth surface that painters work on",
+      "fact": "Canvas is made of tightly woven cotton or linen."
+    },
+    {
+      "id": "scr-good-001",
+      "cat": "Feel-Good Words",
+      "word": "GRATEFUL",
+      "scramble": "EGRTUAFL",
+      "clue": "Feeling thankful",
+      "fact": "Thanksgiving falls on the fourth Thursday of November in the US."
+    },
+    {
+      "id": "scr-good-002",
+      "cat": "Feel-Good Words",
+      "word": "KINDNESS",
+      "scramble": "DNINSKSE",
+      "clue": "Being caring and generous to others",
+      "fact": "World Kindness Day is observed every November 13."
+    },
+    {
+      "id": "scr-good-003",
+      "cat": "Feel-Good Words",
+      "word": "SUNRISE",
+      "scramble": "ESSNRIU",
+      "clue": "Daybreak, when the sun comes up",
+      "fact": "The sun rises in the east."
+    },
+    {
+      "id": "scr-good-004",
+      "cat": "Feel-Good Words",
+      "word": "COURAGE",
+      "scramble": "ACOURGE",
+      "clue": "What the Cowardly Lion wanted most",
+      "fact": "Courage comes from cor, the Latin word for heart."
+    },
+    {
+      "id": "scr-good-005",
+      "cat": "Feel-Good Words",
+      "word": "HARMONY",
+      "scramble": "ROMYNHA",
+      "clue": "Notes sounding pleasantly together",
+      "fact": "Barbershop quartets sing in four-part harmony."
+    },
+    {
+      "id": "scr-good-006",
+      "cat": "Feel-Good Words",
+      "word": "BALANCE",
+      "scramble": "LACEANB",
+      "clue": "Staying steady on a beam or a tightrope",
+      "fact": "Gymnasts train on a balance beam only four inches wide."
+    },
+    {
+      "id": "scr-good-007",
+      "cat": "Feel-Good Words",
+      "word": "PATIENCE",
+      "scramble": "INCPAEET",
+      "clue": "Calmly waiting without hurry",
+      "fact": "The saying patience is a virtue is very old in English."
+    },
+    {
+      "id": "scr-good-008",
+      "cat": "Feel-Good Words",
+      "word": "LAUGHTER",
+      "scramble": "GALUERTH",
+      "clue": "The sound of a good joke",
+      "fact": "Babies begin laughing at around four months old."
+    },
+    {
+      "id": "scr-good-009",
+      "cat": "Feel-Good Words",
+      "word": "HOPEFUL",
+      "scramble": "HLUOFEP",
+      "clue": "Looking ahead with a bright outlook",
+      "fact": "Rainbows appear when sunlight shines through rain."
+    },
+    {
+      "id": "scr-good-010",
+      "cat": "Feel-Good Words",
+      "word": "TOGETHER",
+      "scramble": "EETGHTOR",
+      "clue": "With one another, side by side",
+      "fact": "Geese fly in a V so the flock can travel together."
+    },
+    {
+      "id": "scr-good-011",
+      "cat": "Feel-Good Words",
+      "word": "PEACEFUL",
+      "scramble": "ECLPFUAE",
+      "clue": "Quiet and calm",
+      "fact": "A quiet walk outdoors is a classic way to find calm."
+    },
+    {
+      "id": "scr-good-012",
+      "cat": "Feel-Good Words",
+      "word": "GENEROUS",
+      "scramble": "UGREOESN",
+      "clue": "Happy to share what you have",
+      "fact": "Giving Tuesday follows Thanksgiving each year."
+    },
+    {
+      "id": "scr-good-013",
+      "cat": "Feel-Good Words",
+      "word": "WELCOME",
+      "scramble": "EOELWCM",
+      "clue": "What you say when a guest arrives",
+      "fact": "Welcome comes from an Old English word for a desired guest."
+    },
+    {
+      "id": "scr-good-014",
+      "cat": "Feel-Good Words",
+      "word": "GLADNESS",
+      "scramble": "NSDLEASG",
+      "clue": "A happy, pleased feeling",
+      "fact": "The yellow smiley face was drawn by Harvey Ball in 1963."
+    },
+    {
+      "id": "scr-good-015",
+      "cat": "Feel-Good Words",
+      "word": "GENTLE",
+      "scramble": "TLNGEE",
+      "clue": "Soft and kind in the way you treat others",
+      "fact": "Manatees are gentle animals nicknamed sea cows."
+    },
+    {
+      "id": "scr-good-016",
+      "cat": "Feel-Good Words",
+      "word": "BRAVERY",
+      "scramble": "YBVRRAE",
+      "clue": "Doing the right thing even when afraid",
+      "fact": "The word brave comes from the Italian bravo, meaning bold."
+    },
+    {
+      "id": "scr-good-017",
+      "cat": "Feel-Good Words",
+      "word": "STRENGTH",
+      "scramble": "RNSTGTEH",
+      "clue": "Power to carry heavy loads or tough days",
+      "fact": "An ant can carry many times its own body weight."
+    },
+    {
+      "id": "scr-good-018",
+      "cat": "Feel-Good Words",
+      "word": "WISDOM",
+      "scramble": "SIMODW",
+      "clue": "Good judgment gained from experience",
+      "fact": "Owls are a symbol of wisdom in many stories."
+    },
+    {
+      "id": "scr-good-019",
+      "cat": "Feel-Good Words",
+      "word": "GRACE",
+      "scramble": "ERCGA",
+      "clue": "Smooth, easy, elegant movement",
+      "fact": "Ballet dancers train for years to move with grace."
+    },
+    {
+      "id": "scr-good-020",
+      "cat": "Feel-Good Words",
+      "word": "JOYFUL",
+      "scramble": "UJLYFO",
+      "clue": "Full of happiness",
+      "fact": "Young sunflowers turn to face the sun each day."
+    }
+  ]
+}
