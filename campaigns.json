@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T14:17:36Z",
+  "generatedAt": "2026-11-17T14:27:06Z",
   "schemaVersion": 1,
   "campaigns": [
     {
@@ -12,7 +12,7 @@
         "startsOn": "2026-11-17",
         "endsOn": "2026-11-17",
         "startsAt": "09:00",
-        "endsAt": "14:30",
+        "endsAt": "14:17",
         "everyMin": 10
       },
       "rotation": {
@@ -30,6 +30,80 @@
             "eyebrow": "Heads-up · Today at 2:20 PM",
             "headline": "A scheduled *test* of the emergency alert system",
             "subline": "Around 2:20 PM, regular TVs and radios will play an alert tone and a short message. It is only a test and lasts about a minute. Nothing needs to be done, and phones will not get it.",
+            "align": "left",
+            "theme": "navy",
+            "accent": "gold"
+          }
+        }
+      ],
+      "targets": {
+        "rule": {
+          "mode": "select",
+          "facilityIds": [
+            "grv"
+          ],
+          "buildingIds": [],
+          "unitIds": [],
+          "unitKinds": [],
+          "profileIds": []
+        },
+        "deviceIds": [
+          "GRVTV-LOBBY",
+          "GRVTVA123",
+          "GRVTVFAMRM01",
+          "GRVTVFAMRM02",
+          "GRVTV-ACAFE",
+          "GRVTVA229L",
+          "GRVTVA229R",
+          "GRVTVOPLOBBY",
+          "GRVTVA325L",
+          "GRVTVA325R",
+          "GRVTV2B",
+          "GRVTVB315L",
+          "GRVTVB315R",
+          "GRVTVB415L",
+          "GRVTVB415R",
+          "GRVTVB515L",
+          "GRVTVB515R",
+          "GRVTVB615L",
+          "GRVTVB615R"
+        ],
+        "facilityCodes": [
+          "GRV"
+        ],
+        "buildingCodes": [],
+        "unitCodes": []
+      },
+      "organization": "Recovery Centers of America"
+    },
+    {
+      "id": "cmp-grv-eas-national-test-2026-11-17-now",
+      "name": "Happening now: nationwide Emergency Alert System test (Tue Nov 17, 2:20 PM ET)",
+      "category": "awareness",
+      "priority": "high",
+      "status": "active",
+      "schedule": {
+        "startsOn": "2026-11-17",
+        "endsOn": "2026-11-17",
+        "startsAt": "14:18",
+        "endsAt": "14:30",
+        "everyMin": 5
+      },
+      "rotation": {
+        "slideSec": 16,
+        "defaultSec": 180,
+        "includeDefault": true
+      },
+      "slides": [
+        {
+          "id": "cnt-eas-test-now",
+          "type": "message",
+          "title": "The alert test is happening now",
+          "durationSec": 16,
+          "props": {
+            "eyebrow": "Happening now · 2:20 PM",
+            "headline": "The alert test is happening now. It is *only* a *test*.",
+            "subline": "If a TV or radio plays an alert tone, that is the scheduled nationwide test. It lasts about a minute, and nothing needs to be done. Any staff member is glad to help.",
             "align": "left",
             "theme": "navy",
             "accent": "gold"
