@@ -1,7 +1,7 @@
 {
   "source": "Wikipedia · In the news · CC BY-SA 4.0",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "updated_at": "2026-11-24T00:03:45Z",
+  "updated_at": "2026-11-24T10:05:55Z",
   "items": [
     {
       "text": "The joint ESA–JAXA mission BepiColombo enters orbit around Mercury.",
@@ -9,18 +9,13 @@
       "day": "2026-11-24"
     },
     {
+      "text": "Mongolian president Ukhnaagiin Khürelsükh announces his resignation in response to corruption allegations.",
+      "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh",
+      "day": "2026-11-24"
+    },
+    {
       "text": "The video game Grand Theft Auto VI achieves US$3.79 billion in sales on its launch day, more than any other entertainment product in history.",
       "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
-      "day": "2026-11-24"
-    },
-    {
-      "text": "The space probe Voyager 1 becomes the first human-made object to reach one light-day from Earth.",
-      "url": "https://en.wikipedia.org/wiki/Voyager_1",
-      "day": "2026-11-24"
-    },
-    {
-      "text": "In Canadian football, the Edmonton Elks defeat the Montreal Alouettes to win the Grey Cup.",
-      "url": "https://en.wikipedia.org/wiki/113th_Grey_Cup",
       "day": "2026-11-24"
     }
   ]
