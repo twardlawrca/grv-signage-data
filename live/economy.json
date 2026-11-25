@@ -1,6 +1,6 @@
 {
   "source": "U.S. Bureau of Labor Statistics · Federal Reserve Board · U.S. Energy Information Administration",
-  "updated_at": "2026-11-24T22:36:29Z",
+  "updated_at": "2026-11-25T21:50:07Z",
   "items": [
     {
       "key": "unemployment",
@@ -27,7 +27,7 @@
       "label": "Fed funds rate",
       "value": "3.88%",
       "raw": 3.88,
-      "asof": "November 23",
+      "asof": "November 24",
       "delta": "unchanged",
       "dir": "flat",
       "note": "Effective rate · Federal Reserve"
@@ -35,11 +35,11 @@
     {
       "key": "treasury10",
       "label": "10-year Treasury",
-      "value": "4.92%",
-      "raw": 4.92,
-      "asof": "November 23",
-      "delta": "unchanged",
-      "dir": "flat",
+      "value": "4.91%",
+      "raw": 4.91,
+      "asof": "November 24",
+      "delta": "0.01 pt from Nov 23",
+      "dir": "down",
       "note": "Yield · Federal Reserve H.15"
     },
     {

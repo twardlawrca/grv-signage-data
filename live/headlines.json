@@ -1,8 +1,13 @@
 {
   "source": "Wikipedia · In the news · CC BY-SA 4.0",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "updated_at": "2026-11-25T08:50:55Z",
+  "updated_at": "2026-11-25T21:50:06Z",
   "items": [
+    {
+      "text": "In association football, the Court of Arbitration for Sport restores Senegal as the winner of the 2025 Africa Cup of Nations final, overturning the Confederation of African Football's decision to declare Morocco as the winner of the tournament.",
+      "url": "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations_final",
+      "day": "2026-11-25"
+    },
     {
       "text": "The joint ESA–JAXA mission BepiColombo enters orbit around Mercury.",
       "url": "https://en.wikipedia.org/wiki/BepiColombo",
@@ -11,11 +16,6 @@
     {
       "text": "Mongolian president Ukhnaagiin Khürelsükh announces his resignation in response to corruption allegations.",
       "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh",
-      "day": "2026-11-25"
-    },
-    {
-      "text": "The video game Grand Theft Auto VI achieves US$3.79 billion in sales on its launch day, more than any other entertainment product in history.",
-      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
       "day": "2026-11-25"
     }
   ]
