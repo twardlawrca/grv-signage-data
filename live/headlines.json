@@ -1,22 +1,27 @@
 {
   "source": "Wikipedia · In the news · CC BY-SA 4.0",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "updated_at": "2026-11-25T21:50:06Z",
+  "updated_at": "2026-11-26T08:36:43Z",
   "items": [
     {
       "text": "In association football, the Court of Arbitration for Sport restores Senegal as the winner of the 2025 Africa Cup of Nations final, overturning the Confederation of African Football's decision to declare Morocco as the winner of the tournament.",
       "url": "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations_final",
-      "day": "2026-11-25"
+      "day": "2026-11-26"
+    },
+    {
+      "text": "Nvidia reinstates Jensen Huang as CEO after a scandal in which he was allegedly targeted by a Chinese spy and had extramarital affairs.",
+      "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+      "day": "2026-11-26"
     },
     {
       "text": "The joint ESA–JAXA mission BepiColombo enters orbit around Mercury.",
       "url": "https://en.wikipedia.org/wiki/BepiColombo",
-      "day": "2026-11-25"
+      "day": "2026-11-26"
     },
     {
-      "text": "Mongolian president Ukhnaagiin Khürelsükh announces his resignation in response to corruption allegations.",
-      "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh",
-      "day": "2026-11-25"
+      "text": "Mathematician Levent Alpöge, working with the AI model Claude, announces a formal proof of the Riemann hypothesis.",
+      "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
+      "day": "2026-11-26"
     }
   ]
 }
